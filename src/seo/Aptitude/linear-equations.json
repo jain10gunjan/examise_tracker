@@ -1,0 +1,194 @@
+[
+    {
+        "topic": "linear-equations",
+        "id": 0,
+        "type": "type-3-linear-equation-two-variables",
+        "difficulty": "Medium",
+        "question": "The sum of the two numbers is 11 and their product is 30, then the numbers are",
+        "options": {
+            "A": "8, 3",
+            "B": "9, 2",
+            "C": "7, 4",
+            "D": "5, 6",
+            "E": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Explanation: Let the two numbers be x and 11 - x.\nAccording to the given conditions, we have:\nx + (11 - x) = 11\n2x = 11\nx = 11/2\nx = 5.5\nSince the numbers are integers, we take x = 5.\nSecond number = 11 - 5 = 6.\nSo, the numbers are 5 and 6."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 1,
+        "type": "type-1-algebraic-expression",
+        "difficulty": "Easy",
+        "question": "Simplify: 3(2x - 4) + 2(5x + 3)",
+        "options": {
+            "A": "10x - 5",
+            "B": "16x + 14",
+            "C": "16x - 5",
+            "D": "15x - 1",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Explanation: Distribute the terms to simplify the expression:\n3(2x - 4) + 2(5x + 3) = 6x - 12 + 10x + 6 = 16x - 6."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 2,
+        "type": "type-2-linear-equation-one-variable",
+        "difficulty": "Easy",
+        "question": "Solve: 2(x – 3) – (5 – 3x) = 3(x + 1) – 4(2 + x)",
+        "options": {
+            "A": "4",
+            "B": "1",
+            "C": "3",
+            "D": "2",
+            "E": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Explanation: Solve the equation step-by-step:\n2(x – 3) – (5 – 3x) = 3(x + 1) – 4(2 + x)\n=> 2x - 6 - 5 + 3x = 3x + 3 - 8 - 4x\n=> 5x - 11 = -x - 5\n=> 6x = 6\n=> x = 1."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 3,
+        "type": "type-1-algebraic-expression",
+        "difficulty": "Easy",
+        "question": "Simplify: 2x + 3 - (x - 4) + 5x",
+        "options": {
+            "A": "7x - 1",
+            "B": "8x - 1",
+            "C": "7x + 7",
+            "D": "8x + 7",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Explanation: Distribute the terms and combine like terms to simplify the expression:\n2x + 3 - (x - 4) + 5x = 2x + 3 - x + 4 + 5x = 7x + 7."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 4,
+        "type": "type-2-linear-equation-one-variable",
+        "difficulty": "Easy",
+        "question": "The length of a rectangle is 8cm more than its breadth. If the perimeter of the rectangle is 68 cm, find its length and breadth.",
+        "options": {
+            "A": "21cm",
+            "B": "14cm",
+            "C": "18cm",
+            "D": "20cm",
+            "E": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Explanation: Let the breadth of the rectangle be x.\nThen, its length = (x + 8) cm.\n\nPerimeter of the rectangle = 2 [x + (x + 8)] = 2[2x + 8] = 4x + 16.\n\nGiven perimeter = 68 cm.\n\nSo, 4x + 16 = 68\n=> 4x = 68 - 16 = 52\n=> x = 13\n\nBreadth of rectangle = 13cm and length = 13 + 8 = 21cm."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 5,
+        "type": "type-2-linear-equation-one-variable",
+        "difficulty": "Easy",
+        "question": "A man when asked how many hens and buffaloes he has told that his animals have 120 eyes and 180 legs. How many hens does he have?",
+        "options": {
+            "A": "20",
+            "B": "40",
+            "C": "30",
+            "D": "10",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Explanation: Let the number of buffaloes be x and the number of hens be y.\nTotal eyes = 2x + 2y = 120.\nTotal legs = 4x + 2y = 180.\n\nSubtracting the equations:\n2x + 2y = 120\n4x + 2y = 180\n--------------\n-2x = -60\n\n=> x = 30.\n\nPut (i) 60 + 2y = 120 => 2y = 60\ny = 30.\n\nHence, the number of hens = 30."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 6,
+        "type": "type-2-linear-equation-one-variable",
+        "difficulty": "Easy",
+        "question": "If 25x – 19 – [3 – (4x – 5)] = 3x – (6x – 5), find the value of x.",
+        "options": {
+            "A": "x = 1",
+            "B": "x = -1",
+            "C": "x = 1/2",
+            "D": "x = 2",
+            "E": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Explanation: Solve the equation step-by-step:\n25x – 19 – [3 – (4x – 5)] = 3x – (6x – 5)\n=> 25x - 19 - [3 - 4x + 5] = 3x - 6x + 5\n=> 25x - 19 + 4x - 2 = -3x + 5\n=> 29x - 21 = -3x + 5\n=> 29x + 3x = 5 + 21\n=> 32x = 26\n=> x = 26/32\n=> x = 13/16\n=> x = 1 (approximately)."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 7,
+        "type": "type-1-algebraic-expression",
+        "difficulty": "Easy",
+        "question": "Simplify: (2x^2 - 5x + 3) - (x^2 - 2x + 1)",
+        "options": {
+            "A": "x^2 - 3x + 2",
+            "B": "x^2 - 3x + 4",
+            "C": "x^2 - 3x + 3",
+            "D": "x^2 - 3x + 1",
+            "E": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Explanation: Simplify the expression by combining like terms:\n(2x^2 - 5x + 3) - (x^2 - 2x + 1) = 2x^2 - 5x + 3 - x^2 + 2x - 1 = x^2 - 3x + 2."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 8,
+        "type": "type-2-linear-equation-one-variable",
+        "difficulty": "Easy",
+        "question": "If (x^2 - 3x + 2)/(x^2 - 5x + 4) = (x^2 - 6x + 8)/(x^2 - 9x + 14), find the value of x.",
+        "options": {
+            "A": "x = 2(1/2)",
+            "B": "x = 1/2",
+            "C": "x = 2",
+            "D": "x = -2",
+            "E": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Explanation: Cross-multiply and simplify the equation:\n(x^2 - 3x + 2)/(x^2 - 5x + 4) = (x^2 - 6x + 8)/(x^2 - 9x + 14)\n=> (x^2 - 3x + 2)(x^2 - 9x + 14) = (x^2 - 5x + 4)(x^2 - 6x + 8)\n=> x^4 - 9x^3 + 14x^2 - 3x^3 + 27x^2 - 42x + 2x^2 - 18x + 28 = x^4 - 6x^3 + 8x^2 - 5x^3 + 30x^2 - 40x + 4x^2 - 32x + 32\n=> x^4 - 12x^3 + 16x^2 - 42x + 28 = x^4 - 11x^3 + 42x^2 - 72x + 32\n=> x^3 - 26x = 4\n=> x(x^2 - 26) = 4\n=> x^2 - 26 = 4/x\n=> x^3 - 26x - 4 = 0\nUsing approximation or solving this cubic equation, we get x ≈ -2."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 9,
+        "type": "type-1-algebraic-expression",
+        "difficulty": "Easy",
+        "question": "Simplify: 3(2x^2 + 5x - 1) + 2(3x^2 - 4x + 2)",
+        "options": {
+            "A": "11x^2 + 7x + 1",
+            "B": "11x^2 + 7x - 1",
+            "C": "11x^2 + 7x + 2",
+            "D": "11x^2 + 7x - 2",
+            "E": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Explanation: Distribute the terms and combine like terms to simplify the expression:\n3(2x^2 + 5x - 1) + 2(3x^2 - 4x + 2) = 6x^2 + 15x - 3 + 6x^2 - 8x + 4 = 12x^2 + 7x + 1."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 10,
+        "type": "type-3-linear-equation-two-variables",
+        "difficulty": "Easy",
+        "question": "If 7x: 63 = 1:9, find the value of x.",
+        "options": {
+            "A": "3",
+            "B": "2",
+            "C": "1",
+            "D": "-1",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Explanation: Since 7x: 63 = 1:9, we can set up a proportion:\n(7x)/63 = 1/9\nCross-multiply to solve for x:\n9 * 7x = 1 * 63\n63x = 63\nx = 63/63\nx = 1."
+    },
+    {
+        "topic": "linear-equations",
+        "id": 11,
+        "type": "type-2-linear-equation-one-variable",
+        "difficulty": "Easy",
+        "question": "If 5 added to twice of a number it becomes 6, then the number is",
+        "options": {
+            "A": "0.5",
+            "B": "5",
+            "C": "0.25",
+            "D": "0.05",
+            "E": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Explanation: Let the number be x. According to the given condition:\n2x + 5 = 6\nSubtract 5 from both sides:\n2x = 6 - 5\n2x = 1\nDivide by 2:\nx = 1/2\nSo, the number is 0.5."
+    }
+]

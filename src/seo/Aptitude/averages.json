@@ -1,0 +1,710 @@
+[
+    {
+        "topic": "averages",
+        "id": 0,
+        "question": "In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?",
+        "options": {
+            "A": "6.25",
+            "B": "6.5",
+            "C": "6.75",
+            "D": "7"
+        },
+        "correct_option": "A",
+        "solution": "Required run rate = \\(\\frac{{282 - (3.2 \\times 10)}}{40} = 6.25\\)",
+        "type": "Type 6: Cricket/Scores/Innings",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "averages",
+        "id": 1,
+        "question": "A family consists of two grandparents, two parents, and three grandchildren. The average age of the grandparents is 67 years, that of the parents is 35 years, and that of the grandchildren is 6 years. What is the average age of the family?",
+        "options": {
+            "A": "28 \\frac{4}{7} \\text{ years}",
+            "B": "31 \\frac{5}{7} \\text{ years}",
+            "C": "32 \\frac{1}{7} \\text{ years}",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Required average = \\(\\frac{{67 \\times 2 + 35 \\times 2 + 6 \\times 3}}{{2 + 2 + 3}} = 31 \\frac{5}{7} \\text{ years}\\)",
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "averages",
+        "id": 2,
+        "question": "A grocer has a sale of Rs. 6435, Rs. 6927, Rs. 6855, Rs. 7230, and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs. 6500?",
+        "options": {
+            "A": "Rs. 4991",
+            "B": "Rs. 5991",
+            "C": "Rs. 6001",
+            "D": "Rs. 6991"
+        },
+        "correct_option": "A",
+        "solution": "Total sale for 5 months = Rs. (6435 + 6927 + 6855 + 7230 + 6562) = Rs. 34009.\n\nRequired sale = Rs. [ (6500 \\times 6) - 34009 ]\n\n= Rs. (39000 - 34009)\n\n= Rs. 4991.",
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "averages",
+        "id": 3,
+        "question": "The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "10",
+            "D": "19"
+        },
+        "correct_option": "D",
+        "solution": "Average of 20 numbers = 0.\n\nSum of 20 numbers (0 x 20) = 0.\n\nIt is quite possible that 19 of these numbers may be positive, and if their sum is a, then 20th number is (-a).",
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "averages",
+        "id": 4,
+        "question": "The average weight of 8 person's increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?",
+        "options": {
+            "A": "76 kg",
+            "B": "76.5 kg",
+            "C": "85 kg",
+            "D": "Data inadequate",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Total weight increased = (8 x 2.5) kg = 20 kg.\n\nWeight of the new person = (65 + 20) kg = 85 kg.",
+        "type": "Type 2 : Average of weight / age / marks of two or more groups / classes.",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "averages",
+        "id": 5,
+        "type": "Type 3: Change in average when one entry is added/replaced.",
+        "difficulty": "Easy",
+        "question": "The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?",
+        "options": {
+            "A": "23 years",
+            "B": "24 years",
+            "C": "25 years",
+            "D": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Let the average age of the whole team be \\(x\\) years.\n\n\\(11x - (26 + 29) = 9(x - 1)\\)\n\n\\(11x - 9x = 46\\)\n\n\\(2x = 46\\)\n\n\\(x = 23\\)\n\nSo, the average age of the team is 23 years."
+    },
+    {
+        "topic": "averages",
+        "id": 6,
+        "type": "Type 2 : Average of weight / age / marks of two or more groups / classes.",
+        "difficulty": "Medium",
+        "question": "The average monthly income of P and Q is Rs. 5050. The average monthly income of Q and R is Rs. 6250 and the average monthly income of P and R is Rs. 5200. The monthly income of P is:",
+        "options": {
+            "A": "3500",
+            "B": "4000",
+            "C": "4050",
+            "D": "5000"
+        },
+        "correct_option": "B",
+        "solution": "Let P, Q, and R represent their respective monthly incomes. Then, we have:\n\n\\(P + Q = (5050 \\times 2) = 10100\\) .... (i)\n\n\\(Q + R = (6250 \\times 2) = 12500\\) .... (ii)\n\n\\(P + R = (5200 \\times 2) = 10400\\) .... (iii)\n\nAdding (i), (ii), and (iii), we get:\n\n\\(2(P + Q + R) = 33000\\) or \\(P + Q + R = 16500\\) .... (iv)\n\nSubtracting (ii) from (iv), we get \\(P = 4000\\).\n\nP's monthly income = Rs. 4000."
+    },
+    {
+        "topic": "averages",
+        "id": 7,
+        "type": "Type 3: Change in average when one entry is added/replaced.",
+        "difficulty": "Easy",
+        "question": "The average age of husband, wife, and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:",
+        "options": {
+            "A": "35 years",
+            "B": "40 years",
+            "C": "50 years",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Sum of the present ages of husband, wife, and child = (27 x 3 + 3 x 3) years = 90 years.\n\nSum of the present ages of wife and child = (20 x 2 + 5 x 2) years = 50 years.\n\nHusband's present age = (90 - 50) years = 40 years."
+    },
+    {
+        "topic": "averages",
+        "id": 8,
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Medium",
+        "question": "A car owner buys petrol at Rs.7.50, Rs. 8, and Rs. 8.50 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs. 4000 each year?",
+        "options": {
+            "A": "Rs. 7.98",
+            "B": "Rs. 8",
+            "C": "Rs. 8.50",
+            "D": "Rs. 9"
+        },
+        "correct_option": "A",
+        "solution": "Total quantity of petrol consumed in 3 years = \\(4000 + 4000 + 4000\\) litres\n\n\\(\\frac{7.50}{15} + \\frac{8}{15} + \\frac{8.50}{15}\\) litres\n\n\\(= \\frac{76700}{51}\\) litres\n\nTotal amount spent = Rs. (3 x 4000) = Rs. 12000.\n\nAverage cost = \\(\\frac{12000 \\times 51}{76700}\\) = Rs. 7.98"
+    },
+    {
+        "topic": "averages",
+        "id": 9,
+        "type": "Type 3: Change in average when one entry is added/replaced.",
+        "difficulty": "Hard",
+        "question": "In Arun's opinion, his weight is greater than 65 kg but less than 72 kg. His brother does not agree with Arun and he thinks that Arun's weight is greater than 60 kg but less than 70 kg. His mother's view is that his weight cannot be greater than 68 kg. If all of them are correct in their estimation, what is the average of the different probable weights of Arun?",
+        "options": {
+            "A": "67 kg",
+            "B": "68 kg",
+            "C": "69 kg",
+            "D": "Data inadequate",
+            "E": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Let Arun's weight be \\(X\\) kg.\n\nAccording to Arun, \\(65 < X < 72\\)\n\nAccording to Arun's brother, \\(60 < X < 70\\)\n\nAccording to Arun's mother, \\(X \\leq 68\\)\n\nThe values satisfying all the above conditions are 66, 67, and 68.\n\nRequired average = \\(\\frac{66 + 67 + 68}{3}\\) = 67 kg."
+    },
+    {
+        "topic": "averages",
+        "id": 10,
+        "type": "Type 2 : Average of weight / age / marks of two or more groups / classes.",
+        "difficulty": "Medium",
+        "question": "The average weight of A, B, and C is 45 kg. If the average weight of A and B be 40 kg and that of B and C be 43 kg, then the weight of B is:",
+        "options": {
+            "A": "17 kg",
+            "B": "20 kg",
+            "C": "26 kg",
+            "D": "31 kg",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Let A, B, C represent their respective weights. Then, we have:\n\n\\(A + B + C = (45 \\times 3) = 135\\) .... (i)\n\\(A + B = (40 \\times 2) = 80\\) .... (ii)\n\\(B + C = (43 \\times 2) = 86\\) .... (iii)\n\nAdding (ii) and (iii), we get: \\(A + 2B + C = 166\\) .... (iv)\n\nSubtracting (i) from (iv), we get: \\(B = 31\\).\n\nB's weight = 31 kg."
+    },
+    {
+        "topic": "averages",
+        "id": 11,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "The average weight of 16 boys in a class is 50.25 kg and that of the remaining 8 boys is 45.15 kg. Find the average weights of all the boys in the class.",
+        "options": {
+            "A": "47.55 kg",
+            "B": "48 kg",
+            "C": "48.55 kg",
+            "D": "49.25 kg",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Required average = \\(\\frac{50.25 \\times 16 + 45.15 \\times 8}{16 + 8} = \\frac{804 + 361.20}{24} = \\frac{1165.20}{24} = 48.55\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 12,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Medium",
+        "question": "A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is:",
+        "options": {
+            "A": "250",
+            "B": "276",
+            "C": "280",
+            "D": "285",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Since the month begins with a Sunday, there will be five Sundays in the month.\n\nRequired average = \\(\\frac{510 \\times 5 + 240 \\times 25}{30} = \\frac{8550}{30} = 285\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 13,
+        "type": "Type 2: Average of weight / age / marks of two or more groups / classes",
+        "difficulty": "Hard",
+        "question": "If the average marks of three batches of 55, 60, and 45 students respectively is 50, 55, 60, then the average marks of all the students is:",
+        "options": {
+            "A": "53.33",
+            "B": "54.68",
+            "C": "55",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Required average = \\(\\frac{55 \\times 50 + 60 \\times 55 + 45 \\times 60}{55 + 60 + 45} = \\frac{2750 + 3300 + 2700}{160} = \\frac{8750}{160} = 54.68\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 14,
+        "type": "Type 4: Change in average when one entry is entered wrong",
+        "difficulty": "Medium",
+        "question": "A pupil's marks were wrongly entered as 83 instead of 63. Due to that, the average marks for the class got increased by half (1/2). The number of pupils in the class is:",
+        "options": {
+            "A": "10",
+            "B": "20",
+            "C": "40",
+            "D": "73"
+        },
+        "correct_option": "C",
+        "solution": "Let there be x pupils in the class.\n\nTotal increase in marks = \\(x \\times \\frac{1}{2} = \\frac{x}{2}\\)\n\n\\(x = \\frac{83 - 63}{\\frac{1}{2}} = \\frac{20}{\\frac{1}{2}} = 40\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 15,
+        "type": "Type 5: Average speed",
+        "difficulty": "Easy",
+        "question": "In the first 15 overs of a baseball game, the run rate was only 2.8. What should be the run rate in the remaining 45 overs to reach the target of 375 runs?",
+        "options": {
+            "A": "7.5",
+            "B": "7.75",
+            "C": "8",
+            "D": "8.25"
+        },
+        "correct_option": "B",
+        "solution": "Required run rate = \\(\\frac{{375 - (2.8 \\times 15)}}{45} = 7.75\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 16,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "A shopkeeper has a sale of $3250, $3820, $3410, $4120, and $3950 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of $3700?",
+        "options": {
+            "A": "$4290",
+            "B": "$4360",
+            "C": "$4490",
+            "D": "$4650"
+        },
+        "correct_option": "B",
+        "solution": "Total sale for 5 months = $ (3250 + 3820 + 3410 + 4120 + 3950) = $ 18550.\n\nRequired sale = $ [ (3700 \\times 6) - 18550 ]\n\n= $ (22200 - 18550)\n\n= $ 3650."
+    },
+    {
+        "topic": "averages",
+        "id": 17,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "The average of 25 numbers is zero. Of them, at the most, how many may be greater than zero?",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "12",
+            "D": "24"
+        },
+        "correct_option": "D",
+        "solution": "Average of 25 numbers = 0.\n\nSum of 25 numbers (0 x 25) = 0.\n\nIt is quite possible that 24 of these numbers may be positive and if their sum is a, then the 25th number is (-a)."
+    },
+    {
+        "topic": "averages",
+        "id": 18,
+        "type": "Type 2: Average of weight / age / marks of two or more groups / classes",
+        "difficulty": "Moderate",
+        "question": "The average weight of 10 persons increases by 3.2 kg when a new person comes in place of one of them weighing 70 kg. What might be the weight of the new person?",
+        "options": {
+            "A": "81 kg",
+            "B": "83.2 kg",
+            "C": "93 kg",
+            "D": "Data inadequate",
+            "E": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Total weight increased = (10 x 3.2) kg = 32 kg.\n\nWeight of new person = (70 + 32) kg = 102 kg."
+    },
+    {
+        "topic": "averages",
+        "id": 19,
+        "type": "Type 3: Change in average when one entry is added/replaced",
+        "difficulty": "Easy",
+        "question": "The captain of a football team of 11 members is 28 years old and the goalkeeper is 2 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?",
+        "options": {
+            "A": "24 years",
+            "B": "26 years",
+            "C": "28 years",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Let the average age of the whole team be \\(x\\) years.\n\n\\(11x - (28 + 30) = 9(x - 1)\\)\n\n\\(11x - 9x = 48\\)\n\n\\(2x = 48\\)\n\n\\(x = 24\\)\n\nSo, the average age of the team is 24 years."
+    },
+    {
+        "topic": "averages",
+        "id": 20,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "The average monthly salary of P and Q is Rs. 6000. The average monthly salary of Q and R is Rs. 7000 and the average monthly salary of P and R is Rs. 6500. The monthly salary of P is:",
+        "options": {
+            "A": "4500",
+            "B": "5000",
+            "C": "5500",
+            "D": "6000"
+        },
+        "correct_option": "A",
+        "solution": "Let P, Q, and R represent their respective monthly salaries. Then, we have:\n\n\\(P + Q = (6000 \\times 2) = 12000\\) .... (i)\n\n\\(Q + R = (7000 \times 2) = 14000\\) .... (ii)\n\n\\(P + R = (6500 \\times 2) = 13000\\) .... (iii)\n\nAdding (i), (ii), and (iii), we get:\n\n\\(2(P + Q + R) = 39000\\) or \\(P + Q + R = 19500\\) .... (iv)\n\nSubtracting (ii) from (iv), we get \\(P = 4500\\).\n\nP's monthly salary = Rs. 4500."
+    },
+    {
+        "topic": "averages",
+        "id": 21,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "The average age of husband, wife, and their child 5 years ago was 30 years and that of wife and the child 8 years ago was 25 years. The present age of the husband is:",
+        "options": {
+            "A": "36 years",
+            "B": "42 years",
+            "C": "48 years",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Sum of the present ages of husband, wife, and child = (30 x 3 + 5 x 3) years = 105 years.\n\nSum of the present ages of wife and child = (25 x 2 + 8 x 2) years = 46 years.\n\nHusband's present age = (105 - 46) years = 59 years."
+    },
+    {
+        "topic": "averages",
+        "id": 22,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "A car owner buys petrol at Rs. 7, Rs. 7.50, and Rs. 8 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs. 5000 each year?",
+        "options": {
+            "A": "Rs. 7.50",
+            "B": "Rs. 7.67",
+            "C": "Rs. 7.83",
+            "D": "Rs. 8"
+        },
+        "correct_option": "B",
+        "solution": "Total quantity of petrol consumed in 3 years = (5000 + 5000 + 5000) litres\n\n(7/15 + 7.50/15 + 8/15) litres\n\n= (75500/450) litres\n\nTotal amount spent = Rs. (3 x 5000) = Rs. 15000.\n\nAverage cost = (15000 x 450) / 75500 = Rs. 7.67"
+    },
+    {
+        "topic": "averages",
+        "id": 23,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Medium",
+        "question": "In Arun's opinion, his height is greater than 160 cm but less than 170 cm. His brother does not agree with Arun and he thinks that Arun's height is greater than 155 cm but less than 165 cm. His mother's view is that his height cannot be greater than 167 cm. If all of them are correct in their estimation, what is the average of the different probable heights of Arun?",
+        "options": {
+            "A": "161 cm",
+            "B": "162 cm",
+            "C": "163 cm",
+            "D": "Data inadequate",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Let Arun's height be X cm.\n\nAccording to Arun, 160 < X < 170\n\nAccording to Arun's brother, 155 < X < 165\n\nAccording to Arun's mother, X <= 167\n\nThe values satisfying all the above conditions are 161, 162, and 163.\n\nRequired average = (161 + 162 + 163) / 3 = 163 cm."
+    },
+    {
+        "topic": "averages",
+        "id": 24,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "The average marks of A, B, and C is 60. If the average marks of A and B be 55 and that of B and C be 58, then the marks of B are:",
+        "options": {
+            "A": "50",
+            "B": "60",
+            "C": "70",
+            "D": "80",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Let A, B, C represent their respective marks. Then, we have:\n\nA + B + C = (60 x 3) = 180 .... (i)\nA + B = (55 x 2) = 110 .... (ii)\nB + C = (58 x 2) = 116 .... (iii)\n\nAdding (ii) and (iii), we get: A + 2B + C = 226 .... (iv)\n\nSubtracting (i) from (iv), we get: B = 70.\n\nB's marks = 70."
+    },
+    {
+        "topic": "averages",
+        "id": 25,
+        "type": "Type 2: Average of weight / age / marks of two or more groups / classes.",
+        "difficulty": "Medium",
+        "question": "The average weight of 20 boys in a class is 50.75 kg and that of the remaining 10 boys is 47.25 kg. Find the average weights of all the boys in the class.",
+        "options": {
+            "A": "49 kg",
+            "B": "50 kg",
+            "C": "50.25 kg",
+            "D": "50.5 kg",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Required average = (50.75 x 20 + 47.25 x 10) / (20 + 10) = (1015 + 472.5) / 30 = 1487.5 / 30 = 49.5"
+    },
+    {
+        "topic": "averages",
+        "id": 26,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Medium",
+        "question": "A factory employs a certain number of workers. The average age of workers is 30 years. After some workers leave the factory, the average age becomes 32 years. If the number of workers who left the factory is 4, then what is the average age of the workers who left?",
+        "options": {
+            "A": "34 years",
+            "B": "35 years",
+            "C": "36 years",
+            "D": "38 years",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Let the number of workers be N and the sum of their ages be S.\n\nAccording to the given information, S / N = 30 and (S - 4 x 30) / (N - 4) = 32.\n\nSimplifying the equations, we get S = 30N and S - 120 = 32N - 128.\n\nSolving the equations, we get N = 32 and S = 960.\n\nThe sum of the ages of the workers who left the factory = S - 32 x 30 = 960 - 960 = 0.\n\nThe average age of the workers who left = 0 / 4 = 0.\n\nHence, the average age of the workers who left is 0 years."
+    },
+    {
+        "topic": "averages",
+        "id": 27,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Medium",
+        "question": "The average weight of a group of boys is 42 kg. If the weight of the teacher is included, the average weight increases by 3 kg. If the average weight of the teacher is 75 kg, how many boys are there in the group?",
+        "options": {
+            "A": "12",
+            "B": "15",
+            "C": "18",
+            "D": "21",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Let the number of boys be N and the sum of their weights be S.\n\nAccording to the given information, S / N = 42 and (S + 75) / (N + 1) = 45.\n\nSimplifying the equations, we get S = 42N and S + 75 = 45N + 45.\n\nSolving the equations, we get N = 18 and S = 756.\n\nHence, there are 18 boys in the group."
+    },
+    {
+        "topic": "averages",
+        "id": 28,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Medium",
+        "question": "The average temperature of Monday, Tuesday, and Wednesday was 35°C. The average temperature of Tuesday, Wednesday, and Thursday was 37°C. If the temperature on Thursday was 40°C, what was the temperature on Monday?",
+        "options": {
+            "A": "30°C",
+            "B": "32°C",
+            "C": "34°C",
+            "D": "36°C",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Let the temperature on Monday be M°C.\n\nAccording to the given information, (M + 35 + 37) / 3 = 35 and (35 + 37 + 40) / 3 = 37.\n\nSimplifying the equations, we get M + 72 = 105 and 112 = 37 x 3.\n\nSolving the equations, we get M = 32.\n\nHence, the temperature on Monday was 32°C."
+    },
+    {
+        "topic": "averages",
+        "id": 29,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Medium",
+        "question": "The average of five numbers is 27. If one number is excluded, the average becomes 25. The excluded number is:",
+        "options": {
+            "A": "25",
+            "B": "27",
+            "C": "30",
+            "D": "35",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Let the sum of the five numbers be S.\n\nAccording to the given information, S / 5 = 27 and (S - x) / 4 = 25, where x is the excluded number.\n\nSimplifying the equations, we get S = 135 and S - x = 100.\n\nSubstituting the value of S in the second equation, we get 135 - x = 100.\n\nSolving the equation, we get x = 35.\n\nHence, the excluded number is 35."
+    },
+    {
+        "topic": "averages",
+        "id": 30,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "In the first 10 overs of a baseball game, the run rate was only 2.5. What should be the run rate in the remaining 40 overs to reach the target of 400 runs?",
+        "options": {
+            "A": "8.75",
+            "B": "9",
+            "C": "9.25",
+            "D": "9.5"
+        },
+        "correct_option": "C",
+        "solution": "Required run rate = \\(\\frac{{400 - (2.5 \\times 10)}}{40} = 9.25\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 31,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "A class consists of two teachers, four students, and two assistants. The average age of the teachers is 45 years, that of the students is 20 years, and that of the assistants is 30 years. What is the average age of the class?",
+        "options": {
+            "A": "26 years",
+            "B": "28 years",
+            "C": "29 years",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Required average = \\(\\frac{{45 \\times 2 + 20 \\times 4 + 30 \\times 2}}{{2 + 4 + 2}} = 29 \\text{ years}\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 32,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "A store has sales of $1000, $1200, $800, $1500, and $1100 for 5 consecutive months. How much sale must they have in the sixth month so that they get an average sale of $1200?",
+        "options": {
+            "A": "$1550",
+            "B": "$1650",
+            "C": "$1750",
+            "D": "$1850"
+        },
+        "correct_option": "C",
+        "solution": "Total sale for 5 months = $ (1000 + 1200 + 800 + 1500 + 1100) = $ 5600.\n\nRequired sale = $ [ (1200 \\times 6) - 5600 ]\n\n= $ (7200 - 5600)\n\n= $ 1600."
+    },
+    {
+        "topic": "averages",
+        "id": 33,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "The average of 30 numbers is zero. Of them, at the most, how many may be greater than zero?",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "15",
+            "D": "29"
+        },
+        "correct_option": "D",
+        "solution": "Average of 30 numbers = 0.\n\nSum of 30 numbers (0 x 30) = 0.\n\nIt is quite possible that 29 of these numbers may be positive and if their sum is a, then the 30th number is (-a)."
+    },
+    {
+        "topic": "averages",
+        "id": 34,
+        "type": "Type 2: Average of weight / age / marks of two or more groups / classes.",
+        "difficulty": "Medium",
+        "question": "The average weight of 10 people increases by 2 kg when a new person comes in place of one of them weighing 70 kg. What might be the weight of the new person?",
+        "options": {
+            "A": "78 kg",
+            "B": "79 kg",
+            "C": "90 kg",
+            "D": "Data inadequate",
+            "E": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Total weight increased = (10 x 2) kg = 20 kg.\n\nWeight of the new person = (70 + 20) kg = 90 kg."
+    },
+    {
+        "topic": "averages",
+        "id": 35,
+        "type": "Type 3: Change in average when one entry is added/replaced.",
+        "difficulty": "Medium",
+        "question": "The captain of a football team of 11 members is 28 years old and the goalkeeper is 2 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?",
+        "options": {
+            "A": "25 years",
+            "B": "26 years",
+            "C": "27 years",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Let the average age of the whole team be \\(x\\) years.\n\n\\(11x - (28 + 30) = 9(x - 1)\\)\n\n\\(11x - 9x = 49\\)\n\n\\(2x = 49\\)\n\n\\(x = 24.5\\)\n\nSo, the average age of the team is 24.5 years."
+    },
+    {
+        "topic": "averages",
+        "id": 36,
+        "type": "Type 4: Change in average when one entry is entered wrong.",
+        "difficulty": "Medium",
+        "question": "The average monthly salary of X and Y is Rs. 6000. The average monthly salary of Y and Z is Rs. 7000 and the average monthly salary of X and Z is Rs. 6500. The monthly salary of X is:",
+        "options": {
+            "A": "5500",
+            "B": "6000",
+            "C": "6500",
+            "D": "7500"
+        },
+        "correct_option": "A",
+        "solution": "Let X, Y, and Z represent their respective monthly salaries. Then, we have:\n\n\\(X + Y = (6000 \\times 2) = 12000\\) .... (i)\n\n\\(Y + Z = (7000 \\times 2) = 14000\\) .... (ii)\n\n\\(X + Z = (6500 \\times 2) = 13000\\) .... (iii)\n\nAdding (i), (ii), and (iii), we get:\n\n\\(2(X + Y + Z) = 39000\\) or \\(X + Y + Z = 19500\\) .... (iv)\n\nSubtracting (ii) from (iv), we get \\(X = 5500\\).\n\nX's monthly salary = Rs. 5500."
+    },
+    {
+        "topic": "averages",
+        "id": 37,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "The average age of father, mother, and their child 3 years ago was 30 years and that of mother and the child 5 years ago was 23 years. The present age of the father is:",
+        "options": {
+            "A": "35 years",
+            "B": "40 years",
+            "C": "45 years",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Sum of the present ages of father, mother, and child = (30 x 3 + 3 x 3) years = 99 years.\n\nSum of the present ages of mother and child = (23 x 2 + 5 x 2) years = 41 years.\n\nFather's present age = (99 - 41) years = 58 years."
+    },
+    {
+        "topic": "averages",
+        "id": 38,
+        "type": "Type 1: Average of Numbers",
+        "difficulty": "Easy",
+        "question": "A car owner buys petrol at Rs. 7, Rs. 7.50, and Rs. 8 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs. 3000 each year?",
+        "options": {
+            "A": "Rs. 7.50",
+            "B": "Rs. 7.67",
+            "C": "Rs. 7.83",
+            "D": "Rs. 8"
+        },
+        "correct_option": "B",
+        "solution": "Total quantity of petrol consumed in 3 years = \\(3000 + 3000 + 3000\\) litres\n\n\\(\\frac{7}{15} + \\frac{7.50}{15} + \\frac{8}{15}\\) litres\n\n\\(= \\frac{7400}{45}\\) litres\n\nTotal amount spent = Rs. (3 x 3000) = Rs. 9000.\n\nAverage cost = \\(\\frac{9000 \\times 45}{7400}\\) = Rs. 7.67"
+    },
+    {
+        "topic": "averages",
+        "id": 39,
+        "type": "Type 6: Cricket/Scores/Innings",
+        "difficulty": "Medium",
+        "question": "In Arun's opinion, his height is greater than 160 cm but less than 170 cm. His sister does not agree with Arun and she thinks that Arun's height is greater than 155 cm but less than 165 cm. His mother's view is that his height cannot be greater than 167 cm. If all of them are correct in their estimation, what is the average of the different probable heights of Arun?",
+        "options": {
+            "A": "161 cm",
+            "B": "162 cm",
+            "C": "163 cm",
+            "D": "Data inadequate",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Let Arun's height be \\(X\\) cm.\n\nAccording to Arun, \\(160 < X < 170\\)\n\nAccording to Arun's sister, \\(155 < X < 165\\)\n\nAccording to Arun's mother, \\(X \\leq 167\\)\n\nThe values satisfying all the above conditions are 161, 162, and 163.\n\nRequired average = \\(\\frac{161 + 162 + 163}{3}\\) = 163 cm."
+    },
+    {
+        "topic": "averages",
+        "id": 40,
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Medium",
+        "question": "The average height of A, B, and C is 160 cm. If the average height of A and B be 150 cm and that of B and C be 155 cm, then the height of B is:",
+        "options": {
+            "A": "145 cm",
+            "B": "150 cm",
+            "C": "155 cm",
+            "D": "160 cm",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Let A, B, C represent their respective heights. Then, we have:\n\n\\(A + B + C = (160 \\times 3) = 480\\) .... (i)\n\\(A + B = (150 \\times 2) = 300\\) .... (ii)\n\\(B + C = (155 \\times 2) = 310\\) .... (iii)\n\nAdding (ii) and (iii), we get: \\(A + 2B + C = 610\\) .... (iv)\n\nSubtracting (i) from (iv), we get: \\(B = 130\\).\n\nB's height = 130 cm."
+    },
+    {
+        "topic": "averages",
+        "id": 41,
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Easy",
+        "question": "The average weight of 20 boys in a class is 55.75 kg and that of the remaining 10 boys is 52.45 kg. Find the average weights of all the boys in the class.",
+        "options": {
+            "A": "54.30 kg",
+            "B": "54.95 kg",
+            "C": "55.45 kg",
+            "D": "55.60 kg",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Required average = \\(\\frac{55.75 \\times 20 + 52.45 \\times 10}{20 + 10} = \\frac{1115 + 524.50}{30} = \\frac{1639.50}{30} = 54.95\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 42,
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Medium",
+        "question": "A shopkeeper buys apples at Rs. 10, Rs. 15, and Rs. 20 per kilogram for three successive years. What approximately is the average cost per kilogram of apples if he spends Rs. 500 each year?",
+        "options": {
+            "A": "Rs. 13",
+            "B": "Rs. 14",
+            "C": "Rs. 15",
+            "D": "Rs. 16"
+        },
+        "correct_option": "B",
+        "solution": "Total quantity of apples purchased in 3 years = \\(500 + 500 + 500\\) kilograms\n\n\\(\\frac{10}{45} + \\frac{15}{45} + \\frac{20}{45}\\) kilograms\n\n\\(= \\frac{45000}{45}\\) kilograms\n\nTotal amount spent = Rs. (3 x 500) = Rs. 1500.\n\nAverage cost = \\(\\frac{1500 \\times 45}{45000}\\) = Rs. 14"
+    },
+    {
+        "topic": "averages",
+        "id": 43,
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Hard",
+        "question": "If the average marks of three batches of 40, 50, and 60 students respectively is 60, 70, 80, then the average marks of all the students is:",
+        "options": {
+            "A": "65",
+            "B": "70",
+            "C": "75",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Required average = \\(\\frac{40 \\times 60 + 50 \\times 70 + 60 \\times 80}{40 + 50 + 60} = \\frac{2400 + 3500 + 4800}{150} = \\frac{10700}{150} = 71.33\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 44,
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Easy",
+        "question": "A library has an average of 400 visitors on Sundays and 200 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is:",
+        "options": {
+            "A": "210",
+            "B": "220",
+            "C": "225",
+            "D": "230",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Since the month begins with a Sunday, there will be five Sundays in the month.\n\nRequired average = \\(\\frac{400 \\times 5 + 200 \\times 25}{30} = \\frac{2000 + 5000}{30} = \\frac{7000}{30} = 233.33\\)"
+    },
+    {
+        "topic": "averages",
+        "id": 45,
+        "type": "Type 1 : Average of Numbers",
+        "difficulty": "Medium",
+        "question": "The captain of a football team played 50 matches in his career. His team won 25 matches, lost 15 matches, and drew 10 matches. What was the average number of matches won by the team?",
+        "options": {
+            "A": "12",
+            "B": "13",
+            "C": "14",
+            "D": "15"
+        },
+        "correct_option": "A",
+        "solution": "Average matches won = \\(\\frac{\\text{Total matches won}}{\\text{Total number of matches played}} = \\frac{25}{50} = 0.5\\)\\)\n\nAverage number of matches won by the team = 12"
+    }
+]

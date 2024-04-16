@@ -1,0 +1,183 @@
+[
+    {
+        "id": 0,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "medium",
+        "question": "Two ships are sailing in the sea on the two sides of a lighthouse. The angle of elevation of the top of the lighthouse is observed from the ships are 30° and 45° respectively. If the lighthouse is 100 m high, the distance between the two ships is:",
+        "options": {
+            "A": "173 m",
+            "B": "200 m",
+            "C": "273 m",
+            "D": "300 m"
+        },
+        "correct_option": "C",
+        "solution": "Let AB be the lighthouse and C and D be the positions of the ships. Then, AB = 100 m, ACB = 30°, and ADB = 45°.\n\nAB = tan 30° = 1, AC = AB x 3 = 100√3 m.\nAD = tan 45° = 1, AD = AB = 100 m.\nCD = (AC + AD) = (100√3 + 100) m = 100(√3 + 1) = (100 x 2.73) m = 273 m."
+    },
+    {
+        "id": 1,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "easy",
+        "question": "A man standing at a point P is watching the top of a tower, which makes an angle of elevation of 30° with the man's eye. The man walks some distance towards the tower to watch its top, and the angle of elevation becomes 60°. What is the distance between the base of the tower and point P?",
+        "options": {
+            "A": "43 units",
+            "B": "8 units",
+            "C": "12 units",
+            "D": "Data inadequate",
+            "E": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "One of AB, AD, and CD must have been given. So, the data is inadequate."
+    },
+    {
+        "id": 2,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "medium",
+        "question": "The angle of elevation of a ladder leaning against a wall is 60°, and the foot of the ladder is 4.6 m away from the wall. The length of the ladder is:",
+        "options": {
+            "A": "2.3 m",
+            "B": "4.6 m",
+            "C": "7.8 m",
+            "D": "9.2 m"
+        },
+        "correct_option": "D",
+        "solution": "Let AB be the wall and BC be the ladder. Then, ACB = 60° and AC = 4.6 m.\n\nAC = cos 60° = 1/2, BC = 2 x AC = (2 x 4.6) m = 9.2 m."
+    },
+    {
+        "id": 3,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "easy",
+        "question": "An observer 1.6 m tall is 203 m away from a tower. The angle of elevation from his eye to the top of the tower is 30°. The height of the tower is:",
+        "options": {
+            "A": "21.6 m",
+            "B": "23.2 m",
+            "C": "24.72 m",
+            "D": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Let AB be the observer and CD be the tower. Draw BE perpendicular to CD.\n\nThen, CE = AB = 1.6 m, BE = AC = 203 m.\nDE = tan 30° = 1/√3, DE = (203 m)/√3 = 20 m.\nCD = CE + DE = (1.6 + 20) m = 21.6 m."
+    },
+    {
+        "id": 4,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "easy",
+        "question": "From a point P on a level ground, the angle of elevation of the top tower is 30°. If the tower is 100 m high, the distance of point P from the foot of the tower is:",
+        "options": {
+            "A": "149 m",
+            "B": "156 m",
+            "C": "173 m",
+            "D": "200 m"
+        },
+        "correct_option": "C",
+        "solution": "Let AB be the tower. Then, APB = 30° and AB = 100 m.\n\nAB = tan 30° = 1/√3, AP = AB x √3 = 100√3 m = (100 x 1.73) m = 173 m."
+    },
+    {
+        "id": 5,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "easy",
+        "question": "The angle of elevation of the sun when the length of the shadow of a tree is 3 times the height of the tree is:",
+        "options": {
+            "A": "30°",
+            "B": "45°",
+            "C": "60°",
+            "D": "90°"
+        },
+        "correct_option": "C",
+        "solution": "Let AB be the tree and AC be its shadow.\n\nLet ACB = θ.\n\nThen, AC = 3 cot θ = 3.\n\nθ = 30°."
+    },
+    {
+        "id": 6,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "medium",
+        "question": "The angle of elevation of the sun is 60°. Find the length of the shadow of a man who is 180 cm tall.",
+        "options": {
+            "A": "127.27 cm",
+            "B": "103.92 cm",
+            "C": "311.77 cm",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Let AB be the man and BC be his shadow.\n\nAB = 180 cm, tan 60° = AB/BC = √3.\n\nBC = AB/√3 = 180/√3 = 103.92 cm."
+    },
+    {
+        "id": 7,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "medium",
+        "question": "What is the distance between a tower and an observer if the angle of elevation from the observer’s eye to the top of the tower (height = 50 m) is 30°? The observer is 1.5 m tall.",
+        "options": {
+            "A": "84 m",
+            "B": "28 m",
+            "C": "30 m",
+            "D": "90 m"
+        },
+        "correct_option": "A",
+        "solution": "Let AB be the tower and CD be the observer.\n\ntan 30° = AE/CE = (AB – CD) / x = (50 – 1.5) / x = 48.5 / x.\n\nx = 84 m."
+    },
+    {
+        "id": 8,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "medium",
+        "question": "Two boats are spotted on the two sides of a lighthouse. If the angle of depression made by both the boats from the top of the lighthouse is 30° and 45°, and the height of the lighthouse is 125 m, then find the distance between the two boats.",
+        "options": {
+            "A": "1 m",
+            "B": "188.56 m",
+            "C": "250 m",
+            "D": "197.17 m"
+        },
+        "correct_option": "D",
+        "solution": "Let AB be the lighthouse, and the two boats be at C and D.\n\nAB = 125 m, tan 30° = BC/AB = x/125 = 1/√3 = x / 125, x = 72.17 m.\ntan 45° = BD/AB = y/125 = 1, y = 125 m.\nThe distance between the two boats = x + y = 72.17 + 125 = 197.17 m."
+    },
+    {
+        "id": 9,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "hard",
+        "question": "A man standing on the terrace of a building watches a car speeding towards him. If at that particular instant the car is 200 m away from the building and makes an angle of depression of 60° with the man’s eye, and after 8 seconds, the angle of depression is 30°, what is the speed of the car?",
+        "options": {
+            "A": "15 m/s",
+            "B": "16.67 m/s",
+            "C": "25 m/s",
+            "D": "Cannot be determined"
+        },
+        "correct_option": "B",
+        "solution": "Let AB be the building, and the man is standing at A. When the car is 200 m away from the building, the angle of depression is 60°.\n\ntan 60 = BD/AB = √3, AB = 200 / √3 = 115.47 m.\ntan 30° = BC/AB = x/115.47 = 1/√3, x = 66.67 m.\nNow, the car travels distance CD in 8 seconds, CD = BD – BC = 200 – 66.67 = 133.33 m.\nSpeed = 133.33 / 8 = 16.67 m/s."
+    },
+    {
+        "id": 10,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "hard",
+        "question": "A ship is approaching an observation tower. If the time taken by the ship to change the angle of elevation from 30° to 45° is 10 minutes, then find the time the ship will take to cover the remaining distance and reach the observation tower, assuming the ship to be traveling at a uniform speed.",
+        "options": {
+            "A": "15 minutes 20 seconds",
+            "B": "13 minutes 40 seconds",
+            "C": "16 minutes 40 seconds",
+            "D": "Cannot be determined"
+        },
+        "correct_option": "B",
+        "solution": "Let AB be the observation tower, and h be its height.\n\nAlso, let the ship be at C when the angle of elevation is 30° and at D when the angle of elevation is 45°.\n\nThe time taken by the ship to travel from C to D is 10 minutes, and we need to find out the time the ship will take to reach B from D.\n\ntan 30 = AB/CB = h/CB = 1/√3, CB = √3 * h.\ntan 45 = AB/DB = h/DB = 1, DB = h.\nCD = CB – DB = (√3h – h) = h(√3 – 1).\n\nNow, as h(√3 – 1) distance is covered in 10 minutes, a distance of h is covered in = 13.66 minutes = 13 minutes 40 seconds."
+    },
+    {
+        "id": 11,
+        "topic": "height-and-distance",
+        "type": "type-1-angles-of-elevation-and-depression",
+        "difficulty": "hard",
+        "question": "On the two sides of a road are two tall buildings exactly opposite to each other. The height of the taller building is 60 m. If the angle of elevation from the top of the smaller building to the top of the taller one is 30° and the angle of depression from the top of the taller building to the foot of the smaller one is 30°, then find the height of the smaller building.",
+        "options": {
+            "A": "45 m",
+            "B": "30 m",
+            "C": "40 m",
+            "D": "20 m"
+        },
+        "correct_option": "C",
+        "solution": "Let AB be the taller building of height 60 m, and CD be the smaller one of height h m.\n\ntan 30 = DB/AB = DB/60 = 1/√3, DB = 34.64 m.\ntan 30 = AE/CE = AE/DB = 1/√3 = AE/34.64, AE = 60 – h = 20.\n\nh = 40 m."
+    }
+]

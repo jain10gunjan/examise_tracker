@@ -1,0 +1,158 @@
+[
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 0,
+    "type": "type-1-find-the-sqaure-root-and-cube-roots-of-given-numbers",
+    "difficulty": "medium",
+    "question": "Find the cube root of 19683.",
+    "options": {
+      "A": "25",
+      "B": "26",
+      "C": "28",
+      "D": "27"
+    },
+    "correct_option": "D",
+    "solution": "In 19683, 19 lies between 23 and 33, so left digit is 2 and 683 ends with 3, so right digit is 7.\nthus 27 is a cube root of 19683."
+  },
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 1,
+    "type": "type-1-find-the-sqaure-root-and-cube-roots-of-given-numbers",
+    "difficulty": "medium",
+    "question": "If \\(\\sqrt{y}/169 = 54/39\\), then \\(y\\) is equal to ?",
+    "options": {
+      "A": "108",
+      "B": "324",
+      "C": "2916",
+      "D": "4800"
+    },
+    "correct_option": "B",
+    "solution": "\\(\\sqrt{y}/169= 54/39\\)\n⇒ \\(y/169 = (54/39) \\times (54/39)\\)\n∴ \\(y= (54/39) \\times (54/39) \\times 169 = 324\\)"
+  },
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 2,
+    "type": "type-1-find-the-sqaure-root-and-cube-roots-of-given-numbers",
+    "difficulty": "medium",
+    "question": "Evaluate: \\(112/\\sqrt{196} \\times \\sqrt{579}/12 \\times \\sqrt{256}/8\\).",
+    "options": {
+      "A": "8",
+      "B": "12",
+      "C": "16",
+      "D": "32"
+    },
+    "correct_option": "D",
+    "solution": "Given expression \\(112/\\sqrt{196} \\times \\sqrt{579}/12 \\times \\sqrt{256}/8\\)\n= (112/14) x (24/12) x (16/8)\n= 32"
+  },
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 3,
+    "type": "type-1-find-the-sqaure-root-and-cube-roots-of-given-numbers",
+    "difficulty": "medium",
+    "question": "Given that \\(\\sqrt{4096} = 64\\), the value of \\(\\sqrt{4096} + \\sqrt{40.96} + \\sqrt{0.004096}\\) is ?",
+    "options": {
+      "A": "70.4",
+      "B": "70.464",
+      "C": "71.104",
+      "D": "71.4",
+      "E": "None of the above"
+    },
+    "correct_option": "B",
+    "solution": "\\(\\begin{aligned}\\sqrt{4096} + \\sqrt{40.96} + \\sqrt{0.004096} &= \\sqrt{4096} + \\sqrt{\\frac{4096}{100}} + \\sqrt{\\frac{4096}{1000000}}\\\\&= \\sqrt{4096} + \\sqrt{\\frac{4096}{10}} + \\sqrt{\\frac{4096}{1000}}\\\\&= 64 + \\frac{64}{10} + \\frac{64}{1000}\\\\&= 70.464\\end{aligned}\\)"
+  },
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 4,
+    "type": "type-1-find-the-sqaure-root-and-cube-roots-of-given-numbers",
+    "difficulty": "easy",
+    "question": "Evaluate \\(\\sqrt{0.04}\\).",
+    "options": {
+      "A": "0.02",
+      "B": "0.2",
+      "C": "0.002",
+      "D": "None of these"
+    },
+    "correct_option": "B",
+    "solution": "\\(\\begin{aligned}\\sqrt{0.04} &= \\sqrt{\\frac{4}{100}}\\\\&= \\frac{2}{10}\\\\&= 0.2\\end{aligned}\\)"
+  },
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 5,
+    "type": "type-1-find-the-sqaure-root-and-cube-roots-of-given-numbers",
+    "difficulty": "easy",
+    "question": "\\(\\sqrt{288} / \\sqrt{128}\\)",
+    "options": {
+      "A": "\\(\\sqrt{3}/2\\)",
+      "B": "\\(3/\\sqrt{2}\\)",
+      "C": "\\(3/2\\)",
+      "D": "\\(\\sqrt{3}/2\\)",
+      "E": "None of the above"
+    },
+    "correct_option": "C",
+    "solution": "\\(\\sqrt{288} / \\sqrt{128}\\) = \\(\\sqrt{9/4}\\) = \\(3/2\\)"
+  },
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 6,
+    "type": "type-1-find-the-sqaure-root-and-cube-roots-of-given-numbers",
+    "difficulty": "easy",
+    "question": "\\(\\sqrt{10} \\times \\sqrt{15}\\)",
+    "options": {
+      "A": "5\\(\\sqrt{6}\\)",
+      "B": "6\\(\\sqrt{5}\\)",
+      "C": "5",
+      "D": "\\(\\sqrt{30}\\)",
+      "E": "None of the above"
+    },
+    "correct_option": "A",
+    "solution": "\\(\\sqrt{10} \\times \\sqrt{15}\\) = \\(\\sqrt{10} \\times 15\\) = \\(\\sqrt{150}\\) = \\(\\sqrt{25} \\times \\sqrt{6}\\) = 5\\(\\sqrt{6}\\)"
+  },
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 7,
+    "type": "type-2-find-the-missing-number",
+    "difficulty": "medium",
+    "question": "\\(\\sqrt{\\frac{x}{200}} = 0.02\\)",
+    "options": {
+      "A": "16",
+      "B": "4",
+      "C": "64",
+      "D": "1.6",
+      "E": "None of the above"
+    },
+    "correct_option": "A",
+    "solution": "Let \\(\\sqrt{x/200} = 0.02\\)\\\\ Then, \\(\\sqrt{x} = 200 \\times 0.02 = 4\\).\\\\ So, \\(x = 16\\)"
+  },
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 8,
+    "type": "type-2-find-the-missing-number",
+    "difficulty": "medium",
+    "question": "Let \\(\\frac{250}{\\sqrt{x}} = 10\\). Find the value of x.",
+    "options": {
+      "A": "625",
+      "B": "250",
+      "C": "25",
+      "D": "2500",
+      "E": "None of the above"
+    },
+    "correct_option": "A",
+    "solution": "Let \\(\\frac{250}{\\sqrt{x}} = 10\\). Then \\(\\sqrt{x} = \\frac{250}{10} = 25\\). Therefore, x = 625."
+  },
+  {
+    "topic": "sqaure-root-and-cube-roots",
+    "id": 9,
+    "type": "type-2-find-the-missing-number",
+    "difficulty": "medium",
+    "question": "Evaluate \\(\\frac{\\sqrt{4375}}{\\sqrt{7}}\\).",
+    "options": {
+      "A": "24.75",
+      "B": "27.25",
+      "C": "25",
+      "D": "35",
+      "E": "None of the above"
+    },
+    "correct_option": "C",
+    "solution": "\\(\\frac{\\sqrt{4375}}{\\sqrt{7}} = \\frac{\\sqrt{625 \\times 7}}{\\sqrt{7}} = \\sqrt{625} = 25\\)"
+  }
+]

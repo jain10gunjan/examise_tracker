@@ -1,0 +1,183 @@
+[
+    {
+        "topic": "time-and-work",
+        "id": 0,
+        "type": "type-1-Joint-Work-Problem-with-Men-and-Women",
+        "difficulty": "medium",
+        "question": "6 men or 10 women can reap a field in 15 days, then the number of days that 12 men and 5 women will take to reap the same field is :",
+        "options": {
+            "A": "5",
+            "B": "6",
+            "C": "8",
+            "D": "12"
+        },
+        "correct_option": "B",
+        "solution": "Work done by 6 men = work done by 10 women.\nWork done by 1 man = work done by 10 / 6 = 5/3 women\n∴ 12 men + 5 women = 12 x ( 5 / 3) + 5 = 25 women\n∴ W1 x D 1 = W2 x D2 W = women, D=days\n10 X 15 = 25 x D2\nD2 = 6"
+    },
+    {
+        "topic": "time-and-work",
+        "id": 1,
+        "type": "type-2-Joint-Work-Problem-with-Children-and-Men",
+        "difficulty": "medium",
+        "question": "6 children and 2 men complete a certain piece of work in 6 days. Each child takes twice the time taken by a man to finish the work. In how many days will 5 men finish the same work?",
+        "options": {
+            "A": "6",
+            "B": "8",
+            "C": "9",
+            "D": "15"
+        },
+        "correct_option": "A",
+        "solution": "Given, 6 children and 2 men complete a certain piece of work in 6 days.\nLet the work done by a man in one day be x.\nThen, the work done by a child in one day = 2x.\nWe have 6C + 2M = 6 days, which gives us 36C + 12M = 1 day.\nAlso, we have 1M = 2C, which gives us 36 + 12(2)C = 1 day.\nHence, 60 children can do the work in 1 day.\nNow, 5 men = 10 children.\nTherefore, 10 children can do the work in 6 days.\nSo, 5 men can do the same work in 6 days."
+    },
+    {
+        "topic": "time-and-work",
+        "id": 2,
+        "type": "type-3-Joint-Work-Problem-with-Men-Women-and-Boys",
+        "difficulty": "hard",
+        "question": "2 men or 5 women or 7 boys can finish a work in 469 days, then the number of days taken by 7 men, 5 women and 2 boys to finish the work is :",
+        "options": {
+            "A": "134",
+            "B": "106",
+            "C": "100",
+            "D": "98"
+        },
+        "correct_option": "D",
+        "solution": "2 men = 7 boys\n⇒ 1 man = 7/2 days\n\n5 women = 7 boys\n⇒ 1 women = 7/5 boys\n\n7 men + 5 women + 2 boys = 7 x 7/2 + 5 x 7/5 + 2 = 67/2 boys\nNow, B1 x D1 = B2 x D2\n7 X 469 = 67/2 x D2\nD2 = 98 days"
+    },
+    {
+        "topic": "time-and-work",
+        "id": 3,
+        "type": "type-4-Work-Per-Hour",
+        "difficulty": "easy",
+        "question": "314 weavers weaves 6594 shawls in 1/6 hours. What is the number of shawls weaved per hour by an average weaver?",
+        "options": {
+            "A": "42",
+            "B": "21",
+            "C": "102",
+            "D": "126"
+        },
+        "correct_option": "D",
+        "solution": "In 1 hour 314 weavers weave = 6594 x 6 shawls\nIn 1 hour 1 weaver weaves = ( 6594 x 6 ) / 314 shawls = 126 shawls"
+    },
+    {
+        "topic": "time-and-work",
+        "id": 4,
+        "type": "type-5-Sharing-Amount-Based-on-Efficiencies",
+        "difficulty": "medium",
+        "question": "The Ratio of efficiencies of A, B and C is 6 : 5 : 4 and if A, B and C received total Rs. 27000 for the whole work. What is the share of C, if the money is distributed in the ratio of amount of work done, individually?",
+        "options": {
+            "A": "2700",
+            "B": "7200",
+            "C": "14400",
+            "D": "6300"
+        },
+        "correct_option": "B",
+        "solution": "Ratio of efficiencies of A,B and C = 6 : 5 : 4\\\\∴ Share of C = [4/(6+5+4)] x 27000 = 7200"
+    },
+    {
+        "topic": "time-and-work",
+        "id": 5,
+        "type": "type-6-Solving-for-Additional-Workers",
+        "difficulty": "hard",
+        "question": "If 2 men or 3 women or 4 boys can do a piece of work in 52 days. Then the same piece of work will be done by 1 man, 1 woman and 1 boy in ?",
+        "options": {
+            "A": "48 days",
+            "B": "36 days",
+            "C": "45 days",
+            "D": "none of these"
+        },
+        "correct_option": "A",
+        "solution": "Work done by 2 men = 3 woman = 4 boys\\\\∴ 1 man = 2 boys\\\\1 woman = 4/3 boys\\\\∴ boys X days = 4 X 52 (boys - days)\\\\Again 1 man + 1 woman + 1 boy = 2 + 4/3 + 1 = 13/3 boys\\\\B1 x D1 = B2 x D2\\\\B = boys, D = days\\\\4 X 52 = 13/3 x D2\\\\D2 = 48 days"
+    },
+    {
+        "topic": "time-and-work",
+        "id": 6,
+        "type": "type-1-Joint-Work-Problem-with-Men-and-Women",
+        "difficulty": "medium",
+        "question": "A contractor undertook a work to complete in 60 days. But just after 20 days he observed that only 1/5th of the project work had been completed. To complete the work in time (i.e,In rest days) minimum how many workers he had to increase, if there were initially 75 workers were deployed for the task?",
+        "options": {
+            "A": "25",
+            "B": "50",
+            "C": "75",
+            "D": "can’t be determined"
+        },
+        "correct_option": "C",
+        "solution": "Given: Total work = 1, Work done = 1/5, Remaining work = 4/5\nLet the number of workers to be increased be N.\nSince the work done is directly proportional to the number of workers, we can set up the equation:\n\n(75 + N) * 20 = 1/5 * 1\n\nSolving for N, we get N = 75\nTherefore, 75 men should be increased."
+    },
+    
+    {
+        "topic": "time-and-work",
+        "id": 7,
+        "type": "type-2-Joint-Work-Problem-with-Children-and-Men",
+        "difficulty": "easy",
+        "question": "20 persons completed 1/3rd of the work in 12 days. How many more persons are required to finish the remaining work in the next 12 days?",
+        "options": {
+            "A": "20",
+            "B": "12",
+            "C": "18",
+            "D": "40"
+        },
+        "correct_option": "A",
+        "solution": "Given: Work done = 1/3, Remaining work = 2/3\nTo complete double the work in the same time, we need double the number of people.\nSo, 20 men will be increased."
+    },
+    {
+        "topic": "time-and-work",
+        "id": 8,
+        "type": "type-3-Joint-Work-Problem-with-Men-Women-and-Boys",
+        "difficulty": "medium",
+        "question": "A and B can together do a piece of work in 15 days. B alone can do it in 20 days. In how many days can A alone do it?",
+        "options": {
+            "A": "30 days",
+            "B": "40 days",
+            "C": "45 days",
+            "D": "60 days"
+        },
+        "correct_option": "D",
+        "solution": "A's 1 day's work = (1/15 - 1/20) = 1/60\nTherefore, A alone can finish it in 60 days."
+    },
+    {
+        "topic": "time-and-work",
+        "id": 9,
+        "type": "type-4-Work-Per-Hour",
+        "difficulty": "easy",
+        "question": "A and B can do a piece of work in 6 days and A alone can do it in 9 days. The time taken by B alone to do the same work is?",
+        "options": {
+            "A": "18 days",
+            "B": "15 days",
+            "C": "12 days",
+            "D": "71/2"
+        },
+        "correct_option": "A",
+        "solution": "B's one day's work = (1/6 - 1/9) = 1/18\nTherefore, B alone can finish it in 18 days."
+    },
+    {
+        "topic": "time-and-work",
+        "id": 10,
+        "type": "type-5-Sharing-Amount-Based-on-Efficiencies",
+        "difficulty": "easy",
+        "question": "A and B can do a piece of work in 18 days, B and C in 24 days, A and C in 36 days. In what time can they do it all working together?",
+        "options": {
+            "A": "12 days",
+            "B": "13 days",
+            "C": "16 days",
+            "D": "26 days"
+        },
+        "correct_option": "C",
+        "solution": "(A + B)'s 1 day's work = 1/18\n(B + C)'s 1 day's work = 1/24\n(A + C)'s 1 day's work = 1/36\nAdding 2 (A + B + C)'s 1 day's work = (1/18 + 1/24 + 1/36) = 1/8\n∴ (A + B + C)'s day's work = 1/16\nHence, all working together can finish it in 16 days."
+    },
+    {
+        "topic": "time-and-work",
+        "id": 11,
+        "type": "type-6-Solving-for-Additional-Workers",
+        "difficulty": "hard",
+        "question": "A and B can do a piece of work in 12 days. B and C in 15 days. C and A in 20 days. A alone can do the work in ?",
+        "options": {
+            "A": "152/3",
+            "B": "24 days",
+            "C": "30 days",
+            "D": "4 days"
+        },
+        "correct_option": "C",
+        "solution": "[(A + B) + (B + C) + (C + A)]'s 1 day's work = (1/12 + 1/15 + 1/20) = 1/5\n⇒ 2(A + B + C)'s 1 days work = 1/5\n⇒ (A + B + C)'s 1 day's work = 1/10\n&rArr A's 1 day's work = (1/10 - 1/15) = 1/30\n∴ A alone can finish it in 30 days."
+    }
+]

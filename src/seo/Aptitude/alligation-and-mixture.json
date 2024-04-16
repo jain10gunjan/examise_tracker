@@ -1,0 +1,242 @@
+[
+    {
+        "id": 0,
+        "topic": "mixtures-and-allegations",
+        "type": "type-1-based-on-rule-of-alligation",
+        "difficulty": "medium",
+        "question": "In a vessel filled with liquid, the ratio of water to syrup is 3:5. To make the mixture half water and half syrup, how much of the mixture should be drawn off and replaced with water?",
+        "options": {
+            "A": "1/3",
+            "B": "1/4",
+            "C": "1/5",
+            "D": "1/7"
+        },
+        "correct_option": "C",
+        "solution": "Suppose the vessel initially contains 8 litres of liquid.\n\nLet x litres of this liquid be replaced with water.\n\nQuantity of water in the new mixture = \\(\\frac{3 - 3x + x}{8}\\) litres\n\nQuantity of syrup in the new mixture = \\(\\frac{5 - 5x}{8}\\) litres\n\n\\(\\frac{3 - 3x + x}{8} = \\frac{5 - 5x}{8}\\)\n\nSolving for x, we get x = 1/5.\n\nSo, part of the mixture replaced = \\(8 \\times \\frac{1}{5} = 1.6\\) litres."
+    },
+    {
+        "id": 1,
+        "topic": "mixtures-and-allegations",
+        "type": "type-1-based-on-rule-of-alligation",
+        "difficulty": "medium",
+        "question": "If the price of the third variety of tea per kg is to be found when two varieties, one worth Rs. 126 per kg and the other worth Rs. 135 per kg, are mixed in a 1 : 1 ratio with the third variety in a 2 : 1 ratio, resulting in a mixture worth Rs. 153 per kg",
+        "options": {
+            "A": "Rs. 169.50",
+            "B": "Rs. 170",
+            "C": "Rs. 175.50",
+            "D": "Rs. 180"
+        },
+        "correct_option": "C",
+        "solution": "Since the first and second varieties are mixed in equal proportions, their average price = Rs. \\(\\frac{126 + 135}{2} = Rs. 130.50\\) per kg.\n\nSo, the mixture is formed by mixing two varieties, one at Rs. 130.50 per kg and the other at say, Rs. x per kg in the ratio 2 : 2, i.e., 1 : 1. We have to find x.\n\nBy the rule of alligation, we have:\n\n\\(\\frac{130.50 - x}{x - 153} = \\frac{22.50}{1}\\)\n\nSolving for x, we get x = Rs. 175.50 per kg."
+    },
+    {
+        "id": 2,
+        "topic": "mixtures-and-allegations",
+        "type": "type-1-based-on-rule-of-alligation",
+        "difficulty": "medium",
+        "question": "Initially, a can contains a mixture of two liquids A and B in the ratio 7 : 5. After drawing 9 litres of the mixture and replacing it with liquid B, the new ratio of A and B becomes 7 : 9. The question is asking for the initial amount of liquid A contained in the can.",
+        "options": {
+            "A": "10",
+            "B": "20",
+            "C": "21",
+            "D": "25"
+        },
+        "correct_option": "C",
+        "solution": "Suppose the can initially contains 7x and 5x litres of mixtures A and B, respectively.\n\nQuantity of A in the mixture left = \\(\\frac{7x - 7x \\times 9}{12}\\) litres\n\nQuantity of B in the mixture left = \\(\\frac{5x - 5x \\times 9}{12}\\) litres\n\n\\(\\frac{7x - 7x \\times 9}{12} = \\frac{7}{9} \\times \\frac{5x - 5x \\times 9}{12}\\)\n\nSolving for x, we get x = 3.\n\nSo, the can initially contained 21 litres of liquid A."
+    },
+    {
+        "id": 3,
+        "topic": "mixtures-and-allegations",
+        "type": "type-1-based-on-rule-of-alligation",
+        "difficulty": "medium",
+        "question": "There are two cans of milk with different water content. The first can contains 25% water and the rest milk, while the second can contains 50% water. The question is about finding the amount of milk from each can that should be mixed to get a total of 12 litres of milk, while maintaining a water to milk ratio of 3 : 5.",
+        "options": {
+            "A": "4 litres, 8 litres",
+            "B": "6 litres, 6 litres",
+            "C": "5 litres, 7 litres",
+            "D": "7 litres, 5 litres"
+        },
+        "correct_option": "A",
+        "solution": "Let the cost of 1 litre milk be Re. 1.\n\nMilk in 1 litre mix in the 1st can = \\(\\frac{3}{4}\\) litre, C.P. of 1 litre mix in the 1st can = \\(\\frac{3}{4}\\) Re.\n\nMilk in 1 litre mix in the 2nd can = \\(\\frac{1}{2}\\) litre, C.P. of 1 litre mix in the 2nd can = \\(\\frac{1}{2}\\) Re.\n\nMilk in 1 litre of the final mix = 5 litres, Mean price = Re. 5.\n\nBy the rule of alligation, we have:\n\n\\(\\frac{\\frac{3}{4} - \\frac{5}{2}}{\\frac{5}{2} - 5} = \\frac{1}{2}\\)\n\nSo, the quantity of the mixture taken from each can = \\(\\frac{1}{2} \\times 12 = 6\\) litres."
+    },
+    {
+        "id": 4,
+        "topic": "mixtures-and-allegations",
+        "type": "type-1-based-on-rule-of-alligation",
+        "difficulty": "easy",
+        "question": "The grocer needs to find the ratio in which two varieties of pulses costing Rs. 15 and Rs. 20 per kg should be mixed to obtain a mixture worth Rs. 16.50 per kg.",
+        "options": {
+            "A": "3 : 7",
+            "B": "5 : 7",
+            "C": "7 : 3",
+            "D": "7 : 5"
+        },
+        "correct_option": "C",
+        "solution": "Given:\nCost of 1 kg of pulses of the 1st kind: Rs. 15\nCost of 1 kg of pulses of the 2nd kind: Rs. 20\nDesired mixture cost: Rs. 16.50\n\nTo find the ratio, we can use the rule of alligation:\n\nCost of 1 kg of pulses of the 1st kind : Cost of 1 kg of pulses of the 2nd kind = Rs. 20 - Rs. 16.50 : Rs. 16.50 - Rs. 15\n= Rs. 3.50 : Rs. 1.50\n= 7 : 3\n\nSo, the correct ratio in which the grocer must mix the two varieties of pulses is 7 : 3.\n\nThe correct option is indeed option C: 7 : 3.\""
+    },
+    {
+        "id": 5,
+        "topic": "mixtures-and-allegations",
+        "type": "type-1-based-on-rule-of-alligation",
+        "difficulty": "easy",
+        "question": "A milkman is selling milk at cost price but mixing it with water to gain 25%. The question asks to find the percentage of water in the mixture.",
+        "options": {
+            "A": "4%",
+            "B": "6%",
+            "C": "20%",
+            "D": "25%"
+        },
+        "correct_option": "C",
+        "solution": "Let C.P. of 1 litre milk be Re. 1.\n\nThen, S.P. of 1 litre of the mixture = Re. 1, Gain = 25%.\n\nC.P. of 1 litre of the mixture = \\(\\frac{100 \\times 1}{125} = \\frac{4}{5}\\) Re.\n\nBy the rule of alligation, we have:\n\nRatio of milk to water = \\(\\frac{4}{5} : 1 = 4 : 5\\).\n\nHence, the percentage of water in the mixture = \\(\\frac{1}{5} \\times 100\\)% = 20%."
+    },
+    {
+        "id": 6,
+        "topic": "mixtures-and-allegations",
+        "type": "type-1-based-on-rule-of-alligation",
+        "difficulty": "medium",
+        "question": "The task is to determine the quantity of sugar costing Rs. 9 per kg that should be mixed with 27 kg of sugar costing Rs. 7 per kg to achieve a 10% gain by selling the mixture at Rs. 9.24 per kg.",
+        "options": {
+            "A": "36 kg",
+            "B": "42 kg",
+            "C": "54 kg",
+            "D": "63 kg"
+        },
+        "correct_option": "D",
+        "solution": "S.P. of 1 kg of the mixture = Rs. 9.24, Gain 10%.\n\nC.P. of 1 kg of the mixture = \\(\\frac{100 \\times 9.24}{110} = \\frac{84}{10} = Rs. 8.40\\) (let).\n\nBy the rule of alligation, we have:\n\nRatio of quantities of the 1st and 2nd kind = 14 : 6 = 7 : 3.\n\nLet x kg of sugar of the 1st kind be mixed with 27 kg of the 2nd kind.\n\nThen, 7 : 3 = x : 27\n\nx = \\(\\frac{7 \\times 27}{3} = 63\\) kg."
+    },
+    {
+        "id": 7,
+        "topic": "mixtures-and-allegations",
+        "type": "type-2-calculate-quantity-of-milk-alcohol-left-after-nth-operation",
+        "difficulty": "medium",
+        "question": "Initially, a container contains 40 litres of milk. Through a series of operations, 4 litres of milk were taken out and replaced with water four times. The question is asking for the current amount of milk in the container.",
+        "options": {
+            "A": "26.34 litres",
+            "B": "27.36 litres",
+            "C": "28 litres",
+            "D": "29.16 litres"
+        },
+        "correct_option": "D",
+        "solution": "Amount of milk left after 3 operations = \\(40 \\times \\left(1 - \\frac{4}{40}\\right)^4\\) = 29.16 litres."
+    },
+    {
+        "id": 8,
+        "topic": "mixtures-and-allegations",
+        "type": "type-2-calculate-quantity-of-milk-alcohol-left-after-nth-operation",
+        "difficulty": "medium",
+        "question": "A jar full of whisky contains 40% alcohol. Some whisky is replaced with another containing 19% alcohol, resulting in a mixture with 26% alcohol. The question is about finding the quantity of whisky replaced.",
+        "options": {
+            "A": "1/3",
+            "B": "2/3",
+            "C": "2/5",
+            "D": "3/5"
+        },
+        "correct_option": "B",
+        "solution": "By the rule of alligation, we have:\n\nRatio of alcohol in the two mixtures = 26 - 19 : 40 - 26 = 7 : 14 = 1 : 2\n\nSo, the quantity of whisky replaced = \\(\\frac{2}{1+2} = \\frac{2}{3}\\)."
+    },
+    {
+        "id": 9,
+        "topic": "mixtures-and-allegations",
+        "type": "type-3-given-profit-and-loss-obtained",
+        "difficulty": "easy",
+        "question": "The ratio in which water should be mixed with milk to gain 16% on selling the mixture at cost price needs to be determined.",
+        "options": {
+            "A": "1 : 6",
+            "B": "6 : 1",
+            "C": "2 : 3",
+            "D": "4 : 3"
+        },
+        "correct_option": "A",
+        "solution": "Let C.P. of 1 litre milk be Re. 1.\n\nS.P. of 1 litre of the mixture = Re. 1, Gain = 50%.\n\nC.P. of 1 litre of the mixture = \\(\\frac{100 \\times 3}{7} = \\frac{300}{7}\\) Re.\n\nBy the rule of alligation, we have:\n\nRatio of water and milk = \\(\\frac{0}{7} : \\frac{300}{7} = 0 : 300 = 1 : 6\\)."
+    },
+    {
+        "id": 10,
+        "topic": "mixtures-and-allegations",
+        "type": "type-3-given-profit-and-loss-obtained",
+        "difficulty": "easy",
+        "question": "The task is to find the ratio in which rice costing Rs. 7.20 a kg should be mixed with rice costing Rs. 5.70 a kg to produce a mixture worth Rs. 6.30 a kg.",
+        "options": {
+            "A": "1 : 3",
+            "B": "2 : 3",
+            "C": "3 : 4",
+            "D": "4 : 5"
+        },
+        "correct_option": "B",
+        "solution": "By the rule of alligation, we have:\n\nCost of 1 kg of rice of the 1st kind : Cost of 1 kg of rice of the 2nd kind = Rs. 7.20 - Rs. 6.30 : Rs. 6.30 - Rs. 5.70 = Rs. 0.90 : Rs. 0.60 = 3 : 2.\n\nSo, the correct ratio in which rice at Rs. 7.20 per kg should be mixed with rice at Rs. 5.70 per kg to produce a mixture worth Rs. 6.30 per kg is 2 : 3."
+    },
+    {
+        "id": 11,
+        "topic": "mixtures-and-allegations",
+        "type": "type-3-given-profit-and-loss-obtained",
+        "difficulty": "medium",
+        "question": "A grocer needs to determine the ratio in which two varieties of tea worth Rs. 60 a kg and Rs. 65 a kg should be mixed to gain 10% by selling the mixture at Rs. 68.20 a kg.",
+        "options": {
+            "A": "3 : 2",
+            "B": "3 : 4",
+            "C": "3 : 5",
+            "D": "4 : 5"
+        },
+        "correct_option": "A",
+        "solution": "S.P. of 1 kg of the mixture = Rs. 68.20, Gain = 10%.\n\nC.P. of 1 kg of the mixture = \\(\\frac{100 \\times 68.20}{110} = \\frac{1364}{11}\\) (let).\n\nBy the rule of alligation, we have:\n\nCost of 1 kg tea of the 1st kind : Cost of 1 kg tea of the 2nd kind = Rs. 60 - Rs. \\(\\frac{1364}{11}\\) : Rs. \\(\\frac{1364}{11}\\) - Rs. 65 = \\(\\frac{200}{11}\\) : \\(\\frac{154}{11}\\) = 100 : 77 = 3 : 2."
+    },
+    {
+        "id": 12,
+        "topic": "mixtures-and-allegations",
+        "type": "type-3-given-profit-and-loss-obtained",
+        "difficulty": "easy",
+        "question": "There are two types of rice, Type 1 costing Rs. 15 per kg and Type 2 costing Rs. 20 per kg. The question is about finding the price per kg of the mixed variety of rice when mixed in the ratio of 2 : 3.",
+        "options": {
+            "A": "Rs. 18",
+            "B": "Rs. 18.50",
+            "C": "Rs. 19",
+            "D": "Rs. 19.50"
+        },
+        "correct_option": "C",
+        "solution": "Let the price of the mixed variety be Rs. x per kg.\n\nBy the rule of alligation, we have:\n\nCost of 1 kg of Type 1 rice : Cost of 1 kg of Type 2 rice = Rs. 15 - Rs. x : Rs. x - Rs. 20 = 20 - x : x - 15 = 2 : 3\n\nSolving for x, we get x = Rs. 19 per kg."
+    },
+    {
+        "id": 13,
+        "topic": "mixtures-and-allegations",
+        "type": "type-3-given-profit-and-loss-obtained",
+        "difficulty": "medium",
+        "question": "A merchant has 1000 kg of sugar and sells a portion at 8% profit and the rest at 18% profit. The overall gain is 14%. The question is asking for the quantity of sugar sold at 18% profit.",
+        "options": {
+            "A": "400 kg",
+            "B": "560 kg",
+            "C": "600 kg",
+            "D": "640 kg"
+        },
+        "correct_option": "C",
+        "solution": "By the rule of alligation, we have:\n\nProfit on the 1st part : Profit on the 2nd part = 8% - 14% : 14% - 18% = -6 : -4 = 3 : 2.\n\nSo, the quantity sold at 18% profit = \\(\\frac{2}{3} \\times 1000\\) kg = 600 kg."
+    },
+    {
+        "id": 14,
+        "topic": "mixtures-and-allegations",
+        "type": "type-4-if-three-types-of-mixture-are-given-find",
+        "difficulty": "medium",
+        "question": "Initially, a cask is full of wine. After drawing 8 litres from it and refilling with water, this process is repeated three more times. The question is about finding the original quantity of wine the cask held, relative to the quantity of water in the cask now.",
+        "options": {
+            "A": "18 litres",
+            "B": "24 litres",
+            "C": "32 litres",
+            "D": "42 litres"
+        },
+        "correct_option": "B",
+        "solution": "Let the quantity of the wine in the cask originally be x litres.\n\nThen, quantity of wine left in the cask after 4 operations = \\(x \\times \\left(1 - \\frac{8}{x}\\right)^4\\)\n\n\\(\\frac{x \\times (x - 8)^4}{x^4} = \\frac{16}{81}\\)\n\nSolving for x, we get x = 24 litres."
+    },
+    {
+        "id": 15,
+        "topic": "mixtures-and-allegations",
+        "type": "type-4-if-three-types-of-mixture-are-given-find",
+        "difficulty": "medium",
+        "question": "Initially, a container contains 40 litres of milk. After a series of operations, including taking out 4 litres of milk and replacing it with water three more times, the question is about finding the current amount of milk in the container.",
+        "options": {
+            "A": "26.34 litres",
+            "B": "27.36 litres",
+            "C": "28 litres",
+            "D": "29.16 litres"
+        },
+        "correct_option": "D",
+        "solution": "Amount of milk left after 3 operations = \\(40 \\times \\left(1 - \\frac{4}{40}\\right)^4\\) = 29.16 litres."
+    }
+]

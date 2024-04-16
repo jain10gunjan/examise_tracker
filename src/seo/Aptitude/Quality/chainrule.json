@@ -1,0 +1,234 @@
+[
+    {
+        "topic": "chain-rule",
+        "id": 0,
+        "type": "type-1-Basic-Chain-Rule-Application",
+        "difficulty": "easy",
+        "question": "A man completes \\(\\frac{5}{8}\\) of a job in 10 days. At this rate, how many more days will it take him to finish the job?",
+        "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "7\\frac{1}{2}"
+        },
+        "correct_option": "B",
+        "solution": "Work done = \\(\\frac{5}{8}\\)\nBalance work = 1 - \\(\\frac{5}{8}\\) = \\(\\frac{3}{8}\\)\nLet the required number of days be x.\nThen, \\(\\frac{5}{8} : \\frac{3}{8} = \\frac{10}{x}\\)\n\\(5x = 3 \\times 10\\)\n\\(x = \\frac{3 \\times 10}{5} = 6\\)\nHence, it will take 6 more days to finish the job."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 1,
+        "type": "type-2-Basic-Chain-Rule-Application",
+        "difficulty": "easy",
+        "question": "If a quarter kg of potato costs 60 paise, how many paise will 200 gm cost?",
+        "options": {
+            "A": "48 paise",
+            "B": "54 paise",
+            "C": "56 paise",
+            "D": "72 paise"
+        },
+        "correct_option": "A",
+        "solution": "Let the required weight be x kg.\nLess weight, Less cost (Direct Proportion)\n\\(250 : 200 :: 60 : x\\)\n\\(250x = 200 \\times 60\\)\n\\(x = \\frac{200 \\times 60}{250} = 48\\)\nHence, 200 gm will cost 48 paise."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 2,
+        "type": "type-3-Chain-Rule-with-Fractional-Speeds",
+        "difficulty": "easy",
+        "question": "In a dairy farm, 40 cows eat 40 bags of husk in 40 days. In how many days will one cow eat one bag of husk?",
+        "options": {
+            "A": "1",
+            "B": "40",
+            "C": "80",
+            "D": "40"
+        },
+        "correct_option": "A",
+        "solution": "Let the required number of days be x.\nLess cows, More days (Indirect Proportion)\nLess bags, Less days (Direct Proportion)\nCows: 1 : 40 :: 40 : x\nBags: 40 : 1\n\\(1 \\times 40 \\times x = 40 \\times 1 \\times 40\\)\nx = 1\nHence, one cow will eat one bag of husk in 1 day."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 3,
+        "type": "type-4-Chain-Rule-with-Time-and-Work",
+        "difficulty": "easy",
+        "question": "A wheel that has 6 cogs is meshed with a larger wheel of 14 cogs. When the smaller wheel has made 21 revolutions, then the number of revolutions made by the larger wheel is:",
+        "options": {
+            "A": "4",
+            "B": "9",
+            "C": "12",
+            "D": "49"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number of revolutions made by the larger wheel be x.\nThen, More cogs, Less revolutions (Indirect Proportion)\n14 : 6 :: 21 : x\n\\(14x = 6 \\times 21\\)\n\\(x = \\frac{6 \\times 21}{14} = 9\\)\nHence, the larger wheel will make 9 revolutions."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 4,
+        "type": "type-5-Chain-Rule-with-Pipes-and-Cisterns",
+        "difficulty": "easy",
+        "question": "If 7 spiders make 7 webs in 7 days, then 1 spider will make 1 web in how many days?",
+        "options": {
+            "A": "1",
+            "B": "7",
+            "C": "2",
+            "D": "49"
+        },
+        "correct_option": "A",
+        "solution": "Let the required number of days be x.\nLess spiders, More days (Indirect Proportion)\nLess webs, Less days (Direct Proportion)\nSpiders: 1 : 7 :: 7 : x\nWebs: 7 : 1\n\\(1 \\times 7 \\times x = 7 \\times 1 \\times 7\\)\nx = 1\nHence, 1 spider will make 1 web in 1 day."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 5,
+        "type": "type-6-Chain-Rule-with-Multiple-Iterations",
+        "difficulty": "easy",
+        "question": "3 pumps, working 8 hours a day, can empty a tank in 2 days. How many hours a day must 4 pumps work to empty the tank in 1 day?",
+        "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Let the required number of working hours per day be x.\nMore pumps, Less working hours per day (Indirect Proportion)\nLess days, More working hours per day (Indirect Proportion)\nPumps 4 : 3 :: 8 : x\nDays 1 : 2\n\\(4 \\times 1 \\times x = 3 \\times 2 \\times 8\\)\nx = 12\nTherefore, 4 pumps must work for 12 hours a day to empty the tank in 1 day."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 6,
+        "type": "type-1-Basic-Chain-Rule-Application",
+        "difficulty": "medium",
+        "question": "If the cost of x metres of wire is d rupees, then what is the cost of y metres of wire at the same rate?",
+        "options": {
+            "A": "Rs. xy",
+            "B": "Rs. (d/x)",
+            "C": "Rs. (xd)",
+            "D": "Rs. (yd)",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Cost of x metres = Rs. d.\nCost of 1 metre = Rs. (d/x)\nCost of y metres = Rs. (d/x) * y = Rs. (yd).\nTherefore, the cost of y metres of wire at the same rate is Rs. (yd)."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 7,
+        "type": "type-2-Basic-Chain-Rule-Application",
+        "difficulty": "medium",
+        "question": "Running at the same constant rate, 6 identical machines can produce a total of 270 bottles per minute. At this rate, how many bottles could 10 such machines produce in 4 minutes?",
+        "options": {
+            "A": "648",
+            "B": "1800",
+            "C": "2700",
+            "D": "10800",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number of bottles be x.\nMore machines, More bottles (Direct Proportion)\nMore minutes, More bottles (Direct Proportion)\nMachines 6 : 10 :: 270 : x\nTime (in minutes) 1 : 4\n\\(6 \\times 1 \\times x = 10 \\times 4 \\times 270\\)\nx = 1800\nTherefore, 10 machines can produce 1800 bottles in 4 minutes."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 8,
+        "type": "type-3-Chain-Rule-with-Fractional-Speeds",
+        "difficulty": "medium",
+        "question": "A fort had provision of food for 150 men for 45 days. After 10 days, 25 men left the fort. The number of days for which the remaining food will last, is:",
+        "options": {
+            "A": "29 1",
+            "B": "5",
+            "C": "37 1",
+            "D": "4",
+            "E": "42 54"
+        },
+        "correct_option": "C",
+        "solution": "After 10 days: 150 men had food for 35 days.\nSuppose 125 men had food for x days.\nNow, Less men, More days (Indirect Proportion)\n\\(125 : 150 :: 35 : x\\)\n\\(125x = 150 \\times 35\\)\n\\(x = \\frac{150 \\times 35}{125} = 42\\)\nThe remaining food will last for 42 days."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 9,
+        "type": "type-4-Chain-Rule-with-Time-and-Work",
+        "difficulty": "medium",
+        "question": "39 persons can repair a road in 12 days, working 5 hours a day. In how many days will 30 persons, working 6 hours a day, complete the work?",
+        "options": {
+            "A": "10",
+            "B": "13",
+            "C": "14",
+            "D": "15",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number of days be x.\nLess persons, More days (Indirect Proportion)\nMore working hours per day, Less days (Indirect Proportion)\nPersons 30 : 39 :: 12 : x\nWorking hours/day 6 : 5\n\\(30 \\times 6 \\times x = 39 \\times 5 \\times 12\\)\nx = 13\nTherefore, 30 persons working 6 hours a day can complete the work in 13 days."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 10,
+        "type": "type-5-Chain-Rule-with-Pipes-and-Cisterns",
+        "difficulty": "medium",
+        "question": "A flagstaff 17.5 m high casts a shadow of length 40.25 m. The height of the building, which casts a shadow of length 28.75 m under similar conditions will be:",
+        "options": {
+            "A": "10 m",
+            "B": "12.5 m",
+            "C": "17.5 m",
+            "D": "21.25 m",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Let the height of the building be x meters.\nLess lengthy shadow, Less in the height (Direct Proportion)\n\\(\\frac{40.25}{28.75} = \\frac{17.5}{x}\\)\n\\(40.25x = 28.75 \\times 17.5\\)\n\\(x = \\frac{28.75 \\times 17.5}{40.25} = 12.5\\)\nTherefore, the height of the building is 12.5 m."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 11,
+        "type": "type-6-Chain-Rule-with-Multiple-Iterations",
+        "difficulty": "medium",
+        "question": "In a camp, there is a meal for 120 men or 200 children. If 150 children have taken the meal, how many men will be catered to with the remaining meal?",
+        "options": {
+            "A": "20",
+            "B": "30",
+            "C": "40",
+            "D": "50"
+        },
+        "correct_option": "B",
+        "solution": "There is a meal for 200 children. 150 children have taken the meal.\nRemaining meal is to be catered to 50 children.\nNow, \\(200 \\text{ children} : 120 \\text{ men}\\)\n\\(50 \\text{ children} : x \\text{ men}\\)\n\\(200 \\times x = 120 \\times 50\\)\n\\(x = \\frac{120 \\times 50}{200} = 30\\)\nTherefore, the remaining meal will be catered to 30 men."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 12,
+        "type": "type-1-Basic-Chain-Rule-Application",
+        "difficulty": "hard",
+        "question": "An industrial loom weaves 0.128 metres of cloth every second. Approximately, how many seconds will it take for the loom to weave 25 metres of cloth?",
+        "options": {
+            "A": "178",
+            "B": "195",
+            "C": "204",
+            "D": "488"
+        },
+        "correct_option": "B",
+        "solution": "Let the required time be x seconds.\nMore metres, More time (Direct Proportion)\n\\(\\frac{0.128}{25} = \\frac{1}{x}\\)\n\\(0.128x = 25 \\times 1\\)\n\\(x = \\frac{25}{0.128} = 195.31\\)\nTherefore, it will take approximately 195 seconds for the loom to weave 25 meters of cloth."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 13,
+        "type": "type-2-Basic-Chain-Rule-Application",
+        "difficulty": "hard",
+        "question": "36 men can complete a piece of work in 18 days. In how many days will 27 men complete the same work?",
+        "options": {
+            "A": "12",
+            "B": "18",
+            "C": "22",
+            "D": "24",
+            "E": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Let the required number of days be x.\nLess men, More days (Indirect Proportion)\n\\(27 : 36 = 18 : x\\)\n\\(27x = 36 \\times 18\\)\n\\(x = \\frac{36 \\times 18}{27} = 24\\)\nTherefore, 27 men will complete the same work in 24 days."
+    },
+    {
+        "topic": "chain-rule",
+        "id": 14,
+        "type": "type-3-Chain-Rule-with-Fractional-Speeds",
+        "difficulty": "hard",
+        "question": "4 mat-weavers can weave 4 mats in 4 days. At the same rate, how many mats would be woven by 8 mat-weavers in 8 days?",
+        "options": {
+            "A": "4",
+            "B": "8",
+            "C": "12",
+            "D": "16"
+        },
+        "correct_option": "D",
+        "solution": "Let the required number of mats be x.\nMore weavers, More mats (Direct Proportion)\nMore days, More mats (Direct Proportion)\nWeavers: 4 : 8\nDays: 4 : 8\n\\(4 \\times 4 \\times x = 8 \\times 8 \\times 4\\)\nx = 16\nTherefore, 8 mat-weavers can weave 16 mats in 8 days."
+    }
+]

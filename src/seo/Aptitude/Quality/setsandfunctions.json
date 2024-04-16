@@ -1,0 +1,272 @@
+[
+    {
+        "question": "If P = { 1, 2, 3 } and Q = { 4 , 5 } then what is the value of P × Q ?",
+        "options": {
+            "A": "{ (4 , 5) , (1 , 5) , (2 , 4) , (2 , 5) , (3 , 4) , (3 , 5) }",
+            "B": "{ (1 , 4) , (4 , 5) , (2 , 4) , (2 , 5) , (3 , 4) , (3 , 5) }",
+            "C": "{ (1 , 4) , (1 , 5) , (2 , 4) , (3 , 5) , (3 , 4) , (3 , 5) }",
+            "D": "{ (1 , 4) , (1 , 5) , (2 , 4) , (2 , 5) , (2 , 4) , (3 , 5) }",
+            "E": "{ (1 , 4) , (1 , 5) , (2 , 4) , (2 , 5) , (3 , 4) , (3 , 5) }"
+        },
+        "correct_option": "E",
+        "solution": "The Cartesian product\n X × Y of sets X and Y is the set of all ordered pairs (x, y).\n\nGiven that P = { 1, 2, 3 } and Q = { 4 , 5 }, then\n\nP x Q = { 1, 2, 3 } x { 4 , 5 }\n⇒ P x Q = { 1 } x { 4 , 5 } , { 2 } x { 4 , 5 } , { 3 } x { 4 , 5 }\n⇒ P x Q = { 1 , 4 } , { 1 , 5 } , { 2 , 4 } , { 2 , 5 } , { 3 , 4 }, { 3 , 5 }\n\nTherefore, P x Q = { (1 , 4 ) , ( 1 , 5 ) , ( 2 , 4 ) , ( 2 , 5 ) , ( 3 , 4 ), ( 3 , 5) }."
+    },
+    {
+        "question": "If A and B have n elements in common, how many elements do A × B and B × A have in common?",
+        "options": {
+            "A": "n",
+            "B": "n^3",
+            "C": "n^2",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Let A and B be two sets with n elements in common.\nThen, A × B contains n elements common to B × A.\nLet A = {a1, a2, a3, .... an} and B = {b1, b2, b3, .... bn}\nThen, A × B = {(a1, b1), (a1, b2), .... (a1, bn), (a2, b1), (a2, b2), .... (a2, bn), ............. , (an, b1), (an, b2), .... (an, bn)}\nTherefore, the total number of elements in A × B = n^2\nSimilarly, B × A = {(b1, a1), (b1, a2), .... (b1, an), (b2, a1), (b2, a2), .... (b2, an), ............. , (bn, a1), (bn, a2), .... (bn, an)}\nTherefore, the total number of elements in B × A = n^2\nHence, the two sets have n^2 elements in common."
+    },
+    {
+        "question": "If A and B have n elements in common, how many elements do \\(A \times B\\) and \\(B \times A\\) have in common?",
+        "options": {
+            "A": "\\(n^2\\)",
+            "B": "\\(n^3\\)",
+            "C": "\\(n^2\\)",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "The Cartesian product of two sets A and B, denoted by \\(A \times B\\), is the set of all ordered pairs (a, b) where a is an element of A and b is an element of B. If A and B have n elements in common, then there are n ordered pairs that are common to both A xs B and B x A. Each ordered pair has 2 elements, so the total number of common elements is 2n. However, since each element in the intersection of A and B appears in both A x B and B x A, we have counted them twice. Therefore, the number of elements that A x B and B x A have in common is 2n - n = n^2."
+    },
+    {
+        "question": "If U = {a, b, c, d, e, f}, A = {a, b, c}, B = {c, d, e, f}, C = {c, d, e}, find (A ∩ B) ∪ (A ∩ C).",
+        "options": {
+            "A": "{c}",
+            "B": "{a}",
+            "C": "{b}",
+            "D": "{d}",
+            "E": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "A ∩ B = {a, b, c} ∩ {c, d, e, f}\nA ∩ B = { c }\nA ∩ C = { a, b, c } ∩ { c, d, e }\nA ∩ C = { c }\n∴ (A ∩ B) ∪ (A ∩ C) = { c }."
+    },
+    {
+        "question": "If U = {a, b, c, d, e, f}, A = {a, b, c}, find (U ∪ A)′.",
+        "options": {
+            "A": "U",
+            "B": "A",
+            "C": "Φ",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "U ∪ A = {a, b, c, d, e, f} ∪ {a, b, c} = {a, b, c, d, e, f} = U\n(U ∪ A)′ = Φ."
+    },
+    {
+        "question": "Let A = {1, 3, 5} and B = {x: x is an odd natural number < 6}. Which of the following is false?",
+        "options": {
+            "A": "A ⊂ B",
+            "B": "B ⊂ A",
+            "C": "A = B",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "We have A = {1, 3, 5} and B = {1, 3, 5}\nHence, A = B\nNow, A is not a proper subset of B, since 5 ∈ A and 5 ∉ B\nSimilarly, B is not a proper subset of A, since 2 ∈ B and 2 ∉ A\nTherefore, options A and B are true and option C is true, and the correct answer is option D, None of these."
+    },
+    {
+        "question": "Let A = {ϕ, {ϕ}, 1, {1, ϕ}, 7}. Which of the following is false?",
+        "options": {
+            "A": "ϕ ∈ A",
+            "B": "{ϕ} ∈ A",
+            "C": "{1} ∈ A",
+            "D": "{7, ϕ} ⊂ A"
+        },
+        "correct_option": "C",
+        "solution": "The given set A can be written as:\nA = {ϕ, {ϕ}, 1, {1, ϕ}, 7}\n\nNow, {1} is an element of the set A, but {1} is not same as 1 or {ϕ, 1} or {1, ϕ}. Therefore, the statement {1} ∈ A is false."
+    },
+    {
+        "question": "Write down the power set of the set {0}.",
+        "options": {
+            "A": "ϕ",
+            "B": "{0}",
+            "C": "{ϕ}",
+            "D": "{ϕ, {0}}",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Let, A = {0}. The possible subsets of this set A are Φ and {0}, so the power set of the given set A is P(A) = {f, {0}}."
+    },
+    {
+        "question": "Find the cardinal number of the following set {x: x is a natural number ≤ 30 and is divisible by 7 or 11}",
+        "options": {
+            "A": "4",
+            "B": "8",
+            "C": "6",
+            "D": "2"
+        },
+        "correct_option": "C",
+        "solution": "The set of natural numbers less than or equal to 30 and divisible by 7 or 11 is:\n{7, 11, 14, 21, 22, 28}\nTherefore, the cardinal number of the set is 6."
+    },
+    {
+        "question": "Which of the following sets is finite?",
+        "options": {
+            "A": "The set of the months of a year",
+            "B": "{1, 2, 3,…}",
+            "C": "{1, 2, 3,… 90, 100}",
+            "D": "The set of lines which are parallel to x-axis",
+            "E": "The set of numbers which are multiples of 5."
+        },
+        "correct_option": "A",
+        "solution": "The set of months of a year is a finite set since there are only 12 months in a year."
+    },
+    {
+        "question": "Which of the following sets is finite?",
+        "options": {
+            "A": "I = { x : x ε Z and x2 – 2x – 3 = 0 }",
+            "B": "The set of natural numbers which are divisible by 2",
+            "C": "The set of lines passing through a point",
+            "D": "{ x : x ∈ Z and x > - 5 }"
+        },
+        "correct_option": "A",
+        "solution": "(a) A = { x : x ε Z and x2 – 2x – 3 = 0} = {3, -1}. ∴ A is a finite set.\n(b) B = The set of natural numbers divisible by 2 = { 2, 4, 6, 8, 10,…}. ∴ B is an infinite set.\n(c) Since infinite number of lines pass through a point, C is an infinite set.\n(d) D = { -4, -3, -2,…}. Clearly D is an infinite set."
+    },
+    {
+        "question": "Which of the following sets is finite?",
+        "options": {
+            "A": "The set of the months of a year",
+            "B": "{1, 2, 3,…}",
+            "C": "{1, 2, 3,… 90, 100}",
+            "D": "The set of lines which are parallel to x-axis",
+            "E": "The set of numbers which are multiples of 5."
+        },
+        "correct_option": "A",
+        "solution": "A set is said to be finite if it has a definite number of elements. Now, let's analyze the given sets:\n\nA) The set of the months of a year has exactly 12 elements (January, February, March, ..., December), so it is a finite set.\nB) This set includes all positive integers, which are infinitely many, so it is an infinite set.\nC) This set includes all positive integers up to 90 and 100, so it has a finite number of elements.\nD) This set includes all lines in a plane that are parallel to the x-axis, which are infinitely many, so it is an infinite set.\nE) This set includes all numbers that are multiples of 5, which are infinitely many, so it is an infinite set.\n\nTherefore, the correct option is A."
+    },
+    {
+        "question": "Which of the following sets is finite?",
+        "options": {
+            "A": "I = { x : x ε Z and x^2 – 2x – 3 = 0 }",
+            "B": "B = The set of natural numbers which are divisible by 2",
+            "C": "C = The set of lines passing through a point.",
+            "D": "D = { x : x ∈ Z and x > -5 }"
+        },
+        "correct_option": "A",
+        "solution": "A set is said to be finite if it has a definite number of elements. Now, let's analyze the given sets:\n\nA) I is the set of all integers that satisfy the equation x^2 – 2x – 3 = 0. This equation has only two roots (-1 and 3), so the set I has only two elements and is finite.\nB) B is the set of all natural numbers that are divisible by 2, which are infinitely many, so it is an infinite set.\nC) This set includes all lines in a plane that pass through a point, which are infinitely many, so it is an infinite set.\nD) This set includes all integers greater than -5, which are infinitely many, so it is an infinite set.\n\nTherefore, the correct option is A."
+    },
+    {
+        "question": "Which of the following sets is non-empty?",
+        "options": {
+            "A": "set of odd natural numbers divisible by 2",
+            "B": "{x : x + 5 = 0, x ∈ N}",
+            "C": "set of even prime numbers",
+            "D": "{x : 1 < x < 2, x ∈ N}"
+        },
+        "correct_option": "C",
+        "solution": "A natural number is a number that occurs commonly and obviously in nature.\n As such, it is a whole, non-negative number. The set of natural numbers, denoted N, can be defined in either of two ways: N = {0, 1, 2, 3, ...} \nAs per given option.\n(a) As no odd natural number is divisible by 2, the set A is empty.\n(b) Since no natural number satisfies the equation x + 5 = 0,∴ B = Φ\n(c) Since 2 is an even prime number, i.e., C = {2}, C is not an empty set.\n(d) Since there is no natural number between 1 and 2, D is an empty set."
+    },
+    {
+        "question": "Write down the power set of C = {1, {2}}.",
+        "options": {
+            "A": "{ϕ, {1}, {{2}}}",
+            "B": "{ϕ, {1}, {{2}}, {1, {2}}}",
+            "C": "{{1}, {{2}}, {1, {2}}}",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "The power set of C is the set of all subsets of C. The given set C = {1, {2}} has two elements. Therefore, its power set has 2^2 = 4 elements. These are {ϕ, {1}, {{2}}, {1, {2}}}."
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "options": {
+            "A": "Every subset of a finite set is finite.",
+            "B": "Every subset of an infinite set is infinite.",
+            "C": "Every subset of an infinite set is finite.",
+            "D": "A proper subset of a finite set is equivalent to the set itself."
+        },
+        "correct_option": "A",
+        "solution": "The statement 'Every subset of a finite set is finite' is true. This is because a finite set has a finite number of elements, and any subset of a finite set must also have a finite number of elements."
+    },
+    {
+        "question": "Let A = {x: x ∈ N ∧ x is a multiple of 2}\nB = {x: x ∈ N ∧ x is a multiple of 5}\nC = {x: x ∈ N ∧ x is a multiple of 10}\nDescribe the set A ∩ (B ∪ C)",
+        "options": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "B = {5, 10, 15,…}\nC = {10, 20, 30,…}\nB ∪ C = {5, 10, 15,…} ∪ {10, 20, 30,…}\nB ∪ C = {5, 10, 15,…}\n∴ A ∩ (B ∩ C) = {2, 4, 6,…} ∩ {5, 10, 15,…} = {10, 20, 20,…} = C."
+    },
+    {
+        "question": "If U = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11}, A = {3, 5, 7, 9, 11} and B = {7, 8, 9, 10, 11}, then what is (A - B)'?",
+        "options": {
+            "A": "{2, 3, 5, 7, 9, 11, 12}",
+            "B": "{2, 4, 6, 8, 10, 11, 12}",
+            "C": "{2, 4, 6, 8, 9, 10, 11}",
+            "D": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "A - B is a set of members that belong to A but do not belong to B. Therefore,\nA - B = {3, 5}.\n\n(A - B)' = U - (A - B) = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11} - {3, 5} = {2, 4, 6, 7, 8, 9, 10, 11, 12}."
+    },
+    {
+        "question": "If S and T are two sets such that S has 21 elements, T has 32 elements, and S ∩ T has 11 elements, how many elements does S ∪ T have?",
+        "options": {
+            "A": "52",
+            "B": "32",
+            "C": "42",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Given in the question,\\n(S) = 21, n(T) = 32, n(S ∩ T) = 11, n(S ∪ T) = ?\\Using the formula,\\n(S ∪ T) = n(S) + n(T) – n(S ∩ T) = 21 + 32 – 11 = 42\\Hence, S ∪ T has 42 elements."
+    },
+    {
+        "question": "Let A = {1, 2}, B = {2, 3}. Evaluate A × B.",
+        "options": {
+            "A": "{(2, 1), (3, 1), (2, 3)}",
+            "B": "{(1, 2), (1, 3), (2, 3)}",
+            "C": "{(1, 2), (1, 3), (2, 2), (2, 3)}",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "A × B = {1, 2} × {2, 3} = {(1, 2), (1, 3), (2, 2), (2, 3)}."
+    },
+    {
+        "question": "In an examination, 40% students failed in Hindi, 50% students failed in English. If 21% students failed in both the subjects, find the percentage of those who passed in Hindi.",
+        "options": {
+            "A": "31%",
+            "B": "40%",
+            "C": "55%",
+            "D": "60%"
+        },
+        "correct_option": "D",
+        "solution": "In 40% students failed Hindi then 60% students passed in Hindi."
+    },
+    {
+        "question": "In a certain office, 72% of the workers prefer cold drink and 44% prefer tea. If each of them prefers cold drink or tea and 40 like both, then the total number of workers in the office is:",
+        "options": {
+            "A": "40",
+            "B": "240",
+            "C": "220",
+            "D": "210"
+        },
+        "correct_option": "A",
+        "solution": "72% + 44% = 116%\n∴ 16% → 40\n∴ 100% → 40 × 100 / 16 = 250\nHence, 16% workers are there who prefer both drinks which are 40 in number."
+    },
+    {
+        "question": "\\(\\sqrt{64009}\\) is equal to :",
+        "options": {
+            "A": "352",
+            "B": "523",
+            "C": "253",
+            "D": "532"
+        },
+        "correct_option": "C",
+        "solution": "We have, \\(253 × 253\\)\n= \\(64009\\)\nSo, \\(\\sqrt{64009} = 253\\)"
+    },
+    {
+        "question": "In a survey of a town, it was found that 65% of the people surveyed watch the news on T.V. 40% read a newspaper and 25% read a newspaper and watch the news on T.V. What per cent of the people surveyed neither watch the news on T.V. nor read a newspaper?",
+        "options": {
+            "A": "5%",
+            "B": "10%",
+            "C": "20%",
+            "D": "15%",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Required percentage\n= 100 – (40 + 25 + 15)\n= 100 – 80 = 20%"
+    }
+]

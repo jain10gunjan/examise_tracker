@@ -1,0 +1,304 @@
+[
+    {
+        "topic": "pipes-and-cistern",
+        "id": 0,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "Pipe A can fill a tank in 45 hrs and pipe B can fill it in 36 hrs. If both the pipes are opened in the empty tank. In how many hours will it be full?",
+        "options": {
+            "A": "10 hr",
+            "B": "15 hr",
+            "C": "20 hr",
+            "D": "28 hr"
+        },
+        "correct_option": "C",
+        "solution": "Part filled A in 1 hr= (1/45)\nPart filled B in 1 hr= (1/36)\nPart filled by (A+B) together in 1 hr=(1/45)+(1/36)=1/20\n\nSo, The tank will be full in 20 hr."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 1,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "If a pipe fills a tank in 6 h, then what part of the tank will the pipe fill in 1 h?",
+        "options": {
+            "A": "1/3",
+            "B": "1/6",
+            "C": "1/4",
+            "D": "1/5"
+        },
+        "correct_option": "B",
+        "solution": "We know that, when a pipe fills a tank in m h, then the part of tank filled in 1 h = 1/m\nHere, m = 6\n∴ Required part of the tank to be filled in 1h = 1/6 part"
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 2,
+        "type": "type-3-cistern_fill_empty-problems",
+        "difficulty": "medium",
+        "question": "A cistern is normally filled in 8 hours but takes two hours longer to fill because of a leak in its bottom. If the cistern is full, the leak will empty it in ?",
+        "options": {
+            "A": "16 hrs.",
+            "B": "20 hrs.",
+            "C": "25 hrs.",
+            "D": "40 hrs."
+        },
+        "correct_option": "D",
+        "solution": "Work done by leak in 1 hour = (1/8 - 1/10) = 1/40\n∴ The leak will empty the cistern in 40 hours."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 3,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "medium",
+        "question": "A pipe can empty a tank in 12 minutes and another pipe can empty it in 16 minutes. If both the pipes are opened simultaneously, find the time in which a full tank is emptied ?",
+        "options": {
+            "A": "6 minutes",
+            "B": "\\frac{61}{7} minutes",
+            "C": "\\frac{62}{7} minutes",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Let the pipe which can empty the tank in 12 minutes be Pipe A\nAnd the pipe which can empty the tank in 16 minutes be Pipe B.\nVolume of tank = 1 unit\nPipe A can empty 1/12 of tank in 1 minute\nPipe B can empty 1/16 of tank in 1 minute\nTogether, they can empty (1/12 + 1/16) of tank in 1 minute\n= (4 + 3) / (48) of tank in 1 minute\n= 7/48 of tank in 1 minute\nTime taken to empty the full tank = 48/7 minutes"
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 4,
+        "type": "type-3-cistern_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "A cistern is normally filled in 8 hrs. but takes 2 hrs. longer to fill because of a leak in its bottom. If the cistern is full, the leak will empty it in ?",
+        "options": {
+            "A": "16 hrs.",
+            "B": "40 hrs.",
+            "C": "25 hrs.",
+            "D": "20 hrs."
+        },
+        "correct_option": "B",
+        "solution": "Let the leak empty the tank in x hours\nIn 1 hour, the cistern can be filled by 1/8 part\nBut, due to the leak, it is getting filled in 1/10 part in 1 hour\nHence, 1/8 - 1/10 = 1/x\nSolving, we get x = 40 hours"
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 5,
+        "type": "type-1-time_and_work-problems",
+        "difficulty": "easy",
+        "question": "An inlet pipe fills 1/8 part of a tank in 1 h. How much time will the pipe take to fill the empty tank?",
+        "options": {
+            "A": "4 h",
+            "B": "2 h",
+            "C": "6 h",
+            "D": "8 h"
+        },
+        "correct_option": "D",
+        "solution": "Let the required time be x hours. \nThen, the inlet pipe can fill \\(\\frac{1}{x}\\) part of the tank in 1 hour. \nIt is given that the inlet pipe fills \\(\\frac{1}{8}\\) part of the tank in 1 hour. \nSo, we have \\(\\frac{1}{x} = \\frac{1}{8}\\). \nSolving this equation, we get x = 8 hours. \nTherefore, the pipe will take 8 hours to fill the empty tank."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 6,
+        "type": "type-3-cistern_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "An outlet pipe can empty a cistern in 3 h. In what time will the pipe empty two-third part of the cistern?",
+        "options": {
+            "A": "4 h",
+            "B": "2 h",
+            "C": "3 h",
+            "D": "5 h"
+        },
+        "correct_option": "B",
+        "solution": "Let the capacity of the cistern be C, and the time taken by the outlet pipe to empty the cistern be x hours. \nThen, the outlet pipe can empty \\(\\frac{1}{x}\\) part of the cistern in 1 hour. \nIt is given that the outlet pipe can empty the cistern in 3 hours. \nSo, we have \\(\\frac{1}{x} = \\frac{1}{3}\\). \nSolving this equation, we get x = 3 hours. \nTo empty two-third of the cistern, the outlet pipe needs to empty \\(\\frac{2}{3}\\) of the capacity of the cistern. \nSo, the outlet pipe will take \\(\\frac{2}{3} \\times 3 = 2\\) hours to empty two-third part of the cistern."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 7,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "A pipe can fill a tank in 20 h. Due to a leak in the bottom, it is filled in 40 h. If the tank is full, how much time will the leak take to empty it?",
+        "options": {
+            "A": "40 h",
+            "B": "30 h",
+            "C": "50 h",
+            "D": "30 h"
+        },
+        "correct_option": "A",
+        "solution": "Let the leak empties the full tank in x h, then\n Part emptied in 1 by leak = 1/x\nPart filled by inlet in 1 h = 1/20\nAccording to the question,\n1/20 + 1/x = 1/40\n∴ 1/x = 1/40 - 1/20 = 1- 2/40 = -1/40 [-ve sign Indicates emptying.]\nClearly, leak will empty the full tank in 40 h."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 8,
+        "type": "type-1-time_and_work-problems",
+        "difficulty": "easy",
+        "question": "If a pipe fills a tank in 6 h, then what part of the tank will the pipe fill in 1 h?",
+        "options": {
+            "A": "\\(\\frac{1}{3}\\)",
+            "B": "\\(\\frac{1}{6}\\)",
+            "C": "\\(\\frac{1}{4}\\)",
+            "D": "\\(\\frac{1}{5}\\)",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "We know that when a pipe fills a tank in m hours, then the part of the tank filled in 1 hour is \\(\\frac{1}{m}\\).\n\nHere, the time taken to fill the tank is 6 hours, so the part of the tank filled in 1 hour is \\(\\frac{1}{6}\\). Therefore, option B is correct."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 9,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "An outlet pipe can empty a cistern in 30 min, then what part of the cistern will it empty in 1 min?",
+        "options": {
+            "A": "\\(\\frac{1}{20}\\)",
+            "B": "\\(\\frac{1}{15}\\)",
+            "C": "\\(\\frac{1}{30}\\)",
+            "D": "\\(\\frac{1}{18}\\)",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "We know that when a pipe empties a cistern in n minutes, then the part of the cistern emptied in 1 minute is \\(\\frac{1}{n}\\).\n\nHere, the time taken to empty the cistern is 30 minutes, so the part of the cistern emptied in 1 minute is \\(\\frac{1}{30}\\). Therefore, option C is correct."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 10,
+        "type": "type-5-combined_pipe_fill_empty-problems",
+        "difficulty": "medium",
+        "question": "Three pipes A, B and C can fill a tank separately in 8 h,10 h and 20h, respectively. Find the time taken by all the three pipes to fill the tank when these pipes are opened together ?",
+        "options": {
+            "A": "57/11 h",
+            "B": "47/11 h",
+            "C": "87/11 h",
+            "D": "37/11 h"
+        },
+        "correct_option": "D",
+        "solution": "Part filled by A in 1 h = 1/8\nPart filled by B in 1 h = 1/10\nPart filled by C in 1 h = 1/20\nPart filled by (A + B + C) in 1 h = 1/8 + 1/10 + 1/20\n= (5 + 4 + 2)/40 = 11/40\n∴ Required time to fill the tank = 40/11 h\n= 37/11 h"
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 11,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "A tap can fill a tank in 16 minutes and another can empty it in 8 minutes. If the tank is already half full and both the taps are opened together, the tank will be ?",
+        "options": {
+            "A": "Filled in 12 min.",
+            "B": "Emptied in 12 min.",
+            "C": "Filled in 8 min.",
+            "D": "Emptied in 8 min."
+        },
+        "correct_option": "D",
+        "solution": "Part emptied in 1 min. = (1/8 - 1/16) = 1/16\n∴ Time taken to empty the full tank = 16 min.\nHence, time taken to empty the half tank = 8 min."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 12,
+        "type": "type-5-combined_pipe_fill_empty-problems",
+        "difficulty": "medium",
+        "question": "A cistern can be filled by two pipes A and B in 4 hours and 6 hours respectively. When full, the tank can be emptied by a third pipe C in 8 hours . If all the taps be turned on at the same time, the cistern will be full in ?",
+        "options": {
+            "A": "3 hours 18 min.",
+            "B": "3 hours 26 min.",
+            "C": "3 hours 42 min.",
+            "D": "3 hours 48 min."
+        },
+        "correct_option": "B",
+        "solution": "Net filling in 1 hour = (1/4 + 1/6 - 1/8) = 7/24\n∴ Time taken to fill the cistern = (24/7) hrs. = 3 hrs. 26 min."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 13,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "One tap can fill a cistern in 2 hours and another can empty the cistern in 3 hours. How long will they take to fill the cistern if both the taps are opened ?",
+        "options": {
+            "A": "5 hours",
+            "B": "6 hours",
+            "C": "7 hours",
+            "D": "8 hours"
+        },
+        "correct_option": "B",
+        "solution": "Net filling in 1 hour = (1/2 - 1/3) = 1/6\n∴ Time taken to fill the cistern = 6 hours"
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 14,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "medium",
+        "question": "A pipe can fill a tank in x hours and another can empty it in y hours. They can together fill it in (y > x) ?",
+        "options": {
+            "A": "(x - y) hours",
+            "B": "(y - x ) hours",
+            "C": "xy / (x - y) hours",
+            "D": "xy / ( y - x) hours"
+        },
+        "correct_option": "D",
+        "solution": "Net filling in 1 hour = (1/x - 1/y) = (y - x) / xy\n∴ Time taken to fill the tank = xy / (y - x) hrs."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 15,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "A tap can fill a tank in 25 minutes and another can empty it in 50 minutes. Find whether the tank will be filled up or emptied and in how many minutes ?",
+        "options": {
+            "A": "Tank is emptied in 20 minutes",
+            "B": "Tank is filled up in 50 minutes",
+            "C": "Tank is filled up in 20 minutes",
+            "D": "Tank is emptied in 25 minutes"
+        },
+        "correct_option": "B",
+        "solution": "T = (25 x 50) / (50 - 25) = + 50 minutes\n+ ve sign shows that tank is filled up in 50 minutes."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 16,
+        "type": "type-3-cistern_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "Pipes A and B can fill a tank in 10 hours and 15 hours respectively. Both together can fill it in ?",
+        "options": {
+            "A": "121/2 hours",
+            "B": "6 hours",
+            "C": "5 hours",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Part filled by A in 1 hour = 1/10\nPart filled by B in 1 hour = 1/15\nPart filled by (A + B) in 1 hour = 1/8 + 1/10 + 1/20\n= (5 + 4 + 2)/40 = 11/40\n∴ Required time to fill the tank = 40/11 h\n= 37/11 h"
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 17,
+        "type": "type-4-inlet_outlet_pipe_fill_empty-problems",
+        "difficulty": "medium",
+        "question": "Three are two taps to fill a tank while a third to empty it. When the third tap is closed, they can fill the tank in 10 minutes and 12 minutes respectively. If all the three taps be opened, the tank is filled in 15 minutes. If the first two taps are closed, in what time can the third tap empty the tank when it is full ?",
+        "options": {
+            "A": "7 min.",
+            "B": "9 min. and 32 sec.",
+            "C": "8 min. and 34 sec.",
+            "D": "6 min."
+        },
+        "correct_option": "C",
+        "solution": "Part emptied by the third pipe in 1 min (1/10 + 1/12) - 1/25 = 7/60\nSo, the full tank will be emptied by third pipe in = (60/7) min. = 8 min. 34 ec."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 18,
+        "type": "type-3-cistern_fill_empty-problems",
+        "difficulty": "easy",
+        "question": "A tap can fill a tank in 25 minutes and another can empty it in 50 minutes. Find whether the tank will be filled up or emptied and in how many minutes ?",
+        "options": {
+            "A": "Tank is emptied in 20 minutes",
+            "B": "Tank is filled up in 50 minutes",
+            "C": "Tank is filled up in 20 minutes",
+            "D": "Tank is emptied in 25 minutes"
+        },
+        "correct_option": "B",
+        "solution": "T = (25 x 50) / (50 - 25) = + 50 minutes\n+ ve sign shows that tank is filled up in 50 minutes."
+    },
+    {
+        "topic": "pipes-and-cistern",
+        "id": 19,
+        "type": "type-2-pipe_fill_empty-problems",
+        "difficulty": "medium",
+        "question": "A pipe can fill a tank in x hours and another can empty it in y hours. They can together fill it in (y > x) ?",
+        "options": {
+            "A": "(x - y) hours",
+            "B": "(y - x ) hours",
+            "C": "xy / (x - y) hours",
+            "D": "xy / ( y - x) hours"
+        },
+        "correct_option": "D",
+        "solution": "Net filling in 1 hour = (1/x - 1/y) = (y - x) / xy\n∴ Time taken to fill the tank = xy / (y - x) hrs."
+    }
+]

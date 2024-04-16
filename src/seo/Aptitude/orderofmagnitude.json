@@ -1,0 +1,242 @@
+[
+    {
+        "topic": "order-of-magnitude",
+        "id": 0,
+        "type": "type-4-least-perfect-square",
+        "difficulty": "easy",
+        "question": "Find the least number which multiplied with 74088 will make it a perfect square?",
+        "options": {
+            "A": "42",
+            "B": "44",
+            "C": "46",
+            "D": "48"
+        },
+        "correct_option": "A",
+        "solution": "To make 74088 a perfect square, we need to find the product of the remaining factors. \n\n74088 = 2 x 2 x 2 x 3 x 3 x 3 x 7 x 7 x 7\n\nTherefore, the least number to be multiplied is 2 x 3 x 7 = 42."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 1,
+        "type": "type-6-difference-between-numbers",
+        "difficulty": "medium",
+        "question": "Find the number whose square is equal to the difference between the square of 75.15 and 60.12.",
+        "options": {
+            "A": "225.9",
+            "B": "67.635",
+            "C": "45.09",
+            "D": "15.03"
+        },
+        "correct_option": "C",
+        "solution": "Let the number be x.\n\nx^2 = (75.15)^2 - (60.12)^2\n\nSolving the equation, we get x = 45.09."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 2,
+        "type": "type-3-square-roots",
+        "difficulty": "easy",
+        "question": "A general wishing to draw up his 16160 soldiers in the form as a solid square, found that he had 31 soldiers left over. Find the number of soldiers in the front.",
+        "options": {
+            "A": "126",
+            "B": "125",
+            "C": "128",
+            "D": "127"
+        },
+        "correct_option": "D",
+        "solution": "Let the number of soldiers in the front be x.\n\nx^2 + 31 = 16160\n\nSolving the equation, we get x = 127."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 3,
+        "type": "type-2-number-properties",
+        "difficulty": "medium",
+        "question": "A certain number of people agree to subscribe as many rupees each as there are subscribers. The whole subscription is Rs. 2582449. Find the number of subscribers.",
+        "options": {
+            "A": "1607",
+            "B": "1291225",
+            "C": "1503",
+            "D": "1603"
+        },
+        "correct_option": "A",
+        "solution": "Let the number of subscribers be x.\n\nx^2 = 2582449\n\nSolving the equation, we get x = 1607."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 4,
+        "type": "type-3-square-roots",
+        "difficulty": "easy",
+        "question": "Each student of class IX contributed some money for a picnic. The money contributed by each student was equal to the cube of the total number of students. If the total collected amount was Rs. 29791, then find the total number of students.",
+        "options": {
+            "A": "30",
+            "B": "31",
+            "C": "33",
+            "D": "40"
+        },
+        "correct_option": "B",
+        "solution": "Total collected amount = Rs. 29791\n\nLet the total number of students be x.\n\nx^3 = 29791\n\nSolving the equation, we get x = 31."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 5,
+        "type": "type-1-algebra",
+        "difficulty": "medium",
+        "question": "If x = \\(\\sqrt{2} + 1)/(\\sqrt{2} - 1\\) and y = \\(\\sqrt{2} - 1)/(\\sqrt{2} + 1\\), then 3 (xy + 1) is equal to?",
+        "options": {
+            "A": "x + y",
+            "B": "x - y",
+            "C": "2 (x + y)",
+            "D": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "Given x = \\(\\sqrt{2} + 1)/(\\sqrt{2} - 1\\) and y = \\(\\sqrt{2} - 1)/(\\sqrt{2} + 1\\)\n\nxy = \\(\\left\\frac{\\sqrt{2} + 1}{\\sqrt{2} - 1}\\right\\) \\(\\cdot \\left\\frac{\\sqrt{2} - 1}{\\sqrt{2} + 1}\\right\\) = 1\n\n3(xy + 1) = 3(1 + 1) = 6\n\nNow, x + y = \\left\\frac{\\sqrt{2} + 1}{\\sqrt{2} - 1}\right) + \\left(\frac{\\sqrt{2} - 1}{\\sqrt{2} + 1}\\right\\) = \\(\\frac{(\\sqrt{2} + 1)^2 \\) + \\(\\sqrt{2} - 1)^2}{(\\sqrt{2} - 1\\)\\(\\sqrt{2} + 1)}\\) = 6\n\nTherefore, 3(xy + 1) = x + y."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 6,
+        "type": "type-1-algebra",
+        "difficulty": "medium",
+        "question": "If x = \\( \\sqrt{3} + \\sqrt{2} \\), then the value of  \\( \\frac{x + 1}{x - 1} - \\frac{x - 1}{x + 1}\\) is?",
+        "options": {
+            "A": "\\( \\sqrt{3} \\) ",
+            "B": "\\( \\sqrt{2} \\)",
+            "C": "\\( \\sqrt{6} \\)",
+            "D": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "\\( \\frac{x + 1}{x - 1} - \\frac{x - 1}{x + 1}\\)  = \\( \\frac{(\\sqrt{3} + \\sqrt{2}) + 1}\\) \\((\\sqrt{3} + \\sqrt{2}) - 1} - \\frac{\\sqrt{3} + \\sqrt{2}) - 1}(\\sqrt{3} + \\sqrt{2}) + 1}\\) \n= \\( \\frac{(\\sqrt{3} + \\sqrt{2})^2 - (\\sqrt{3} - \\sqrt{2})^2}{(\\sqrt{3} - \\sqrt{2})(\\sqrt{3} + \\sqrt{2})}\\) \n= (\\sqrt{3}^2 + 1 + 2\\sqrt{3} \\sqrt{2}) - (\\sqrt{3}^2 + 1 - 2\\sqrt{3} \\sqrt{2}) \\)\n= \\( 4\\sqrt{3} \\sqrt{2} / (\\sqrt{3}^2 - 1)\\) \n= \\( 4(\\sqrt{3} + \\sqrt{2}) / (3 + 2 - 1)\\) \n= \\( 4(\\sqrt{3} + \\sqrt{2}) / (4 + 2 \\sqrt{6})\\)\n= \\(4(\\sqrt{3} + \\sqrt{2}) / (2 \\sqrt{2} (\\sqrt{3} + \\sqrt{2}))\\)\n= \\(\\sqrt{2}\\)"
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 7,
+        "type": "type-3-square-roots",
+        "difficulty": "easy",
+        "question": "Which among \\( \\sqrt[3]{8} \\ and \\ \\sqrt[3]{1000} \\) is greater?",
+        "options": {
+            "A": "\\( \\sqrt[3]{10} \\)",
+            "B": "\\( \\sqrt[3]{8} \\)",
+            "C": "Both are equal",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "\\( \\sqrt[3]{8} \\text{ and } \\sqrt[3]{1000}  = 8^{1/3} \\text{ and } 1000^{1/3}\n \\text{Since } 1000 > 8,\n \\therefore \\sqrt[3]{1000} > \\sqrt[3]{8} \\)"
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 8,
+        "type": "type-3-square-roots",
+        "difficulty": "easy",
+        "question": "Which among \\sqrt{81} and \\sqrt{1} is smaller?",
+        "options": {
+            "A": "\\sqrt{81}",
+            "B": "\\sqrt{1}",
+            "C": "Both are equal",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "\\sqrt{81} \text{ and } \\sqrt{1} = 81^{1/2} \text{ and } 1^{1/2}\n\text{Since } 1 < 81,\n\therefore \\sqrt{1} < \\sqrt{81}"
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 9,
+        "type": "type-4-least-perfect-square",
+        "difficulty": "medium",
+        "question": "If (14)^3 is added to the square of a number, the obtained answer is 4425. What is the number?",
+        "options": {
+            "A": "1849",
+            "B": "43",
+            "C": "41",
+            "D": "1681"
+        },
+        "correct_option": "C",
+        "solution": "Let the number be x.\nAccording to the question,\nx^2 + (14)^3 = 4425\n\\Rightarrow x^2 = 4425 - (14)^3\n\\Rightarrow x^2 = 4425 - 2744\n\\Rightarrow x^2 = 1681\n\\Rightarrow x = \\sqrt{1681} = 41"
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 10,
+        "type": "type-3-square-roots",
+        "difficulty": "medium",
+        "question": "Which among \\( \\sqrt[4]{10} \\ and \\sqrt[3]{8} \\) is greater?",
+        "options": {
+            "A": "\\sqrt[3]{10}",
+            "B": "\\sqrt[3]{8}",
+            "C": "Both are equal",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "\\sqrt[4]{10} \text{ and } \\sqrt[3]{8} = 10^{1/4} \text{ and } 8^{1/3}\n\text{Since LCM of 4 and 3 is 12,}\n\\sqrt[4]{10} = 10^{3/12} = (10^3)^{1/12} = (1000)^{1/12} = 12\\sqrt[12]{1000}\n\text{and } \\sqrt[3]{8} = 8^{4/12} = (8^4)^{1/12} = (4096)^{1/12} = 12\\sqrt[12]{4096}\n\text{Since } 4096 > 1000,\n\text{hence } \\sqrt[3]{8} > \\sqrt[4]{10}"
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 11,
+        "type": "type-4-least-perfect-square",
+        "difficulty": "hard",
+        "question": "The least perfect square which is divisible by each of 21, 36, and 66 is equal to ?",
+        "options": {
+            "A": "213444",
+            "B": "223444",
+            "C": "213442",
+            "D": "223445"
+        },
+        "correct_option": "A",
+        "solution": "To find the least perfect square divisible by 21, 36, and 66, we need to find their least common multiple (LCM). LCM of 21, 36, and 66 is 2772. To make it a perfect square, it must be multiplied by 77 (for 7 and 11). Therefore, the required number is 213444."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 12,
+        "type": "type-4-least-perfect-square",
+        "difficulty": "medium",
+        "question": "In an opera house, there are 7777 chairs to be placed but the organizer of the event arranged all the chair in such a way that these were as many columns as there were rows, so he had to remove minimum n chairs from the total 7777 chairs. The minimum value of n is ?",
+        "options": {
+            "A": "121",
+            "B": "44",
+            "C": "33",
+            "D": "25"
+        },
+        "correct_option": "C",
+        "solution": "To find the minimum value of n, we need to find the largest perfect square that is less than or equal to 7777. By checking the options, we find that 7777 - 33 = 7744, which is a perfect square. Therefore, the minimum value of n is 33."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 13,
+        "type": "type-4-least-perfect-square",
+        "difficulty": "hard",
+        "question": "In a bangle shop, the shopkeeper displays the bangles in the form of a square. Then he is left with 38 bangles with him. If he wants to increase the size of the square by one unit each side, he found that 25 bangles fall short of completing the square. The actual number of bangles which he had with him in the shop was?",
+        "options": {
+            "A": "1690",
+            "B": "999",
+            "C": "538",
+            "D": "Cannot be determined"
+        },
+        "correct_option": "B",
+        "solution": "Let the number of bangles be x. We know that x - 38 is a perfect square and x + 25 is a perfect square. By checking the options, we find that 999 - 38 = 961 is a perfect square, and 999 + 25 = 1024 is a perfect square. Therefore, the actual number of bangles is 999."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 14,
+        "type": "type-6-difference-between-numbers",
+        "difficulty": "medium",
+        "question": "The sum of two numbers, when multiplied with each of the numbers separately, then the results of these multiplications are 2418 and 3666, respectively. Find the difference between the numbers.",
+        "options": {
+            "A": "16",
+            "B": "21",
+            "C": "19",
+            "D": "23"
+        },
+        "correct_option": "A",
+        "solution": "Let the numbers be x and y. We are given that x(x + y) = 2418 and y(x + y) = 3666. By solving these equations, we find that x + y = √6084 = 78 and x - y = -16. Therefore, the difference between the numbers is 16."
+    },
+    {
+        "topic": "order-of-magnitude",
+        "id": 15,
+        "type": "type-3-square-roots",
+        "difficulty": "hard",
+        "question": "One-fourth of a herd of camels was seen in the forest. Twice the square root of the herd had gone to the mountains, and the remaining 15 camels were seen on the bank of a river. Find the total number of camels.",
+        "options": {
+            "A": "32",
+            "B": "34",
+            "C": "35",
+            "D": "36"
+        },
+        "correct_option": "D",
+        "solution": "Let the total number of camels be x. We are given that x/4 + 2√x + 15 = x. By solving this equation, we find that √x = [8 ± √(64 + 720)]/6 = (8 ± 28)/6. By checking the options, we find that x = 36 satisfies the equation. Therefore, the total number of camels is 36."
+    }
+]

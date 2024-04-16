@@ -1,0 +1,147 @@
+
+    {
+        "number-system": {
+            "name": "Number System",
+            "data": "require('../Questions/numbersystem.json')",
+            "storageKey": "numbersystemcompletedQuestions",
+            "pageValue": "number-system"
+        },
+        "ratio-and-proportion": {
+            "name": "Ratio and Proportion",
+            "data": "require('../Questions/ratioandproportion.json')",
+            "storageKey": "ratiocompletedQuestions",
+            "pageValue": "ratio-and-proportion"
+        },
+        "averages": {
+            "name": "Averages",
+            "data": "require('../Questions/averages.json')",
+            "storageKey": "averagescompletedQuestions",
+            "pageValue": "averages"
+        },
+        "calendars": {
+            "name": "Calendars",
+            "data": "require('../Questions/calendars.json')",
+            "storageKey": "calendarscompletedQuestions",
+            "pageValue": "calendars"
+        },
+        "chain-rule": {
+            "name": "Chain Rule",
+            "data": "require('../Questions/chainrule.json')",
+            "storageKey": "chainrulecompletedQuestions",
+            "pageValue": "chain-rule"
+        },
+        "coding-and-decoding": {
+            "name": "Coding and Decoding",
+            "data": "require('../Questions/codinganddecoding.json')",
+            "storageKey": "codinganddecodingcompletedQuestions",
+            "pageValue": "coding-and-decoding"
+        },
+        "hcf-and-lcm": {
+            "name": "HCF and LCM",
+            "data": "require('../Questions/hcfandlcm.json')",
+            "storageKey": "hcfandlcmcompletedQuestions",
+            "pageValue": "hcf-and-lcm"
+        },
+        "order-man-out-series": {
+            "name": "Order Man Out Series",
+            "data": "require('../Questions/oddmanoutseries.json')",
+            "storageKey": "ordermanoutseriescompletedQuestions",
+            "pageValue": "order-man-out-series"
+        },
+        "order-of-magnitude": {
+            "name": "Order of Magnitude",
+            "data": "require('../Questions/orderofmagnitude.json')",
+            "storageKey": "orderofmagnitudecompletedQuestions",
+            "pageValue": "order-of-magnitude"
+        },
+        "problems-on-partnership": {
+            "name": "Order of Magnitude",
+            "data": "require('../Questions/partnership.json')",
+            "storageKey": "partnershipcompletedQuestions",
+            "pageValue": "problems-on-partnership"
+        },
+        "percentage": {
+            "name": "Percentage",
+            "data": "require('../Questions/percentage.json')",
+            "storageKey": "percentagecompletedQuestions",
+            "pageValue": "percentage"
+        },
+        "pipes-and-cistern": {
+            "name": "Pipes and Cistern",
+            "data": "require('../Questions/Pipesandcistern.json')",
+            "storageKey": "pipesandcisterncompletedQuestions",
+            "pageValue": "pipes-and-cistern"
+        },
+        "problems-on-ages": {
+            "name": "Problems on Ages",
+            "data": "require('../Questions/problemsonages.json')",
+            "storageKey": "problemsonagescompletedQuestions",
+            "pageValue": "problems-on-ages"
+        },
+        "problems-on-trains": {
+            "name": "Problems on Trains",
+            "data": "require('../Questions/problemsontrains.json')",
+            "storageKey": "trainscompletedQuestions",
+            "pageValue": "problems-on-trains"
+        },
+        "profit-and-loss": {
+            "name": "Profit and Profit",
+            "data": "require('../Questions/profitandloss.json')",
+            "storageKey": "profitandlosscompletedQuestions",
+            "pageValue": "profit-and-loss"
+        },
+        "quadratic-equations": {
+            "name": "Quadratic Equations",
+            "data": "require('../Questions/quadraticequations.json')",
+            "storageKey": "quadraticcompletedQuestions",
+            "pageValue": "quadratic-equations"
+        },
+        "sets-and-functions": {
+            "name": "Sets and Functions",
+            "data": "require('../Questions/setsandfunctions.json')",
+            "storageKey": "setsandfunctionscompletedQuestions",
+            "pageValue": "sets-and-functions"
+        },
+        "simple-interest": {
+            "name": "Simple Interest",
+            "data": "require('../Questions/simpleinterest.json')",
+            "storageKey": "simpleinterestcompletedQuestions",
+            "pageValue": "simple-interest"
+        },
+        "simplification": {
+            "name": "Simplification",
+            "data": "require('../Questions/simplification.json')",
+            "storageKey": "simplificationcompletedQuestions",
+            "pageValue": "simplification"
+        },
+        "sqaure-roots-and-cube-roots": {
+            "name": "Sqaure Roots and Cube Roots",
+            "data": "require('../Questions/Sqaurerootandcuberoot.json')",
+            "storageKey": "sqaureandcubecompletedQuestions",
+            "pageValue": "sqaure-roots-and-cube-roots"
+        },
+        "surds-and-indices": {
+            "name": "Surds and Indices",
+            "data": "require('../Questions/surdsandindices.json')",
+            "storageKey": "surdsandindicescompletedQuestions",
+            "pageValue": "surds-and-indices"
+        },
+        "time-and-work": {
+            "name": "Time and Work",
+            "data": "require('../Questions/timeandwork.json')",
+            "storageKey": "timeandworkcompletedQuestions",
+            "pageValue": "time-and-work"
+        },
+        "work-and-wages": {
+            "name": "Work and Wages",
+            "data": "require('../Questions/workandwages.json')",
+            "storageKey": "workandwagescompletedQuestions",
+            "pageValue": "work-and-wages"
+        },
+        "boats-and-streams": {
+            "name": "Boats and Streams",
+            "data": "require('../Questions/boatsandstreams.json')",
+            "storageKey": "boatsandstreamscompletedQuestions",
+            "pageValue": "boats-and-streams"
+        }
+    }

@@ -1,0 +1,287 @@
+[
+    {
+        "topic": "ratio-and-proportion",
+        "id": 0,
+        "type": "type-1-proportion",
+        "difficulty": "easy",
+        "question": "A: B: C is in the ratio of 3: 2: 5. How much money will C get out of Rs 1260?",
+        "options": {
+            "A": "252",
+            "B": "125",
+            "C": "503",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "C's share = [C's ratio/ sum of ratios] * total amount\nC's share = (5/10) * 1260\nC's share = 630"
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 1,
+        "type": "type-1-proportion",
+        "difficulty": "easy",
+        "question": "If a: b is 3: 4 and b: c is 2: 5. Find a: b: c.",
+        "options": {
+            "A": "3: 2: 5",
+            "B": "3: 6: 5",
+            "C": "3: 4:10",
+            "D": "2: 3: 4"
+        },
+        "correct_option": "C",
+        "solution": "a: b: c = 3*2: 4*2: 4*5\na: b: c = 6: 8: 20\nSo, a: b: c = 3: 4: 10"
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 2,
+        "type": "type-1-proportion",
+        "difficulty": "easy",
+        "question": "3) A: B is 1: 2; B: C is 3: 2 and C: D is 1:3. Find A: B: C: D.",
+        "options": {
+            "A": "3: 6: 4: 12",
+            "B": "2: 3: 5: 7",
+            "C": "3: 5: 7: 6",
+            "D": "2: 1: 6: 13"
+        },
+        "correct_option": "A",
+        "solution": "ATQ, A: B = 1: 2 (i), B: C = 3: 2 (ii), C: D = 1: 3 (iii).\n\nA: B: C: D\n= 1: 2: 2: 2 (by making the right-hand side numbers same as the last given number, i.e., 2)\n= 3: 3: 2: 2 (by substituting B: C value from equation (ii))\n= 1: 1: 1: 3 (by substituting C: D value from equation (iii))\n\nMultiplying vertically, we get A: B: C: D = 3: 6: 4: 12."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 3,
+        "type": "type-1-proportion",
+        "difficulty": "easy",
+        "question": "5600 is to be divided into A, B, C, and D in such a way that the ratio of share of A: B is 1: 2, B: C is 3: 1, and C: D is 2: 3. Find the sum of (A and C) and (B and C).",
+        "options": {
+            "A": "Rs 2400, Rs 3000",
+            "B": "Rs 2000, Rs 3000",
+            "C": "Rs 2400, Rs 3200",
+            "D": "Rs 2000, Rs 3200"
+        },
+        "correct_option": "C",
+        "solution": "ATQ, A:B = 1:2, B:C = 3:1, and C:D = 2:3\n\nLet us find the ratio of A:B:C:D:\n\nA:B = 1:2\nB:C = 3:1\nC:D = 2:3\n\nMultiplying A:B with B:C with C:D, we get:\n\nA:B:C:D = 1x3x2 : 2x3x1 : 2x1x2 : 2x1x3\n = 6:12:4:6\n = 3:6:2:3\n\nTherefore, the share of A = (3/14) x 5600 = Rs 1200\nThe share of B = (6/14) x 5600 = Rs 2400\nThe share of C = (2/14) x 5600 = Rs 800\nThe share of D = (3/14) x 5600 = Rs 1200\n\nThe sum of A and C is (1200 + 800) = Rs 2000\nThe sum of B and C is (2400 + 800) = Rs 3200\n\nHence, the answer is option (C) Rs 2400, Rs 3200."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 4,
+        "type": "type-1-proportion",
+        "difficulty": "easy",
+        "question": "The ratio of the total amount distributed in all the males and females as salary is 6: 5. The ratio of the salary of each male and female is 2: 3. Find the ratio of the no. of males and females.",
+        "options": {
+            "A": "5:9",
+            "B": "5:7",
+            "C": "7:5",
+            "D": "9:5"
+        },
+        "correct_option": "D",
+        "solution": "The total salary of males: the total salary of females = 6:5\nThe salary of each male: salary of each female = 2:3\n\nTo find the number of men and women, divide the total salary of males and females by salary of each male and female.\ni.e., 6/2: 5/3\nOr, 18:10 = 9:5\nSo, the ratio of the number of males and females = 9:5"
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 5,
+        "type": "type-1-proportion",
+        "difficulty": "easy",
+        "question": "The number of employees is reduced in the ratio 3: 2 and the salary of each employee is increased in the ratio 4: 5. By doing so, the company saves Rs. 12000. What was the initial expenditure on the salary?",
+        "options": {
+            "A": "Rs 30000",
+            "B": "Rs 25000",
+            "C": "Rs 36000",
+            "D": "Rs 42000"
+        },
+        "correct_option": "A",
+        "solution": "Let the initial number of employees be 3x and initial salary per employee be 4y.\n\nAfter the reduction, the number of employees becomes 2x and the increased salary per employee becomes 5y.\n\nInitial expenditure = Initial number of employees * Initial salary per employee = (3x) * (4y) = 12xy\n\nFinal expenditure = Final number of employees * Final salary per employee = (2x) * (5y) = 10xy\n\nThe company saves = Initial expenditure - Final expenditure = 12xy - 10xy = 2xy\n\nGiven that the company saves Rs. 12000, so 2xy = 12000\n\nTherefore, xy = 6000\n\nInitial expenditure = 12xy = 12 * 6000 = Rs 30000"
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 6,
+        "type": "type-2-percentage",
+        "difficulty": "easy",
+        "question": "If the price of a shirt is increased by 20%, by what percentage should the reduced price be increased to bring it back to the original price?",
+        "options": {
+            "A": "16%",
+            "B": "15%",
+            "C": "18%",
+            "D": "20%"
+        },
+        "correct_option": "A",
+        "solution": "Let the original price of the shirt be Rs. 100.\n\nAfter a 20% increase, the new price = 100 + (20% of 100) = 100 + 20 = Rs. 120.\n\nTo bring the reduced price back to the original price (Rs. 100), it should be increased by:\n\nPercentage increase = [(New Price - Original Price) / Original Price] * 100\nPercentage increase = [(120 - 100) / 100] * 100 = (20/100) * 100 = 20%\n\nTherefore, the reduced price should be increased by 20% to bring it back to the original price."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 7,
+        "type": "type-2-percentage",
+        "difficulty": "easy",
+        "question": "In an election between two candidates, one got 65% of the total valid votes. By what percentage did the winning candidate defeat the other candidate?",
+        "options": {
+            "A": "15%",
+            "B": "30%",
+            "C": "35%",
+            "D": "65%"
+        },
+        "correct_option": "D",
+        "solution": "Let's assume the total valid votes to be 100 for simplicity.\n\nThe winning candidate got 65% of the total valid votes, which is 65 votes.\n\nThe other candidate got the remaining votes, which is 100 - 65 = 35 votes.\n\nThe winning candidate defeated the other candidate by:\n\nPercentage of victory = [(Number of votes received by the winning candidate - Number of votes received by the other candidate) / Total valid votes] * 100\nPercentage of victory = [(65 - 35) / 100] * 100 = (30/100) * 100 = 30%\n\nTherefore, the winning candidate defeated the other candidate by 30%."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 8,
+        "type": "type-2-percentage",
+        "difficulty": "easy",
+        "question": "In an examination, 80% of the students passed and 45 students failed. Find the total number of students who appeared for the examination.",
+        "options": {
+            "A": "160",
+            "B": "200",
+            "C": "225",
+            "D": "250"
+        },
+        "correct_option": "C",
+        "solution": "Let the total number of students who appeared for the examination be x.\n\n80% of the students passed the examination, so the number of students who passed = 80% of x = (80/100) * x = 0.8x.\n\n45 students failed the examination, so the number of students who failed = 45.\n\nTotal number of students = Number of students who passed + Number of students who failed\nx = 0.8x + 45\n\nSolving for x:\n0.2x = 45\nx = 45 / 0.2 = 225\n\nTherefore, the total number of students who appeared for the examination is 225."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 9,
+        "type": "type-2-percentage",
+        "difficulty": "easy",
+        "question": "In a sale, the price of a watch is reduced by 25%. By what percentage should the reduced price be increased to bring it back to the original price?",
+        "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "30%",
+            "D": "33.33%"
+        },
+        "correct_option": "C",
+        "solution": "Let the original price of the watch be Rs. 100.\n\nA 25% reduction in price means the new price = 100 - (25% of 100) = 100 - 25 = Rs. 75.\n\nTo bring the reduced price back to the original price (Rs. 100), it should be increased by:\n\nPercentage increase = [(New Price - Original Price) / Original Price] * 100\nPercentage increase = [(75 - 100) / 100] * 100 = (-25/100) * 100 = -25%\n\nThe percentage increase is negative because the price needs to be increased to reach the original price.\n\nTherefore, the reduced price should be increased by 30% to bring it back to the original price."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 10,
+        "type": "type-2-percentage",
+        "difficulty": "easy",
+        "question": "The population of a town increased by 10% in the first year and by 20% in the second year. If the current population is 7920, find the initial population.",
+        "options": {
+            "A": "6400",
+            "B": "7200",
+            "C": "7500",
+            "D": "8000"
+        },
+        "correct_option": "B",
+        "solution": "Let the initial population of the town be x.\n\nIn the first year, the population increased by 10%, so the new population = x + (10% of x) = x + 0.1x = 1.1x.\n\nIn the second year, the population increased by 20%, so the new population = 1.1x + (20% of 1.1x) = 1.1x + 0.22x = 1.32x.\n\nGiven that the current population is 7920, we have:\n1.32x = 7920\n\nSolving for x:\nx = 7920 / 1.32 = 6000.\n\nTherefore, the initial population of the town was 6000."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 11,
+        "type": "type-3-interest",
+        "difficulty": "easy",
+        "question": "Ram borrows Rs. 10,000 from a bank at an annual interest rate of 8% for 3 years. Calculate the simple interest he needs to pay after 3 years.",
+        "options": {
+            "A": "Rs. 2400",
+            "B": "Rs. 3000",
+            "C": "Rs. 3200",
+            "D": "Rs. 3600"
+        },
+        "correct_option": "C",
+        "solution": "Simple interest (SI) can be calculated using the formula: SI = (Principal * Rate * Time) / 100\n\nGiven, Principal (P) = Rs. 10,000, Rate (R) = 8%, Time (T) = 3 years.\n\nSI = (10,000 * 8 * 3) / 100 = 2,400\n\nTherefore, Ram needs to pay Rs. 2,400 as simple interest after 3 years."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 12,
+        "type": "type-3-interest",
+        "difficulty": "easy",
+        "question": "A sum of Rs. 5,000 is invested in a fixed deposit for 2 years at an annual interest rate of 7%. Find the compound interest earned at the end of 2 years (rounded to the nearest rupee).",
+        "options": {
+            "A": "Rs. 710",
+            "B": "Rs. 780",
+            "C": "Rs. 800",
+            "D": "Rs. 825"
+        },
+        "correct_option": "C",
+        "solution": "Compound interest (CI) can be calculated using the formula: A = P(1 + r/n)^(nt) - P\nwhere A is the amount after t years, P is the principal amount, r is the annual interest rate, n is the number of times the interest is compounded per year, and t is the time in years.\n\nGiven, Principal (P) = Rs. 5,000, Rate (r) = 7%, Time (t) = 2 years, and let's assume the interest is compounded annually, so n = 1.\n\nA = 5,000(1 + 0.07/1)^(1*2) - 5,000\nA = 5,000(1.07)^2 - 5,000\nA = 5,000(1.1449) - 5,000\nA = 5,724.5 - 5,000\nA = Rs. 724.5\n\nCompound Interest (CI) = A - P = 724.5 - 5,000 = Rs. 724.5\n\nRounded to the nearest rupee, the compound interest earned is Rs. 800."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 13,
+        "type": "type-3-interest",
+        "difficulty": "easy",
+        "question": "A credit card company charges an annual interest rate of 18% on outstanding dues. If Rina has an outstanding due of Rs. 15,000 at the end of the year, calculate the interest amount she needs to pay.",
+        "options": {
+            "A": "Rs. 1,500",
+            "B": "Rs. 2,200",
+            "C": "Rs. 2,700",
+            "D": "Rs. 2,800"
+        },
+        "correct_option": "C",
+        "solution": "Interest can be calculated using the formula: Interest = (Principal * Rate) / 100\n\nGiven, Principal (P) = Rs. 15,000, Rate (R) = 18%\n\nInterest = (15,000 * 18) / 100 = 2,700\n\nTherefore, Rina needs to pay Rs. 2,700 as interest on the outstanding dues."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 14,
+        "type": "type-4-problem-solving",
+        "difficulty": "easy",
+        "question": "A box contains 15 red balls, 10 green balls, and 5 blue balls. If a ball is drawn randomly from the box, what is the probability of getting a red ball?",
+        "options": {
+            "A": "1/3",
+            "B": "1/2",
+            "C": "3/7",
+            "D": "1/4"
+        },
+        "correct_option": "C",
+        "solution": "The probability of an event can be calculated using the formula: Probability = (Number of favorable outcomes) / (Total number of possible outcomes)\n\nIn the box, there are 15 red balls, 10 green balls, and 5 blue balls. The total number of balls is 15 + 10 + 5 = 30.\n\nThe number of favorable outcomes (getting a red ball) is 15.\n\nProbability = 15 / 30 = 1 / 2. Therefore, the probability of getting a red ball is 1/2."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 15,
+        "type": "type-4-problem-solving",
+        "difficulty": "easy",
+        "question": "A bag contains 8 red marbles, 5 blue marbles, and 3 green marbles. If two marbles are drawn from the bag without replacement, what is the probability of getting both red marbles?",
+        "options": {
+            "A": "1/16",
+            "B": "1/8",
+            "C": "7/80",
+            "D": "1/5"
+        },
+        "correct_option": "C",
+        "solution": "The probability of two independent events occurring together can be calculated by multiplying the probabilities of each event separately.\n\nIn the bag, there are 8 red marbles, 5 blue marbles, and 3 green marbles. The total number of marbles is 8 + 5 + 3 = 16.\n\nFor the first draw, the probability of getting a red marble is 8 / 16.\n\nAfter one red marble is drawn, there are 7 red marbles left in the bag (since we are drawing without replacement).\n\nFor the second draw, the probability of getting another red marble is 7 / 15 (total marbles reduced by 1 after the first draw).\n\nProbability of both events (drawing two red marbles) = (8/16) * (7/15) = 56 / 240 = 7 / 30. Therefore, the probability of getting both red marbles is 7/30."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 16,
+        "type": "type-4-problem-solving",
+        "difficulty": "medium",
+        "question": "The length of a rectangle is 3 times its breadth. If the perimeter of the rectangle is 32 cm, find the area of the rectangle.",
+        "options": {
+            "A": "36 cm^2",
+            "B": "48 cm^2",
+            "C": "64 cm^2",
+            "D": "72 cm^2"
+        },
+        "correct_option": "D",
+        "solution": "Let the breadth of the rectangle be x cm.\nThen, the length of the rectangle = 3x cm.\n\nThe perimeter of the rectangle is given by the formula: Perimeter = 2 * (Length + Breadth)\n\nGiven, Perimeter = 32 cm.\n\nSubstitute the values:\n32 = 2 * (3x + x)\n32 = 2 * 4x\n32 = 8x\n\nNow, solve for x:\nx = 32 / 8 = 4 cm.\n\nThe length of the rectangle = 3 * 4 = 12 cm.\n\nArea of the rectangle = Length * Breadth = 12 * 4 = 48 cm^2."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 17,
+        "type": "type-4-problem-solving",
+        "difficulty": "medium",
+        "question": "A train travels a distance of 360 km at a constant speed. If the speed of the train is 90 km/h for the first 240 km and 120 km/h for the remaining distance, find the total time taken for the journey.",
+        "options": {
+            "A": "3 hours",
+            "B": "4 hours",
+            "C": "5 hours",
+            "D": "6 hours"
+        },
+        "correct_option": "B",
+        "solution": "To find the total time taken for the journey, we need to calculate the time taken for each segment of the journey and then add them up.\n\nTime = Distance / Speed\n\nFor the first 240 km:\nTime = 240 km / 90 km/h = 8/3 hours\n\nFor the remaining distance (360 km - 240 km = 120 km):\nTime = 120 km / 120 km/h = 1 hour\n\nTotal time = (8/3) hours + 1 hour = 11/3 hours\n\nConverting to hours and minutes:\nTotal time = 3 hours and 40 minutes.\n\nTherefore, the total time taken for the journey is 3 hours and 40 minutes."
+    },
+    {
+        "topic": "ratio-and-proportion",
+        "id": 18,
+        "type": "type-4-problem-solving",
+        "difficulty": "medium",
+        "question": "A cylindrical water tank has a radius of 7 meters and a height of 10 meters. If the tank is filled with water to a height of 8 meters, what is the volume of water in the tank? (Use π = 3.14)",
+        "options": {
+            "A": "431.2 cubic meters",
+            "B": "862.4 cubic meters",
+            "C": "1232.0 cubic meters",
+            "D": "1752.8 cubic meters"
+        },
+        "correct_option": "C",
+        "solution": "The volume of a cylinder can be calculated using the formula: Volume = π * (radius^2) * height\n\nGiven, radius = 7 meters, height (total height of the tank) = 10 meters, height of water = 8 meters.\n\nVolume of water in the tank = π * (7^2) * 8 = 3.14 * 49 * 8 = 1232.0 cubic meters.\n\nTherefore, the volume of water in the tank is 1232.0 cubic meters."
+    }
+]

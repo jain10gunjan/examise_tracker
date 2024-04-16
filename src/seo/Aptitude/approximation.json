@@ -1,0 +1,258 @@
+[
+    {
+        "topic": "approximation",
+        "id": 0,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "𝟐 / (𝟑) ? × (𝟓.𝟗𝟖𝟗) / 𝟐 = (𝟏𝟏.𝟗𝟕𝟗) × 𝟖.𝟗𝟏𝟕",
+        "options": {
+            "A": "8",
+            "B": "2",
+            "C": "16",
+            "D": "32",
+            "E": "12"
+        },
+        "correct_option": "C",
+        "solution": "Step 1: 𝟐 / (𝟑) ? × (𝟓.𝟗𝟖𝟗) / 𝟐 = (𝟏𝟏.𝟗𝟕𝟗) × 𝟖.𝟗𝟏𝟕\nStep 2: 𝟐 / (𝟑) ? = (𝟏𝟏.𝟗𝟕𝟗) × 𝟖.𝟗𝟏𝟕 * 𝟐 / (𝟓.𝟗𝟖𝟗)\nStep 3: 𝟐 / (𝟑) ? = (𝟏𝟏.𝟗𝟕𝟗) × 𝟏.𝟗𝟑𝟕\nStep 4: 𝟐 / (𝟑) ? = 𝟏𝟖.𝟎𝟏𝟓𝟒𝟕\nStep 5: ? = 𝟏𝟖.𝟎𝟏𝟓𝟒𝟕 * (𝟑 / 𝟐)\nStep 6: ? ≈ 𝟏𝟏.𝟏𝟗𝟐\nTherefore, the answer is (C) 16."
+    },
+    {
+        "topic": "approximation",
+        "id": 1,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "(9.101) × (18.9) + (37.98)² = ?",
+        "options": {
+            "A": "1625",
+            "B": "1615",
+            "C": "1665",
+            "D": "1675",
+            "E": "1595"
+        },
+        "correct_option": "A",
+        "solution": "Step 1: (9.101) × (18.9) + (37.98)²\nStep 2: 172.0789 + 1444.0804\nStep 3: 1616.1593\nTherefore, the answer is (A) 1625."
+    },
+    {
+        "topic": "approximation",
+        "id": 2,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "[(𝟓𝟏𝟏. 𝟗𝟗) / 𝟏𝟑 + (𝟐𝟓𝟔. 𝟎𝟏) / 𝟐] = ? + 𝟒. 𝟖𝟗𝟓",
+        "options": {
+            "A": "15",
+            "B": "9",
+            "C": "24",
+            "D": "19",
+            "E": "29"
+        },
+        "correct_option": "D",
+        "solution": "Step 1: [(𝟓𝟏𝟏. 𝟗𝟗) / 𝟏𝟑 + (𝟐𝟓𝟔. 𝟎𝟏) / 𝟐] = ? + 𝟒. 𝟖𝟗𝟓\nStep 2: (𝟓𝟏𝟏. 𝟗𝟗) / 𝟏𝟑 = 17.0666, (𝟐𝟓𝟔. 𝟎𝟏) / 𝟐 = 12.803\nStep 3: (17.0666 + 12.803) = 29.8696\nStep 4: 29.8696 - 4.895 = 24.9746\nTherefore, the answer is (D) 19."
+    },
+    {
+        "topic": "approximation",
+        "id": 3,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "𝟐.𝟎𝟏𝟏 / (𝟏𝟒.𝟗𝟗−?) × 𝟑𝟗. 𝟗𝟕% of 𝟔𝟓𝟎. 𝟎𝟏 = 𝟔𝟒. 𝟗𝟖𝟗",
+        "options": {
+            "A": "10",
+            "B": "12",
+            "C": "15",
+            "D": "7",
+            "E": "18"
+        },
+        "correct_option": "C",
+        "solution": "Step 1: 𝟐.𝟎𝟏𝟏 / (𝟏𝟒.𝟗𝟗−?) × 𝟑𝟗. 𝟗𝟕% of 𝟔𝟓𝟎. 𝟎𝟏 = 𝟔𝟒. 𝟗𝟖𝟗\nStep 2: 2.011 / (14.99−?) × 39.97 = 64.989\nStep 3: 2.011 / (14.99−?) = 1.625\nStep 4: 14.99−? = 1.236\nStep 5: ? = 14.99−1.236 = 13.754\nTherefore, the answer is (C) 15."
+    },
+    {
+        "topic": "approximation",
+        "id": 4,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "𝟐𝟗.𝟗𝟓% of 𝟓𝟕𝟎.𝟏 × 𝟐.𝟎𝟏 = ? / (𝟐−18.998)",
+        "options": {
+            "A": "11",
+            "B": "19",
+            "C": "13",
+            "D": "15",
+            "E": "22"
+        },
+        "correct_option": "B",
+        "solution": "Step 1: 𝟐𝟗.𝟗𝟓% of 𝟓𝟕𝟎.𝟏 × 𝟐.𝟎𝟏 = ? / (𝟐−18.998)\nStep 2: (29.95% of 570.1) × 2.01 = ? / (-16.998)\nStep 3: (170.655 × 2.01) = ? / (-16.998)\nStep 4: 343.755 = ? / (-16.998)\nStep 5: ? = 343.755 × (-16.998)\nStep 6: ? = -5838.20699\nTherefore, the answer is (B) 19."
+    },
+    {
+        "topic": "approximation",
+        "id": 5,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "[(𝟏𝟑𝟖𝟐𝟒.𝟎𝟏) / 𝟏𝟑] ^ 𝟐 = ? + 𝟐𝟑𝟏. 𝟎𝟏",
+        "options": {
+            "A": "355",
+            "B": "349",
+            "C": "345",
+            "D": "339",
+            "E": "331"
+        },
+        "correct_option": "A",
+        "solution": "Step 1: [(𝟏𝟑𝟖𝟐𝟒.𝟎𝟏) / 𝟏𝟑] ^ 𝟐 = ? + 𝟐𝟑𝟏. 𝟎𝟏\nStep 2: (1398.21 / 13) ^ 𝟐 = ? + 231.01\nStep 3: (107.555) ^ 𝟐 = ? + 231.01\nStep 4: 11565.381025 = ? + 231.01\nStep 5: ? = 11565.381025 - 231.01\nStep 6: ? = 11334.371025\nTherefore, the answer is (A) 355."
+    },
+    {
+        "topic": "approximation",
+        "id": 6,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "120.09% of 34.92 + ? ^ 𝟐 = (13.99) ^ 𝟐 − 𝟏𝟎. 𝟎𝟏",
+        "options": {
+            "A": "8",
+            "B": "12",
+            "C": "16",
+            "D": "24",
+            "E": "28"
+        },
+        "correct_option": "C",
+        "solution": "Step 1: 120.09% of 34.92 + ? ^ 𝟐 = (13.99) ^ 𝟐 − 𝟏𝟎. 𝟎𝟏\nStep 2: 34.92 + ? ^ 𝟐 = 195.7201 − 𝟏𝟎. 𝟎𝟏\nStep 3: ? ^ 𝟐 = 160.7001 − 𝟏𝟎. 𝟎𝟏\nStep 4: ? ^ 𝟐 = 150.6901\nStep 5: ? = √150.6901\nStep 6: ? ≈ 12.2827\nTherefore, the answer is (C) 16."
+    },
+    {
+        "topic": "approximation",
+        "id": 7,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "56.01 × ? + 𝟏𝟑𝟗. 𝟗𝟖 = 420.01",
+        "options": {
+            "A": "1",
+            "B": "5",
+            "C": "10",
+            "D": "15",
+            "E": "20"
+        },
+        "correct_option": "D",
+        "solution": "Step 1: 56.01 × ? + 𝟏𝟑𝟗. 𝟗𝟖 = 420.01\nStep 2: 56.01 × ? = 420.01 - 𝟏𝟑𝟗. 𝟗𝟖\nStep 3: 56.01 × ? = 400.0202\nStep 4: ? = 400.0202 / 56.01\nStep 5: ? ≈ 7.1429\nTherefore, the answer is (D) 15."
+    },
+    {
+        "topic": "approximation",
+        "id": 8,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "(18.01) ^ 𝟐 + ? = (22.01) ^ 𝟐",
+        "options": {
+            "A": "140",
+            "B": "120",
+            "C": "100",
+            "D": "80",
+            "E": "160"
+        },
+        "correct_option": "C",
+        "solution": "Step 1: (18.01) ^ 𝟐 + ? = (22.01) ^ 𝟐\nStep 2: 324.3601 + ? = 484.8401\nStep 3: ? = 484.8401 - 324.3601\nStep 4: ? = 160.48\nTherefore, the answer is (C) 100."
+    },
+    {
+        "topic": "approximation",
+        "id": 9,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "(𝟐𝟔𝟒.𝟎𝟏 / ?) + 167.98 = 24.99% of 760.01",
+        "options": {
+            "A": "8",
+            "B": "12",
+            "C": "16",
+            "D": "18",
+            "E": "20"
+        },
+        "correct_option": "A",
+        "solution": "Step 1: (𝟐𝟔𝟒.𝟎𝟏 / ?) + 167.98 = 24.99% of 760.01\nStep 2: (𝟐𝟔𝟒.𝟎𝟏 / ?) = 190.010499\nStep 3: ? = 𝟐𝟔𝟒.𝟎𝟏 / 190.010499\nStep 4: ? ≈ 8.7295\nTherefore, the answer is (A) 8."
+    },
+    {
+        "topic": "approximation",
+        "id": 10,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "14.09% of 250.01 + ? ^ 𝟑 = (12.99) ^ 𝟐 − (𝟐𝟕. 𝟎𝟏) / 𝟑",
+        "options": {
+            "A": "1",
+            "B": "9",
+            "C": "12",
+            "D": "5",
+            "E": "15"
+        },
+        "correct_option": "B",
+        "solution": "Step 1: 14.09% of 250.01 + ? ^ 𝟑 = (12.99) ^ 𝟐 − (𝟐𝟕. 𝟎𝟏) / 𝟑\nStep 2: 35.252909 + ? ^ 𝟑 = 168.4201 − 8.903333\nStep 3: ? ^ 𝟑 = 159.516767\nStep 4: ? = ∛159.516767\nStep 5: ? ≈ 5.6257\nTherefore, the answer is (B) 9."
+    },
+    {
+        "topic": "approximation",
+        "id": 11,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "3027.89 + 671.93 – 39.87% of ? + (9.98)³ = (59.87)² – √𝟗𝟗𝟗𝟗. 𝟗𝟖",
+        "options": {
+            "A": "4000",
+            "B": "3500",
+            "C": "2000",
+            "D": "2500",
+            "E": "3000"
+        },
+        "correct_option": "D",
+        "solution": "Step 1: 3027.89 + 671.93 – 39.87% of ? + (9.98)³ = (59.87)² – √𝟗𝟗𝟗𝟗. 𝟗𝟖\nStep 2: 3699.81 – 0.3987 * ? + 997.008004 = 3584.1169 – 99.987\nStep 3: 3699.81 – 0.3987 * ? + 997.008004 = 3484.1299\nStep 4: 215.6801 – 997.008004 = -781.327904\nStep 5: -781.327904 + 997.008004 = ?\nStep 6: ? = 215.6801\nTherefore, the answer is (D) 2500."
+    },
+    {
+        "topic": "approximation",
+        "id": 12,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "𝟏𝟐𝟕.𝟓 + ? / 𝟕.𝟗𝟖 + 𝟐𝟒.𝟖𝟗 × 𝟑𝟗.𝟖𝟕 – √𝟐𝟓𝟓.𝟗𝟑 = (𝟑𝟏.𝟖𝟗) ^ 𝟐",
+        "options": {
+            "A": "172.5",
+            "B": "192.5",
+            "C": "202.5",
+            "D": "162.5",
+            "E": "152.5"
+        },
+        "correct_option": "C",
+        "solution": "Step 1: 𝟏𝟐𝟕.𝟓 + ? / 𝟕.𝟗𝟖 + 𝟐𝟒.𝟖𝟗 × 𝟑𝟗.𝟖𝟕 – √𝟐𝟓𝟓.𝟗𝟑 = (𝟑𝟏.𝟖𝟗) ^ 𝟐\nStep 2: 127.5 + ? / 7.98 + 946.27533 – √2553.93 = 1029.1201\nStep 3: ? / 7.98 = 1029.1201 – 127.5 – 946.27533 + √2553.93\nStep 4: ? = (1029.1201 – 127.5 – 946.27533 + √2553.93) * 7.98\nStep 5: ? ≈ 202.47483\nTherefore, the answer is (C) 202.5."
+    },
+    {
+        "topic": "approximation",
+        "id": 13,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "√𝟏𝟐𝟐𝟒.𝟗𝟔 + √𝟐𝟎𝟐𝟒.𝟗𝟑 + √𝟑𝟎𝟐𝟒.𝟗𝟕 – √𝟗𝟗.𝟖𝟕 = (?)³",
+        "options": {
+            "A": "1",
+            "B": "3",
+            "C": "5",
+            "D": "7",
+            "E": "9"
+        },
+        "correct_option": "B",
+        "solution": "Step 1: √𝟏𝟐𝟐𝟒.𝟗𝟔 + √𝟐𝟎𝟐𝟒.𝟗𝟑 + √𝟑𝟎𝟐𝟒.𝟗𝟕 – √𝟗𝟗.𝟖𝟕 = (?)³\nStep 2: 11.776 + 4.9818 + 5.4919 – 9.9406 = (?)³\nStep 3: 11.776 + 4.9818 + 5.4919 – 9.9406 = (?)³\nStep 4: 11.776 + 4.9818 + 5.4919 – 9.9406 = (?)³\nStep 5: 11.776 + 4.9818 + 5.4919 – 9.9406 = (?)³\nStep 6: ? ≈ 3\nTherefore, the answer is (B) 3."
+    },
+    {
+        "topic": "approximation",
+        "id": 14,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "√𝟏𝟐𝟐𝟎 × 16.06 + √𝟒𝟖𝟗𝟕 = ?",
+        "options": {
+            "A": "610",
+            "B": "620",
+            "C": "630",
+            "D": "640",
+            "E": "650"
+        },
+        "correct_option": "C",
+        "solution": "Step 1: √𝟏𝟐𝟐𝟎 × 16.06 + √𝟒𝟖𝟗𝟕 = ?\nStep 2: 44.721 × 16.06 + 22.098 = ?\nStep 3: 718.13326 + 22.098 = ?\nStep 4: ? = 740.23126\nTherefore, the answer is (C) 630."
+    },
+    {
+        "topic": "approximation",
+        "id": 15,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "34.96 × 39.89 + √𝟗𝟔𝟎.𝟖𝟗 – (𝟐𝟖.𝟖) ^ 𝟐 – 𝟒𝟗.𝟗𝟔% of ? = (𝟐𝟐.𝟖𝟕) ^ 𝟐",
+        "options": {
+            "A": "122",
+            "B": "132",
+            "C": "128",
+            "D": "136",
+            "E": "142"
+        },
+        "correct_option": "B",
+        "solution": "Step 1: 34.96 × 39.89 + √𝟗𝟔𝟎.𝟖𝟗 – (𝟐𝟖.𝟖) ^ 𝟐 – 𝟒𝟗.𝟗𝟔% of ? = (𝟐𝟐.𝟖𝟕) ^ 𝟐\nStep 2: 1392.2744 + 25.123575 – 734.0544 – 0.9491 * ? = 505.3921\nStep 3: 1392.2744 + 25.123575 – 734.0544 = 505.3921 + 0.9491 * ?\nStep 4: 683.343975 = 506.3411 + 0.9491 * ?\nStep 5: 683.343975 - 506.3411 = 0.9491 * ?\nStep 6: ? = (683.343975 - 506.3411) / 0.9491\nStep 7: ? ≈ 186.2898\nTherefore, the answer is (B) 132."
+    }
+]

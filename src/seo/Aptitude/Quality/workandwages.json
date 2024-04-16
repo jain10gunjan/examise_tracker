@@ -1,0 +1,172 @@
+[
+    {
+        "question": "Shantanu can do a piece of work in 12 days and Manu can do the same work in 10 days. If they work together, in what ratio Shantanu and Manu will receive their wages?",
+        "options": {
+            "A": "5 : 6",
+            "B": "3 : 2",
+            "C": "1 : 6",
+            "D": "5 : 7",
+            "E": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "Shantanu's 1 day's work = 1/12\nManu's 1 day's work = 1/10\nShantanu's share : Manu's share = (1/12) : (1/10) = (5/60) : (6/60) = 5 : 6"
+    },
+    {
+        "question": "A can do a piece of work in 9 days and B can do the same work in 15 days. if they work together, in what ratio A and B will receive their wages?",
+        "options": {
+            "A": "3 : 5",
+            "B": "5 : 3",
+            "C": "2 : 5",
+            "D": "5 : 2",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "A's 1 day's work = 1/9\nB's 1 day's work = 1/15\nA's share : B's share = (1/9) : (1/15) = (5/45) : (3/45) = 5 : 3"
+    },
+    {
+        "question": "A alone can do a piece of work in 8 days while B alone can do it in 10 days. If they together complete this work and get ₹ 900 as their remuneration, then find the share of both the persons.",
+        "options": {
+            "A": "A = ₹ 800 and B = ₹ 100",
+            "B": "A = ₹ 500 and B = ₹ 400",
+            "C": "A = ₹ 600 and B = ₹ 300",
+            "D": "A = ₹ 300 and B = ₹ 600",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "A's 1 day's work = 1/8\nB's 1 day's work = 1/10\n∴ A's share : B's share = 1/8 : 1/10 = 5/40 : 4/40 = 5 : 4\nLet A's share = 5k and B's share = 4k.\nAccording to the question, 5k + 4k = 900 ⇒ 9k = 900 ∴ k = 100\n∴ A's share = 5k = 5 x 100 = ₹ 500\nand B's share = 4k = 4 x 100 = ₹ 400."
+    },
+    {
+        "question": "A alone can do a piece of work in 3 days, while B alone can do the same work in 2 days. If they work together to complete the work, their total wages is fixed ₹ 225. Find the share of A.",
+        "options": {
+            "A": "₹ 90",
+            "B": "₹ 75",
+            "C": "₹ 95",
+            "D": "₹ 65",
+            "E": "None of the Above"
+        },
+        "correct_option": "A",
+        "solution": "A's 1 day's work = 1/3\nB's 1 day's work = 1/2\nA's share : B's share = 1/3 : 1/2 = 2/6 : 3/6 = 2 : 3\nShare of A = (2/5) x 225 = ₹ 90"
+    },
+    {
+        "question": "P, Q and R enter into a contract for a piece of the work for ₹ 1100. P and Q together are supposed to do 7/22 of the work. How much does R get?",
+        "options": {
+            "A": "₹ 750",
+            "B": "₹ 350",
+            "C": "₹ 475",
+            "D": "₹ 900",
+            "E": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "Work done by (P + Q) = 7/22\nWork done by R = 1 - (7/ 22) = (22-7)/22 = 15/22\n∴ (P + Q)'s share : R's share = (7/22) : (15/22) = 7 : 15\nR's share = (15/22) x 1100 = 15 x 50 = ₹ 750"
+    },
+    {
+        "question": "A can complete a piece of work in 10 days, while B alone can complete it in 15 days. They work together for 5 days and rest of the work is done by C in 2 days. If they receive $450 for the whole work, how should they divide the money?",
+        "options": {
+            "A": "$250, $100, $100",
+            "B": "$225, $150, $75",
+            "C": "$200, $150, $100",
+            "D": "$175, $175, $100"
+        },
+        "correct_option": "B",
+        "solution": "According to the question, A's 5 days' work : B's 5 days' work : C's 2 days' work = \\(\\frac{5}{10}\\) : \\(\\frac{5}{15}\\) : \\(\\frac{1}{2}\\) = 3 : 2 : 1.\\[\\text{Therefore, A's share} = \\frac{450 \\times 3}{6} = $225\\]\\[\\text{B's share} = \\frac{450 \\times 2}{6} = $150\\]\\[\\text{C's share} = $[450 - (225 + 150)] = $75\\]"
+    },
+    {
+        "question": "Two men, A and B, working together, completed a piece of work. If worked individually, it would have taken them 30 and 40 days to complete the work. If they have received a payment of $2100, then B's share is:",
+        "options": {
+            "A": "$900",
+            "B": "$1200",
+            "C": "$800",
+            "D": "$1300"
+        },
+        "correct_option": "A",
+        "solution": "As per the given question, B's share should be in the ratio \\(\\frac{1}{30}\\) : \\(\\frac{1}{40}\\) = 4 : 3.\\[\\text{B's share} = \\frac{3}{7} \\times 2100 = $900\\]"
+    },
+    {
+        "question": "A can do a piece of work in 8 days. A undertook to do it for $320. With the help of B, he finishes the work in 6 days. B's share is:",
+        "options": {
+            "A": "$80",
+            "B": "$240",
+            "C": "$100",
+            "D": "$120"
+        },
+        "correct_option": "A",
+        "solution": "As we know, B's work = (A + B)'s work - A's work.\\[\\text{B's work} = \\frac{1}{6} - \\frac{1}{8} = \\frac{1}{24}\\]The money should be divided in the ratio \\(\\frac{1}{3}\\) : \\(\\frac{1}{8}\\) = 3 : 1.\\[\\text{B's share} = \\frac{1}{4} \\times 320 = $80\\]"
+    },
+    {
+        "question": "If 6 persons working 8 hours a day earn $8400 per week, then 9 persons working 6 hours a day will earn per week:",
+        "options": {
+            "A": "$8400",
+            "B": "$16800",
+            "C": "$9450",
+            "D": "$16200"
+        },
+        "correct_option": "C",
+        "solution": "On the basis of the given question, we have \\(\\text{Total Earning} = $8400\\).\\[\\text{Work done by 6 persons in 8 hours}\\]\\[\\text{Work done by 9 persons in 6 hours}\\]The required sum = \\(8400 \\times \\frac{6}{8} \\times \\frac{9}{6} = $9450\\)"
+    },
+    {
+        "question": "3 persons undertake to complete a piece of work for $1200. The first person can complete the work in 8 days, the second person in 12 days, and the third person in 16 days. They complete the work with the help of a fourth person in 3 days. What does the fourth person get?",
+        "options": {
+            "A": "$180",
+            "B": "$200",
+            "C": "$225",
+            "D": "$250"
+        },
+        "correct_option": "C",
+        "solution": "Let the fourth person complete the entire work in D days.\\[\\text{Given: Total amount} = $1200\\]According to the question, \\[\\frac{1}{8} + \\frac{1}{12} + \\frac{1}{16} + \\frac{1}{D} = \\frac{1}{3}\\]Simplifying, we get \\[D = 16\\]The ratio of wages = \\(\\frac{6}{8} : \\frac{4}{12} : \\frac{3}{16} : \\frac{3}{16} = 6 : 4 : 3 : 3\\]Fourth person's share = \\(\\frac{3}{16} \\times \\frac{1200}{16} = $225\\]"
+    },
+    {
+        "question": "Samiara, Mahira and Kiara rented a set of DVDs at a rent of ₹ 578. If they used it for 8 hours, 12 hours and 14 hours respectively, what is Kiara’s share of rent to be paid?",
+        "options": {
+            "A": "₹ 238",
+            "B": "₹ 204",
+            "C": "₹ 192",
+            "D": "₹ 215"
+        },
+        "correct_option": "A",
+        "solution": "To find the share of rent, we need to divide the total rent by the total hours of usage.\nTotal hours = 8 + 12 + 14 = 34 hours\nKiara's share = (Kiara's hours / Total hours) * Total rent\nKiara's share = (14 / 34) * ₹ 578\nKiara's share = ₹ 238"
+    },
+    {
+        "question": "A daily-wage laborer was engaged for a certain number of days for ₹ 5,750; but being absent on some of those days he was paid only ₹ 5,000. What was his maximum possible daily wage?",
+        "options": {
+            "A": "₹ 125",
+            "B": "₹ 250",
+            "C": "₹ 375",
+            "D": "₹ 500"
+        },
+        "correct_option": "B",
+        "solution": "The daily wage is the highest common factor of the total amount paid and the amount received. In this case, it is the highest common factor of ₹ 5,750 and ₹ 5,000. The highest common factor is ₹ 250, which is the maximum possible daily wage."
+    },
+    {
+        "question": "A can do a work in 12 days and B in 16 days. If both of them work together to do the work and get ₹ 2100, find the share of each.",
+        "options": {
+            "A": "800, 1700",
+            "B": "900, 1200",
+            "C": "1200, 900",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Let's calculate the work done by A and B in one day:\nA's work in one day = 1/12\nB's work in one day = 1/16\nRatio of work done by A and B = (1/12) : (1/16) = 4 : 3\nTotal ratio = 4 + 3 = 7\nA's share = (4/7) * ₹ 2100 = ₹ 1200\nB's share = (3/7) * ₹ 2100 = ₹ 900"
+    },
+    {
+        "question": "A can do a work in 20 days. After 5 days he is joined by B and they together finish the work in the next 10 days. If the total amount paid for the work is ₹ 1600, find the share of each.",
+        "options": {
+            "A": "₹ 375",
+            "B": "₹ 387",
+            "C": "₹ 400",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "A works for a total of (5 + 10) = 15 days.\nA's work for 15 days = 15/20 = 3/4\nB's share of work = 1 - (3/4) = 1/4\nA's share : B's share = 3 : 1\nA's share = (3/4) * ₹ 1600 = ₹ 1200\nB's share = (1/4) * ₹ 1600 = ₹ 400"
+    },
+    {
+        "question": "A, B, and C contract to do a work for ₹ 4,200. A can do the work in 6 days, B in 10 days, and C in 12 days. If they work together to do the work, what is the share of each?",
+        "options": {
+            "A": "1000, 1200, 2000",
+            "B": "1100, 1100, 2000",
+            "C": "1000, 2000, 1200",
+            "D": "2000, 1200, 1000"
+        },
+        "correct_option": "D",
+        "solution": "Let's calculate the work done by A, B, and C in one day:\nA's work in one day = 1/6\nB's work in one day = 1/10\nC's work in one day = 1/12\nRatio of work done by A, B, and C = (1/6) : (1/10) : (1/12) = 20 : 12 : 10\nTotal ratio = 20 + 12 + 10 = 42\nA's share = (20/42) * ₹ 4200 = ₹ 2000\nB's share = (12/42) * ₹ 4200 = ₹ 1200\nC's share = (10/42) * ₹ 4200 = ₹ 1000"
+    }
+]

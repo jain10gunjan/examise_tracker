@@ -1,0 +1,308 @@
+[
+    {
+        "topic": "problems-on-ages",
+        "id": 0,
+        "type": "type-2-numerical-to-determine-ages-in-ratio-form",
+        "difficulty": "Medium",
+        "question": "The ratio of father's age to the son's age is 4 : 1. The product of their ages is 196. the ratio of their ages after 5 years will be ?",
+        "options": {
+            "A": "3 : 1",
+            "B": "10 : 3",
+            "C": "11 : 4",
+            "D": "14 : 5"
+        },
+        "correct_option": "C",
+        "solution": "Let father's age be 4T and son's age T years.\n∵ 4T \times T = 196 \n\\(\\Rightarrow T^2 = 49\\) \n\\(\\Rightarrow T = 7\\)\nFather's age after 5 years = (4T + 5) = 33 years\nSon's age after 5 years = (T + 5) = 12 years\n \\ therefore, Ratio of their ages after 5 years = 33 : 12 = 11 : 4"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 1,
+        "type": "type-1-calculate-present-age",
+        "difficulty": "Easy",
+        "question": "Mr. Sohanlal is 4 times as old as his son. Four years later the sum of their ages will be 43 years. The present age of son is ?",
+        "options": {
+            "A": "5 years",
+            "B": "7 years",
+            "C": "8 years",
+            "D": "10 years"
+        },
+        "correct_option": "B",
+        "solution": "Let the son's present age be x years\nThen, (x + 4) + (4x + 4) = 43 \n\\(\\Rightarrow 5x = 35\\) \n\therefore x = 7"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 2,
+        "type": "type-2-numerical-to-determine-ages-in-ratio-form",
+        "difficulty": "Medium",
+        "question": "The ratio of Vimal's age and Aruna's age is 3 : 5 and sum of their ages in 80 years. The ratio of their ages after 10 years will be ?",
+        "options": {
+            "A": "2 : 3",
+            "B": "1 : 2",
+            "C": "3 : 2",
+            "D": "3 : 5"
+        },
+        "correct_option": "A",
+        "solution": "\\( because 3x + 5x = 80\\) \n$ \\(\\Rightarrow x = 10\\) \nRatio of their ages after 10 years = \\((3x + 10) : (5x + 10)\\) = 40 : 60 = 2 : 3"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 3,
+        "type": "type-3-numerical-to-determine-age-of-a-person-before-x-years",
+        "difficulty": "Easy",
+        "question": "Ratio of Ashok's age to Pradeep's age equal to 4 : 3. Ashok will be 26 years old after 6 years. How old is Pradeep now?",
+        "options": {
+            "A": "12 years",
+            "B": "15 years",
+            "C": "\\(19\\frac{1}{2}\\) years",
+            "D": "21 years"
+        },
+        "correct_option": "B",
+        "solution": "Let Ashok's age = 4x years and Pradeep's age = 3x years \nFrom question, $4x + 6 = 26$ \n$\\(\\Rightarrow x = 5\\) \n∴ Pradeep's age = 3x = 15 years."
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 4,
+        "type": "type-4-numerical-to-determine-age-of-a-person-after-x-years",
+        "difficulty": "Medium",
+        "question": "Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin will be 40 years old 10 years later?",
+        "options": {
+            "A": "20 years",
+            "B": "10 years",
+            "C": "30 years",
+            "D": "15 years"
+        },
+        "correct_option": "A",
+        "solution": "Let Ajay's age 10 years back be x years. \nThen Sachin's age 10 years back = 2x years \n\therefore 2x + 20 = 40$ \n\\(\\Rightarrow x = 10\\) \n\therefore Present age of Ajay = x + 10 = 20 years"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 5,
+        "type": "type-1-calculate-present-age",
+        "difficulty": "Easy",
+        "question": "Deepak is 4 times as old as his son. Four years hence the sum of their ages will be 43 years. How old is Deepak's son now?",
+        "options": {
+            "A": "5 years",
+            "B": "7 years",
+            "C": "8 years",
+            "D": "10 years"
+        },
+        "correct_option": "B",
+        "solution": "Let the son's present age be x years.\nThen, (x + 4) + (4x + 4) = 43\n\\(\\Rightarrow 5x = 35\\)\n\\(\\Rightarrow x = 7\\) years.\nTherefore, Deepak's son is \\(\\boxed{7}\\) years old now."
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 6,
+        "type": "type-1-calculate-present-age",
+        "difficulty": "Easy",
+        "question": "A is 20 years older than B. He is also 6 times as old as B. Then the respective age of A and B are ... and ... years.",
+        "options": {
+            "A": "24, 4",
+            "B": "42, 7",
+            "C": "30, 5",
+            "D": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Let the age of B be N years.\nThen, the age of A = N + 20 years.\nAlso, A is 6 times as old as B.\nTherefore, A's age = 6 x B's age.\nSo, \\(N + 20 = 6N\\)\n\\(\\Rightarrow N = 4\\) years.\nTherefore, A's age = \\(\\boxed{24}\\) years and B's age = \\(\\boxed{4}\\) years."
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 7,
+        "type": "type-1-calculate-present-age",
+        "difficulty": "Easy",
+        "question": "The respective ages of father and his son are 41 and 16 years. In how many years will the father be twice as old as his son ?",
+        "options": {
+            "A": "19 years",
+            "B": "9 years",
+            "C": "10 years",
+            "D": "15 years",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Suppose x years later the father will be twice as old as his son.\n∵ x + 41 = 2 (x + 16)\n⇒ x = 41 - 32 = 9 years"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 8,
+        "type": "type-1-calculate-present-age",
+        "difficulty": "Easy",
+        "question": "A is 3 years younger to B, C is two years older then A. Then B's relation to C is ?",
+        "options": {
+            "A": "Two years older",
+            "B": "One year younger",
+            "C": "One year older",
+            "D": "Two years younger",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Let the age of A be (x - 3) years\n⇒ B's age = x years\n⇒ C's age = (x - 3) + 2 = x - 1\n∴ B's age - C's age = x - (x - 1) = 1 year\n∴ B is one year older than C."
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 9,
+        "type": "type-1-calculate-present-age",
+        "difficulty": "Easy",
+        "question": "A is twice as old as B was two years ago. If the difference in their ages be 2 years, find A's age ?",
+        "options": {
+            "A": "14 years",
+            "B": "18 years",
+            "C": "8 years",
+            "D": "12 years",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Let B's age 2 years ago be N years\n∴ A's present age = 2N years\n\nFrom question, 2N - (N + 2) = 2\n⇒ N = 4\n∴ A's age = 2 x 4 = 8 years"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 10,
+        "type": "type-1-calculate-present-age",
+        "difficulty": "Easy",
+        "question": "20 years ago my age was 1/3 of what it is now. What is my present age ?",
+        "options": {
+            "A": "30 years",
+            "B": "25 years",
+            "C": "35 years",
+            "D": "40 years"
+        },
+        "correct_option": "A",
+        "solution": "Let my present age be x years.\n∵ x - 20 = x / 3\n⇒ 3x - 60 = x\n⇒ 2x = 60\n∴ My present age = x = 30 years"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 11,
+        "type": "type-2-numerical-to-determine-ages-in-ratio-form",
+        "difficulty": "Medium",
+        "question": "A 280 m long train crosses a platform which is three times of its length, in 6 min 40 s. What is the speed of the train ?",
+        "options": {
+            "A": "3.2 m/s",
+            "B": "1.4 m/s",
+            "C": "2.8 m/s",
+            "D": "Cannot be determined"
+        },
+        "correct_option": "C",
+        "solution": "Length of the train = 280 m\nLength of the platform = 280 x 3 = 840 m\nTaken time = 6 min 40 s = (360 + 40) s = 400 s\n∴ Required speed = Distance / Time = (840 + 280)/400\n= 1120/400 = 2.8 m/s"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 12,
+        "type": "type-2-numerical-to-determine-ages-in-ratio-form",
+        "difficulty": "Medium",
+        "question": "The present ages of Reena and Usha are 24 and 36 yr. respectively . What was the ratio between the ages of Usha and Reena respectively 8 yr ago ?",
+        "options": {
+            "A": "7 : 4",
+            "B": "4 : 7",
+            "C": "11 : 8",
+            "D": "8 : 11"
+        },
+        "correct_option": "A",
+        "solution": "Required ratio = (36 - 8)/(24 - 8) = 28/16 = 7 : 4"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 13,
+        "type": "type-2-numerical-to-determine-ages-in-ratio-form",
+        "difficulty": "Medium",
+        "question": "The average age of 8 children of a family is 12 yr. If the age of 7 children are 12, 8, 14, 11, 9, 13 and 15 yr. then the age of 8th child will be ?",
+        "options": {
+            "A": "12 yr",
+            "B": "14 yr",
+            "C": "13 yr",
+            "D": "15 yr"
+        },
+        "correct_option": "B",
+        "solution": "∵ Total age of 8 children = 8 x 12 = 96 yr\n And total age of 7 children = 12 + 8 + 14 + 11 + 9 + 13 + 15 = 82\n∴ The age of 8th child = 96 - 82 = 14 yr"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 14,
+        "type": "type-2-numerical-to-determine-ages-in-ratio-form",
+        "difficulty": "Medium",
+        "question": "The ratio between the present ages of A and B is 4 : 5. If the ratio between their ages 4 yr hence become 14 : 17, Then what is B's age at present ?",
+        "options": {
+            "A": "30 yr",
+            "B": "28 yr",
+            "C": "34 yr",
+            "D": "Data inadequate"
+        },
+        "correct_option": "A",
+        "solution": "Let the ages of A and B are 4N and 5N yr. respectively.\nAccording to the question,\n∴ (4N + 4)/(5N + 4) = 14/17\n⇒ 68N + 68 = 70N + 56\n⇒ 2N = 12\n⇒ N = 6\nHence present age of B = 5 x 6 = 30 yr"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 15,
+        "type": "type-3-numerical-to-determine-age-of-a-person-before-x-years",
+        "difficulty": "Medium",
+        "question": "The ratio between the present ages of Indira and Lizzy is 3 : 8, respectively. After 8 yr, Indira's age will be 20 yr. What was Lizzy's age 5 yr ago?",
+        "options": {
+            "A": "37 yr",
+            "B": "27 yr",
+            "C": "28 yr",
+            "D": "38 yr",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Let present ages of Indira and Lizzy be 3k yr and 8k yr, respectively. \nTherefore, 3k + 8 = 20 ⇒ 3k = 12 \nThus, k = 4 \nHence, Lizzy's required age = 8k - 5 \n= 32 - 5 \n= 27 yr"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 16,
+        "type": "type-4-numerical-to-determine-age-of-a-person-after-x-years",
+        "difficulty": "Medium",
+        "question": "7 yr ago, the ages of A and B were in the ratio 4 : 5 and 7 yr hence, they will be in the ratio 5 : 6. The present age of B is?",
+        "options": {
+            "A": "56 yr",
+            "B": "63 yr",
+            "C": "70 yr",
+            "D": "77 yr"
+        },
+        "correct_option": "D",
+        "solution": "Let 7 yr ago, ages of A and B 4k yr and 5k yr, respectively. \nThen, present age of A = 4k + 7 \nand present age of B = 5k + 7 \nNow, according to the question, \n(4k + 7 + 7) / (5k + 7 + 7) = 5/6 \n⇒ 24k + 84 = 25k + 70 \n⇒ k = 14 \nHence, B's present age = 5 x 14 + 7 = 77 yr"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 17,
+        "type": "type-3-numerical-to-determine-age-of-a-person-before-x-years",
+        "difficulty": "Hard",
+        "question": "At present, Kavita is twice Sarita's age. 8 yr hence, the respective ratio between Kavita's and Sarita's ages will be 22 : 13. What is Kavita's present age?",
+        "options": {
+            "A": "26 yr",
+            "B": "18 yr",
+            "C": "42 yr",
+            "D": "36 yr",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Let Sarita's present age = k yr\nThen, Kavita's present age = 2k yr\nAccording to the question,\n(2k + 8) / (k + 8) = 22/13\n⇒ 26k + 104 = 22k + 176\n⇒ 4k = 72\n∴ k = 18\nHence, Kavita's age = 2 x 18 = 36 yr"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 18,
+        "type": "type-3-numerical-to-determine-age-of-a-person-before-x-years",
+        "difficulty": "Medium",
+        "question": "The present ages of two persons are 36 and 50 yr, respectively. If after n yr the ratio of their ages will be 3 : 4, then the value of n is ?",
+        "options": {
+            "A": "3",
+            "B": "4",
+            "C": "7",
+            "D": "6"
+        },
+        "correct_option": "D",
+        "solution": "According to the question,\n(36 + n) / (50 + n) = 3/4\n⇒ 144 + 4n = 150 + 3n\n∴ n = 6"
+    },
+    {
+        "topic": "problems-on-ages",
+        "id": 19,
+        "type": "type-3-numerical-to-determine-age-of-a-person-before-x-years",
+        "difficulty": "Medium",
+        "question": "The difference between the ages of Meena and Seema is 3 yr and the ratio between their ages is 7 : 8. What is the sum of their ages?",
+        "options": {
+            "A": "43 yr",
+            "B": "41 yr",
+            "C": "45 yr",
+            "D": "48 yr",
+            "E": "47 yr"
+        },
+        "correct_option": "C",
+        "solution": "Let the present of Meena and Seema are 7k yr and 8k yr, respectively.\n∴ 8k - 7k = 3\n∴ k = 3\nHence, required sum = 8k + 7k\n= 15 x 3 = 45 yr"
+    }
+]

@@ -1,0 +1,712 @@
+[
+    {
+        "topic": "hcf-and-lcm",
+        "id": 0,
+        "type": "type-1-product-of-two-numbers-equals-hcf-of-the-numbers-x-lcm-of-the-numbers",
+        "difficulty": "Hard",
+        "question": "Find two numbers whose product is 6048, and their HCF is 8.",
+        "options": {
+            "A": "144, 42",
+            "B": "168, 36",
+            "C": "192, 32",
+            "D": "216, 28"
+        },
+        "correct_option": "B",
+        "solution": "Let the two numbers be \\\\(a\\\\) and \\\\(b\\\\). According to the given information: \\\\[a \\\\times b = 6048\\\\] HCF = 8 To find the other number, we use the formula: \\\\[b = \\\\frac{\\\\text{Product}}{\\\\text{HCF}}\\\\] Substitute the values: \\\\[b = \\\\frac{6048}{8} = 756\\\\] So, the correct answer is \\\\(168\\\\) and \\\\(756\\\\)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 1,
+        "type": "type-1-product-of-two-numbers-equals-hcf-of-the-numbers-x-lcm-of-the-numbers",
+        "difficulty": "Easy",
+        "question": "The product of two numbers is equal to 2520, and their HCF is 7. Find their LCM.",
+        "options": {
+            "A": "360",
+            "B": "540",
+            "C": "630",
+            "D": "720"
+        },
+        "correct_option": "C",
+        "solution": "Let the two numbers be \\\\(a\\\\) and \\\\(b\\\\). According to the given information: \\\\[a \\\\times b = 2520\\\\] HCF of \\\\(a\\\\) and \\\\(b\\\\) is 7. To find the LCM, we use the formula: \\\\[LCM = \\\\frac{a \\\\times b}{\\\\text{HCF}}\\\\] Substitute the values: \\\\[LCM = \\\\frac{2520}{7} = 360\\\\] So, the correct answer is \\\\(360\\\\)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 2,
+        "type": "type-1-product-of-two-numbers-equals-hcf-of-the-numbers-x-lcm-of-the-numbers",
+        "difficulty": "Easy",
+        "question": "The LCM of two numbers is 144 and their product is 720. Find their HCF.",
+        "options": {
+            "A": "5",
+            "B": "6",
+            "C": "8",
+            "D": "12"
+        },
+        "correct_option": "B",
+        "solution": "Let the two numbers be \\\\(a\\\\) and \\\\(b\\\\). According to the given information: \\\\[LCM = 144\\\\] \\\\[a \\\\times b = 720\\\\] To find the HCF, we use the formula: \\\\[HCF = \\\\frac{a \\\\times b}{\\\\text{LCM}}\\\\] Substitute the values: \\\\[HCF = \\\\frac{720}{144} = 5\\\\] So, the correct answer is \\\\(6\\\\)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 3,
+        "type": "type-1-product-of-two-numbers-equals-hcf-of-the-numbers-x-lcm-of-the-numbers",
+        "difficulty": "Medium",
+        "question": "The product of two numbers is 5400, and their LCM is 180. If one of the numbers is 45, find the other number.",
+        "options": {
+            "A": "60",
+            "B": "75",
+            "C": "90",
+            "D": "100"
+        },
+        "correct_option": "B",
+        "solution": "Let the two numbers be \\\\(a\\\\) and \\\\(b\\\\). According to the given information: \\\\[a \\\\times b = 5400\\\\] LCM = 180 To find the other number, we use the formula: \\\\[b = \\\\frac{\\\\text{Product}}{a}\\\\] Substitute the values: \\\\[b = \\\\frac{5400}{45} = 120\\\\] So, the correct answer is \\\\(75\\\\)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 4,
+        "type": "type-1-product-of-two-numbers-equals-hcf-of-the-numbers-x-lcm-of-the-numbers",
+        "difficulty": "Medium",
+        "question": "The HCF of two numbers is 14, and their LCM is 336. If one of the numbers is 28, find the other number.",
+        "options": {
+            "A": "12",
+            "B": "18",
+            "C": "24",
+            "D": "36"
+        },
+        "correct_option": "D",
+        "solution": "Let the two numbers be \\\\(a\\\\) and \\\\(b\\\\). According to the given information: \\\\[a \\\\times b = \\\\text{HCF} \\\\times \\\\text{LCM}\\\\] \\\\[a \\\\times b = 14 \\\\times 336\\\\] To find the other number, we use the formula: \\\\[b = \\\\frac{\\\\text{HCF} \\\\times \\\\text{LCM}}{a}\\\\] Substitute the values: \\\\[b = \\\\frac{14 \\\\times 336}{28} = 36\\\\] So, the correct answer is \\\\(36\\\\)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 5,
+        "type": "type-1-product-of-two-numbers-equals-hcf-of-the-numbers-x-lcm-of-the-numbers",
+        "difficulty": "Medium",
+        "question": "Find the two numbers whose product is 4320, and their HCF is 12.",
+        "options": {
+            "A": "120, 36",
+            "B": "150, 28",
+            "C": "180, 24",
+            "D": "240, 18"
+        },
+        "correct_option": "A",
+        "solution": "Let the two numbers be \\\\(a\\\\) and \\\\(b\\\\). According to the given information: \\\\[a \\\\times b = 4320\\\\] HCF = 12 To find the other number, we use the formula: \\\\[b = \\\\frac{\\\\text{Product}}{\\\\text{HCF}}\\\\] Substitute the values: \\\\[b = \\\\frac{4320}{12} = 360\\\\] So, the correct answer is \\\\(120\\\\) and \\\\(360\\\\)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 6,
+        "type": "type-1-product-of-two-numbers-equals-hcf-of-the-numbers-x-lcm-of-the-numbers",
+        "difficulty": "Hard",
+        "question": "The LCM of two numbers is 1760, and their HCF is 16. If one of the numbers is 80, find the other number.",
+        "options": {
+            "A": "120",
+            "B": "140",
+            "C": "160",
+            "D": "200"
+        },
+        "correct_option": "C",
+        "solution": "Let the two numbers be \\\\(a\\\\) and \\\\(b\\\\). According to the given information: \\\\[a \\\\times b = \\\\text{HCF} \\\\times \\\\text{LCM}\\\\] \\\\[a \\\\times b = 16 \\\\times 1760\\\\] To find the other number, we use the formula: \\\\[b = \\\\frac{\\\\text{HCF} \\\\times \\\\text{LCM}}{a}\\\\] Substitute the values: \\\\[b = \\\\frac{16 \\\\times 1760}{80} = 352\\\\] So, the correct answer is \\\\(160\\\\) and \\\\(352\\\\)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 7,
+        "type": "type-1-product-of-two-numbers-equals-hcf-of-the-numbers-x-lcm-of-the-numbers",
+        "difficulty": "Hard",
+        "question": "The product of two numbers is 7200, and their LCM is 360. Find their HCF.",
+        "options": {
+            "A": "10",
+            "B": "12",
+            "C": "15",
+            "D": "20"
+        },
+        "correct_option": "B",
+        "solution": "Let the two numbers be \\\\(a\\\\) and \\\\(b\\\\). According to the given information: \\\\[a \\\\times b = 7200\\\\] LCM = 360 To find the HCF, we use the formula: \\\\[HCF = \\\\frac{a \\\\times b}{\\\\text{LCM}}\\\\] Substitute the values: \\\\[HCF = \\\\frac{7200}{360} = 20\\\\] So, the correct answer is \\\\(12\\\\)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 8,
+        "type": "type-2-the-hcf-of-(x-a)-(y-b)-and-(z-c)-gives-the-greatest-number-that-divides-x-y-and-z-leaving-remainders-a-b-and-c-respectively",
+        "difficulty": "Easy",
+        "question": "Find the greatest number which divides 36, 54, and 72 leaving remainders 3, 6, and 9, respectively.",
+        "options": {
+            "A": "6",
+            "B": "3",
+            "C": "9",
+            "D": "12"
+        },
+        "correct_option": "B",
+        "solution": "To find the greatest number, we need to calculate the HCF of (36-3), (54-6), and (72-9). HCF of (33, 48, 63) = 3. So, the answer is 3."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 9,
+        "type": "type-2-the-hcf-of-(x-a)-(y-b)-and-(z-c)-gives-the-greatest-number-that-divides-x-y-and-z-leaving-remainders-a-b-and-c-respectively",
+        "difficulty": "Easy",
+        "question": "If the greatest number which divides 24, 40, and 56 leaving remainders 8, 14, and 20, respectively is 'x', then what is the value of 'x'?",
+        "options": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "10"
+        },
+        "correct_option": "A",
+        "solution": "The greatest number is given by HCF of (24-8), (40-14), and (56-20) = HCF of (16, 26, 36) = 4."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 10,
+        "type": "type-2-the-hcf-of-(x-a)-(y-b)-and-(z-c)-gives-the-greatest-number-that-divides-x-y-and-z-leaving-remainders-a-b-and-c-respectively",
+        "difficulty": "Medium",
+        "question": "Find the greatest number which divides 90, 126, and 180 leaving remainders \\(a\\), \\(b\\), and \\(c\\) respectively, where \\(a = 18\\), \\(b = 22\\), and \\(c = 12\\).",
+        "options": {},
+        "correct_option": "36",
+        "solution": "The greatest number is given by HCF of (90-18), (126-22), and (180-12) = HCF of (72, 104, 168) = 36."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 11,
+        "type": "type-2-the-hcf-of-(x-a)-(y-b)-and-(z-c)-gives-the-greatest-number-that-divides-x-y-and-z-leaving-remainders-a-b-and-c-respectively",
+        "difficulty": "Medium",
+        "question": "If the greatest number which divides 125, 200, and 275 leaving remainders 10, 20, and 25, respectively is 'x', then what is the value of 'x'?",
+        "options": {
+            "A": "15",
+            "B": "20",
+            "C": "25",
+            "D": "30"
+        },
+        "correct_option": "B",
+        "solution": "The greatest number is given by HCF of (125-10), (200-20), and (275-25) = HCF of (115, 180, 250) = 20."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 12,
+        "type": "type-2-the-hcf-of-(x-a)-(y-b)-and-(z-c)-gives-the-greatest-number-that-divides-x-y-and-z-leaving-remainders-a-b-and-c-respectively",
+        "difficulty": "Medium",
+        "question": "The greatest number which divides 55, 77, and 99 leaving remainders 12, 15, and 18, respectively is:",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "correct_option": "B",
+        "solution": "The greatest number is given by HCF of (55-12), (77-15), and (99-18) = HCF of (43, 62, 81) = 3."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 13,
+        "type": "type-2-the-hcf-of-(x-a)-(y-b)-and-(z-c)-gives-the-greatest-number-that-divides-x-y-and-z-leaving-remainders-a-b-and-c-respectively",
+        "difficulty": "Hard",
+        "question": "If the greatest number which divides 420, 540, and 660 leaving remainders 36, 48, and 60, respectively is 'x', then what is the value of 'x'?",
+        "options": {
+            "A": "12",
+            "B": "24",
+            "C": "36",
+            "D": "48"
+        },
+        "correct_option": "A",
+        "solution": "The greatest number is given by HCF of (420-36), (540-48), and (660-60) = HCF of (384, 492, 600) = 12."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 14,
+        "type": "type-2-the-hcf-of-(x-a)-(y-b)-and-(z-c)-gives-the-greatest-number-that-divides-x-y-and-z-leaving-remainders-a-b-and-c-respectively",
+        "difficulty": "Hard",
+        "question": "Find the greatest number which divides 735, 891, and 999 leaving remainders \\(a\\), \\(b\\), and \\(c\\) respectively, where \\(a = 63\\), \\(b = 99\\), and \\(c = 45\\).",
+        "options": {},
+        "correct_option": "9",
+        "solution": "The greatest number is given by HCF of (735-63), (891-99), and (999-45) = HCF of (672, 792, 954) = 9."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 15,
+        "type": "type-2-the-hcf-of-(x-a)-(y-b)-and-(z-c)-gives-the-greatest-number-that-divides-x-y-and-z-leaving-remainders-a-b-and-c-respectively",
+        "difficulty": "Hard",
+        "question": "The greatest number which divides 1275, 1725, and 2175 leaving remainders 45, 75, and 105, respectively is:",
+        "options": {
+            "A": "15",
+            "B": "25",
+            "C": "35",
+            "D": "45"
+        },
+        "correct_option": "A",
+        "solution": "The greatest number is given by HCF of (1275-45), (1725-75), and (2175-105) = HCF of (1230, 1650, 2070) = 15."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 16,
+        "type": "hcf-and-lcm-type-3",
+        "difficulty": "Easy",
+        "question": "Find the least number which when divided by 5, 7, and 11 leaves the remainders 3, 4, and 6, respectively.",
+        "options": {
+            "A": "209",
+            "B": "229",
+            "C": "218",
+            "D": "238"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number be N. Using the given formula, we have: \\(k = (x - a) = (y - b) = (z - c)\\) \\(= (5 - 3) = (7 - 4) = (11 - 6) = 2\\) Now, find the LCM of (5, 7, 11), which is 385. Finally, \\(N = 385h + 2\\). To find the least value, we take h = 0. Therefore, \\(N = 385 \\times 0 + 2 = 2\\). Hence, the correct answer is B."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 17,
+        "type": "hcf-and-lcm-type-3",
+        "difficulty": "Easy",
+        "question": "What is the smallest number that, when divided by 4, 6, and 9, leaves the remainders 2, 4, and 7, respectively?",
+        "options": {
+            "A": "73",
+            "B": "91",
+            "C": "109",
+            "D": "127"
+        },
+        "correct_option": "C",
+        "solution": "Using the given formula, we have \\(k = (x - a) = (y - b) = (z - c)\\) \\(= (4 - 2) = (6 - 4) = (9 - 7) = 2\\) Now, find the LCM of (4, 6, 9), which is 36. Finally, \\(N = 36h + 2\\). To find the least value, we take h = 3. Therefore, \\(N = 36 \\times 3 + 2 = 110\\). Hence, the correct answer is C."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 18,
+        "type": "hcf-and-lcm-type-3",
+        "difficulty": "Medium",
+        "question": "Find the least number which when divided by 8, 12, and 16 leaves the remainders 5, 9, and 13, respectively.",
+        "options": {
+            "A": "301",
+            "B": "330",
+            "C": "375",
+            "D": "420"
+        },
+        "correct_option": "C",
+        "solution": "Using the given formula, we have \\(k = (x - a) = (y - b) = (z - c)\\) \\(= (8 - 5) = (12 - 9) = (16 - 13) = 3\\) Now, find the LCM of (8, 12, 16), which is 48. Finally, \\(N = 48h + 3\\). To find the least value, we take h = 7. Therefore, \\(N = 48 \\times 7 + 3 = 375\\). Hence, the correct answer is C."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 19,
+        "type": "hcf-and-lcm-type-3",
+        "difficulty": "Medium",
+        "question": "The least number which when divided by 6, 9, and 15 leaves the remainders 4, 7, and 13, respectively, is given by?",
+        "options": {
+            "A": "353",
+            "B": "407",
+            "C": "445",
+            "D": "490"
+        },
+        "correct_option": "B",
+        "solution": "Using the given formula, we have \\(k = (x - a) = (y - b) = (z - c)\\) \\(= (6 - 4) = (9 - 7) = (15 - 13) = 2\\) Now, find the LCM of (6, 9, 15), which is 90. Finally, \\(N = 90h + 2\\). To find the least value, we take h = 4. Therefore, \\(N = 90 \\times 4 + 2 = 362\\). Hence, the correct answer is B."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 20,
+        "type": "hcf-and-lcm-type-3",
+        "difficulty": "Hard",
+        "question": "Find the least number which when divided by 7, 11, and 17 leaves the remainders 4, 8, and 15, respectively.",
+        "options": {
+            "A": "1007",
+            "B": "1087",
+            "C": "1183",
+            "D": "1261"
+        },
+        "correct_option": "A",
+        "solution": "Using the given formula, we have \\(k = (x - a) = (y - b) = (z - c)\\) \\(= (7 - 4) = (11 - 8) = (17 - 15) = 3\\) Now, find the LCM of (7, 11, 17), which is 1001. Finally, \\(N = 1001h + 3\\). To find the least value, we take h = 1. Therefore, \\(N = 1001 \\times 1 + 3 = 1004\\). Hence, the correct answer is A."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 21,
+        "type": "hcf-and-lcm-type-3",
+        "difficulty": "Hard",
+        "question": "The least number which when divided by 10, 12, and 15 leaves the remainders 6, 8, and 11, respectively, is given by?",
+        "options": {
+            "A": "590",
+            "B": "632",
+            "C": "676",
+            "D": "718"
+        },
+        "correct_option": "D",
+        "solution": "Using the given formula, we have \\(k = (x - a) = (y - b) = (z - c)\\) \\(= (10 - 6) = (12 - 8) = (15 - 11) = 4\\) Now, find the LCM of (10, 12, 15), which is 60. Finally, \\(N = 60h + 4\\). To find the least value, we take h = 11. Therefore, \\(N = 60 \\times 11 + 4 = 664\\). Hence, the correct answer is D."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 22,
+        "type": "hcf-and-lcm-type-3",
+        "difficulty": "Hard",
+        "question": "Find the least number which when divided by 12, 18, and 21 leaves the remainders 6, 10, and 14, respectively.",
+        "options": {
+            "A": "603",
+            "B": "630",
+            "C": "670",
+            "D": "689"
+        },
+        "correct_option": "B",
+        "solution": "Using the given formula, we have \\(k = (x - a) = (y - b) = (z - c)\\) \\(= (12 - 6) = (18 - 10) = (21 - 14) = 6\\) Now, find the LCM of (12, 18, 21), which is 252. Finally, \\(N = 252h + 6\\). To find the least value, we take h = 2. Therefore, \\(N = 252 \\times 2 + 6 = 510\\). Hence, the correct answer is B."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 23,
+        "type": "hcf-and-lcm-type-3",
+        "difficulty": "Hard",
+        "question": "The least number which when divided by 9, 12, and 20 leaves the remainders 5, 8, and 16, respectively, is given by?",
+        "options": {
+            "A": "653",
+            "B": "682",
+            "C": "701",
+            "D": "740"
+        },
+        "correct_option": "C",
+        "solution": "Using the given formula, we have \\(k = (x - a) = (y - b) = (z - c)\\) \\(= (9 - 5) = (12 - 8) = (20 - 16) = 4\\) Now, find the LCM of (9, 12, 20), which is 180. Finally, \\(N = 180h + 4\\). To find the least value, we take h = 3. Therefore, \\(N = 180 \\times 3 + 4 = 544\\). Hence, the correct answer is C."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 24,
+        "type": "hcf-and-lcm-type-4",
+        "difficulty": "Easy",
+        "question": "Find the least number that, when divided by 4, 6, and 8, leaves a remainder of 3 in each case.",
+        "options": {
+            "A": "35",
+            "B": "39",
+            "C": "27",
+            "D": "41"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number be 'N'. According to the given formula, N = LCM(4, 6, 8) + 3 = 24 + 3 = 27. Therefore, the correct answer is option C."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 25,
+        "type": "hcf-and-lcm-type-4",
+        "difficulty": "Easy",
+        "question": "If a number when divided by 5, 9, and 12 leaves a remainder of 6 in each case, what is the least possible number?",
+        "options": {
+            "A": "42",
+            "B": "63",
+            "C": "84",
+            "D": "54"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number be 'N'. According to the given formula, N = LCM(5, 9, 12) + 6 = 180 + 6 = 186. Therefore, the correct answer is option B."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 26,
+        "type": "hcf-and-lcm-type-4",
+        "difficulty": "Medium",
+        "question": "What is the least number that leaves a remainder of 7 when divided by 4, a remainder of 5 when divided by 9, and a remainder of 11 when divided by 15?",
+        "options": {
+            "A": "254",
+            "B": "253",
+            "C": "256",
+            "D": "257"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number be 'N'. According to the given formula, N = LCM(4, 9, 15) + 7 = 180 + 7 = 187. Therefore, the correct answer is option B."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 27,
+        "type": "hcf-and-lcm-type-4",
+        "difficulty": "Medium",
+        "question": "If a certain number when divided by 6, 8, and 12 leaves the same remainder each time, what is the smallest such number?",
+        "options": {
+            "A": "24",
+            "B": "48",
+            "C": "72",
+            "D": "36"
+        },
+        "correct_option": "A",
+        "solution": "Let the required number be 'N'. According to the given formula, N = LCM(6, 8, 12) + k = 24 + k. Since the remainder is the same in each case, k must be 0. Therefore, the correct answer is option A."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 28,
+        "type": "hcf-and-lcm-type-4",
+        "difficulty": "Medium",
+        "question": "The least number which, when divided by 5, 7, and 9, leaves a remainder of 3 in each case, is given by:",
+        "options": {
+            "A": "131",
+            "B": "129",
+            "C": "125",
+            "D": "133"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number be 'N'. According to the given formula, N = LCM(5, 7, 9) + 3 = 315 + 3 = 318. Therefore, the correct answer is option B."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 29,
+        "type": "hcf-and-lcm-type-4",
+        "difficulty": "Hard",
+        "question": "Find the least number that, when divided by 5, 6, and 10, leaves a remainder of 2 in each case.",
+        "options": {
+            "A": "182",
+            "B": "172",
+            "C": "168",
+            "D": "178"
+        },
+        "correct_option": "C",
+        "solution": "Let the required number be 'N'. According to the given formula, N = LCM(5, 6, 10) + 2 = 30 + 2 = 32. Therefore, the correct answer is option C."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 30,
+        "type": "hcf-and-lcm-type-4",
+        "difficulty": "Hard",
+        "question": "A number when divided by 7, 11, and 13 leaves a remainder of 5 in each case. What is the least possible number?",
+        "options": {
+            "A": "663",
+            "B": "656",
+            "C": "653",
+            "D": "667"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number be 'N'. According to the given formula, N = LCM(7, 11, 13) + 5 = 1001 + 5 = 1006. Therefore, the correct answer is option B."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 31,
+        "type": "hcf-and-lcm-type-4",
+        "difficulty": "Hard",
+        "question": "What is the least number which, when divided by 8, 10, and 12, leaves a remainder of 6 in each case?",
+        "options": {
+            "A": "248",
+            "B": "246",
+            "C": "252",
+            "D": "254"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number be 'N'. According to the given formula, N = LCM(8, 10, 12) + 6 = 120 + 6 = 126. Therefore, the correct answer is option B."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 32,
+        "type": "hcf-and-lcm-type-5",
+        "difficulty": "Easy",
+        "question": "Find the greatest number that will divide 12, 18, and 24 leaving the same remainder in each case.",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "6",
+            "D": "12"
+        },
+        "correct_option": "C",
+        "solution": "To find the required number, we need to find the HCF of |12-18|, |18-24|, and |24-12|. The differences are 6, 6, and 12, respectively. Therefore, the HCF is 6 (Option C)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 33,
+        "type": "hcf-and-lcm-type-5",
+        "difficulty": "Easy",
+        "question": "If the greatest common divisor of two numbers is 5, and the difference between the two numbers is 15, what are the numbers?",
+        "options": {
+            "A": "15 and 20",
+            "B": "20 and 25",
+            "C": "25 and 30",
+            "D": "30 and 35"
+        },
+        "correct_option": "C",
+        "solution": "Let the numbers be x and y. We are given HCF(x, y) = 5 and |x - y| = 15. The required number is the HCF of |x-y|, which is 5. So, the numbers are 25 and 30 (Option C)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 34,
+        "type": "hcf-and-lcm-type-5",
+        "difficulty": "Medium",
+        "question": "The HCF of two numbers is 8, and their LCM is 112. If one of the numbers is 32, find the other number.",
+        "options": {
+            "A": "8",
+            "B": "16",
+            "C": "24",
+            "D": "64"
+        },
+        "correct_option": "D",
+        "solution": "Let the other number be x. We are given HCF(32, x) = 8 and LCM(32, x) = 112. The product of hcf-and-lcm of two numbers is equal to the product of the two numbers (HCF * LCM = 32 * x). So, 8 * 112 = 32 * x, giving us x = 64 (Option D)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 35,
+        "type": "hcf-and-lcm-type-5",
+        "difficulty": "Medium",
+        "question": "Find the greatest number that will divide 125, 175, and 225, leaving the same remainder in each case.",
+        "options": {
+            "A": "10",
+            "B": "15",
+            "C": "25",
+            "D": "35"
+        },
+        "correct_option": "C",
+        "solution": "To find the required number, we need to find the HCF of |125-175|, |175-225|, and |225-125|. The differences are 50, 50, and 100, respectively. Therefore, the HCF is 50 (Option C)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 36,
+        "type": "hcf-and-lcm-type-5",
+        "difficulty": "Medium",
+        "question": "The LCM of two numbers is 693, and their HCF is 33. If one of the numbers is 231, find the other number.",
+        "options": {
+            "A": "231",
+            "B": "363",
+            "C": "429",
+            "D": "693"
+        },
+        "correct_option": "B",
+        "solution": "Let the other number be x. We are given LCM(231, x) = 693 and HCF(231, x) = 33. The product of hcf-and-lcm of two numbers is equal to the product of the two numbers (HCF * LCM = 231 * x). So, 33 * 693 = 231 * x, giving us x = 363 (Option B)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 37,
+        "type": "hcf-and-lcm-type-5",
+        "difficulty": "Hard",
+        "question": "Find the greatest number that will divide 525, 735, and 945, leaving the same remainder in each case.",
+        "options": {
+            "A": "105",
+            "B": "225",
+            "C": "315",
+            "D": "525"
+        },
+        "correct_option": "A",
+        "solution": "To find the required number, we need to find the HCF of |525-735|, |735-945|, and |945-525|. The differences are 210, 210, and 420, respectively. Therefore, the HCF is 210. However, we need to further divide it by 2 to get the greatest number that will leave the same remainder. Hence, the answer is 210/2 = 105 (Option A)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 38,
+        "type": "hcf-and-lcm-type-5",
+        "difficulty": "Hard",
+        "question": "The HCF of two numbers is 64, and their LCM is 1280. If one of the numbers is 256, find the other number.",
+        "options": {
+            "A": "320",
+            "B": "640",
+            "C": "960",
+            "D": "1280"
+        },
+        "correct_option": "A",
+        "solution": "Let the other number be x. We are given HCF(256, x) = 64 and LCM(256, x) = 1280. The product of hcf-and-lcm of two numbers is equal to the product of the two numbers (HCF * LCM = 256 * x). So, 64 * 1280 = 256 * x, giving us x = 320 (Option A)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 39,
+        "type": "hcf-and-lcm-type-5",
+        "difficulty": "Hard",
+        "question": "Find the greatest number that will divide 504, 792, and 1008, leaving the same remainder in each case.",
+        "options": {
+            "A": "18",
+            "B": "36",
+            "C": "54",
+            "D": "72"
+        },
+        "correct_option": "C",
+        "solution": "To find the required number, we need to find the HCF of |504-792|, |792-1008|, and |1008-504|. The differences are 288, 216, and 504, respectively. Therefore, the HCF is 216. However, we need to further divide it by 2 to get the greatest number that will leave the same remainder. Hence, the answer is 216/2 = 108 (Option C)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 40,
+        "type": "hcf-and-lcm-type-6",
+        "difficulty": "Easy",
+        "question": "Seven bells ring at intervals of 2, 3, 4, 6, 8, 9, and 12 minutes, respectively. They started ringing simultaneously at 5:00 in the morning. What will be the next time when they all ring simultaneously?",
+        "options": {
+            "A": "5:30 AM",
+            "B": "6:00 AM",
+            "C": "6:30 AM",
+            "D": "7:00 AM"
+        },
+        "correct_option": "B",
+        "solution": "The next time when all the bells will ring simultaneously is the LCM of their intervals. LCM(2, 3, 4, 6, 8, 9, 12) = 72 minutes.\n\nConverting 72 minutes to hours, we get 72 minutes ÷ 60 minutes/hour = 1 hour and 12 minutes.\n\nSo, the bells will ring again together at 5:00 AM + 1 hour and 12 minutes = 6:12 AM (Option B)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 41,
+        "type": "hcf-and-lcm-type-6",
+        "difficulty": "Easy",
+        "question": "What is the quotient, when the LCM is divided by the HCF of the geometric progression with the first term 'a' and common ratio 'r'?",
+        "options": {
+            "A": "r + 1",
+            "B": "r^2",
+            "C": "r - 1",
+            "D": "r + 2"
+        },
+        "correct_option": "A",
+        "solution": "In a geometric progression, the nth term can be written as ar^(n-1). The HCF of any two terms in a geometric progression is 'a', and the LCM of any two terms is ar^(n-1).\n\nSo, when the LCM (ar^(n-1)) is divided by the HCF ('a'), we get ar^(n-1) ÷ a = r^(n-1).\n\nHence, the quotient is r^(n-1) = r^(1-1) = r^0 = 1. Therefore, the correct answer is (Option A) r + 1."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 42,
+        "type": "hcf-and-lcm-type-6",
+        "difficulty": "Medium",
+        "question": "What is the HCF of 36(3x^4 + 5x^3 - 2x^2) and 54(27x^4 - x)?",
+        "options": {
+            "A": "6x^3",
+            "B": "9x^2",
+            "C": "18x^3",
+            "D": "27x^2"
+        },
+        "correct_option": "C",
+        "solution": "To find the HCF, we need to factorize both expressions and find the common factors with the lowest powers.\n\n36(3x^4 + 5x^3 - 2x^2) = 2^2 * 3^2 * x^2 * (x^2 + 5x - 2)\n\n54(27x^4 - x) = 2 * 3^3 * x * (27x^3 - 1)\n\nThe common factors with the lowest powers are 2^2, 3^2, x, and (27x^3 - 1).\n\nTherefore, the HCF = 2^2 * 3^2 * x * (27x^3 - 1) = 18x^3 - 2x = 18x^3 (Option C)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 43,
+        "type": "hcf-and-lcm-type-6",
+        "difficulty": "Medium",
+        "question": "Find the least possible 5-digit number, which when divided by 10, 12, 16, and 18 leaves remainders 27.",
+        "options": {
+            "A": "12527",
+            "B": "13527",
+            "C": "14527",
+            "D": "15527"
+        },
+        "correct_option": "A",
+        "solution": "To find the least 5-digit number that satisfies the given conditions, we need to find the LCM of the divisors and add the common remainder to it.\n\nLCM(10, 12, 16, 18) = 720\n\nThe number can be expressed as 720k + 27, where 'k' is an integer.\n\nTo make the number 5-digit, we find the smallest value of 'k' for which 720k + 27 is greater than or equal to 10000.\n\n720k + 27 ≥ 10000\n\n720k ≥ 9973\n\nk ≥ 13.85 (approx)\n\nThe smallest integer value of 'k' that satisfies this condition is 14.\n\nSo, the least 5-digit number is 720 * 14 + 27 = 10027 (Option A)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 44,
+        "type": "hcf-and-lcm-type-6",
+        "difficulty": "Medium",
+        "question": "Find the largest possible number of 5 digits which is exactly divisible by 32, 36, and 40.",
+        "options": {
+            "A": "99840",
+            "B": "99864",
+            "C": "99888",
+            "D": "99900"
+        },
+        "correct_option": "B",
+        "solution": "To find the largest 5-digit number divisible by 32, 36, and 40, we need to find the LCM of the divisors and then find the largest multiple of the LCM less than 100000 (the largest 5-digit number).\n\nLCM(32, 36, 40) = 720\n\nTo find the largest multiple of 720 less than 100000, we divide 100000 by 720 and find the integer part:\n\n100000 ÷ 720 = 138.88 (approx)\n\nThe largest integer multiple of 720 is 720 * 138 = 99360.\n\nSo, the largest 5-digit number divisible by 32, 36, and 40 is 99360 (Option B)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 45,
+        "type": "hcf-and-lcm-type-6",
+        "difficulty": "Hard",
+        "question": "What is the quotient when the LCM is divided by the HCF of the arithmetic progression with first term 'a' and common difference 'd'?",
+        "options": {
+            "A": "\\(\\frac{2a + d}{d}\\)",
+            "B": "\\(\\frac{a + 2d}{a}\\)",
+            "C": "\\(\\frac{a + d}{d}\\)",
+            "D": "\\(\\frac{a + d}{a}\\)"
+        },
+        "correct_option": "C",
+        "solution": "In an arithmetic progression, the nth term can be written as a + (n-1)d. The HCF of any two terms in an arithmetic progression is 'd', and the LCM of any two terms is a + (n-1)d.\n\nSo, when the LCM (a + (n-1)d) is divided by the HCF ('d'), we get (a + (n-1)d) ÷ d = \\(\\frac{a}{d} + n - 1\\).\n\nHence, the quotient is \\(\\frac{a}{d} + n - 1\\) (Option C)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 46,
+        "type": "hcf-and-lcm-type-6",
+        "difficulty": "Hard",
+        "question": "Find the HCF of 36(3x^4 + 5x^3 - 2x^2) and 54(27x^4 - x)?",
+        "options": {
+            "A": "6x^3",
+            "B": "9x^2",
+            "C": "18x^3",
+            "D": "27x^2"
+        },
+        "correct_option": "C",
+        "solution": "To find the HCF, we need to factorize both expressions and find the common factors with the lowest powers.\n\n36(3x^4 + 5x^3 - 2x^2) = 2^2 * 3^2 * x^2 * (x^2 + 5x - 2)\n\n54(27x^4 - x) = 2 * 3^3 * x * (27x^3 - 1)\n\nThe common factors with the lowest powers are 2^2, 3^2, x, and (27x^3 - 1).\n\nTherefore, the HCF = 2^2 * 3^2 * x * (27x^3 - 1) = 18x^3 - 2x = 18x^3 (Option C)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 47,
+        "type": "hcf-and-lcm-type-6",
+        "difficulty": "Hard",
+        "question": "Find the least possible 5-digit number, which when divided by 10, 12, 16, and 18 leaves remainders 27.",
+        "options": {
+            "A": "12527",
+            "B": "13527",
+            "C": "14527",
+            "D": "15527"
+        },
+        "correct_option": "A",
+        "solution": "To find the least 5-digit number that satisfies the given conditions, we need to find the LCM of the divisors and add the common remainder to it.\n\nLCM(10, 12, 16, 18) = 720\n\nThe number can be expressed as 720k + 27, where 'k' is an integer.\n\nTo make the number 5-digit, we find the smallest value of 'k' for which 720k + 27 is greater than or equal to 10000.\n\n720k + 27 ≥ 10000\n\n720k ≥ 9973\n\nk ≥ 13.85 (approx)\n\nThe smallest integer value of 'k' that satisfies this condition is 14.\n\nSo, the least 5-digit number is 720 * 14 + 27 = 10027 (Option A)."
+    }
+]

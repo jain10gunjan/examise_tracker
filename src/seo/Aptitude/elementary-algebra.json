@@ -1,0 +1,188 @@
+[
+    {
+        "topic": "elementary-algebra",
+        "id": 0,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "A man can do a piece of work in 25 days. He works at it for 5 days and then, sickness laid him up for 4 days. He then takes up the work again and works at it for 6 days. If he finishes the remaining work in 3 days, the number of days in which the entire work will be completed is:",
+        "options": {
+            "A": "38",
+            "B": "37",
+            "C": "36",
+            "D": "35"
+        },
+        "correct_option": "B",
+        "solution": "Work done by the man in 5 days = 5/25 = 1/5\nWork done by him in first 5 days + work done in next 6 days + work done in last 3 days = 1\n1/5 + work done in next 6 days + 1/4 = 1\nWork done in next 6 days = 1 - 1/5 - 1/4 = 3/20\nTherefore, work done in 15 days = 1/5 + 3/20 = 1/4\nWork done by the man in 38 days = 38 x 1/4 = 9.5\nRemaining work = 1 - 9.5 = 6/20 = 3/10\nTherefore, the man will take 3/10 x 3 = 9/10 days more to finish the work.\nThe total number of days to finish the work = 38 + 9/10 = 37.9 ≈ 37 days."
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 1,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "The degree of the polynomial $p(x) = x^3 + 1 + 2x + \\frac{1}{x}$ is?",
+        "options": {
+            "A": "2",
+            "B": "4",
+            "C": "3",
+            "D": "5"
+        },
+        "correct_option": "B",
+        "solution": "$x^3 + 1 + 2x = 6x + \\frac{1}{x}$\n$x^3 + 1 + 2x = \\frac{6x^2 + 1}{x}$\n$(x^3 + 1 + 2x) x = 6x^2 + 1$\n$x^4 - 4x^2 - 6x^2 - 1 = 0$\n$x^4 - 4x^2 + x - 1 = 0$\nDegree of the polynomial is the highest exponent degree term, i.e., 4."
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 2,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "If $x = 1 + \\sqrt{2}$, then what is the value of $x^4 - 4x^3 + 4x^2$?",
+        "options": {
+            "A": "-1",
+            "B": "0",
+            "C": "1",
+            "D": "2"
+        },
+        "correct_option": "C",
+        "solution": "$x = 1 + \\sqrt{2}$\n$x^4 - 4x^3 + 4x^2 = x^2(x^2 - 4x + 4) = x^2(x - 2)^2$\n$(1 + \\sqrt{2})^2(1 + \\sqrt{2} - 2)^2 = (\\sqrt{2} + 1)^2 (\\sqrt{2} - 1)^2 = [(\\sqrt{2})^2 - (1)^2]^2 = (2 - 1)^2 = 1$"
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 3,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "What is the solution of the equations $x - y = 0.9$ and $11(x + y)^{-1} = 2$?",
+        "options": {
+            "A": "x = 3.2, y = 2.3",
+            "B": "x = 1, y = 0.1",
+            "C": "x = 2, y = 1.1",
+            "D": "x = 1.2, y = 0.3"
+        },
+        "correct_option": "A",
+        "solution": "$x - y = 0.9$ ...(i)\nand $11(x + y)^{-1} = 2$\n$\\frac{11}{(x + y)} = 2$\n$2(x + y) = 11$\n$x + y = \\frac{11}{2}$ ...(ii)\nOn solving Eqs.(i) and (ii), we get\n$x = 3.2$ and $y = 2.3$"
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 4,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "The product of two alternate odd integers exceeds three times the smaller by 12. What is the larger integer?",
+        "options": {
+            "A": "9",
+            "B": "7",
+            "C": "3",
+            "D": "5"
+        },
+        "correct_option": "A",
+        "solution": "Let the two alternate odd integers be $n$ and $n+4$.\nAccording to the given question,\n$n(n+4) = 3n + 12$\n$n^2 + 4n = 3n + 12$\n$n^2 + 4n - 3n - 12 = 0$\n$n^2 + n - 12 = 0$\n$(n + 4)(n - 3) = 0$\n$n = -4$ (rejected) or $n = 3$\nSo, the larger integer is $n+4 = 3 + 4 = 9$"
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 5,
+        "type": "type-2-word-problems-problems",
+        "difficulty": "medium",
+        "question": "The sum of two numbers is 24 and their product is 143. The sum of their squares is?",
+        "options": {
+            "A": "296",
+            "B": "295",
+            "C": "290",
+            "D": "228"
+        },
+        "correct_option": "C",
+        "solution": "Let the two numbers be $P$ and $Q$.\nAccording to the given question,\nSum of two numbers = 24\n$P + Q = 24$ ...(1)\nProduct of two numbers = 143\n$PQ = 143$ ...(2)\nAs we know the formula,\n$P^2 + Q^2 = (P + Q)^2 - 2PQ$\nPut the values from equations (1) and (2), we get:\n$P^2 + Q^2 = 24^2 - 2 \\times 143 = 576 - 286 = 290$"
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 6,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "easy",
+        "question": "If P = (0.08)^2, Q = 1/(0.08)^2 and R = (1 - 0.08)^2 - 1, then out of the following the true relation is",
+        "options": {
+            "A": "Q < P and P = R",
+            "B": "P < Q and P = R",
+            "C": "Q < R < P",
+            "D": "R < P < Q",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Given that in the question,\nP = (0.08)^2\nQ = \\frac{1}{(0.08)^2} = \\frac{1}{64} = 156.25\n\nR = (1 - 0.08)^2 - 1\nR = 1 + (0.08)^2 - 2 \\times 0.08 - 1 = (0.08)^2 - 2 \\times 0.08\n\nClearly, R < P < Q"
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 7,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "easy",
+        "question": "If (5x^2 - 3y^2) : xy = 11 : 2, then the positive value of x/y is:",
+        "options": {
+            "A": "7/2",
+            "B": "5/2",
+            "C": "3/2",
+            "D": "5/3",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Given that,\n\\frac{5x^2 - 3y^2}{xy} = \\frac{11}{2}\n\n\\frac{10x^2 - 6y^2}{xy} = \\frac{11}{1}\n\n10x^2 - 11xy - 6y^2 = 0\n\n10x^2 - 15xy + 4xy - 6y^2 = 0\n\n5x(2x - 3y) + 2y(2x - 3y) = 0\n\n(5x + 2y)(2x - 3y)\n\n5x \\neq 2y, 2x = 3y\n\n\\frac{x}{y} = \\frac{3}{2}"
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 8,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "easy",
+        "question": "If a^3 - b^3 = 56 and a - b = 2, then the value of (a^2 + b^2) is:",
+        "options": {
+            "A": "-10",
+            "B": "-12",
+            "C": "20",
+            "D": "18",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "We are given:\na^3 - b^3 = 56\na - b = 2\n\nTo find the value of (a^2 + b^2), we need to simplify:\n(a^2 + b^2) = (a - b)^2 + 2ab\n\nSubstitute the given value of a - b in the equation above:\n(a^2 + b^2) = (2)^2 + 2ab\n\nNow, we can find the value of ab using the given a^3 - b^3 equation:\n(a^3 - b^3) = (a - b)(a^2 + ab + b^2) = 56\n\nSubstitute the known values:\n56 = 2(a^2 + ab + b^2)\n\nSolve for (a^2 + ab + b^2):\n(a^2 + ab + b^2) = 56/2 = 28\n\nNow, substitute this value back into the expression for (a^2 + b^2):\n(a^2 + b^2) = (2)^2 + 2(28) = 4 + 56 = 60\n\nTherefore, the value of (a^2 + b^2) is 60."
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 9,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "easy",
+        "question": "If x = 2 + \\sqrt{3}, then the value of \\sqrt{x} + \\frac{1}{\\sqrt{x}} is:",
+        "options": {
+            "A": "\\sqrt{3}",
+            "B": "\\sqrt{6}",
+            "C": "2\\sqrt{6}",
+            "D": "6",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "As per the given question, x = 2 + \\sqrt{3}\n\n\\frac{1}{x} = \\frac{1}{2 + \\sqrt{3}} = \\frac{2 - \\sqrt{3}}{(2 + \\sqrt{3})(2 - \\sqrt{3})} = \\frac{2 - \\sqrt{3}}{2^2 - (\\sqrt{3})^2} = \\frac{2 - \\sqrt{3}}{4 - 3} = 2 - \\sqrt{3}\n\n\\sqrt{x} + \\frac{1}{\\sqrt{x}} = \\sqrt{2 + \\sqrt{3}} + \\frac{1}{\\sqrt{2 + \\sqrt{3}}} = \\sqrt{2 + \\sqrt{3}} + \\frac{1}{2 - \\sqrt{3}}\n\nMultiply the numerator and denominator of the second term by (2 + \\sqrt{3}):\n\\sqrt{2 + \\sqrt{3}} + \\frac{1}{2 - \\sqrt{3}} = \\sqrt{2 + \\sqrt{3}} + \\frac{(2 + \\sqrt{3})}{(2 - \\sqrt{3})(2 + \\sqrt{3})}\n\nNow, use the formula (a + b)(a - b) = a^2 - b^2 to simplify the denominator:\n\\sqrt{2 + \\sqrt{3}} + \\frac{(2 + \\sqrt{3})}{(2 - \\sqrt{3})(2 + \\sqrt{3})} = \\sqrt{2 + \\sqrt{3}} + \\frac{(2 + \\sqrt{3})}{(2)^2 - (\\sqrt{3})^2} = \\sqrt{2 + \\sqrt{3}} + \\frac{(2 + \\sqrt{3})}{4 - 3} = \\sqrt{2 + \\sqrt{3}} + 2 + \\sqrt{3}\n\nThus, \\sqrt{x} + \\frac{1}{\\sqrt{x}} = \\sqrt{2 + \\sqrt{3}} + \\frac{1}{\\sqrt{2 + \\sqrt{3}}} = \\sqrt{6}."
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 10,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "easy",
+        "question": "If 5a + \\frac{1}{a} = 5, the value of 9a^2 + \\frac{1}{a^2} is",
+        "options": {
+            "A": "\\frac{3a}{25}",
+            "B": "\\frac{34}{5}",
+            "C": "\\frac{39}{5}",
+            "D": "\\frac{42}{5}",
+            "E": "\\frac{52}{5}"
+        },
+        "correct_option": "B",
+        "solution": "Given in the question,\n5a + \\frac{1}{a} = 5\n\nOn multiplying by \\frac{3}{5}, we get:\n3a + \\frac{3}{5a} = 3\n\nOn squaring both sides,\n(3a + \\frac{1}{a})^2 = 3^2\n\n9a^2 + \\frac{1}{a^2} + 2(3a)(\\frac{1}{a}) = 9\n\n9a^2 + \\frac{1}{a^2} + 6 = 9\n\n9a^2 + \\frac{1}{a^2} = 9 - 6\n\n9a^2 + \\frac{1}{a^2} = \\frac{3}{5}\n\nHence, the value of 9a^2 + \\frac{1}{a^2} is \\frac{3}{5}."
+    },
+    {
+        "topic": "elementary-algebra",
+        "id": 11,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "easy",
+        "question": "If a^3 - b^3 = 56 and a - b = 2, then the value of (a^2 + b^2) is:",
+        "options": {
+            "A": "-10",
+            "B": "-12",
+            "C": "20",
+            "D": "18",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "We are given:\na^3 - b^3 = 56\na - b = 2\n\nTo find the value of (a^2 + b^2), we need to simplify:\n(a^2 + b^2) = (a - b)^2 + 2ab\n\nSubstitute the given value of a - b in the equation above:\n(a^2 + b^2) = (2)^2 + 2ab\n\nNow, we can find the value of ab using the given a^3 - b^3 equation:\n(a^3 - b^3) = (a - b)(a^2 + ab + b^2) = 56\n\nSubstitute the known values:\n56 = 2(a^2 + ab + b^2)\n\nSolve for (a^2 + ab + b^2):\n(a^2 + ab + b^2) = 56/2 = 28\n\nNow, substitute this value back into the expression for (a^2 + b^2):\n(a^2 + b^2) = (2)^2 + 2(28) = 4 + 56 = 60\n\nTherefore, the value of (a^2 + b^2) is 60."
+    }
+]

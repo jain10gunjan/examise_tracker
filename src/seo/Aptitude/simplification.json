@@ -1,0 +1,272 @@
+[
+    {
+        "topic": "simplification",
+        "id": 0,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "A man has Rs.480 in the denominations of one-rupee notes, five-rupee notes, and ten-rupee notes. The number of notes of each denomination is equal. What is the total number of notes that he has?",
+        "options": {
+            "A": "45",
+            "B": "60",
+            "C": "75",
+            "D": "90"
+        },
+        "correct_option": "D",
+        "solution": "Let the number of notes of each denomination be x.\nThen, x + 5x + 10x = 480\n⇒ 16x = 480\n⇒ x = 30.\nHence, the total number of notes = 3x = 90."
+    },
+    {
+        "topic": "simplification",
+        "id": 1,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "There are two examination rooms A and B. If 10 students are sent from A to B, then the number of students in each room is the same. If 20 candidates are sent from B to A, then the number of students in A is double the number of students in B. The number of students in room A is:",
+        "options": {
+            "A": "20",
+            "B": "80",
+            "C": "100",
+            "D": "200"
+        },
+        "correct_option": "C",
+        "solution": "Let the number of students in rooms A and B be x and y respectively.\nThen, x - 10 = y + 10 x - y = 20 .... (i)\nand x + 20 = 2(y - 20) x - 2y = -60 .... (ii)\nSolving (i) and (ii) we get: x = 100 , y = 80.\nThe required answer A = 100."
+    },
+    {
+        "topic": "simplification",
+        "id": 2,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "The price of 10 chairs is equal to that of 4 tables. The price of 15 chairs and 2 tables together is Rs. 4000. The total price of 12 chairs and 3 tables is:",
+        "options": {
+            "A": "Rs. 3500",
+            "B": "Rs. 3750",
+            "C": "Rs. 3840",
+            "D": "Rs. 3900",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Let the cost of a chair and that of a table be Rs. x and Rs. y respectively.\nThen, 10x = 4y or y = (5/2)x.\n\n15x + 2y = 4000\n15x + 2 x (5/2) x = 4000\n20x = 4000\nx = 200.\n\nSo, y = (5/2) x 200 = 500.\n\nHence, the cost of 12 chairs and 3 tables = 12x + 3y = Rs. (2400 + 1500) = Rs. 3900."
+    },
+    {
+        "topic": "simplification",
+        "id": 3,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "If a - b = 3 and a² + b² = 29, find the value of ab.",
+        "options": {
+            "A": "10",
+            "B": "12",
+            "C": "15",
+            "D": "18",
+            "E": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "2ab = (a² + b²) - (a - b)²\n= 29 - 9 = 20\nab = 10."
+    },
+    {
+        "topic": "simplification",
+        "id": 4,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "The price of 2 sarees and 4 shirts is Rs. 1600. With the same money, one can buy 1 saree and 6 shirts. If one wants to buy 12 shirts, how much shall he have to pay?",
+        "options": {
+            "A": "Rs. 1200",
+            "B": "Rs. 2400",
+            "C": "Rs. 4800",
+            "D": "Cannot be determined",
+            "E": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Let the price of a saree and a shirt be Rs. x and Rs. y respectively.\nThen, 2x + 4y = 1600 .... (i)\nand x + 6y = 1600 .... (ii)\nDivide equation (i) by 2, we get the below equation. => x + 2y = 800. --- (iii)\nNow subtract (iii) from (ii)\nx + 6y = 1600\n(-) x + 2y = 800\n----------------\n4y = 800\n----------------\nTherefore, y = 200.\nNow apply the value of y in (iii)\n=> x + 2 x 200 = 800\n=> x + 400 = 800\nTherefore x = 400\nSolving (i) and (ii) we get x = 400, y = 200.\n\nCost of 12 shirts = Rs. (12 x 200) = Rs. 2400."
+    },
+    {
+        "topic": "simplification",
+        "id": 5,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "A sum of Rs. 1360 has been divided among A, B, and C such that A gets of what B gets and B gets of what C gets. B's share is:",
+        "options": {
+            "A": "Rs. 120",
+            "B": "Rs. 160",
+            "C": "Rs. 240",
+            "D": "Rs. 300",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Let C's share = Rs. x\nThen, B's share = Rs. x(4/3), A's share = Rs. x*(4/3)(1/2) = Rs. x(2/3)\n\nx*(4/3) + x*(2/3) + x = 1360\n10x/3 = 1360\nx = 408\n\nHence, B's share = Rs. x*(4/3) = Rs. 408*(4/3) = Rs. 544/-. Therefore, B's share is Rs. 240."
+    },
+    {
+        "topic": "simplification",
+        "id": 6,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "One-third of Rahul's savings in the National Savings Certificate is equal to one-half of his savings in the Public Provident Fund. If he has Rs. 1,50,000 as total savings, how much has he saved in the Public Provident Fund?",
+        "options": {
+            "A": "Rs. 30,000",
+            "B": "Rs. 50,000",
+            "C": "Rs. 60,000",
+            "D": "Rs. 90,000",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Let savings in N.S.C and P.P.F. be Rs. x and Rs. (150000 - x) respectively. Then,\n\nx/3 = (1/2)(150000 - x)\n2x = 3(150000 - x)\n5x = 450000\nx = 90000\n\nSavings in Public Provident Fund = Rs. (150000 - 90000) = Rs. 60000."
+    },
+    {
+        "topic": "simplification",
+        "id": 7,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "A fires 5 shots to B's 3, but A kills only once in 3 shots while B kills once in 2 shots. When B has missed 27 times, A has killed how many birds?",
+        "options": {
+            "A": "30 birds",
+            "B": "60 birds",
+            "C": "72 birds",
+            "D": "90 birds",
+            "E": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "Let the total number of shots be x. Then,\n\nShots fired by A = (5x/8)\nShots fired by B = (3x/8)\nKilling shots by A = (1/3) of (5x/8) = (5x/24)\nShots missed by B = (1/2) of (3x/8) = (3x/16)\n\nGiven that Shots missed by B = 27\n(3x/16) = 27\nx = (27 * 16)/3 = 144\n\nBirds killed by A = (5x/24) = (5 * 144)/24 = 30"
+    },
+    {
+        "topic": "simplification",
+        "id": 8,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "Eight people are planning to share equally the cost of a rental car. If one person withdraws from the arrangement and the others share equally the entire cost of the car, then the share of each of the remaining persons increased by:",
+        "options": {
+            "A": "1/7",
+            "B": "1/8",
+            "C": "1/9",
+            "D": "7/8",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Let the total cost of the rental car be x.\n\nThen, the share of each person in the original plan = (x/8)\n\nAfter one person withdraws, the number of persons = 7.\n\nTherefore, the share of each person in the new plan = (x/7)\n\nIncrease in the share of each person = [(x/7) - (x/8)] = (x/56)\n\nRequired fraction = Increase in the share of each person / Original share of each person\n= (x/56) / (x/8) = 1/7\n\nTherefore, the required fraction is 1/8."
+    },
+    {
+        "topic": "simplification",
+        "id": 9,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "To fill a tank, 25 buckets of water are required. How many buckets of water will be required to fill the same tank if the capacity of the bucket is reduced to two-fifths of its present?",
+        "options": {
+            "A": "10",
+            "B": "35",
+            "C": "62.5",
+            "D": "Cannot be determined",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Let the capacity of 1 bucket = x.\nThen, the capacity of the tank = 25x.\nNew capacity of the bucket = (2/5) x.\nRequired number of buckets = (25x) / ((2/5)x) = 62.5."
+    },
+    {
+        "topic": "simplification",
+        "id": 10,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "In a regular week, there are 5 working days, and for each day, the working hours are 8. A man gets Rs. 2.40 per hour for regular work and Rs. 3.20 per hour for overtime. If he earns Rs. 432 in 4 weeks, then how many hours does he work for?",
+        "options": {
+            "A": "160",
+            "B": "175",
+            "C": "180",
+            "D": "195",
+            "E": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Suppose the man works overtime for x hours.\nNow, working hours in 4 weeks = (5 x 8 x 4) = 160.\n160 x 2.40 + x x 3.20 = 432\n3.20x = 432 - 384 = 48\nx = 15.\nHence, total hours of work = (160 + 15) = 175."
+    },
+    {
+        "topic": "simplification",
+        "id": 11,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "Free notebooks were distributed equally among children of a class. The number of notebooks each child got was one-eighth of the number of children. Had the number of children been half, each child would have got 16 notebooks. Total how many notebooks were distributed?",
+        "options": {
+            "A": "256",
+            "B": "432",
+            "C": "512",
+            "D": "640",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Let the total number of children be x.\nThen, x x 1 x 2 = x x 16\n8 2\nNumber of notebooks = 1 x 2 = 1 x 64 x 64 = 512.\n8 2\nHence, the total number of notebooks distributed = 512."
+    },
+    {
+        "topic": "simplification",
+        "id": 12,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "If 20 men take 15 days to complete a job, in how many days can 25 men complete that job?",
+        "options": {
+            "A": "8",
+            "B": "10",
+            "C": "12",
+            "D": "15",
+            "E": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Let the required number of days be x.\nMore men, less days (Indirect Proportion)\nMen 25 : 20 :: 15 : x\n(25 x x) = (20 x 15)\n x = 12.\nHence, the required number of days = 12."
+    },
+    {
+        "topic": "simplification",
+        "id": 13,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "A can do a job in 12 days. A and B together can do it in 8 days. In how many days can B do the job?",
+        "options": {
+            "A": "10",
+            "B": "18",
+            "C": "24",
+            "D": "30",
+            "E": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "Suppose B alone can do the job in x days.\nThen, (A + B)'s 1 day's work = 1/8 and A's 1 day's work = 1/12\nTherefore, B's 1 day's work = (1/8) - (1/12) = (3 - 2)/24 = 1/24\n⇒ B can do the job in 24 days."
+    },
+    {
+        "topic": "simplification",
+        "id": 14,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "A, B, and C can do a piece of work in 7, 14, and 28 days respectively. In how many days can all three together complete the work?",
+        "options": {
+            "A": "2(11/27)",
+            "B": "3(13/27)",
+            "C": "3(5/11)",
+            "D": "4(15/27)",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "A's 1 day's work = 1/7\nB's 1 day's work = 1/14\nC's 1 day's work = 1/28\n(A + B + C)'s 1 day's work = (1/7 + 1/14 + 1/28) = 6/28 = 3/14.\nTherefore, all three together will complete the work in 14/3 = 4(2/3) days."
+    },
+    {
+        "topic": "simplification",
+        "id": 15,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "A man can do a piece of work in 25 days. He works at it for 5 days and then, sickness laid him up for 4 days. He then takes up the work again and works at it for 6 days. If he finishes the remaining work in 3 days, the number of days in which the entire work will be completed is:",
+        "options": {
+            "A": "38",
+            "B": "37",
+            "C": "36",
+            "D": "35",
+            "E": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Suppose the work is completed in x days.\nThen, 5(1/25) + 6(1/25) + (1/x) = 1\n(11/x) = 1 - (11/25) = 14/25\nx = (25 x 11)/14 = 385/14 = 38 (5/14) days.\nHence, the required number of days = 38."
+    },
+    {
+        "topic": "simplification",
+        "id": 16,
+        "type": "type-1-mathematics-problems",
+        "difficulty": "medium",
+        "question": "Find the value of (469 + 174)^2 - (469 - 174)^2.",
+        "options": {
+            "A": "469 x 174",
+            "B": "2",
+            "C": "4",
+            "D": "295",
+            "E": "643"
+        },
+        "correct_option": "C",
+        "solution": "Given expression = (a + b)^2 - (a - b)^2\n= 4ab\nab = 4 (where a = 469, b = 174)."
+    }
+]

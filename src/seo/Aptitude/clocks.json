@@ -1,0 +1,287 @@
+[
+    {
+        "id": 0,
+        "type": "type-1-angle between hour and minute hands",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "An accurate clock shows 8 o'clock in the morning. Through how many degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
+        "options": {
+            "A": "144°",
+            "B": "150°",
+            "C": "168°",
+            "D": "180°"
+        },
+        "correct_option": "D",
+        "solution": "Angle traced by the hour hand in 6 hours = (360 × 6)° = 180°."
+    },
+    {
+        "id": 1,
+        "type": "type-1-angle between hour and minute hands",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "The reflex angle between the hands of a clock at 10.25 is:",
+        "options": {
+            "A": "180°",
+            "B": "192.5°",
+            "C": "195°",
+            "D": "197.5°"
+        },
+        "correct_option": "D",
+        "solution": "Angle traced by the hour hand in 125 hrs = (360 × 125)° = 312.5°.\n\nAngle traced by the minute hand in 25 min = (360 × 25)° = 150°.\n\nReflex angle = 360° - (312.5° - 150°) = 360° - 162.5° = 197.5°."
+    },
+    {
+        "id": 2,
+        "type": "type-1-angle between hour and minute hands",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "A clock is started at noon. By 10 minutes past 5, the hour hand has turned through:",
+        "options": {
+            "A": "145°",
+            "B": "150°",
+            "C": "155°",
+            "D": "160°"
+        },
+        "correct_option": "C",
+        "solution": "Angle traced by the hour hand in 12 hrs = 360°.\n\nAngle traced by the hour hand in 5 hrs 10 min. i.e., 31 hrs = (360 × 31)° = 155°."
+    },
+    {
+        "id": 3,
+        "type": "type-6-time gained/lost by the clock",
+        "difficulty": "hard",
+        "topic": "clocks",
+        "question": "A watch which gains 5 seconds in 3 minutes was set right at 7 a.m. In the afternoon of the same day, when the watch indicated quarter past 4 o'clock, the true time is:",
+        "options": {
+            "A": "59 min. past 3",
+            "B": "4 p.m.",
+            "C": "58 min. past 3",
+            "D": "2 3 min. past 4"
+        },
+        "correct_option": "B",
+        "solution": "Time from 7 a.m. to 4.15 p.m. = 9 hrs 15 min. = (37/4) hrs.\n\n3 min. 5 sec. of this clock = 3 min. of the correct clock.\n\n(37/4) hrs of this clock = (1/20) hrs of the correct clock.\n\n(37/4) hrs of this clock = (720 × 37/4) hrs of the correct clock.\n\n= 9 hrs of the correct clock.\n\nThe correct time is 9 hrs after 7 a.m. i.e., 4 p.m."
+    },
+    {
+        "id": 4,
+        "type": "type-6-time gained/lost by the clock",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "How much does a watch lose per day if its hands coincide every 64 minutes?",
+        "options": {
+            "A": "32 min.",
+            "B": "36 min.",
+            "C": "90 min.",
+            "D": "96 min."
+        },
+        "correct_option": "A",
+        "solution": "55 min. spaces are covered in 60 min.\n\n60 min. spaces are covered in (60 × 60) min = 65 5 min.\n\nLoss in 64 min. = (65 5 - 64) = 16 min.\n\nLoss in 24 hrs = (16 × 1 × 24 × 60) min = 32 min."
+    },
+    {
+        "id": 5,
+        "type": "type-4-time when hands are in straight line but not together",
+        "difficulty": "easy",
+        "topic": "clocks",
+        "question": "At what time between 7 and 8 o'clock will the hands of a clock be in the same straight line but not together?",
+        "options": {
+            "A": "5 min. past 7",
+            "B": "5 2 min. past 7",
+            "C": "5 3 min. past 7",
+            "D": "5 5 min. past 7"
+        },
+        "correct_option": "D",
+        "solution": "When the hands of the clock are in the same straight line but not together, they are 30 minute spaces apart.\n\nAt 7 o'clock, they are 25 min. spaces apart.\n\nThe minute hand will have to gain only 5 min. spaces.\n\n55 min. spaces are gained in 60 min.\n\n5 min. spaces are gained in (60 × 5) min = 5 5 min.\n\nThe required time is 5 5 min. past 7."
+    },
+    {
+        "id": 6,
+        "type": "type-3-time when hands are at right angles",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "At what time between 5.30 and 6 will the hands of a clock be at right angles?",
+        "options": {
+            "A": "43 5 min. past 5",
+            "B": "43 7 min. past 5",
+            "C": "40 min. past 5",
+            "D": "45 min. past 5"
+        },
+        "correct_option": "B",
+        "solution": "At 5 o'clock, the hands are 25 min. spaces apart.\n\nTo be at right angles and that too between 5.30 and 6, the minute hand has to gain (25 + 15) = 40 min. spaces.\n\n55 min. spaces are gained in 60 min.\n\n40 min. spaces are gained in (60 × 40) min = 43 7 min.\n\nThe required time is 43 7 min. past 5."
+    },
+    {
+        "id": 7,
+        "type": "type-1-angle between hour and minute hands",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "The angle between the minute hand and the hour hand of a clock when the time is 4.20 is:",
+        "options": {
+            "A": "0°",
+            "B": "10°",
+            "C": "5°",
+            "D": "20°"
+        },
+        "correct_option": "B",
+        "solution": "Angle traced by the hour hand in 13 hrs = (360 × 13)° = 130°.\n\n3\n\nAngle traced by the minute hand in 20 min. = (360 × 20)° = 120°.\n\n60\n\nRequired angle = (130 - 120)° = 10°."
+    },
+    {
+        "id": 8,
+        "type": "type-1-angle between hour and minute hands",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "At what angle, the hands of a clock are inclined at 15 minutes past 5?",
+        "options": {
+            "A": "58 1°",
+            "B": "64°",
+            "C": "67 1°",
+            "D": "72 1°"
+        },
+        "correct_option": "C",
+        "solution": "Angle traced by the hour hand in 21 hrs = (360 × 21)° = 157 1°.\n\n4\n\nAngle traced by the minute hand in 15 min. = (360 × 15)° = 90°.\n\n60\n\nRequired angle = (157 1° - 90°) = 67 1°."
+    },
+    {
+        "id": 9,
+        "type": "type-1-angle between hour and minute hands",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "At 3:40, the hour hand and the minute hand of a clock form an angle of:",
+        "options": {
+            "A": "120°",
+            "B": "125°",
+            "C": "130°",
+            "D": "135°"
+        },
+        "correct_option": "C",
+        "solution": "Angle traced by the hour hand in 12 hrs. = 360°.\n\nAngle traced by it in 11 hrs = (360 × 11)° = 110°.\n\n3\n\nAngle traced by minute hand in 60 min. = 360°.\n\nAngle traced by it in 40 min. = (360 × 40)° = 240°.\n\n60\n\nRequired angle = (240 - 110)° = 130°."
+    },
+    {
+        "id": 10,
+        "type": "type-2-time when hands coincide",
+        "difficulty": "easy",
+        "topic": "clocks",
+        "question": "How many times are the hands of a clock at right angles in a day?",
+        "options": {
+            "A": "22",
+            "B": "24",
+            "C": "44",
+            "D": "48"
+        },
+        "correct_option": "A",
+        "solution": "In 12 hours, they are at right angles 22 times.\n\nIn 24 hours, they are at right angles 44 times.\n\nThe hands of a clock are at right angles 22 times in a day."
+    },
+    {
+        "id": 11,
+        "type": "type-2-time when hands coincide",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "The angle between the minute hand and the hour hand of a clock when the time is 8.30 is:",
+        "options": {
+            "A": "80°",
+            "B": "75°",
+            "C": "60°",
+            "D": "105°"
+        },
+        "correct_option": "B",
+        "solution": "Angle traced by the hour hand in 17 hrs = (360 × 17)° = 255°.\n\n2\n\nAngle traced by the minute hand in 30 min. = (360 × 30)° = 180°.\n\n60\n\nRequired angle = (255 - 180)° = 75°."
+    },
+    {
+        "id": 12,
+        "type": "type-2-time when hands coincide",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "How many times in a day, are the hands of a clock in a straight line but opposite in direction?",
+        "options": {
+            "A": "20",
+            "B": "22",
+            "C": "24",
+            "D": "48"
+        },
+        "correct_option": "B",
+        "solution": "The hands of a clock point in opposite directions (in the same straight line) 11 times in every 12 hours. (Because between 5 and 7 they point in opposite directions at 6 o'clock only).\n\nSo, in a day, the hands point in opposite directions 22 times."
+    },
+    {
+        "id": 13,
+        "type": "type-2-time when hands coincide",
+        "difficulty": "easy",
+        "topic": "clocks",
+        "question": "At what time between 4 and 5 o'clock will the hands of a watch point in opposite directions?",
+        "options": {
+            "A": "45 min. past 4",
+            "B": "40 min. past 4",
+            "C": "50 4 min. past 4",
+            "D": "54 6 min. past 4"
+        },
+        "correct_option": "D",
+        "solution": "At 4 o'clock, the hands of the watch are 20 min. spaces apart.\n\nTo be in opposite directions, they must be 30 min. spaces apart.\n\nThe minute hand will have to gain 50 min. spaces.\n\n55 min. spaces are gained in 60 min.\n\n50 min. spaces are gained in (60 × 50) min = 54 6 min.\n\nThe required time is 54 6 min. past 4."
+    },
+    {
+        "id": 14,
+        "type": "type-2-time when hands coincide",
+        "difficulty": "easy",
+        "topic": "clocks",
+        "question": "At what time between 9 and 10 o'clock will the hands of a watch be together?",
+        "options": {
+            "A": "45 min. past 9",
+            "B": "50 min. past 9",
+            "C": "49 1 min. past 9",
+            "D": "48 2 min. past 9"
+        },
+        "correct_option": "C",
+        "solution": "To be together between 9 and 10 o'clock, the minute hand has to gain 45 min. spaces.\n\n55 min. spaces are gained in 60 min.\n\n45 min. spaces are gained in (60 × 45) min or 49 1 min.\n\nThe hands are together at 49 1 min. past 9."
+    },
+    {
+        "id": 15,
+        "type": "type-2-time when hands coincide",
+        "difficulty": "medium",
+        "topic": "clocks",
+        "question": "At what time, in minutes, between 3 o'clock and 4 o'clock, will the needles coincide with each other?",
+        "options": {
+            "A": "5 1\"",
+            "B": "12 4\"",
+            "C": "13 4\"",
+            "D": "16 4\""
+        },
+        "correct_option": "C",
+        "solution": "At 3 o'clock, the minute hand is 15 min. spaces apart from the hour hand.\n\nTo be coincident, it must gain 15 min. spaces.\n\n55 min. are gained in 60 min.\n\n15 min. are gained in (60 × 15) min = 16 4 min.\n\nThe hands are coincident at 16 4 min. past 3."
+    },
+    {
+        "id": 16,
+        "type": "type-2-time when hands coincide",
+        "difficulty": "easy",
+        "topic": "clocks",
+        "question": "How many times do the hands of a clock coincide in a day?",
+        "options": {
+            "A": "20",
+            "B": "21",
+            "C": "22",
+            "D": "24"
+        },
+        "correct_option": "C",
+        "solution": "The hands of a clock coincide 11 times in every 12 hours (Since between 11 and 1, they coincide only once, i.e., at 12 o'clock).\n\nAM\n\n12:00\n1:05\n2:11\n3:16\n4:22\n5:27\n6:33\n7:38\n8:44\n9:49\n10:55\n\nPM\n\n12:00\n1:05\n2:11\n3:16\n4:22\n5:27\n6:33\n7:38\n8:44\n9:49\n10:55\n\nThe hands overlap about every 65 minutes, not every 60 minutes.\n\nThe hands coincide 22 times in a day."
+    },
+    {
+        "id": 17,
+        "type": "type-2-time when hands coincide",
+        "difficulty": "easy",
+        "topic": "clocks",
+        "question": "How many times in a day are the hands of a clock straight?",
+        "options": {
+            "A": "22",
+            "B": "24",
+            "C": "44",
+            "D": "48"
+        },
+        "correct_option": "A",
+        "solution": "In 12 hours, the hands coincide or are in the opposite direction 22 times.\n\nIn 24 hours, the hands coincide or are in the opposite direction 44 times a day."
+    },
+    {
+        "id": 18,
+        "type": "type-6-time gained/lost by the clock",
+        "difficulty": "hard",
+        "topic": "clocks",
+        "question": "A watch which gains uniformly is 2 minutes low at noon on Monday and is 4 min. 48 sec fast at 2 p.m. on the following Monday. When was it correct?",
+        "options": {
+            "A": "2 p.m. on Tuesday",
+            "B": "2 p.m. on Wednesday",
+            "C": "3 p.m. on Thursday",
+            "D": "1 p.m. on Friday"
+        },
+        "correct_option": "B",
+        "solution": "Time from 12 p.m. on Monday to 2 p.m. on the following Monday = 7 days 2 hours = 170 hours.\n\nThe watch gains (2 + 4 4) min. or 34 min. in 170 hrs.\n\nNow, 34 min. are gained in 170 hrs.\n\n2 min. are gained in (170 × 5 × 2) hrs = 50 hrs.\n\nThe watch is correct 2 days 2 hrs. after 12 p.m. on Monday, i.e., it will be correct at 2 p.m. on Wednesday."
+    }
+]

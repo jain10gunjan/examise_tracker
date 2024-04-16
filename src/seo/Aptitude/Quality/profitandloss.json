@@ -1,0 +1,243 @@
+[
+    {
+        "topic": "profit-and-loss",
+        "id": 0,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "medium",
+        "question": "The marked price of a radio is Rs 480. The owner allows a discount of 10% and still earns the profit of 8%. If no discount is allowed, find his gain percent?",
+        "options": {
+            "A": "25%",
+            "B": "12%",
+            "C": "15%",
+            "D": "20%"
+        },
+        "correct_option": "A",
+        "solution": "Marked price= 480\nThe shopkeeper allows a discount of 10%, so, the Selling price will be= 480 * 90/100 = 432.\nAnd the profit is 8%.\nApply formula: \nC.P = (100/ (100 + p %)) S.P\nC.P = (100/108) * 432\nC.P = 400\nIf the discount is not allowed:\nLet Profit= P%\\S.P = Marked price = 480, and C.P = 400\nProfit = S.P - C.P\nNow, apply formula:\nP% = (Profit/C.P) * 100\nSo, gain % = ((480-400)/ 400) * 100\n= 80/4 = 20%"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 1,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "easy",
+        "question": "5% more is gained by selling a cow for Rs 1010 than by selling it for Rs 1000. What is the C.P of the cow?",
+        "options": {
+            "A": "Rs 100",
+            "B": "Rs 150",
+            "C": "Rs 200",
+            "D": "Rs 250"
+        },
+        "correct_option": "C",
+        "solution": "ATQ, the difference between profit % = 5\nThe difference between S.P = 10\n\nApply formula:\n\nC.P = (100* Difference between S.P)/ (% difference in profit)\n\nHence, the C.P = (100 * 10)/ 5 = 200.\n\nThe difference between profit = 5%\nLet the C.P = x\nAnd S.P2= 1010, S.P1 = 1000\n\ni.e., P2 % - P1% = 5.................................................... (i)\n\nApply formula of percent\n\nP% = (Profit/C.P) * 100\n\nAnd profit = S.P - C.P.\n\nNow according to equation (i)\n\n((S.P 2- x)/ x)*100 - ((S.P 1- x)/ x)*100 = 5\n\n((1010- x)/ x)*100 - ((1000- x)/ x)*100 = 5\n\nOr, take (100/x) as common from the whole equation.\n\ni.e., (100/x) [(1010-x) - (1000-x)] = 5\n\n(100/x) [1010 - x - 1000 + x] = 5\n\nOr, (100/x) * 10 = 5\n\nOr, 5x = 1000\nHence, x = 200, or C.P = Rs 200."
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 2,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "medium",
+        "question": "A dishonest milkman sells milk at cost price, but he mixes water and earns 16$\frac{2}{3}$ % profit. Find the ratio of mixture and milk in the mixture.",
+        "options": {
+            "A": "7:5",
+            "B": "7:6",
+            "C": "7:7",
+            "D": "7:8",
+            "E": "None of the above"
+        },
+        "correct_option": "D",
+        "solution": "Let C.P of 1-litre milk = 10 \nBrought milk = x liters \nThen C.P = 10x \nLet water mixed in milk = y liter \nThen quantity of mixture = (x+y) liter \n\nMixture is sold on C.P \nThen S.P = 10(x + y) \n= 10x + 10y \n\nThe profit = S.P- C.P = (10x + 10y) - 10x \n= 10y \n \\(Profit % = \\frac{10y}{10x}*100 = 16\\frac{2}{3}%\\) \nOr, \\(\\frac{y}{x} = \\frac{50}{3} * \\frac{1}{100}\\) \nOr, \\(\\frac{y}{x} = \\frac{50}{300}\\) \nOr, \\(\\frac{y}{x} = \\frac{1}{6} \\)\nSo, mixture = x+y = 6+1 = 7 \nThen, \\(\frac{mixture}{milk}\\) = 7:6 or 7/6 \n\nOR\n\n\\(16\\frac{2}{3}%\\) profit = \\(\frac{50}{3}%\\) \ni.e., +1>water \n6> milk \nThat means if the total mixture is 6+1 = 7 \nThen milk = 6 \nMixture: milk = 7:6"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 3,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "easy",
+        "question": "Ayaan bought 30 kg of rice at the rate of Rs 9.50/kg and 40 kg rice at the rate of Rs 8.50/kg and mixed them. He sold the mixture at the rate of Rs. 8.90/kg. Find his total profit or loss in the transaction.",
+        "options": {
+            "A": "Rs 2 loss",
+            "B": "Rs 5 profit",
+            "C": "Rs 2 profit",
+            "D": "Rs 7 loss"
+        },
+        "correct_option": "A",
+        "solution": "The total cost price = 30* 9.5 + 40* 8.5 = 625\nThe total selling price = 8.9(30+40) = 623\n\nCost price > selling price = Loss\nHence, the total loss in this transaction = 625-623= Rs 2"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 4,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "easy",
+        "question": "If a retail seller buys 30 pencils at the marked price of 27 pens, find the profit percent.",
+        "options": {
+            "A": "11(1/9)%",
+            "B": "9(1/11)%",
+            "C": "10%",
+            "D": "20%"
+        },
+        "correct_option": "A",
+        "solution": "If the retailer seller purchases 27 pens, he gains 3 pens as profit.\nProfit = 3 pens, and C.P = 27 pens\nProfit % = (Profit/C.P) * 100 = (3/27) * 100 = 100/9\nSo, the Profit % = 11(1/9) %."
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 5,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "medium",
+        "question": "By selling a property for Rs 45000 a person incurs a loss of 10%. Find the selling price to gain the profit of 15 %?",
+        "options": {
+            "A": "57500",
+            "B": "55000",
+            "C": "57500",
+            "D": "58000"
+        },
+        "correct_option": "C",
+        "solution": "S.P = 45000\nLoss% = 10%\n\nApply formula:\n\nC.P = (100)/ (100- L %)) * S.P\n\nC.P = (100/ (100-10))* 45000\nC.P= (100/90) * 45000\nC.P = 50000\n\nNow, to gain the profit of 15%:\n\nApply formula:\n\nS.P = ((100+P %) /100) * C.P\n\nS.P = ((100+15)/100) * 50000\nS.P = (115/100)* 50000\n\nS.P = 57500"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 6,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "medium",
+        "question": "A person purchases some article at the rate of 4 articles for rupees 5 and sells them at the rate of 5 articles for rupees 4. Find the total profit or loss in %.",
+        "options": {
+            "A": "22% profit",
+            "B": "20% loss",
+            "C": "40% profit",
+            "D": "36% loss"
+        },
+        "correct_option": "B",
+        "solution": "The C.P of 4 article is rupees 5 and selling price of 5 article is rupees 4.\n\nNote: article ratio should be the same in both cases.\n\ni.e., Article price\n\nC.P = 4 5\n\nS.P = 5 4\n\nAs the article is same in both the cases, we should make the article equal.\n\nTo make article value equal, we need to multiply C.P with 5 and S.P with 4. The change made in Article should also be performed at a price to calculate the % profit or loss.\n\ni.e., Article price\n\nC.P = 4* 5 = 20 5* 5 = 25\n\nS.P = 5 * 4= 20 4* 4 = 16\n\nThe difference between the price of C.P and S.P is 25-16 = 9.\n\nNow, apply % formula:\n\nProfit or Loss % = ((difference between C.P and S.P)/ C.P) * 100\n\nNote: if S.P > C.P = profit\nIf C.P > S.P = loss\n\nHere C.P = 25, and S.P = 16\n\nSo, Loss % = (9/25) * 100 = 36%\n\nHence, the person incurs a loss of 36%."
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 7,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "hard",
+        "question": "A shopkeeper sells his goods at a profit of 10%. If he had purchased it at 20\\% less and sells it at rupees 10 more, he had a gain of 40\\%. Find the C.P of the goods.",
+        "options": {
+            "A": "500",
+            "B": "600",
+            "C": "400",
+            "D": "200"
+        },
+        "correct_option": "A",
+        "solution": "Let the C.P of an article is 100.\nATQ, S.P will be 110...(i)\nIf he has purchased it at 20\\% less, the new C.P = 100 - 20= 80\n\nIf the C.P is 80, then he earns a profit of 40\\% and sells the article at Rs 10 more than the previous price.\nSo, when he earns 40\\%, the new C.P = (40/100) * 80 = 32\n\nThat means if the C.P = 80, the S.P = 80+32 = 112............................ (ii)\n\nCompare equation 1 and 2, and we get the difference between S.P is = 2\nBut ATQ, it should be 10, i.e., multiple of 5\nSo, we need to multiply the actual value with 5 then we get actual cost price.\n\nHence, the C.P of the article is = 100 * 5 = 500"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 8,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "easy",
+        "question": "The C.P. of an article is equaled to the profit \\%, and a shopkeeper sells it in Rs 56. Find the C.P of the article.",
+        "options": {
+            "A": "40",
+            "B": "60",
+            "C": "80",
+            "D": "100"
+        },
+        "correct_option": "A",
+        "solution": "C.P = Profit \\%, S.P = 56 (given)\nLet C.P = Profit \\% = x\n\nApply formula:\n\nS.P = ((100 + Profit %)/100) * C.P 56 = ((100 + x)/100)* x\n \\(x^2 + 100x = 5600\\)\n\\(x^2 + 100x -5600=0\\)\nNow calculate the factors.\n\\(x^2+ 140x - 40x- 5600=0\\)\n(x+140)(x- 40)=0\nx= -140 and +40.\n-ve value is not valid, so the x=40\nSo, C.P = Profit% = 40"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 9,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "medium",
+        "question": "The loss incurred on selling an article for Rs. 270 is as much as the profit made after selling it at 10% profit. The C.P. of the article is ?",
+        "options": {
+            "A": "Rs. 90",
+            "B": "Rs. 110",
+            "C": "Rs. 363",
+            "D": "Rs. 300"
+        },
+        "correct_option": "D",
+        "solution": "Let C.P.be Rs. x then,\n\nx - 270 = 10% of x = x / 10\n\\(\\Rightarrow x = 300)\nHence, the C.P. of the article is Rs. 300."
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 10,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "easy",
+        "question": "A discount series of 10%, 20% and 40% is equal to single discount of ?",
+        "options": {
+            "A": "50%",
+            "B": "56.80%",
+            "C": "70%",
+            "D": "70.28%"
+        },
+        "correct_option": "B",
+        "solution": "Let original price = Rs. 100\nPrice after 1st discount = Rs. 90\nPrice after 2nd discount = Rs. (80/100) x 90 = Rs. 72\nPrice after 3rd discount = Rs. (60/100) x 72 = Rs. 43.20\n\n\\(\therefore\\) Single equivalent discount = (100 - 43.20) = 56.8%"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 11,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "easy",
+        "question": "The C.P. of an article is 40% of the S.P. The per cent that the S.P. is of C.P. is ?",
+        "options": {
+            "A": "40",
+            "B": "60",
+            "C": "240",
+            "D": "250"
+        },
+        "correct_option": "D",
+        "solution": "Let S.P. = Rs. 100\nThen C.P. = Rs. 40\n\\(\\therefore\\) Required percent = (100/40) x 100% = 250%"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 12,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "medium",
+        "question": "Toffees are bought at the rate of 8 for a rupee. To gain 60\\% they must be sold at ?",
+        "options": {
+            "A": "6 for a rupee",
+            "B": "5 for a rupee",
+            "C": "9 for Rs. 2",
+            "D": "24 for Rs. 5"
+        },
+        "correct_option": "B",
+        "solution": "Suppose he buys 8 toffees\nThen, C.P. = Re. 1\nGain = 60%\n∴ S.P. = Rs. (160 / 100 x 1) = Rs. 8 / 5\nFor Rs. 8 / 5, toffees sold = 8\nFor Re. 1 toffees sold = (8 x 5) / 8 = 5\nSo, he must sell them at 5 for a rupee"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 13,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "hard",
+        "question": "Jimmy bought paper sheets for Rs. 7200 and spent Rs. 200 on transport paying Rs. 600 he had 330 boxes made, which he sold at Rs. 28 each. What is his profit percentage ?",
+        "options": {
+            "A": "15.5",
+            "B": "40",
+            "C": "60",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "C.P. of 330 boxes = Rs. (7200 + 200 + 600) = Rs.8000\nS.P. of 330 boxes = Rs. (330 x 28) = Rs. 9240\nProfit = Rs. (9240 - 8000) = Rs. 1240\n∴ Profit % = (1240 / 8000) x 100% = 15.5%"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 14,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "easy",
+        "question": "A dealer professing to sell at cost price uses a 900 gms weight for a kilogram. His gain percent is ?",
+        "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "11 \\(\\frac{1}{9}\\)"
+        },
+        "correct_option": "D",
+        "solution": "Gain% = {Error / (True value) - Error x 100}%\n= (100 / 900 x 100)% = 11 \\(\\frac{1}{9}\\)%"
+    },
+    {
+        "topic": "profit-and-loss",
+        "id": 15,
+        "type": "type-5-numerical-on-discount-and-successive-discounts-profit",
+        "difficulty": "medium",
+        "question": "When the price of a toy was increased by 20%, the number of toys sold was decreased by 15%. What was the effect on the sales of the shop ?",
+        "options": {
+            "A": "4% increased",
+            "B": "4% decreased",
+            "C": "2% increased",
+            "D": "2% decreased"
+        },
+        "correct_option": "C",
+        "solution": "Let original of each toy be Rs. 100 and number originally sold be 100.\n∴ originaly sale proceeds = Rs. (100 x 100) = Rs. 10000\nNew sale proceeds = Rs. (120 x 85) = Rs. 10200\n∴ Increase% = (200 x 100 / 10000)% = 2%"
+    }
+]

@@ -1,0 +1,316 @@
+[
+    {
+        "topic": "quadratic-equations",
+        "id": 0,
+        "type": "type-1-quadratic-equations",
+        "difficulty": "medium",
+        "question": "Which of the following equations is a quadratic?",
+        "options": {
+            "A": "\\(x^3 - x^2 - x + 5 = 0\\)",
+            "B": "\\(x^4 - 10\\)",
+            "C": "\\(7x^2 = 49\\)",
+            "D": "\\(x^4 - x^3 = 9000\\)",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Clearly, \\(7x^2 = 49\\) or \\(7x^2 - 49 = 0\\), which is of the form \\(ax^2 + bx + c = 0\\), \n where \\(b = 0\\).\nThus, \\(7x^2 - 49 = 0\\) is a quadratic equation."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 1,
+        "type": "type-2-quadratic-roots",
+        "difficulty": "easy",
+        "question": "Which of the following equations has real roots?",
+        "options": {
+            "A": "\\(2x^2 - 3x + 4 = 0\\)",
+            "B": "\\((x - 1)(2x - 5) = 0\\)",
+            "C": "\\(3x^2 + 4x + 5 = 0\\)",
+            "D": "Cannot be determined",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "\\((x - 1)(2x - 5) = 0 \\Rightarrow x = 1, \\frac{5}{2}\\)\nSo, its roots are real."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 2,
+        "type": "type-3-quadratic-solutions",
+        "difficulty": "hard",
+        "question": "Find the roots of the equation \\(2x^2 - 9x - 18 = 0\\).",
+        "options": {
+            "A": "\\(\\frac{3}{2}\\) and 6",
+            "B": "\\(-\\frac{3}{2}\\) and \\(-6\\)",
+            "C": "\\(-\\frac{3}{2}\\) and 6",
+            "D": "\\(\\frac{3}{2}\\) and \\(-6\\)",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Given equation is \\(2x^2 - 9x - 18 = 0\\)\n[by factorisation method]\n\\(\\Rightarrow 2x^2 - 12x + 3x - 18 = 0\\)\n\\(\\Rightarrow 2x(x - 6) + 3(x - 6) = 0\\)\n\\(\\Rightarrow (2x + 3)(x - 6)\\)"
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 3,
+        "type": "type-4-equation-comparison",
+        "difficulty": "medium",
+        "question": "If \\(a + (1/a)^2 = 3\\), what is the value of \\(a^3 + (1/a)^3\\)?",
+        "options": {
+            "A": "\\(10\\sqrt{3}/3\\)",
+            "B": "0",
+            "C": "\\(3\\sqrt{3}\\)",
+            "D": "\\(6\\sqrt{3}\\)",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Given, \\(a + (1/a)^2 = 3\\)\nTaking square roots both sides, we get\n\\(a + (1/a) = \\sqrt{3}\\)\nOn cubing both sides, we have\n\\(a^3 + 1/a^3 + 3.a.1/[a(a + 1/a)] = 3 \\sqrt{3}\\)\n\\(a^3 + 1/a^3 + 3\\sqrt{3} = 3\\sqrt{3}\\)\nTherefore, \\(a^3 + 1/a^3 = 0\\)"
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 4,
+        "type": "type-5-root-computation equations",
+        "difficulty": "easy",
+        "question": "If \\(2x^2 - 7xy + 3y^2 = 0\\), then the value of \\(x:y\\) is",
+        "options": {
+            "A": "3:2",
+            "B": "2:3",
+            "C": "3:1 and 1:2",
+            "D": "5:6",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "The given equation is\n\\(2x^2 - 7xy + 3y^2 = 0\\)\n\\(\\Rightarrow 2x^2 - 6xy - xy + 3y^2 = 0\\)\n\\(\\Rightarrow 2x(x - 6) - y(x - 3y) = 0\\)\n\\(\\Rightarrow (2x - y)(x - 3y) = 0\\)\nEither, \\(2x - y = 0\\) \\(\\Rightarrow 2x = y\\)\n\\(\\Rightarrow x:y = 1:2\\)\nor \\(x - 3y = 0\\) \\(\\Rightarrow x = 3y\\)\n\\(\\Rightarrow x:y = 3:1\\)\nTherefore, the value of \\(x:y\\) can be \\(3:1\\) and \\(1:2\\) or \\(3:2\\) overall."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 5,
+        "type": "type-6-cubic-equations",
+        "difficulty": "hard",
+        "question": "Find the roots of the equation \\(2x^2 - 9x - 18 = 0\\).",
+        "options": {
+            "A": "\\(\\frac{3}{2}\\) and 6",
+            "B": "\\(-\\frac{3}{2}\\) and \\(-6\\)",
+            "C": "\\(-\\frac{3}{2}\\) and 6",
+            "D": "\\(\\frac{3}{2}\\) and \\(-6\\)",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Given equation is \\(2x^2 - 9x - 18 = 0\\)\\[by factorisation method]\\\\(\\Rightarrow 2x^2 - 12x + 3x - 18 = 0\\)\\\\(\\Rightarrow 2x(x - 6) + 3(x - 6) = 0\\)\\\\(\\Rightarrow (2x + 3)(x - 6)\\)"
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 6,
+        "type": "type-1-quadratic-equations",
+        "difficulty": "medium",
+        "question": "One root of the quadratic equation \\(x^2 - 5x + 6 = 0\\) is 3. Find the other root.",
+        "options": {
+            "A": "2",
+            "B": "-2",
+            "C": "1",
+            "D": "-1",
+            "E": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "The given equation is\n\\(x^2 - 5x + 6 = 0\\) ⇒ \\(x^2 - 2x - 3x+ 6 = 0\\)\n⇒ \\(x(x - 2) - 3(x - 2) = 0\\)\n⇒ \\((x - 2)(x - 3) = 0\\)\n⇒ \\(x - 2 = 0\\) or \\(x - 3 = 0\\)\n⇒ \\(x = 2\\) or \\(x = 3\\)\nThus, the other root of the given quadratic equation is 2."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 7,
+        "type": "type-2-quadratic-roots",
+        "difficulty": "easy",
+        "question": "Construct a quadratic equation whose roots have the sum = 6 and product = \\(-16\\).",
+        "options": {
+            "A": "\\(x^2 - 6x - 16 = 0\\)",
+            "B": "\\(x^2 + 6x - 16 = 0\\)",
+            "C": "\\(x^2 - \\sqrt{3}x - 16 = 0\\)",
+            "D": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "Given that: sum of the roots = 6 and product of two roots = -16\nThe required quadratic equation is \\(x^2 - (\\text{sum of the roots})x + (\\text{product of the roots}) = 0\\)\n⇒ \\(x^2 - 6x - 16 = 0\\)"
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 8,
+        "type": "type-4-equation-comparison",
+        "difficulty": "medium",
+        "question": "In each of these questions, two equations are given. You have to solve these equations and find out the values of x and y and give answer (1) if x < y, (2) if x > y, (3) if x ≤ y, (4) if x ≥ y, (5) if x = y\nⅠ. 4x + 7y = 209\nⅡ. 12x − 14y = − 38",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "5"
+        },
+        "correct_option": "D",
+        "solution": "According to the given equations,\n\nⅠ. 4x + 7y = 209\nⅡ. 12x - 14y = -38\n\nMultiplying equation (Ⅰ) by 2, we get\n\n8x + 14y = 418 (4 x Ⅰ)\n\nAdding equations (Ⅱ) and (4 x Ⅰ), we get\n\n20x = 380\nx = 19\n\nSubstituting the value of x in equation (Ⅰ), we get\n\n4(19) + 7y = 209\n76 + 7y = 209\n7y = 133\ny = 19\n\nTherefore, x = y. Hence, the correct answer is (5) x = y."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 9,
+        "type": "type-5-root-computation equations",
+        "difficulty": "hard",
+        "question": "In each of these questions, two equations are given. You have to solve these equations and find out the values of x and y and give answer (1) if x < y, (2) if x > y, (3) if x ≤ y, (4) if x ≥ y, (5) if x = y\nFind the roots of the equations Ⅰ. 18x² + 18x + 4 = 0 and Ⅱ. 12y² + 29y + 14 = 0",
+        "options": {
+            "A": "x < y",
+            "B": "x > y",
+            "C": "x ≤ y",
+            "D": "x ≥ y",
+            "E": "x = y"
+        },
+        "correct_option": "D",
+        "solution": "From equation Ⅰ. 18x² + 18x + 4 = 0\n⇒ 18x² + 12x + 6x + 4 = 0\n⇒ 6x(3x + 2) + 2(3x + 2) = 0\n⇒ (6x + 2)(3x + 2) = 0\n\n⇒ x = -\\frac{1}{3}, -\\frac{2}{3}\n\nFrom equation Ⅱ. 12y² + 29y + 14 = 0\n⇒ 12y² + 21y + 8y + 14 = 0\n⇒ 3y(4y + 7) + 2(4y + 7) = 0\n⇒ (3y + 2)(4y + 7) = 6\n⇒ y = -\\frac{2}{3}, -\\frac{7}{4}\n\nFrom above equations we can say that x ≥ y is correct answer."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 10,
+        "type": "type-1-quadratic-equations",
+        "difficulty": "easy",
+        "question": "In each of these questions, two equations are given. You have to solve these equations and find out the values of x and y and give answer (1) if x < y, (2) if x > y, (3) if x ≤ y, (4) if x ≥ y, (5) if x = y\nSolve the following equations:\n\nI. \\(8x^2 + 6x = 5\\)\nII. \\(12y^2 - 22y + 8 = 0\\)",
+        "options": {
+            "A": "\\(x = \\frac{1}{2}, y = 1\\)",
+            "B": "\\(x = -\\frac{5}{2}, y = 1\\)",
+            "C": "\\(x = -\\frac{5}{2}, y = \\frac{4}{3}\\)",
+            "D": "\\(x = \\frac{1}{2}, y = \\frac{4}{3}\\)",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "We can solve the given equations as follows:\n\nI. \\(8x^2 + 6x = 5\\)\n\n\\(\\Rightarrow 8x^2 + 10x - 4x - 5 = 0\\)\n\\(\\Rightarrow 2x(4x + 5) - 1(4x + 5) = 0\\)\n\\(\\Rightarrow (2x - 1)(4x + 5) = 0\\)\n\n\\(\\therefore x = \\frac{1}{2}, -\\frac{5}{2}\\)\n\nII. \\(12y^2 - 22y + 8 = 0\\)\n\n\\(\\Rightarrow 12y^2 - 16y - 6y + 8 = 0\\)\n\\(\\Rightarrow 4y(3y - 4) - 2(3y - 4) = 0\\)\n\\(\\Rightarrow (4y - 2)(3y - 4) = 0\\)\n\n\\(\\therefore y = -\\frac{2}{3}, -\\frac{4}{5}\\)\n\nHence, we get \\(x = -\\frac{5}{2}, y = \\frac{4}{3}\\)."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 11,
+        "type": "type-2-quadratic-roots",
+        "difficulty": "medium",
+        "question": "In each of these questions, two equations are given. You have to solve these equations and find out the values of x and y and give answer (1) if x < y, (2) if x > y, (3) if x ≤ y, (4) if x ≥ y, (5) if x = y\nFind the roots of the equation \\(16x^2 + 20x + 6 = 0\\) and \\(10y^2 + 38y + 24 = 0\\).",
+        "options": {
+            "A": "\\(-\\frac{3}{4}\\), \\(-\\frac{1}{2}\\), -3, -4/5",
+            "B": "\\(-\\frac{3}{4}\\), \\(-\\frac{1}{2}\\), -3, \\(-\\frac{4}{5}\\)",
+            "C": "\\(\\frac{3}{4}\\), \\(\\frac{1}{2}\\), -3, -4/5",
+            "D": "\\(\\frac{3}{4}\\), \\(\\frac{1}{2}\\), -3, \\(-\\frac{4}{5}\\)"
+        },
+        "correct_option": "D",
+        "solution": "Given equations are:\n\\(16x^2 + 20x + 6 = 0\\) and \\(10y^2 + 38y + 24 = 0\\)\n\nFor equation 1:\n\\(16x^2 + 20x + 6 = 0\\)\n\\(\\Rightarrow 16x^2 + 12x + 8x + 6 = 0\\)\n\\(\\Rightarrow 4x(4x + 3) + 2(4x + 3) = 0\\)\n\\(\\Rightarrow (4x + 2)(4x + 3) = 0\\)\n\\(\\Rightarrow x = -\\frac{3}{4}, -\\frac{1}{2}\\)\n\nFor equation 2:\n\\(10y^2 + 38y + 24 = 0\\)\n\\(\\Rightarrow 10y^2 + 30y + 8y + 24 = 0\\)\n\\(\\Rightarrow 10y(y + 3) + 8(y + 3) = 0\\)\n\\(\\Rightarrow (10y + 8)(y + 3) = 0\\)\n\\(\\Rightarrow y = -3, -\\frac{4}{5}\\)"
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 12,
+        "type": "type-1-quadratic-equations",
+        "difficulty": "easy",
+        "question": "The roots of the equation \\(a^2x^2 - 3abx + 2b^2 = 0\\) are",
+        "options": {
+            "A": "\\(\\frac{2b}{a}\\), \\(-\\frac{b}{a}\\)",
+            "B": "\\(\\frac{2b}{a}\\), \\(\\frac{b}{a}\\)",
+            "C": "\\(-\\frac{2b}{a}\\), \\(-\\frac{b}{a}\\)",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "The given quadratic equation is\n\\(a^2x^2 - 3abx + 2b^2 = 0\\) \\(\\Rightarrow a^2x^2 - abx - 2abx + 2b^2 = 0\\) \\(\\Rightarrow ax(ax - 2b) - b(ax - 2b) = 0\\) \\(\\Rightarrow (ax - 2b)(ax - b) = 0\\) \\(\\Rightarrow ax - 2b = 0\\) or \\(ax - b = 0\\)\n\\(\\Rightarrow x = \\frac{2b}{a}\\) or \\(x = \\frac{b}{a}\\)\nThus, the two roots of the given quadratic equation are \\(\\frac{2b}{a}\\) and \\(\\frac{b}{a}\\)."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 13,
+        "type": "type-2-quadratic-roots",
+        "difficulty": "medium",
+        "question": "If one root of the quadratic equation \\(x^2 - kx + 8 = 0\\) is twice the other, find the value of k.",
+        "options": {
+            "A": "6",
+            "B": "8",
+            "C": "4",
+            "D": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Let the roots of the given quadratic equation be \\(\\alpha\\) and \\(2\\alpha\\).\nAccording to the sum and product of roots,\n\\(\\alpha + 2\\alpha = \\frac{-(-k)}{1}\\) \\(\\Rightarrow \\alpha = \\frac{k}{3}\\)\nAnd, \\(\\alpha \\times 2\\alpha = \\frac{8}{1}\\) \\(\\Rightarrow 2\\alpha^2 = 8\\) \\(\\Rightarrow \\alpha^2 = 4\\) \\(\\Rightarrow \\alpha = \\pm 2\\)\nAs \\(\\alpha = \\frac{k}{3}\\),\n\\(\\Rightarrow \\frac{k}{3} = \\pm 2\\)\n\\(\\Rightarrow k = \\pm 6\\)\nThus, the value of k is 6 or -6."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 14,
+        "type": "type-1-quadratic-equations",
+        "difficulty": "easy",
+        "question": "The quadratic equation \\(kx^2 - 5x + 6 = 0\\) has two distinct real roots if",
+        "options": {
+            "A": "\\(k < 1\\)",
+            "B": "\\(k > 1\\)",
+            "C": "\\(k < -1\\)",
+            "D": "\\(k > -1\\)",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "The given quadratic equation is \\(kx^2 - 5x + 6 = 0\\)\nDiscriminant \\(D = b^2 - 4ac\\)\\[where, a = k, b = -5, c = 6\\]\n\\(D = (-5)^2 - 4(k)(6) = 25 - 24k\\)\nFor two distinct real roots, the discriminant \\(D > 0\\)\n\\(\\Rightarrow 25 - 24k > 0\\)\n\\(\\Rightarrow 24k < 25\\)\n\\(\\Rightarrow k < \\frac{25}{24}\\)\nThus, the correct answer is \\(k < \\frac{25}{24}\\)."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 15,
+        "type": "type-2-quadratic-roots",
+        "difficulty": "hard",
+        "question": "The roots of the equation \\(3x^2 - 2px + 12 = 0\\) are equal. Find the value of p.",
+        "options": {
+            "A": "8",
+            "B": "16",
+            "C": "12",
+            "D": "6",
+            "E": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "The given quadratic equation is \\(3x^2 - 2px + 12 = 0\\)\nFor the roots to be equal, the discriminant \\(D = 0\\)\n\\(D = b^2 - 4ac\\)\\[where, a = 3, b = -2p, c = 12\\]\n\\(0 = (-2p)^2 - 4(3)(12)\\)\n\\(0 = 4p^2 - 144\\)\n\\(4p^2 = 144\\)\n\\(p^2 = 36\\)\n\\(p = \\sqrt{36}\\)\n\\(p = 6\\) or \\(p = -6\\)\nSince the question states the roots are equal we ignore the negative value of p. Therefore, the value of p is 6."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 16,
+        "type": "type-3-quadratic-solutions",
+        "difficulty": "medium",
+        "question": "Find the roots of the equation \\(4x^2 + 16x + 16 = 0\\).",
+        "options": {
+            "A": "\\(-2\\)",
+            "B": "\\(-1\\)",
+            "C": "\\(2\\)",
+            "D": "\\(1\\)",
+            "E": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "Given equation is \\(4x^2 + 16x + 16 = 0\\)\n\\(\\Rightarrow 4(x^2 + 4x + 4) = 0\\)\n\\(\\Rightarrow 4(x + 2)^2 = 0\\)\n\\(\\Rightarrow (x + 2)^2 = 0\\)\n\\(\\Rightarrow (x + 2) = 0\\)\n\\(\\Rightarrow x = -2\\)\nTherefore, the roots of the given equation are -2."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 17,
+        "type": "type-4-equation-comparison",
+        "difficulty": "easy",
+        "question": "In each of these questions, two equations are given. You have to solve these equations and find out the values of x and y and give answer (1) if x < y, (2) if x > y, (3) if x ≤ y, (4) if x ≥ y, (5) if x = y\nⅠ. \\(3x - 4y = 8\\)\nⅡ. \\(x - 2y = 4\\)",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "correct_option": "D",
+        "solution": "According to the given equations,\n\nⅠ. \\(3x - 4y = 8\\)\nⅡ. \\(x - 2y = 4\\)\n\nMultiplying equation (Ⅱ) by 3, we get\n\n3x - 6y = 12 (3 x Ⅱ)\n\nAdding equations (Ⅰ) and (3 x Ⅱ), we get\n\n-10y = 20\ny = -2\n\nSubstituting the value of y in equation (Ⅱ), we get\n\nx - 2(-2) = 4\nx + 4 = 4\nx = 0\n\nTherefore, x ≥ y. Hence, the correct answer is (4) x ≥ y."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 18,
+        "type": "type-5-root-computation equations",
+        "difficulty": "medium",
+        "question": "In each of these questions, two equations are given. You have to solve these equations and find out the values of x and y and give answer (1) if x < y, (2) if x > y, (3) if x ≤ y, (4) if x ≥ y, (5) if x = y\nFind the roots of the equations Ⅰ. \\(8x^2 + 12x + 6 = 0\\) and Ⅱ. \\(6y^2 - 7y + 2 = 0\\)",
+        "options": {
+            "A": "x < y",
+            "B": "x > y",
+            "C": "x ≤ y",
+            "D": "x ≥ y",
+            "E": "x = y"
+        },
+        "correct_option": "E",
+        "solution": "From equation Ⅰ. \\(8x^2 + 12x + 6 = 0\\)\n\\(\\Rightarrow 8x^2 + 8x + 4x + 6 = 0\\)\n\\(\\Rightarrow 4x(2x + 2) + 2(2x + 3) = 0\\)\n\\(\\Rightarrow (4x + 2)(2x + 3) = 0\\)\n\\(\\Rightarrow x = -\\frac{1}{2}, -\\frac{3}{2}\\)\n\nFrom equation Ⅱ. \\(6y^2 - 7y + 2 = 0\\)\n\\(\\Rightarrow 6y^2 - 6y - y + 2 = 0\\)\n\\(\\Rightarrow 6y(y - 1) - 1(y - 1) = 0\\)\n\\(\\Rightarrow (6y - 1)(y - 1) = 0\\)\n\\(\\Rightarrow y = \\frac{1}{6}, 1\\)\n\nFrom above equations we can say that x = y is the correct answer."
+    },
+    {
+        "topic": "quadratic-equations",
+        "id": 19,
+        "type": "type-3-quadratic-solutions",
+        "difficulty": "hard",
+        "question": "Find the values of x and y for the equations \\(x^2 + 5x - 6 = 0\\) and \\(y^2 + 6y + 9 = 0\\), and give the answer according to the following options.",
+        "options": {
+            "A": "\\(x < y\\)",
+            "B": "\\(x > y\\)",
+            "C": "\\(x ≤ y\\)",
+            "D": "\\(x ≥ y\\)",
+            "E": "\\(x = y\\)"
+        },
+        "correct_option": "E",
+        "solution": "Given equations are:\n\\(x^2 + 5x - 6 = 0\\) and \\(y^2 + 6y + 9 = 0\\)\n\nFor equation 1:\n\\(x^2 + 5x - 6 = 0\\)\n\\(\\Rightarrow x^2 + 6x - x - 6 = 0\\)\n\\(\\Rightarrow x(x + 6) - 1(x + 6) = 0\\)\n\\(\\Rightarrow (x - 1)(x + 6) = 0\\)\n\\(\\Rightarrow x = 1, -6\\)\n\nFor equation 2:\n\\(y^2 + 6y + 9 = 0\\)\n\\(\\Rightarrow y^2 + 3y + 3y + 9 = 0\\)\n\\(\\Rightarrow y(y + 3) + 3(y + 3) = 0\\)\n\\(\\Rightarrow (y + 3)(y + 3) = 0\\)\n\\(\\Rightarrow y = -3\\)\n\nFrom the above equations, we can see that x = y. Hence, the correct answer is (5) x = y."
+    }
+]

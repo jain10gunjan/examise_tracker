@@ -1,0 +1,767 @@
+[
+    {
+        "topic": "partnership",
+        "id": 0,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Pramod started a business with Rs. 40000. After 4 months Vikas also joined him with Rs. 60000. If at the end of the year, the profit is Rs. 16000, what is the share of Vikas in the profit?",
+        "options": {
+            "A": "Rs. 8000",
+            "B": "Rs. 4000",
+            "C": "Rs. 12000",
+            "D": "Rs. 10000"
+        },
+        "correct_option": "A",
+        "solution": "Ratio between the investment of Pramod and Vikas = 40000 x 12 : 60000 x 8 = 480000 : 480000 = 1 : 1. Total profit = Rs. 16000. Share of Vikas in profit = 16000/2 = Rs. 8,000"
+    },
+    {
+        "topic": "partnership",
+        "id": 1,
+        "type": "type-2-business_investment",
+        "difficulty": "medium",
+        "question": "A and B start a business with an initial investment in the ratio 12 : 11 and their annual profits were in the ratio 4 : 1. If A invested the money for 11 months. B invested the money for?",
+        "options": {
+            "A": "3 months",
+            "B": "{32/ 3} months",
+            "C": "4 months",
+            "D": "6 months"
+        },
+        "correct_option": "A",
+        "solution": "Suppose B invested the money for N months. Then the ratio of investment = (12 x 11 : 11 x N) = 12 : N. Therefore, 12/N = 4/1. ⇒ N = 3 months."
+    },
+    {
+        "topic": "partnership",
+        "id": 2,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "A and B started a joint firm. A's investment was thrice the investment of B, and the period of his investment was two times the period of investment of B. If B got Rs. 4,000 as profit, then their total profit is?",
+        "options": {
+            "A": "Rs. 24,000",
+            "B": "Rs. 16,000",
+            "C": "Rs. 28,000",
+            "D": "Rs. 20,000"
+        },
+        "correct_option": "C",
+        "solution": "Suppose B invested Rs. x for y months. Then A's investment is Rs. 3x for 2y months. Ratio of investment of A and B = 6xy : xy = 6 : 1. Now B's share = Rs. 4,000. Therefore, A's share = Rs. 24,000. Hence, Total profit = Rs. 28,000"
+    },
+    {
+        "topic": "partnership",
+        "id": 3,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Dilip, Ram, and Amar started a shop by investing Rs. 27,000, Rs. 81,000, and Rs. 72,000, respectively. At the end of one year, the profit was distributed. If Ram's share of profit be Rs. 36,000, then the total profit was?",
+        "options": {
+            "A": "Rs. 108000",
+            "B": "Rs. 16000",
+            "C": "Rs. 80000",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Ratio of shares = 27000 : 81000 : 72000 = 3 : 9 : 8. If Ram's share is Rs. 9, then the total profit = Rs. 20. If Ram's share is Rs. 36000, then the total profit = Rs. (20/9) x 36000 = Rs. 80000"
+    },
+    {
+        "topic": "partnership",
+        "id": 4,
+        "type": "type-6-capital_ratio",
+        "difficulty": "medium",
+        "question": "Rs. 700 is dividing among A, B, and C so that A receives half as much as B, and B half as much as C. Then C's share is?",
+        "options": {
+            "A": "Rs. 200",
+            "B": "Rs. 300",
+            "C": "Rs. 400",
+            "D": "Rs. 600"
+        },
+        "correct_option": "C",
+        "solution": "Let C's share = Rs. N. Then B's share = Rs. N/2, and A's share = Rs. N/4. Therefore, A : B : C = N/4 : N/2 : N = 1 : 2 : 4. Hence C's share = Rs. 700 x (4/7) = Rs. 400"
+    },
+    {
+        "topic": "partnership",
+        "id": 5,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Jayant started a business, investing Rs. 6000. Six months later Madhu joined him, investing Rs. 4000. If they made a profit of Rs. 5200 at the end of the year, how much must be the share of Madhu?",
+        "options": {
+            "A": "Rs. 2080",
+            "B": "Rs. 1300",
+            "C": "Rs. 1800",
+            "D": "Rs. 2600"
+        },
+        "correct_option": "B",
+        "solution": "Ratio of their shares = (6000 x 12) : (4000 x 6) = 3 : 1. Therefore, Madhu's share = Rs.5200 x (1/4)"
+    },
+    {
+        "topic": "partnership",
+        "id": 6,
+        "type": "type-6-capital_ratio",
+        "difficulty": "medium",
+        "question": "Karim invests Rs. 30000 for one year in a shop. How much his partner Raunaq should invest to ensure that the profit after one year must be in the ratio 2 : 3?",
+        "options": {
+            "A": "Rs. 20000",
+            "B": "Rs. 40000",
+            "C": "Rs. 45000",
+            "D": "Rs. 18000"
+        },
+        "correct_option": "C",
+        "solution": "Given 30000/N = 2/3 ⇒ 2N = 90000 ⇒ N = 45000"
+    },
+    {
+        "topic": "partnership",
+        "id": 7,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "A, B, and C are three partners in a business. If twice the investment of A is equal to thrice the capital of B, and the capital of B is four times the capital of C. Out of a total profit of Rs. 5,940, the share of C is?",
+        "options": {
+            "A": "Rs. 700",
+            "B": "Rs. 900",
+            "C": "Rs. 740",
+            "D": "Rs. 540"
+        },
+        "correct_option": "D",
+        "solution": "Let C's capital = Rs.N Then B's capital = Rs. 4N. Therefore, A's capital = Rs. 6N. A : B : C = 6N : 4N : N = 6 : 4 : 1. Hence C's share = Rs. 5940 x (1/11) = Rs. 540"
+    },
+    {
+        "topic": "partnership",
+        "id": 8,
+        "type": "type-2-business_investment",
+        "difficulty": "medium",
+        "question": "Three partners A, B, and C invest Rs. 26000, Rs. 34000, and Rs. 10000, respectively, in a business. Out of a profit of Rs. 3500, B's share is?",
+        "options": {
+            "A": "Rs. 1300",
+            "B": "Rs. 1700",
+            "C": "Rs. 500",
+            "D": "Rs. 1500"
+        },
+        "correct_option": "B",
+        "solution": "Ratio of shares of A, B, C = 26000 : 34000 : 10000 = 13 : 17 : 5. B's share = Rs. 3500 x (17/35) = Rs. 1700"
+    },
+    {
+        "topic": "partnership",
+        "id": 9,
+        "type": "type-6-capital_ratio",
+        "difficulty": "easy",
+        "question": "A's capital is equal to twice B's capital, and B's capital is three times C's capital. The ratio of the capital is?",
+        "options": {
+            "A": "2 : 1 : 3",
+            "B": "1 : 2 : 6",
+            "C": "6 : 3 : 1",
+            "D": "1 : 3 : 6"
+        },
+        "correct_option": "C",
+        "solution": "Let C's capital = Rs. x. Then B's capital = Rs. 3x, and A's capital = Rs. 6x. Ratio of capital of A, B, and C = 6x : 3x : x = 6 : 3 : 1"
+    },
+    {
+        "topic": "partnership",
+        "id": 10,
+        "type": "type-1-profit_sharing",
+        "difficulty": "easy",
+        "question": "A, B and C contract a work for Rs. 550. Together A and B are supposed to do 7/11 of the work. The share of C should be?",
+        "options": {
+            "A": "1831/3",
+            "B": "Rs. 200",
+            "C": "Rs. 300",
+            "D": "Rs. 400"
+        },
+        "correct_option": "B",
+        "solution": "C's share = Rs. 550 x (4/11) = Rs. 200"
+    },
+    {
+        "topic": "partnership",
+        "id": 11,
+        "type": "type-1-profit_sharing",
+        "difficulty": "easy",
+        "question": "Subodh started a business, investing Rs. 45000. After 4 months, Nepal joined him investing Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Subodh and Nepal?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Subodh and Nepal = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Subodh's share = 9/(9 + 4) x 13000 = Rs. 9000. Nepal's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 12,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "A, B and C contract a work for Rs. 550. Together A and B are supposed to do 7/11 of the work. The share of C should be?",
+        "options": {
+            "A": "1831/3",
+            "B": "Rs. 200",
+            "C": "Rs. 300",
+            "D": "Rs. 400"
+        },
+        "correct_option": "B",
+        "solution": "C's share = Rs. 550 x (4/11) = Rs. 200"
+    },
+    {
+        "topic": "partnership",
+        "id": 13,
+        "type": "type-1-profit_sharing",
+        "difficulty": "easy",
+        "question": "Subodh started a business, investing Rs. 45000. After 4 months. Nepal joined him investing Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000 what would be the difference between the shares of Subodh and Nepal?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Subodh and Nepal = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Subodh's share = 9/(9 + 4) x 13000 = Rs. 9000. Nepal's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 14,
+        "type": "type-1-profit_sharing",
+        "difficulty": "hard",
+        "question": "Rakesh started a business by investing Rs. 70000. 8 months later Vinod also joined him with Rs. 180000. Total profit, in what ratio should be divided between them?",
+        "options": {
+            "A": "8 : 7",
+            "B": "6 : 5",
+            "C": "7 : 5",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio of share = Ratio of 1 day's work = 1/20 : 1/25 : 1/30 = 15 : 12 : 10. A's share = Rs. 2220 x (15/37) = Rs. 900. B's share = Rs. 2220 x (12/37) = Rs. 720. A's share exceeds B's share = Rs. 180"
+    },
+    {
+        "topic": "partnership",
+        "id": 15,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Alok started a business with Rs. 75000. After 3 months Chandan also joined him with Rs. 60000. If at the end of the year, the profit is Rs. 16000. What is the share of Chandan in the profit?",
+        "options": {
+            "A": "Rs. 6000",
+            "B": "Rs. 10000",
+            "C": "Rs. 8000",
+            "D": "Rs. 4500"
+        },
+        "correct_option": "A",
+        "solution": "Ratio between the investment of Alok and Chandan = (75000 x 12) : (60000 x 9) = 900000 : 540000 = 90 : 54 = 5 : 3. Chandan's share = [3/(5 + 3)] x 16000 = Rs. 6000"
+    },
+    {
+        "topic": "partnership",
+        "id": 16,
+        "type": "type-2-business_investment",
+        "difficulty": "medium",
+        "question": "Alok started a business with Rs. 75000. After 3 months Chandan also joined him with Rs. 60000. If at the end of the year, the profit is Rs. 16000. What is the share of Chandan in the profit?",
+        "options": {
+            "A": "Rs. 6000",
+            "B": "Rs. 10000",
+            "C": "Rs. 8000",
+            "D": "Rs. 4500"
+        },
+        "correct_option": "A",
+        "solution": "Ratio between the investment of Alok and Chandan = (75000 x 12) : (60000 x 9) = 900000 : 540000 = 90 : 54 = 5 : 3. Chandan's share = [3/(5 + 3)] x 16000 = Rs. 6000"
+    },
+    {
+        "topic": "partnership",
+        "id": 17,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "Karim invests Rs. 30000 for one year in a shop. How much his partner Raunaq should invest in order that the profit after one year must be in the ratio 2 : 3?",
+        "options": {
+            "A": "Rs. 20000",
+            "B": "Rs. 40000",
+            "C": "Rs. 45000",
+            "D": "Rs. 18000"
+        },
+        "correct_option": "C",
+        "solution": "∵ 30000/N = 2/3 ⇒ 2N = 90000 ∴ N = 45000"
+    },
+    {
+        "topic": "partnership",
+        "id": 18,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "A, B, and C are three partners in a business. If twice the investment of A is equal to thrice the capital of B, and the capital of B is four times the capital of C. Out of a total profit of Rs. 5,940, the share of C is?",
+        "options": {
+            "A": "Rs. 700",
+            "B": "Rs. 900",
+            "C": "Rs. 740",
+            "D": "Rs. 540"
+        },
+        "correct_option": "D",
+        "solution": "Let C's capital = Rs.N Then B's capital = Rs. 4N. Therefore, A's capital = Rs. 6N. A : B : C = 6N : 4N : N = 6 : 4 : 1. Hence C's share = Rs. 5940 x (1/11) = Rs. 540"
+    },
+    {
+        "topic": "partnership",
+        "id": 19,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "Three partners A, B, and C invest Rs. 26000, Rs. 34000, and Rs. 10000, respectively, in a business. Out of a profit of Rs. 3500, B's share is?",
+        "options": {
+            "A": "Rs. 1300",
+            "B": "Rs. 1700",
+            "C": "Rs. 500",
+            "D": "Rs. 1500"
+        },
+        "correct_option": "B",
+        "solution": "Ratio of shares of A, B, C = 26000 : 34000 : 10000 = 13 : 17 : 5. B's share = Rs. 3500 x (17/35) = Rs. 1700"
+    },
+    {
+        "topic": "partnership",
+        "id": 20,
+        "type": "type-6-capital_ratio",
+        "difficulty": "easy",
+        "question": "A's capital is equal to twice B's capital, and B's capital is three times C's capital. The ratio of the capital is?",
+        "options": {
+            "A": "2 : 1 : 3",
+            "B": "1 : 2 : 6",
+            "C": "6 : 3 : 1",
+            "D": "1 : 3 : 6"
+        },
+        "correct_option": "C",
+        "solution": "Let C's capital = Rs. x. Then B's capital = Rs. 3x, and A's capital = Rs. 6x. Ratio of capital of A, B, and C = 6x : 3x : x = 6 : 3 : 1"
+    },
+    {
+        "topic": "partnership",
+        "id": 21,
+        "type": "type-1-profit_sharing",
+        "difficulty": "easy",
+        "question": "A, B and C contract a work for Rs. 550. Together A and B are supposed to do 7/11 of the work. The share of C should be?",
+        "options": {
+            "A": "1831/3",
+            "B": "Rs. 200",
+            "C": "Rs. 300",
+            "D": "Rs. 400"
+        },
+        "correct_option": "B",
+        "solution": "C's share = Rs. 550 x (4/11) = Rs. 200"
+    },
+    {
+        "topic": "partnership",
+        "id": 22,
+        "type": "type-1-profit_sharing",
+        "difficulty": "easy",
+        "question": "Subodh started a business, investing Rs. 45000. After 4 months, Nepal joined him investing Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Subodh and Nepal?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Subodh and Nepal = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Subodh's share = 9/(9 + 4) x 13000 = Rs. 9000. Nepal's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 23,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "A, B and C contract a work for Rs. 550. Together A and B are supposed to do 7/11 of the work. The share of C should be?",
+        "options": {
+            "A": "1831/3",
+            "B": "Rs. 200",
+            "C": "Rs. 300",
+            "D": "Rs. 400"
+        },
+        "correct_option": "B",
+        "solution": "C's share = Rs. 550 x (4/11) = Rs. 200"
+    },
+    {
+        "topic": "partnership",
+        "id": 24,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Alok started a business, investing Rs. 45000. After 4 months Chandan also joined him with Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Alok and Chandan?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Alok and Chandan = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Alok's share = 9/(9 + 4) x 13000 = Rs. 9000. Chandan's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 25,
+        "type": "type-2-business_investment",
+        "difficulty": "medium",
+        "question": "Alok started a business, investing Rs. 45000. After 4 months Chandan also joined him with Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Alok and Chandan?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Alok and Chandan = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Alok's share = 9/(9 + 4) x 13000 = Rs. 9000. Chandan's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 26,
+        "type": "type-1-profit_sharing",
+        "difficulty": "hard",
+        "question": "Rakesh started a business by investing Rs. 70000. 8 months later Vinod also joined him with Rs. 180000. Total profit, in what ratio should be divided between them?",
+        "options": {
+            "A": "8 : 7",
+            "B": "6 : 5",
+            "C": "7 : 5",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio of share = Ratio of 1 day's work = 1/20 : 1/25 : 1/30 = 15 : 12 : 10. A's share = Rs. 2220 x (15/37) = Rs. 900. B's share = Rs. 2220 x (12/37) = Rs. 720. A's share exceeds B's share = Rs. 180"
+    },
+    {
+        "topic": "partnership",
+        "id": 27,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Alok started a business with Rs. 75000. After 3 months Chandan also joined him with Rs. 60000. If at the end of the year, the profit is Rs. 16000. What is the share of Chandan in the profit?",
+        "options": {
+            "A": "Rs. 6000",
+            "B": "Rs. 10000",
+            "C": "Rs. 8000",
+            "D": "Rs. 4500"
+        },
+        "correct_option": "A",
+        "solution": "Ratio between the investment of Alok and Chandan = (75000 x 12) : (60000 x 9) = 900000 : 540000 = 90 : 54 = 5 : 3. Chandan's share = [3/(5 + 3)] x 16000 = Rs. 6000"
+    },
+    {
+        "topic": "partnership",
+        "id": 28,
+        "type": "type-2-business_investment",
+        "difficulty": "medium",
+        "question": "Alok started a business with Rs. 75000. After 3 months Chandan also joined him with Rs. 60000. If at the end of the year, the profit is Rs. 16000. What is the share of Chandan in the profit?",
+        "options": {
+            "A": "Rs. 6000",
+            "B": "Rs. 10000",
+            "C": "Rs. 8000",
+            "D": "Rs. 4500"
+        },
+        "correct_option": "A",
+        "solution": "Ratio between the investment of Alok and Chandan = (75000 x 12) : (60000 x 9) = 900000 : 540000 = 90 : 54 = 5 : 3. Chandan's share = [3/(5 + 3)] x 16000 = Rs. 6000"
+    },
+    {
+        "topic": "partnership",
+        "id": 29,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "Karim invests Rs. 30000 for one year in a shop. How much his partner Raunaq should invest in order that the profit after one year must be in the ratio 2 : 3?",
+        "options": {
+            "A": "Rs. 20000",
+            "B": "Rs. 40000",
+            "C": "Rs. 45000",
+            "D": "Rs. 18000"
+        },
+        "correct_option": "C",
+        "solution": "∵ 30000/N = 2/3 ⇒ 2N = 90000 ∴ N = 45000"
+    },
+    {
+        "topic": "partnership",
+        "id": 30,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "A, B, and C are three partners in a business. If twice the investment of A is equal to thrice the capital of B, and the capital of B is four times the capital of C. Out of a total profit of Rs. 5,940, the share of C is?",
+        "options": {
+            "A": "Rs. 700",
+            "B": "Rs. 900",
+            "C": "Rs. 740",
+            "D": "Rs. 540"
+        },
+        "correct_option": "D",
+        "solution": "Let C's capital = Rs.N Then B's capital = Rs. 4N. Therefore, A's capital = Rs. 6N. A : B : C = 6N : 4N : N = 6 : 4 : 1. Hence C's share = Rs. 5940 x (1/11) = Rs. 540"
+    },
+    {
+        "topic": "partnership",
+        "id": 31,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "Three partners A, B, and C invest Rs. 26000, Rs. 34000, and Rs. 10000, respectively, in a business. Out of a profit of Rs. 3500, B's share is?",
+        "options": {
+            "A": "Rs. 1300",
+            "B": "Rs. 1700",
+            "C": "Rs. 500",
+            "D": "Rs. 1500"
+        },
+        "correct_option": "B",
+        "solution": "Ratio of shares of A, B, C = 26000 : 34000 : 10000 = 13 : 17 : 5. B's share = Rs. 3500 x (17/35) = Rs. 1700"
+    },
+    {
+        "topic": "partnership",
+        "id": 32,
+        "type": "type-6-capital_ratio",
+        "difficulty": "easy",
+        "question": "A's capital is equal to twice B's capital, and B's capital is three times C's capital. The ratio of the capital is?",
+        "options": {
+            "A": "2 : 1 : 3",
+            "B": "1 : 2 : 6",
+            "C": "6 : 3 : 1",
+            "D": "1 : 3 : 6"
+        },
+        "correct_option": "C",
+        "solution": "Let C's capital = Rs. x. Then B's capital = Rs. 3x, and A's capital = Rs. 6x. Ratio of capital of A, B, and C = 6x : 3x : x = 6 : 3 : 1"
+    },
+    {
+        "topic": "partnership",
+        "id": 33,
+        "type": "type-1-profit_sharing",
+        "difficulty": "easy",
+        "question": "A, B and C contract a work for Rs. 550. Together A and B are supposed to do 7/11 of the work. The share of C should be?",
+        "options": {
+            "A": "1831/3",
+            "B": "Rs. 200",
+            "C": "Rs. 300",
+            "D": "Rs. 400"
+        },
+        "correct_option": "B",
+        "solution": "C's share = Rs. 550 x (4/11) = Rs. 200"
+    },
+    {
+        "topic": "partnership",
+        "id": 34,
+        "type": "type-1-profit_sharing",
+        "difficulty": "easy",
+        "question": "Subodh started a business, investing Rs. 45000. After 4 months, Nepal joined him investing Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Subodh and Nepal?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Subodh and Nepal = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Subodh's share = 9/(9 + 4) x 13000 = Rs. 9000. Nepal's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 35,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "A, B and C contract a work for Rs. 550. Together A and B are supposed to do 7/11 of the work. The share of C should be?",
+        "options": {
+            "A": "1831/3",
+            "B": "Rs. 200",
+            "C": "Rs. 300",
+            "D": "Rs. 400"
+        },
+        "correct_option": "B",
+        "solution": "C's share = Rs. 550 x (4/11) = Rs. 200"
+    },
+    {
+        "topic": "partnership",
+        "id": 36,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Alok started a business, investing Rs. 45000. After 4 months Chandan also joined him with Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Alok and Chandan?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Alok and Chandan = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Alok's share = 9/(9 + 4) x 13000 = Rs. 9000. Chandan's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 37,
+        "type": "type-2-business_investment",
+        "difficulty": "medium",
+        "question": "Alok started a business, investing Rs. 45000. After 4 months Chandan also joined him with Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Alok and Chandan?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Alok and Chandan = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Alok's share = 9/(9 + 4) x 13000 = Rs. 9000. Chandan's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 38,
+        "type": "type-1-profit_sharing",
+        "difficulty": "hard",
+        "question": "Rakesh started a business by investing Rs. 70000. 8 months later Vinod also joined him with Rs. 180000. Total profit, in what ratio should be divided between them?",
+        "options": {
+            "A": "8 : 7",
+            "B": "6 : 5",
+            "C": "7 : 5",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio of share = Ratio of 1 day's work = 1/20 : 1/25 : 1/30 = 15 : 12 : 10. A's share = Rs. 2220 x (15/37) = Rs. 900. B's share = Rs. 2220 x (12/37) = Rs. 720. A's share exceeds B's share = Rs. 180"
+    },
+    {
+        "topic": "partnership",
+        "id": 39,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Alok started a business with Rs. 75000. After 3 months Chandan also joined him with Rs. 60000. If at the end of the year, the profit is Rs. 16000. What is the share of Chandan in the profit?",
+        "options": {
+            "A": "Rs. 6000",
+            "B": "Rs. 10000",
+            "C": "Rs. 8000",
+            "D": "Rs. 4500"
+        },
+        "correct_option": "A",
+        "solution": "Ratio between the investment of Alok and Chandan = (75000 x 12) : (60000 x 9) = 900000 : 540000 = 90 : 54 = 5 : 3. Chandan's share = [3/(5 + 3)] x 16000 = Rs. 6000"
+    },
+    {
+        "topic": "partnership",
+        "id": 40,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "Karim invests Rs. 30000 for one year in a shop. How much his partner Raunaq should invest in order that the profit after one year must be in the ratio 2 : 3?",
+        "options": {
+            "A": "Rs. 20000",
+            "B": "Rs. 40000",
+            "C": "Rs. 45000",
+            "D": "Rs. 18000"
+        },
+        "correct_option": "C",
+        "solution": "∵ 30000/N = 2/3 ⇒ 2N = 90000 ∴ N = 45000"
+    },
+    {
+        "topic": "partnership",
+        "id": 41,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "A, B, and C are three partners in a business. If twice the investment of A is equal to thrice the capital of B, and the capital of B is four times the capital of C. Out of a total profit of Rs. 5,940, the share of C is?",
+        "options": {
+            "A": "Rs. 700",
+            "B": "Rs. 900",
+            "C": "Rs. 740",
+            "D": "Rs. 540"
+        },
+        "correct_option": "D",
+        "solution": "Let C's capital = Rs.N Then B's capital = Rs. 4N. Therefore, A's capital = Rs. 6N. A : B : C = 6N : 4N : N = 6 : 4 : 1. Hence C's share = Rs. 5940 x (1/11) = Rs. 540"
+    },
+    {
+        "topic": "partnership",
+        "id": 42,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "Three partners A, B, and C invest Rs. 26000, Rs. 34000, and Rs. 10000, respectively, in a business. Out of a profit of Rs. 3500, B's share is?",
+        "options": {
+            "A": "Rs. 1300",
+            "B": "Rs. 1700",
+            "C": "Rs. 500",
+            "D": "Rs. 1500"
+        },
+        "correct_option": "B",
+        "solution": "Ratio of shares of A, B, C = 26000 : 34000 : 10000 = 13 : 17 : 5. B's share = Rs. 3500 x (17/35) = Rs. 1700"
+    },
+    {
+        "topic": "partnership",
+        "id": 43,
+        "type": "type-6-capital_ratio",
+        "difficulty": "easy",
+        "question": "A's capital is equal to twice B's capital, and B's capital is three times C's capital. The ratio of the capital is?",
+        "options": {
+            "A": "2 : 1 : 3",
+            "B": "1 : 2 : 6",
+            "C": "6 : 3 : 1",
+            "D": "1 : 3 : 6"
+        },
+        "correct_option": "C",
+        "solution": "Let C's capital = Rs. x. Then B's capital = Rs. 3x, and A's capital = Rs. 6x. Ratio of capital of A, B, and C = 6x : 3x : x = 6 : 3 : 1"
+    },
+    {
+        "topic": "partnership",
+        "id": 44,
+        "type": "type-1-profit_sharing",
+        "difficulty": "easy",
+        "question": "A, B and C contract a work for Rs. 550. Together A and B are supposed to do 7/11 of the work. The share of C should be?",
+        "options": {
+            "A": "1831/3",
+            "B": "Rs. 200",
+            "C": "Rs. 300",
+            "D": "Rs. 400"
+        },
+        "correct_option": "B",
+        "solution": "C's share = Rs. 550 x (4/11) = Rs. 200"
+    },
+    {
+        "topic": "partnership",
+        "id": 45,
+        "type": "type-1-profit_sharing",
+        "difficulty": "easy",
+        "question": "Subodh started a business, investing Rs. 45000. After 4 months, Nepal joined him investing Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Subodh and Nepal?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Subodh and Nepal = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Subodh's share = 9/(9 + 4) x 13000 = Rs. 9000. Nepal's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 46,
+        "type": "type-2-business_investment",
+        "difficulty": "easy",
+        "question": "A, B and C contract a work for Rs. 550. Together A and B are supposed to do 7/11 of the work. The share of C should be?",
+        "options": {
+            "A": "1831/3",
+            "B": "Rs. 200",
+            "C": "Rs. 300",
+            "D": "Rs. 400"
+        },
+        "correct_option": "B",
+        "solution": "C's share = Rs. 550 x (4/11) = Rs. 200"
+    },
+    {
+        "topic": "partnership",
+        "id": 47,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Alok started a business, investing Rs. 45000. After 4 months Chandan also joined him with Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Alok and Chandan?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Alok and Chandan = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Alok's share = 9/(9 + 4) x 13000 = Rs. 9000. Chandan's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 48,
+        "type": "type-2-business_investment",
+        "difficulty": "medium",
+        "question": "Alok started a business, investing Rs. 45000. After 4 months Chandan also joined him with Rs. 30000. If the total profit earned by them at the end of the year was Rs. 13,000, what would be the difference between the shares of Alok and Chandan?",
+        "options": {
+            "A": "Rs. 7000",
+            "B": "Rs. 3000",
+            "C": "Rs. 9000",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio between the investment of Alok and Chandan = (45000 x 12) : (30000 x 8) = 540000 : 240000 = 9 : 4. Total profit = Rs. 13000. Alok's share = 9/(9 + 4) x 13000 = Rs. 9000. Chandan's share = 13000 - 9000 = Rs. 4000. Required difference = 9000 - 4000 = Rs. 5000"
+    },
+    {
+        "topic": "partnership",
+        "id": 49,
+        "type": "type-1-profit_sharing",
+        "difficulty": "hard",
+        "question": "Rakesh started a business by investing Rs. 70000. 8 months later Vinod also joined him with Rs. 180000. Total profit, in what ratio should be divided between them?",
+        "options": {
+            "A": "8 : 7",
+            "B": "6 : 5",
+            "C": "7 : 5",
+            "D": "None of these"
+        },
+        "correct_option": "D",
+        "solution": "Ratio of share = Ratio of 1 day's work = 1/20 : 1/25 : 1/30 = 15 : 12 : 10. A's share = Rs. 2220 x (15/37) = Rs. 900. B's share = Rs. 2220 x (12/37) = Rs. 720. A's share exceeds B's share = Rs. 180"
+    },
+    {
+        "topic": "partnership",
+        "id": 50,
+        "type": "type-1-profit_sharing",
+        "difficulty": "medium",
+        "question": "Alok started a business with Rs. 75000. After 3 months Chandan also joined him with Rs. 60000. If at the end of the year, the profit is Rs. 16000. What is the share of Chandan in the profit?",
+        "options": {
+            "A": "Rs. 6000",
+            "B": "Rs. 10000",
+            "C": "Rs. 8000",
+            "D": "Rs. 4500"
+        },
+        "correct_option": "A",
+        "solution": "Ratio between the investment of Alok and Chandan = (75000 x 12) : (60000 x 9) = 900000 : 540000 = 90 : 54 = 5 : 3. Chandan's share = [3/(5 + 3)] x 16000 = Rs. 6000"
+    }
+]

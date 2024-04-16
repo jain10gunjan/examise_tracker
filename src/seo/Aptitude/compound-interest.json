@@ -1,0 +1,230 @@
+[
+    {
+        "id": 0,
+        "topic": "compound-interest",
+        "type": "type-2-numerical-to-find-compound-interest-yearly-quarterly-and-half-yearly",
+        "difficulty": "medium",
+        "question": "A bank offers 5% compound interest calculated on half-yearly basis. A customer deposits Rs. 1600 each on 1st January and 1st July of a year. At the end of the year, the amount he would have gained by way of interest is:",
+        "options": {
+            "A": "Rs. 120",
+            "B": "Rs. 121",
+            "C": "Rs. 122",
+            "D": "Rs. 123"
+        },
+        "correct_option": "B",
+        "solution": "Amount = Rs. 1600 × ((1 + (5/2))^2 + (1 + (5/2))) / ((100/2)) = Rs. 3321\nC.I. = Rs. (3321 - 3200) = Rs. 121"
+    },
+    {
+        "id": 1,
+        "topic": "compound-interest",
+        "type": "type-4-numerical-to-find-sum-or-rate-of-interest-when-the-difference-between-compound-interest-and-simple-interest-is-specified",
+        "difficulty": "easy",
+        "question": "The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Re. 1. The sum (in Rs.) is:",
+        "options": {
+            "A": "625",
+            "B": "630",
+            "C": "640",
+            "D": "650"
+        },
+        "correct_option": "A",
+        "solution": "Let the sum be Rs. x. Then, C.I. = Rs. (x × 4 × 2) / 100 = (2x / 25)\nS.I. = Rs. 50\n(2x / 25) - 50 = 1\n2x - 1250 = 25\n2x = 1275\nx = 625"
+    },
+    {
+        "id": 2,
+        "topic": "compound-interest",
+        "type": "type-2-numerical-to-find-compound-interest-yearly-quarterly-and-half-yearly",
+        "difficulty": "medium",
+        "question": "There is a 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate?",
+        "options": {
+            "A": "Rs. 2160",
+            "B": "Rs. 3120",
+            "C": "Rs. 3972",
+            "D": "Rs. 6240",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Let P = Rs. 100. Then, S.I. Rs. 60 and T = 6 years.\n(R = (100 × 60) / (100 × 6) = 10% p.a.)\nNow, P = Rs. 12000. T = 3 years and R = 10% p.a.\nC.I. = Rs. (12000 × ((1 + (10/100))^3 - 1) / (100/100)) = Rs. 3972"
+    },
+    {
+        "id": 3,
+        "topic": "compound-interest",
+        "type": "type-1-numerical-based-on-population",
+        "difficulty": "easy",
+        "question": "What is the difference between the compound interests on Rs. 5000 for 1 year at 4% per annum compounded yearly and half-yearly?",
+        "options": {
+            "A": "Rs. 2.04",
+            "B": "Rs. 3.06",
+            "C": "Rs. 4.80",
+            "D": "Rs. 8.30"
+        },
+        "correct_option": "A",
+        "solution": "C.I. when interest compounded yearly = Rs. (5000 × ((1 + (4/100)) / 100)) = Rs. 5304\nC.I. when interest compounded half-yearly = Rs. (5000 × ((1 + (2/100))^2 / 100)) = Rs. 5306.04\nDifference = Rs. (5306.04 - 5304) = Rs. 2.04"
+    },
+    {
+        "id": 4,
+        "topic": "compound-interest",
+        "type": "type-1-numerical-based-on-population",
+        "difficulty": "easy",
+        "question": "The compound interest on Rs. 30,000 at 7% per annum is Rs. 4347. The period (in years) is:",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4"
+        },
+        "correct_option": "A",
+        "solution": "Amount = Rs. 30000 + 4347 = Rs. 34347.\nLet the time be n years.\n((30000 × ((1 + (7/100))^n) / 100) = 34347\n107^n = ((34347 × 100) / 30000) = 11449\n107^n = 107^2\nn = 2 years."
+    },
+    {
+        "id": 5,
+        "topic": "compound-interest",
+        "type": "type-2-numerical-to-find-compound-interest-yearly-quarterly-and-half-yearly",
+        "difficulty": "medium",
+        "question": "What will be the compound interest on a sum of Rs. 25,000 after 3 years at the rate of 12% p.c.p.a.?",
+        "options": {
+            "A": "Rs. 9000.30",
+            "B": "Rs. 9720",
+            "C": "Rs. 10123.20",
+            "D": "Rs. 10483.20",
+            "E": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Amount = Rs. (25000 × ((1 + (12/100))^3 / 100)) = Rs. 35123.20\nC.I. = Rs. (35123.20 - 25000) = Rs. 10123.20"
+    },
+    {
+        "id": 6,
+        "topic": "compound-interest",
+        "type": "type-1-numerical-based-on-population",
+        "difficulty": "easy",
+        "question": "At what rate of compound interest per annum will a sum of Rs. 1200 become Rs. 1348.32 in 2 years?",
+        "options": {
+            "A": "6%",
+            "B": "6.5%",
+            "C": "7%",
+            "D": "7.5%"
+        },
+        "correct_option": "A",
+        "solution": "Let the rate be R% p.a.\n((1200 × ((1 + (R/100))^2 / 100)) = 1348.32\n((100 + R)^2 / 100) = (134832 / 1200)\n((100 + R)^2 / 100) = 11236\n(100 + R) = 106\nR = 6%"
+    },
+    {
+        "id": 7,
+        "topic": "compound-interest",
+        "type": "type-1-numerical-based-on-population",
+        "difficulty": "easy",
+        "question": "The least number of complete years in which a sum of money put out at 20% compound interest will be more than doubled is:",
+        "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+        },
+        "correct_option": "B",
+        "solution": "Let P = Rs. 100.\n(P × ((1 + (20/100))^n) > 2P)\n((100 + 20)^n / 100) > 200\n((120)^n / 100) > 200\n120^n > 20000\nThe least value of n for which 120^n is greater than 20000 is n = 4 years."
+    },
+    {
+        "id": 8,
+        "topic": "compound-interest",
+        "type": "type-1-numerical-based-on-population",
+        "difficulty": "easy",
+        "question": "Albert invested an amount of Rs. 8000 in a fixed deposit scheme for 2 years at a compound interest rate of 5% p.c.p.a. How much amount will Albert get on maturity of the fixed deposit?",
+        "options": {
+            "A": "Rs. 8600",
+            "B": "Rs. 8620",
+            "C": "Rs. 8820",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "Amount = Rs. (8000 × ((1 + (5/100))^2 / 100)) = Rs. 8820"
+    },
+    {
+        "id": 9,
+        "topic": "compound-interest",
+        "type": "type-2-numerical-to-find-compound-interest-yearly-quarterly-and-half-yearly",
+        "difficulty": "medium",
+        "question": "The effective annual rate of interest corresponding to a nominal rate of 6% per annum payable half-yearly is:",
+        "options": {
+            "A": "6.06%",
+            "B": "6.07%",
+            "C": "6.08%",
+            "D": "6.09%"
+        },
+        "correct_option": "D",
+        "solution": "Amount of Rs. 100 for 1 year when compounded half-yearly = Rs. (100 × ((1 + (6/200))^2 / 100)) = Rs. 106.09\nEffective rate = ((106.09 - 100) / 100) = 6.09%"
+    },
+    {
+        "id": 10,
+        "topic": "compound-interest",
+        "type": "type-4-numerical-to-find-sum-or-rate-of-interest-when-the-difference-between-compound-interest-and-simple-interest-is-specified",
+        "difficulty": "easy",
+        "question": "Simple interest on a certain sum of money for 3 years at 8% per annum is half the compound interest on Rs. 4000 for 2 years at 10% per annum. The sum placed on simple interest is:",
+        "options": {
+            "A": "Rs. 1550",
+            "B": "Rs. 1650",
+            "C": "Rs. 1750",
+            "D": "Rs. 2000"
+        },
+        "correct_option": "C",
+        "solution": "C.I. = Rs. (4000 × ((1 + (10/100))^2 / 100)) - 4000 = Rs. 840\nSum = Rs. ((840 × 100) / 8) = Rs. 1750"
+    },
+    {
+        "id": 11,
+        "topic": "compound-interest",
+        "type": "type-2-numerical-to-find-compound-interest-yearly-quarterly-and-half-yearly",
+        "difficulty": "medium",
+        "question": "If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same at the same rate and for the same time?",
+        "options": {
+            "A": "Rs. 51.25",
+            "B": "Rs. 52",
+            "C": "Rs. 54.25",
+            "D": "Rs. 60"
+        },
+        "correct_option": "A",
+        "solution": "Sum = Rs. ((50 × 100) / (2 × 5)) = Rs. 500\nAmount = Rs. (500 × ((1 + (5/100))^2 / 100)) = Rs. 551.25\nC.I. = Rs. (551.25 - 500) = Rs. 51.25"
+    },
+    {
+        "id": 12,
+        "topic": "compound-interest",
+        "type": "type-4-numerical-to-find-sum-or-rate-of-interest-when-the-difference-between-compound-interest-and-simple-interest-is-specified",
+        "difficulty": "easy",
+        "question": "The difference between simple interest and compound interest on Rs. 1200 for one year at 10% per annum, reckoned half-yearly is:",
+        "options": {
+            "A": "Rs. 2.50",
+            "B": "Rs. 3",
+            "C": "Rs. 3.75",
+            "D": "Rs. 4",
+            "E": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "S.I. = Rs. ((1200 × 10 × 1) / 100) = Rs. 120\nC.I. = Rs. (1200 × ((1 + (10/200))^2 / 100)) = Rs. 123\nDifference = Rs. (123 - 120) = Rs. 3"
+    },
+    {
+        "id": 13,
+        "topic": "compound-interest",
+        "type": "type-3-numerical-to-find-rate-of-interest-or-years",
+        "difficulty": "medium",
+        "question": "The difference between compound interest and simple interest on an amount of Rs. 15,000 for 2 years is Rs. 96. What is the rate of interest per annum?",
+        "options": {
+            "A": "8%",
+            "B": "10%",
+            "C": "12%",
+            "D": "Cannot be determined",
+            "E": "None of these"
+        },
+        "correct_option": "A",
+        "solution": "15,000 × ((1 + (R/100))^2 / 100) - 15,000 - (15,000 × R × 2 / 100) = 96\n15,000 × ((100 + R)^2 / 10000) - 15,000 - 300R = 96\n(15,000 × ((100 + R)^2 / 10000)) - 300R = 15096\n150 × (100 + R)^2 - 30000R = 1509600\n150 × (100 + R)^2 - 30000R - 1509600 = 0\nLet (100 + R) = z\n150z^2 - 30000z - 1509600 = 0\nz = 188 or z = 212\nSo, R = 188 - 100 = 88% or R = 212 - 100 = 112%\nSince R cannot be more than 100%, the correct rate of interest is 8%."
+    },
+    {
+        "id": 14,
+        "topic": "compound-interest",
+        "type": "type-2-numerical-to-find-compound-interest-yearly-quarterly-and-half-yearly",
+        "difficulty": "medium",
+        "question": "The compound interest on a certain sum for 2 years at 10% per annum is Rs. 525. The simple interest on the same sum for double the time at half the rate per cent per annum is:",
+        "options": {
+            "A": "Rs. 400",
+            "B": "Rs. 500",
+            "C": "Rs. 600",
+            "D": "Rs. 800"
+        },
+        "correct_option": "B",
+        "solution": "Let the sum be Rs. P.\n(P × ((1 + (10/100))^2 / 100) = 525\n((121P)/100) = 525\nP = (525 × 100) / 121 = 435.54\nS.I. = Rs. (435.54 × (10 × 4) / 100) = Rs. 174.22\n(10/2) = 5%\nSo, the simple interest on Rs. 435.54 for 4 years at 5% p.a. is Rs. 174.22.\nAmount = Rs. 435.54 + Rs. 174.22 = Rs. 609.76.\nTherefore, the S.I. on the same sum for double the time at half the rate is Rs. 609.76 - Rs. 435.54 = Rs. 174.22."
+    }
+]

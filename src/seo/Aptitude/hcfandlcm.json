@@ -1,0 +1,364 @@
+[
+    {
+        "topic": "hcf-and-lcm",
+        "id": 0,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "easy",
+        "question": "What is the greatest number that divides 263, 935, and 1383 leaving a remainder of 7 in each case?",
+        "options": {
+            "A": "30",
+            "B": "31",
+            "C": "32",
+            "D": "35"
+        },
+        "correct_option": "C",
+        "solution": "The required greatest number is the HCF of (263 - 7), (935 - 7), and (1383 - 7):\nHCF of (256, 928, 1376) = 32."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 1,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "medium",
+        "question": "If \\((x+2)\\) is the HCF of \\(x^2 + ax + b\\) and \\(x^2 + cx + d\\), then which one of the following is correct?",
+        "options": {
+            "A": "\\(a+c=b+d\\)",
+            "B": "\\(2a+b=2c+d\\)",
+            "C": "\\(b+2c=2a+d\\)",
+            "D": "\\(b-2c=2a-d\\)"
+        },
+        "correct_option": "C",
+        "solution": "If \\((x+2)\\) is the HCF of \\(x^2 + ax + b\\) and \\(x^2 + cx + d\\), then:\n\\(\\Rightarrow (x+2)^2\\) divides \\(x^2 + ax + b\\) and \\(x^2 + cx + d\\).\nTherefore, \\((-2)^2 -2a+b = (-2)^2 -2c+d\\)\n\\(\\Rightarrow b + 2c = 2a + d\\)"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 2,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "easy",
+        "question": "Find the greatest possible length which can be used to measure 4m 3cm, 4m 34cm, and 4m 65cm exactly.",
+        "options": {
+            "A": "31 cm",
+            "B": "29 cm",
+            "C": "28 cm",
+            "D": "32 cm"
+        },
+        "correct_option": "A",
+        "solution": "The required length is the HCF of 403 cm, 434 cm, and 465 cm:\nHCF of 403, 434, 465 = 31 cm."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 3,
+        "type": "type-3-comparing-fractions-finding-greatest-or-smallest",
+        "difficulty": "easy",
+        "question": "Which of the following fractions is the greatest of all? \\(\\frac{7}{8}\\), \\(\\frac{6}{7}\\), \\(\\frac{4}{5}\\), \\(\\frac{5}{6}\\)?",
+        "options": {
+            "A": "\\(\\frac{6}{7}\\)",
+            "B": "\\(\\frac{4}{5}\\)",
+            "C": "\\(\\frac{5}{6}\\)",
+            "D": "\\(\\frac{7}{8}\\)"
+        },
+        "correct_option": "D",
+        "solution": "Converting the given fractions to decimals, we get:\n\\(\\frac{7}{8} = 0.875\\), \\(\\frac{6}{7} = 0.857\\), \\(\\frac{4}{5} = 0.8\\) and \\(\\frac{5}{6} = 0.833\\)\nTherefore, \\(\\frac{7}{8}\\) is the greatest."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 4,
+        "type": "type-2-lcm-problems-finding-smallest-common-multiple",
+        "difficulty": "medium",
+        "question": "L.C.M of \\({3/4}\\), \\({6/7}\\), \\({9/8}\\) is ?",
+        "options": {
+            "A": "18",
+            "B": "3",
+            "C": "\\({3/56}\\)",
+            "D": "\\({9/28}\\)"
+        },
+        "correct_option": "A",
+        "solution": "L.C.M = ( L.C.M of 3, 6, 9 ) / (H.C.F of 4, 7, 8)\n= 18 / 1\n= 18"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 5,
+        "type": "type-2-lcm-problems-finding-smallest-common-multiple",
+        "difficulty": "easy",
+        "question": "H.C.F of \\({1/2}\\), \\({3/4}\\), \\({5/6}\\), \\({7/8}\\), \\({9/10}\\) is ?",
+        "options": {
+            "A": "\\({1/2}\\)",
+            "B": "\\({1/10}\\)",
+            "C": "\\({9/120}\\)",
+            "D": "\\({1/120}\\)"
+        },
+        "correct_option": "D",
+        "solution": "H.C.F = ( H.C.F of 1, 3, 5, 7, 9) / (L.C.M of 2, 4, 6, 8, 10)\n= 1 / 120"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 6,
+        "type": "type-2-lcm-problems-finding-smallest-common-multiple",
+        "difficulty": "easy",
+        "question": "L.C.M of 33, 4, 42 and 3 is ?",
+        "options": {
+            "A": "12",
+            "B": "48",
+            "C": "432",
+            "D": "None of these"
+        },
+        "correct_option": "C",
+        "solution": "L.C.M of 33, 4, 42, and 3 = L.C.M of 33 x 24\n= 27 x 16\n= 432"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 7,
+        "type": "type-2-lcm-problems-finding-smallest-common-multiple",
+        "difficulty": "easy",
+        "question": "H.C.F. of 23, 32, and 15 is ?",
+        "options": {
+            "A": "23",
+            "B": "32",
+            "C": "1",
+            "D": "360"
+        },
+        "correct_option": "C",
+        "solution": "Clearly, 1 is the highest common factor of 23, 32, and 15."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 8,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "medium",
+        "question": "H.C.F. of 42, 63, and 140 is ?",
+        "options": {
+            "A": "14",
+            "B": "9",
+            "C": "21",
+            "D": "7"
+        },
+        "correct_option": "D",
+        "solution": "H.C.F. of 42 and 63 is 21.\n∵ H.C.F of 21 and 140 is 7\n∴ H.C.F. of 42, 63, and 140 is 7"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 9,
+        "type": "type-3-comparing-fractions-finding-greatest-or-smallest",
+        "difficulty": "easy",
+        "question": "H.C.F. of \\(\\frac{1}{2}\\), \\(\\frac{2}{3}\\), \\(\\frac{3}{4}\\), \\(\\frac{4}{5}\\) is ?",
+        "options": {
+            "A": "1",
+            "B": "12",
+            "C": "\\(\\frac{4}{5}\\)",
+            "D": "\\(\\frac{1}{60}\\)"
+        },
+        "correct_option": "D",
+        "solution": "H.C.F = ( H.C.F of 1, 2, 3, 4) / (L.C.M of 2, 3, 4, 5)\n= 1/60"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 10,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "easy",
+        "question": "H.C.F. of 1485 and 4356 is ?",
+        "options": {
+            "A": "189",
+            "B": "89",
+            "C": "99",
+            "D": "83"
+        },
+        "correct_option": "C",
+        "solution": "H.C.F of 1485 and 4356 is 99"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 11,
+        "type": "type-3-comparing-fractions-finding-greatest-or-smallest",
+        "difficulty": "easy",
+        "question": "The H.C.F of two numbers is 12 and their difference is also 12. The number are ?",
+        "options": {
+            "A": "66, 78",
+            "B": "70, 82",
+            "C": "94, 106",
+            "D": "84, 96"
+        },
+        "correct_option": "D",
+        "solution": "The difference of requisite number must be 12 and each one must be divisible by 12, so the numbers are 84, 96."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 12,
+        "type": "type-3-comparing-fractions-finding-greatest-or-smallest",
+        "difficulty": "easy",
+        "question": "H.C.F of three numbers is 12. If they be in the ratio 1: 2: 3, the numbers are ?",
+        "options": {
+            "A": "12, 24, 36",
+            "B": "10, 20, 30",
+            "C": "5, 10, 15",
+            "D": "4, 8, 12"
+        },
+        "correct_option": "A",
+        "solution": "Straightforward answer 12, 24, 36"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 13,
+        "type": "type-2-lcm-problems-finding-smallest-common-multiple",
+        "difficulty": "medium",
+        "question": "L. C . M of \\(\\frac{2}{7}\\), \\(\\frac{3}{14}\\) and \\(\\frac{5}{3}\\) is ?",
+        "options": {
+            "A": "45",
+            "B": "35",
+            "C": "30",
+            "D": "25"
+        },
+        "correct_option": "C",
+        "solution": "L. C . M of 2/7, 3/14, and 5/3 = ( LCM of 2, 3, and 5) / ( HCF of 7, 14, and 3) = 30"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 14,
+        "type": "type-3-comparing-fractions-finding-greatest-or-smallest",
+        "difficulty": "easy",
+        "question": "Which of the fractions \\(\\frac{1}{2}\\), \\(\\frac{3}{7}\\), \\(\\frac{3}{5}\\), \\(\\frac{4}{9}\\) is the smallest ?",
+        "options": {
+            "A": "\\(\\frac{4}{9}\\)",
+            "B": "\\(\\frac{3}{5}\\)",
+            "C": "\\(\\frac{3}{7}\\)",
+            "D": "\\(\\frac{1}{2}\\)"
+        },
+        "correct_option": "C",
+        "solution": "We can compare the fractions by finding their least common denominator. Multiplying each fraction by the least common denominator, we get: \n\n\\[\\frac{1}{2} = \\frac{21}{42}, \\frac{3}{7} = \\frac{18}{42}, \\frac{3}{5} = \\frac{30}{42}, \\frac{4}{9} = \\frac{16}{36}\\]\n\nTherefore, \\(\\frac{3}{7}\\) is the smallest fraction."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 15,
+        "type": "type-3-comparing-fractions-finding-greatest-or-smallest",
+        "difficulty": "medium",
+        "question": "Which of the following is in descending order ?\n\n\\(\\frac{3}{5}\\), \\(\\frac{5}{7}\\), \\(\\frac{7}{9}\\)",
+        "options": {
+            "A": "\\(\\frac{7}{9}\\), \\(\\frac{5}{7}\\), \\(\\frac{3}{5}\\)",
+            "B": "\\(\\frac{7}{9}\\), \\(\\frac{5}{7}\\), \\(\\frac{3}{5}\\)",
+            "C": "\\(\\frac{5}{7}\\), \\(\\frac{7}{9}\\), \\(\\frac{3}{5}\\)",
+            "D": "\\(\\frac{7}{9}\\), \\(\\frac{3}{5}\\), \\(\\frac{5}{7}\\)"
+        },
+        "correct_option": "B",
+        "solution": "To put these fractions in descending order, we need to convert them to fractions with a common denominator. We can use the least common multiple of the denominators 5, 7, and 9 as the common denominator, which is 315. Then, we have:\n\n\\(\\frac{3}{5}\\) = \\(\\frac{189}{315}\\), \\(\\frac{5}{7}\\) = \\(\\frac{225}{315}\\), and \\(\\frac{7}{9}\\) = \\(\\frac{245}{315}\\).\n\nThus, the fractions in descending order are: \\(\\frac{7}{9}\\), \\(\\frac{5}{7}\\), \\(\\frac{3}{5}\\)."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 16,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "medium",
+        "question": "The smallest number, which when diminished by 3, is divisible by 21, 28, 36, and 45 is ?",
+        "options": {
+            "A": "420",
+            "B": "1257",
+            "C": "1260",
+            "D": "1263"
+        },
+        "correct_option": "D",
+        "solution": "Required number = (L.C.M of 21, 28, 36, 45) + 3\n$= (1260 + 3 )$\n$= 1263$"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 17,
+        "type": "type-2-lcm-problems-finding-smallest-common-multiple",
+        "difficulty": "hard",
+        "question": "The number of prime factors in $2222 \\times 3333 \\times 5555$ is ?",
+        "options": {
+            "A": "3",
+            "B": "1107",
+            "C": "1110",
+            "D": "1272"
+        },
+        "correct_option": "C",
+        "solution": "The number of prime factors in the given product\n$= (222 + 333 + 555)$\n$= 1110$."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 18,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "medium",
+        "question": "The H.C.F and L.C.M of two numbers are 44 and 264, respectively. If the first number is divided by 2, the quotient is 44. The other number is ?",
+        "options": {
+            "A": "33",
+            "B": "66",
+            "C": "132",
+            "D": "264"
+        },
+        "correct_option": "C",
+        "solution": "First number $= 2 \\times 44 = 88$ \nSecond number $= \\frac{(\\text{LCM} \\times \\text{HCF})}{\\text{First number}}$\n$= \\frac{44 \\times 264}{88} = 132$."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 19,
+        "type": "type-2-lcm-problems-finding-smallest-common-multiple",
+        "difficulty": "medium",
+        "question": "The LCM of two numbers is 48. The numbers are in the ratio of 2:3. Find the sum of the numbers.",
+        "options": {
+            "A": "28",
+            "B": "32",
+            "C": "40",
+            "D": "64",
+            "E": "None of the above"
+        },
+        "correct_option": "C",
+        "solution": "Let the numbers be 2x and 3x.\nSo, their LCM = 6x\nHowever, the LCM is given as 48\n∴ 6x = 48\n⇒ x=8\nSo, the numbers are 16 and 24.\nHence, their sum is 40."
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 20,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "medium",
+        "question": "Find the greatest possible length which can be used to measure 4 m 3 cm, 4 m 34 cm, and 4 m 65 cm exactly.",
+        "options": {
+            "A": "31 cm",
+            "B": "29 cm",
+            "C": "28 cm",
+            "D": "32 cm",
+            "E": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "Required measure = HCF of 403, 434, and 465 = 31 cm"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 21,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "hard",
+        "question": "Find the least number which when divided by 12, 15, 20, and 24 leaves the same remainder 2 in each case?",
+        "options": {
+            "A": "122",
+            "B": "120",
+            "C": "124",
+            "D": "126"
+        },
+        "correct_option": "A",
+        "solution": "Required number = LCM of (12, 15, 20, 24) + 2 = 120 + 2 = 122"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 22,
+        "type": "type-2-lcm-problems-finding-smallest-common-multiple",
+        "difficulty": "hard",
+        "question": "If there numbers are 2a, 5a, and 7a, what will be their LCM?",
+        "options": {
+            "A": "70a",
+            "B": "65a",
+            "C": "75a",
+            "D": "70a3"
+        },
+        "correct_option": "A",
+        "solution": "Required LCM = a x 2 x 5 x 7 = 70a"
+    },
+    {
+        "topic": "hcf-and-lcm",
+        "id": 23,
+        "type": "type-1-hcf-problems-finding-greatest-divisor-with-specific-remainders",
+        "difficulty": "medium",
+        "question": "What will be the HCF of (2 x 3 x 7 x 9), (2 x 3 x 9 x 11), and (2 x 3 x 4 x 5)?",
+        "options": {
+            "A": "2 x 3",
+            "B": "2 x 3 x 9",
+            "C": "2 x 3",
+            "D": "2 x 7 x 9 x 11"
+        },
+        "correct_option": "C",
+        "solution": "Given factors 2 x 3 x 7 x 9; 2 x 3 x 9 x 11; 2 x 3 x 4 x 5\n∴ HCF = 2 x 3 = 6"
+    }
+]

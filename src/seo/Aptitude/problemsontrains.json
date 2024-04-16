@@ -1,0 +1,350 @@
+[
+    {
+        "topic": "problems-on-trains",
+        "id": 0,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A train runs with a speed of 200 km/hour. What will be its speed in m/sec?",
+        "options": {
+            "A": "50 m/sec",
+            "B": "55.55 m/sec",
+            "C": "48 m/sec",
+            "D": "66.66 m/sec",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Given speed in km/hour = 200 km/hour\n\nSpeed in m/sec = (200 x 5) / (18) m/sec = 55.55 m/sec",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 1,
+        "type": "type-2-Time-to-Cross-a-Stationary-Object",
+        "question": "A train crosses a pole in 10 sec and a 200m long platform in 20 sec. What is the length of the train?",
+        "options": {
+            "A": "100m",
+            "B": "200m",
+            "C": "250m",
+            "D": "300m",
+            "E": "None of the above"
+        },
+        "correct_option": "B",
+        "solution": "Let the length of train be x meter and speed be y m/sec\n\nTherefore, time taken to cross the pole = x/y sec\n\nand time taken to cross the platform = (Length of train + Length of platform) / speed of train\n\nTherefore x/y = 10\nAnd, (x+200) / y = 20\n⇒ 10y + 200 = 20 y\n∴ speed of train, y = 20 m/sec\nAnd length of train = x = 10y = 200m",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 2,
+        "type": "type-4-Relative-Speed",
+        "question": "Two trains running at 36 km/hr and 54 km/hr are running parallel in the opposite direction. If their lengths are 200m and 300m respectively. Then how much time will they take to cross each other?",
+        "options": {
+            "A": "20 sec",
+            "B": "25 sec",
+            "C": "30 sec",
+            "D": "35 sec",
+            "E": "None of the above"
+        },
+        "correct_option": "A",
+        "solution": "Relative speed, when the trains are running in the opposite direction = Sum of the speed\n\nTherefore, Relative speed = 36 km/hr + 54 km/hr = 90 km/hr\nRelative speed in m/sec = (90 x 5) / (18) m/sec = 25 m/sec\n\nDistance covered = sum of the lengths of the train = 200 m + 300 m = 500m\nTherefore, time taken = 500m / 25 m/sec = 20 sec",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 3,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A 200 m long train is running at a speed of 60 km/hr. Find out the time it takes to pass a man standing at the platform.",
+        "options": {
+            "A": "10 sec",
+            "B": "12 sec",
+            "C": "15 sec",
+            "D": "18 sec"
+        },
+        "correct_option": "B",
+        "solution": "Speed of the train = (60 x 5) / 18 m/sec = 50 / 3 m/sec\nDistance covered in passing the standing person = 200m\nRequired time taken= 200 / (50 / 3) = 200 x (3 / 50) = 12 sec",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 4,
+        "type": "type-2-Time-to-Cross-a-Stationary-Object",
+        "question": "A train is running at a speed of 264 Km/hr. If the length of the train is 330m, then how long will it take to cross a platform which is 330m long?",
+        "options": {
+            "A": "9 sec",
+            "B": "11 sec",
+            "C": "12 sec",
+            "D": "15 sec"
+        },
+        "correct_option": "A",
+        "solution": "Speed of the train = (264 x 5) / 18 m/sec = 220 / 3 m/sec\nDistance covered in passing the platform = (330 + 330) m = 660m\nTime taken= 660 / (220 / 3) sec = 660 x (3 / 220) = 9 sec",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 5,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A train which is 264 meter long passes a pole in 12 sec. Find out the speed of train?",
+        "options": {
+            "A": "80 km/hr",
+            "B": "80.6 km/hr",
+            "C": "82.2 km/hr",
+            "D": "79.2 km/hr"
+        },
+        "correct_option": "D",
+        "solution": "Length of train = 264 m\nTime taken to cross the pole = 12 sec\nSpeed of the train, in m/sec = Length of the train / Time taken to cross the pole\nTherefore, speed in m/sec = 264 / 12 m/sec = 22 m /sec\nCalculating speed in km/hr = (22 m/sec ) x (18 / 5) = 396 / 5 km/hr = 79.2 km/hr",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 6,
+        "type": "type-4-Relative-Speed",
+        "question": "A train 200 m long is running at a speed of 36 km/hr. It crosses a bridge in 30 sec. What is the length of the bridge?",
+        "options": {
+            "A": "150m",
+            "B": "200m",
+            "C": "125m",
+            "D": "100m"
+        },
+        "correct_option": "D",
+        "solution": "Speed in m/sec = 36 km/hr x (5 / 18) = 10m/sec\nDistance covered by train in crossing the bridge = Speed of train in m/sec x time in sec = 10 m/sec x 30 sec = 300 m\nNow, we know that\nDistance covered by train in crossing the bridge = Length of train + Length of bridge\nTherefore, Length of bridge = 300m - 200m = 100m",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 7,
+        "type": "type-2-Time-to-Cross-a-Stationary-Object",
+        "question": "A train which 360m long takes 36 sec to cross a telegraph pole. How long will it take to cross a 600m long platform?",
+        "options": {
+            "A": "60 sec",
+            "B": "45 sec",
+            "C": "66 sec",
+            "D": "50 sec"
+        },
+        "correct_option": "A",
+        "solution": "Speed of train in m/sec = 360m / 36 sec = 10 m/sec\n\nDistance covered by train in crossing the platform = Length of train + Length of Platform = 360m + 240m = 600m\n\nTherefore, Time taken to cover this distance = 600m / (10 m/sec)\n= 60 sec",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 8,
+        "type": "type-2-Time-to-Cross-a-Stationary-Object",
+        "question": "A passenger train running at a speed of 72 km/hr crosses a 400m long platform in 30 sec. What is the length of the train?",
+        "options": {
+            "A": "200 m",
+            "B": "150 m",
+            "C": "180 m",
+            "D": "240 m"
+        },
+        "correct_option": "A",
+        "solution": "Speed of train in m/sec = 72 km/hr x (5 / 18) = 20 m/sec\n\nDistance covered in meter = Time taken in crossing the platform in sec x speed in meter = 30 sec x 20 m/sec = 600m\n\nNow, we know , Distance covered by train in crossing the platform = Length of train + Length of Platform\nTherefore, length of the train = 600m - 400m = 200m",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 9,
+        "type": "type-2-Time-to-Cross-a-Stationary-Object",
+        "question": "The length of train is equal to the length of the platform. Suppose the train is running at a speed of 36 km/hr and it crosses a platform in 2 minutes. What is then the length of the train?",
+        "options": {
+            "A": "600 m",
+            "B": "500 m",
+            "C": "550 m",
+            "D": "620 m"
+        },
+        "correct_option": "A",
+        "solution": "Speed in m/sec = 36km/hr x (5/18) = 10 m/sec\n\nGiven, Time taken by train to cross the platform = 2 min = 120 sec\n\nTherefore, the distance covered by train in crossing the platform = 10 m/sec x 120 sec = 1200 m\n\nNow, distance covered by train in crossing the platform = Length of train + Length of Platform\n\nGiven, Length of train = Length of Platform = x\n\nTherefore, 2x = 1200\nso, x = Length of train = 1200/2 = 600 m",
+        "difficulty": "Hard"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 10,
+        "type": "type-3-Time-to-Cross-a-Platform",
+        "question": "A train takes 24 sec to cross a 480 m platform and 36 sec to cover a 900 m platform. what is the length of the train?",
+        "options": {
+            "A": "360 m",
+            "B": "400 m",
+            "C": "390 m",
+            "D": "430 m"
+        },
+        "correct_option": "A",
+        "solution": "Let the length of the train be x meter and its speed be y m/sec\n\nThen, ( 2 x 64 ) x [ y / (64 + y)] = 56\n∴ Length of train, x = 360m",
+        "difficulty": "Hard"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 11,
+        "type": "type-4-Relative-Speed",
+        "question": "A train 200 m long, running with a speed of 54 km/hr will pass an electric pole in?",
+        "options": {
+            "A": "30 seconds",
+            "B": "18 seconds",
+            "C": "72 seconds",
+            "D": "60 seconds"
+        },
+        "correct_option": "B",
+        "solution": "Speed of train = 54 km/hr = 54 x (5/18) = 15 m/sec\nLength of train = 200 m\nTime taken to pass the pole = Length of train / Speed of train = 200 / 15 = 18 sec",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 12,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A speed of 16 meters per second is the same as?",
+        "options": {
+            "A": "40.3 km/hr",
+            "B": "57.6 km/hr",
+            "C": "51.16 km/hr",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "16 m/sec = 16 x (18/5) = 57.6 km/hr",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 13,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A train moves with a speed of 180 km/hr, then its speed in meters per second is ?",
+        "options": {
+            "A": "5",
+            "B": "30",
+            "C": "40",
+            "D": "50"
+        },
+        "correct_option": "D",
+        "solution": "180 km/hr = 180 x (5/18) = 50 m/sec",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 14,
+        "type": "type-2-Time-to-Cross-a-Stationary-Object",
+        "question": "A train running at a certain speed crosses a stationary engine in 20 seconds. To find out the speed of the train, which of the following information is necessary ?",
+        "options": {
+            "A": "Only the length of the train",
+            "B": "Only the length of the engine",
+            "C": "Either the length of the train or the length of the engine",
+            "D": "Both the length of the train and the length of the engine"
+        },
+        "correct_option": "D",
+        "solution": "Since the sum of the length of the train and the length of the engine is needed, so both the lengths must be known.",
+        "difficulty": "Hard"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 15,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A train 110 metres in length runs through a station at the rate of 36 km per hour. How long will it take to pass a given point ?",
+        "options": {
+            "A": "11 sec.",
+            "B": "12 sec.",
+            "C": "13 sec.",
+            "D": "15 sec."
+        },
+        "correct_option": "A",
+        "solution": "Speed of the train = 36 km/hr = 36 x (5/18) = 10 m/sec\n∴ Required time = 110/10 = 11 sec",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 16,
+        "type": "type-2-Time-to-Cross-a-Stationary-Object",
+        "question": "A train 270 meters long is moving at a speed of 25 kmph. It will cross a man coming from the opposite direction at a speed of 2 km per hour in?",
+        "options": {
+            "A": "36 seconds",
+            "B": "32 seconds",
+            "C": "28 seconds",
+            "D": "24 seconds"
+        },
+        "correct_option": "A",
+        "solution": "Relative speed = (25 + 2) = 27 km/hr = 27 x (5/18) m/sec. = 15/2 m/sec.\nTime taken by the train to pass the men. = 270 / (15/2) = 36 sec.",
+        "difficulty": "Hard"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 17,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A train 250 meter long, running with a speed of 50 km/hr will pass an electric pole in?",
+        "options": {
+            "A": "30 seconds",
+            "B": "18 seconds",
+            "C": "72 seconds",
+            "D": "60 seconds"
+        },
+        "correct_option": "B",
+        "solution": "Speed of train = 50 km/hr = 125/9 m/sec\nLength of train = 250 m\nTime taken to pass the pole = Length of train / Speed of train\n= 250 / (125/9)\n= 18 sec",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 18,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A speed of 16 meters per second is the same as?",
+        "options": {
+            "A": "40.3 km/hr",
+            "B": "57.6 km/hr",
+            "C": "51.16 km/hr",
+            "D": "None of these"
+        },
+        "correct_option": "B",
+        "solution": "16 m/sec = 16 x (18/5) = 57.6 km/hr",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 19,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A train moves with a speed of 180 km/hr, then its speed in meters per second is ?",
+        "options": {
+            "A": "5",
+            "B": "30",
+            "C": "40",
+            "D": "50"
+        },
+        "correct_option": "D",
+        "solution": "180 km/hr = 180 x (5/18) = 50 m/sec",
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 20,
+        "type": "type-2-Time-to-Cross-a-Stationary-Object",
+        "question": "A train running at a certain speed crosses a stationary engine in 20 seconds. To find out the speed of the train, which of the following information is necessary ?",
+        "options": {
+            "A": "Only the length of the train",
+            "B": "Only the length of the engine",
+            "C": "Either the length of the train or the length of the engine",
+            "D": "Both the length of the train and the length of the engine"
+        },
+        "correct_option": "D",
+        "solution": "Since the sum of the length of the train and the length of the engine is needed, so both the lengths must be known.",
+        "difficulty": "Hard"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 21,
+        "type": "type-1-Train-Speed-Conversion",
+        "question": "A train 110 metres in length runs through a station at the rate of 36 km per hour. How long will it take to pass a given point ?",
+        "options": {
+            "A": "11 sec.",
+            "B": "12 sec.",
+            "C": "13 sec.",
+            "D": "15 sec."
+        },
+        "correct_option": "A",
+        "solution": "Speed of the train = 36 km/hr = 36 x (5/18) = 10 m/sec\n∴ Required time = 110/10 = 11 sec",
+        "difficulty": "Medium"
+    },
+    {
+        "topic": "problems-on-trains",
+        "id": 22,
+        "type": "type-4-Relative-Speed",
+        "question": "A train 110 meters long is moving with a speed of 45 km/hr. A man is running in the same direction as the train at a speed of 5 km/hr. What time will the man take to cross the train?",
+        "options": {
+            "A": "5 sec",
+            "B": "6 sec",
+            "C": "7 sec",
+            "D": "8 sec"
+        },
+        "correct_option": "C",
+        "solution": "Relative speed = (45 - 5) km/hr = 40 km/hr = 40 x (5/18) m/sec = 100/9 m/sec\nDistance to be covered = Length of train = 110 meters\nTime taken = Distance / Relative speed = 110 / (100/9) = 990/100 = 9.9 seconds ≈ 7 seconds",
+        "difficulty": "Medium"
+    }
+]
