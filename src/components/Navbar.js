@@ -123,9 +123,7 @@ const Navbar = () => {
                       <a href="/tracker">Tracker</a>
                     </div>
                     <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                      <a href="https://test.aptitudetracker.com">
-                        Host Contest
-                      </a>
+                      <a href="https://test.examise.in">Host Contest</a>
                     </div>
                   </div>
                 </div>
