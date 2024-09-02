@@ -23,11 +23,8 @@ const Practicetestmainpage = () => {
 
   const handleChange = (event) => {
     const value = event.target.value;
-    const numValue = parseInt(value, 10);
-
-    if (value === "" || (numValue >= 10 && numValue <= 20)) {
-      setNumber(value);
-    }
+    // Optional: Validate or format the input here
+    setNumber(value);
   };
 
   const handleTabClick = (tab) => {
@@ -108,6 +105,10 @@ const Practicetestmainpage = () => {
       toast.error("Please enter a number.", {
         position: "bottom-left",
       });
+    } else if (number < 10 || number > 30) {
+      toast.error("Please enter a number between 10 to 30 only.", {
+        position: "bottom-left",
+      });
     } else {
       toast.success("Creating Your Test..");
       // Use encodeURIComponent to safely handle special characters in URLs
@@ -159,8 +160,9 @@ const Practicetestmainpage = () => {
                       id="numberInput"
                       value={number}
                       onChange={handleChange}
-                      min="10"
-                      max="20"
+                      min="1" // Minimum value
+                      max="100" // Maximum value
+                      step="1" // Step increment
                       className="py-3 px-4 block w-full border-transparent rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-neutral-900 dark:border-transparent dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
                       placeholder="Enter Total Number Of Questions"
                     />

@@ -114,16 +114,26 @@ const Navbar = () => {
                 <div className="md:hidden" id="mobile-menu">
                   <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                     <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                      <a href="/dsatracker">DSATracker</a>
+                      <a href="/tracker">MCQ Tracker</a>
                     </div>
                     <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                      <a href="/">Practice Unlimited</a>
+                      <a href="/dsatracker">DSA Tracker</a>
                     </div>
                     <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                      <a href="/tracker">Tracker</a>
+                      <a href="/practiceunlimited">Practice Unlimited</a>
+                    </div>
+
+                    <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      <a href="/top100codes">Top 100 Codes</a>
                     </div>
                     <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                      <a href="https://test.examise.in">Host Contest</a>
+                      <a href="/freetest">Free Test</a>
+                    </div>
+
+                    <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      <a href="https://test.aptitudetracker.com">
+                        Host Contest
+                      </a>
                     </div>
                   </div>
                 </div>

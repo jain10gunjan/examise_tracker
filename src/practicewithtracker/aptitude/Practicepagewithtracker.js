@@ -44,8 +44,7 @@ const Practicepagewithtracker = () => {
     // console.log('Running');
     const fetchData = async () => {
       try {
-        const [response, response1, response2, response3] = await Promise.all([
-          axios.get(`${apiEndpoint}?topic=${pageValue}`),
+        const [response1, response2, response3] = await Promise.all([
           axios.get(
             `${apiEndpoint}?topic=${pageValue}&difficulty=${topicInfo.type_1}`
           ),
@@ -57,7 +56,13 @@ const Practicepagewithtracker = () => {
           ),
         ]);
 
-        setData(response.data.data);
+        const combinedData = [
+          ...response1.data.data,
+          ...response2.data.data,
+          ...response3.data.data,
+        ];
+
+        setData(combinedData);
         setData1(response1.data.data);
         setData2(response2.data.data);
         setData3(response3.data.data);
