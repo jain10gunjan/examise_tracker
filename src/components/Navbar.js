@@ -1,31 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
-import { Link } from 'react-router-dom'
-import ReactGA from 'react-ga4';
-
+import { Link } from "react-router-dom";
+import ReactGA from "react-ga4";
 
 const Navbar = () => {
-
-  const TRACKING_ID = 'G-ZF145CZEKQ';
+  const TRACKING_ID = "G-ZF145CZEKQ";
   const [isOpen, setIsOpen] = useState(false);
-
-
-
-
 
   useEffect(() => {
     ReactGA.initialize(TRACKING_ID);
     // Send an initial pageview
     ReactGA.send("pageview");
-    console.log('Sending the google analytics data');
-
+    console.log("Sending the google analytics data");
   }, []);
 
-
   return (
-
     <>
-
       <div>
         <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-10 mb-10">
           <nav className="bg-gray-5 00">
@@ -33,51 +23,35 @@ const Navbar = () => {
               <div className="relative flex items-center justify-between h-16">
                 <div className="flex items-center">
                   <div className="flex-shrink-0 text-lg px-4">
-                    <Link to="/">Aptitude Tracker <sub>.com</sub></Link>
+                    <Link to="/">
+                      Examise <sub>.in</sub>
+                    </Link>
                   </div>
                   <div className="absolute right-0 hidden md:block">
                     <div className="mx-4 flex space-x-4 ">
-                    <div
-
-className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
->
-<a href="/dsatracker">DSATracker</a>
-</div>
-                      <div
-
-                        className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                      >
+                      <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="/tracker">MCQ Tracker</a>
+                      </div>
+                      <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="/dsatracker">DSA Tracker</a>
+                      </div>
+                      <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                         <a href="/practiceunlimited">Practice Unlimited</a>
                       </div>
-                      <div
 
-                        className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                      >
-                        <a href="/createsheets">Create Sheets</a>
-                      </div>
-                      <div
-
-                        className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                      >
+                      <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                         <a href="/top100codes">Top 100 Codes</a>
                       </div>
-                      <div
-
-                        className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                      >
+                      <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                         <a href="/freetest">Free Test</a>
                       </div>
 
-                      <div
-
-                        className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                      >
-                        <a href="https://test.aptitudetracker.com">Host Contest</a>
+                      <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="https://test.aptitudetracker.com">
+                          Host Contest
+                        </a>
                       </div>
-
-
                     </div>
-
                   </div>
                 </div>
                 <div className="-mr-2 flex md:hidden">
@@ -137,50 +111,31 @@ className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md
               leaveTo="opacity-0 scale-95"
             >
               {(ref) => (
-
                 <div className="md:hidden" id="mobile-menu">
                   <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                  <div
-
-className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
->
-<a href="/dsatracker">DSATracker</a>
-</div>
-                  <div
-
-className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
->
-<a href="/">Practice Unlimited</a>
-</div>
-<div
-
-className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
->
-<a href="/tracker">Tracker</a>
-</div>
-<div
-
-className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
->
-<a href="https://test.aptitudetracker.com">Host Contest</a>
-</div>
+                    <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      <a href="/dsatracker">DSATracker</a>
+                    </div>
+                    <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      <a href="/">Practice Unlimited</a>
+                    </div>
+                    <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      <a href="/tracker">Tracker</a>
+                    </div>
+                    <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      <a href="https://test.aptitudetracker.com">
+                        Host Contest
+                      </a>
+                    </div>
                   </div>
-
                 </div>
               )}
             </Transition>
           </nav>
         </header>
-
-
-
-
       </div>
-
     </>
+  );
+};
 
-
-  )
-}
-
-export default Navbar
+export default Navbar;
