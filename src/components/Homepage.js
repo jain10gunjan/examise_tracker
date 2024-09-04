@@ -197,7 +197,7 @@ const Homepage = () => {
           </div>
 
           <section class="mt-8 text-gray-600 body-font">
-            <div class="container mx-auto flex flex-col px-5 py-10 justify-center items-center">
+            <div class="container mx-auto flex flex-col px-5 py-10 items-center">
               <div class="w-full md:w-2/3 flex flex-col mb-16">
                 <div class="mt-4 mb-6 w-full p-4 border rounded-lg border-gray-200 shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 px-12">
                   <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
@@ -208,24 +208,26 @@ const Homepage = () => {
                     challenges – success awaits in your upcoming exams! 🚀✨{" "}
                   </p>
                 </div>
-                <div class="max-w-7xl"></div>
-                <div className="mb-8 overflow-x-auto scrolling-touch">
-                  <div className="flex border-b border-gray-200">
-                    {tabs.map((tab) => (
-                      <button
-                        key={tab}
-                        className={`${
-                          activeTab === tab
-                            ? "border-blue-500 text-blue-600"
-                            : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-                        } px-4 py-2 border-b-2 font-medium`}
-                        onClick={() => setActiveTab(tab)}
-                      >
-                        {tab}
-                      </button>
-                    ))}
+                <div class="max-w-7xl">
+                  <div className="mb-8 overflow-x-auto scrolling-touch">
+                    <div className="flex border-b border-gray-200">
+                      {tabs.map((tab) => (
+                        <button
+                          key={tab}
+                          className={`${
+                            activeTab === tab
+                              ? "border-blue-500 text-blue-600"
+                              : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                          } m-1 py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 whitespace-nowrap`}
+                          onClick={() => setActiveTab(tab)}
+                        >
+                          {tab}
+                        </button>
+                      ))}
+                    </div>
                   </div>
                 </div>
+
                 <div className="mt-4">{tabContents[activeTab]}</div>
               </div>
             </div>

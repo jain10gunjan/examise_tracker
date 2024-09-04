@@ -170,7 +170,7 @@ const HomeComponent = () => {
 
             <div class="mt-10 lg:mt-0 lg:col-span-8 lg:col-end-13">
               <div class="space-y-6 sm:space-y-4">
-                <ul class="grid grid-cols-3 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden">
+                <ul class="grid grid-rows-1 md:grid-cols-3 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden">
                   <li class="flex flex-col -m-0.5 p-4 sm:p-8 hover:bg-gray-200 hover:cursor-pointer">
                     <a href="/tracker">
                       <div class="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2">
