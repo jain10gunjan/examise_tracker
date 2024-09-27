@@ -26,7 +26,7 @@ const Navbar = () => {
                       Examise <sub>.in</sub>
                     </Link>
                   </div>
-                  <div className="absolute right-0 hidden md:block">
+                  {/* <div className="absolute right-0 hidden md:block">
                     <div className="mx-4 flex space-x-4 ">
                       <div className="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                         <a href="/tracker">MCQ Tracker</a>
@@ -49,7 +49,7 @@ const Navbar = () => {
                         <a href="https://test.examise.in">Host Contest</a>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="-mr-2 flex md:hidden">
                   <button
@@ -98,7 +98,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <Transition
+            {/* <Transition
               show={isOpen}
               enter="transition ease-out duration-100 transform"
               enterFrom="opacity-0 scale-95"
@@ -133,7 +133,7 @@ const Navbar = () => {
                   </div>
                 </div>
               )}
-            </Transition>
+            </Transition> */}
           </nav>
         </header>
       </div>
