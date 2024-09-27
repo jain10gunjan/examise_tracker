@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
 import ReactGA from "react-ga4";
+import { Helmet } from "react-helmet";
 
 const Navbar = () => {
   const TRACKING_ID = "G-ZF145CZEKQ";

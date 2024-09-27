@@ -462,6 +462,22 @@ const Practicepagewithtracker = () => {
         <meta name="twitter:image" content={sitename + "/logo512.png"} />
         <meta name="twitter:site" content="@aptitudetracker" />
         <meta name="twitter:creator" content="@aptitudetracker"></meta>
+        <script
+          type="text/javascript"
+          src="//delivery.r2b2.io/get/examise.in/generic/vignette/mobile"
+        ></script>
+        <script
+          type="text/javascript"
+          src="//delivery.r2b2.io/get/examise.in/generic/vignette"
+        ></script>
+        <script
+          type="text/javascript"
+          src="//delivery.r2b2.io/get/examise.in/generic/sticky/mobile"
+        ></script>
+        <script
+          type="text/javascript"
+          src="//delivery.r2b2.io/get/examise.in/generic/sticky"
+        ></script>
       </Helmet>
 
       {loading ? (
