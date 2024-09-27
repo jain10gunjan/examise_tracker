@@ -1,71 +1,71 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React from "react";
 //import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 const HomeComponent = () => {
-  const [text, setText] = useState("");
+  // const [text, setText] = useState("");
 
-  const isTyping = true;
+  //const isTyping = true;
 
-  const messages = useMemo(
-    () => [
-      "Aptitude",
-      "Coding",
-      "Verbal Ability",
-      "DSA",
-      "Operating System",
-      "Computer Networks",
-    ],
-    []
-  );
+  // const messages = useMemo(
+  //   () => [
+  //     "Aptitude",
+  //     "Coding",
+  //     "Verbal Ability",
+  //     "DSA",
+  //     "Operating System",
+  //     "Computer Networks",
+  //   ],
+  //   []
+  // );
 
-  useEffect(() => {
-    let currentIndex = 0;
-    let currentText = "";
-    let timer;
+  // useEffect(() => {
+  //   let currentIndex = 0;
+  //   let currentText = "";
+  //   let timer;
 
-    const type = () => {
-      if (currentIndex === messages.length) {
-        currentIndex = 0; // Reset to the beginning of the messages array
-      }
+  //   const type = () => {
+  //     if (currentIndex === messages.length) {
+  //       currentIndex = 0; // Reset to the beginning of the messages array
+  //     }
 
-      if (currentText.length === messages[currentIndex].length) {
-        clearTimeout(timer);
-        timer = setTimeout(erase, 1000); // Display each message for 1 second before erasing
-        return;
-      }
+  //     if (currentText.length === messages[currentIndex].length) {
+  //       clearTimeout(timer);
+  //       timer = setTimeout(erase, 1000); // Display each message for 1 second before erasing
+  //       return;
+  //     }
 
-      currentText = messages[currentIndex].slice(0, currentText.length + 1);
-      setText(currentText);
+  //     currentText = messages[currentIndex].slice(0, currentText.length + 1);
+  //     setText(currentText);
 
-      timer = setTimeout(type, 100); // Adjust typing speed here
-    };
+  //     timer = setTimeout(type, 100); // Adjust typing speed here
+  //   };
 
-    const erase = () => {
-      if (currentText.length === 0) {
-        currentIndex++;
-        timer = setTimeout(type, 500); // Delay before typing the next message
-        return;
-      }
+  //   const erase = () => {
+  //     if (currentText.length === 0) {
+  //       currentIndex++;
+  //       timer = setTimeout(type, 500); // Delay before typing the next message
+  //       return;
+  //     }
 
-      currentText = currentText.slice(0, currentText.length - 1);
-      setText(currentText);
+  //     currentText = currentText.slice(0, currentText.length - 1);
+  //     setText(currentText);
 
-      timer = setTimeout(erase, 50); // Adjust erasing speed here
-    };
+  //     timer = setTimeout(erase, 50); // Adjust erasing speed here
+  //   };
 
-    if (isTyping) {
-      timer = setTimeout(type, 1000); // Start typing after 1 second
-    }
+  //   if (isTyping) {
+  //     timer = setTimeout(type, 1000); // Start typing after 1 second
+  //   }
 
-    // Cleanup function to clear the timeout when the component unmounts
-    return () => {
-      clearTimeout(timer);
-    };
-  }, [isTyping, messages]);
+  //   // Cleanup function to clear the timeout when the component unmounts
+  //   return () => {
+  //     clearTimeout(timer);
+  //   };
+  // }, [isTyping, messages]);
 
   return (
     <>
