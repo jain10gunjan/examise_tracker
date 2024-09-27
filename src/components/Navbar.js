@@ -9,7 +9,6 @@ const Navbar = () => {
 
   useEffect(() => {
     ReactGA.initialize(TRACKING_ID);
-    // Send an initial pageview
     ReactGA.send("pageview");
     console.log("Sending the google analytics data");
   }, []);

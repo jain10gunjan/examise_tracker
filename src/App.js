@@ -15,6 +15,7 @@ import Testpage from "./friendlytest/Testpage";
 import Addtestform from "./friendlytest/Addtestform";
 import HomeComponent from "./components/HomeComponent";
 import NotFound from "./NotFound";
+import Leetcode from "./dsatracker/Leetcode";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           element={<Testpage />}
         />
         <Route path="/addfreetest" element={<Addtestform />} />
+        <Route path="/leetcode" element={<Leetcode />} />
 
         {/* Add more routes as needed */}
       </Routes>
