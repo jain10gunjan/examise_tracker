@@ -3,7 +3,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./Navbar";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 
 const HomeComponent = () => {
   // const [text, setText] = useState("");
@@ -70,40 +70,8 @@ const HomeComponent = () => {
   return (
     <>
       <Navbar />
-      <div class="mt-16 mb-24 max-w-4xl flex flex-col mx-auto size-full">
-        <main id="content">
-          <div class="text-center py-10 px-4 sm:px-6 lg:px-8">
-            <h1 class="block text-7xl font-bold text-gray-800 sm:text-9xl">
-              404
-            </h1>
-            <p class="mt-3 text-gray-600">We are Under Maintenance</p>
-            <p class="text-gray-600">Sorry, For Any Inconveniance.</p>
-            <div class="mt-5 flex flex-col justify-center items-center gap-2 sm:flex-row sm:gap-3">
-              <a
-                class="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
-                href="/"
-              >
-                <svg
-                  class="shrink-0 size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="m15 18-6-6 6-6" />
-                </svg>
-                Back to Home
-              </a>
-            </div>
-          </div>
-        </main>
-      </div>
-      {/* <section>
+
+      <section className="min-h-screen">
         <div className="rain-container">
           {Array.from({ length: 20 }).map((_, index) => (
             <div key={index} className="raindrop" />
@@ -111,7 +79,7 @@ const HomeComponent = () => {
         </div>
 
         <div>
-          <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-24 space-y-8">
+          <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-48 space-y-8 ">
             <div class="flex justify-center">
               <div class="group inline-flex items-center bg-gray-100/10 hover:bg-gray-800/10 border border-gray-600/10 p-1 ps-4 rounded-full shadow-md focus:outline-none focus:bg-gray-600/10">
                 <p class="me-2 text-sm">Examise is live. {`[β Version]`}</p>
@@ -138,21 +106,18 @@ const HomeComponent = () => {
               <h1 class="block font-medium text-gray-800 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                 Now it's easier to practice{" "}
                 <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">
-                  {text}
+                  {/* {text} */} Things
                 </span>
               </h1>
             </div>
 
             <div class="max-w-3xl text-center mx-auto">
-              <p class="text-lg text-gray-600/70">
-                Examise: Your ultimate MCQ hub for all your needs—practice,
-                create custom tests, and track your progress, all in one place.
-              </p>
+              <p class="text-xl text-gray-600/70">Coming Soon.</p>
             </div>
           </div>
         </div>
 
-        <div class="max-w-6xl px-4 mt-24 sm:px-6 lg:px-8 lg:mt-14 mx-auto">
+        {/* <div class="max-w-6xl px-4 mt-24 sm:px-6 lg:px-8 lg:mt-14 mx-auto">
           <div class="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
             <div class="lg:col-span-4 lg:col-start-1">
               <div class="mb-8">
@@ -437,9 +402,9 @@ const HomeComponent = () => {
               </footer>
             </blockquote>
           </div>
-        </div>
-        <Footer />
-      </section> */}
+        </div> */}
+      </section>
+      <Footer />
     </>
   );
 };
