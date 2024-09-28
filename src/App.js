@@ -16,6 +16,8 @@ import Addtestform from "./friendlytest/Addtestform";
 import HomeComponent from "./components/HomeComponent";
 import NotFound from "./NotFound";
 import Leetcode from "./dsatracker/Leetcode";
+import QuestionsPage from "./companyWisePrev/questionsPage";
+import CompanyListPreviousYear from "./companyWisePrev/CompanyListPreviousYear";
 
 function App() {
   return (
@@ -44,6 +46,14 @@ function App() {
         <Route path="/leetcode" element={<Leetcode />} />
 
         {/* Add more routes as needed */}
+        <Route
+          path="/company/previous-year/:companyname"
+          element={<CompanyListPreviousYear />}
+        />
+        <Route
+          path="/company/previous-year/tcs-nqt/:slotdate"
+          element={<QuestionsPage />}
+        />
       </Routes>
     </Router>
   );
