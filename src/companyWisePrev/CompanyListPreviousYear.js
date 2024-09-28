@@ -4,6 +4,7 @@ import { companyList } from "../staticDB/companylist/db"; // Import your company
 import toast, { Toaster } from "react-hot-toast";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
 const CompanyListPreviousYear = () => {
   const { companyname } = useParams(); // Get company name from URL
