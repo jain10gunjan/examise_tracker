@@ -172,7 +172,9 @@ const QuestionPage = () => {
 
       {loading ? (
         <div className="loader flex justify-center items-center h-screen">
-          <h1 className="text-sm">Relax! Questions are loading...</h1>
+          <h1 className="animate-bounce text-sm">
+            Relax! Questions are loading....
+          </h1>
         </div>
       ) : (
         <section className="mt-20 text-gray-600 body-font">
