@@ -158,7 +158,7 @@ const QuestionPage = () => {
     <div className="app">
       <Navbar />
       <Helmet>
-        <title>{"chapterName"} - Aptitude Practice Questions</title>
+        <title>TCS NQT Previous Year SLOT 1 AUGUST 19 2023</title>
         <meta
           name="description"
           content={`Boost your ${"chapterName"} skills with our extensive collection of multiple-choice questions (MCQs).`}

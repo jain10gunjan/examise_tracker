@@ -18,6 +18,18 @@ const CompanyListPreviousYear = () => {
 
   return (
     <>
+      <Helmet>
+        <title>TCS NQT Previous Year Question Papers</title>
+        <meta
+          name="description"
+          content={`Boost your ${"chapterName"} skills with our extensive collection of multiple-choice questions (MCQs).`}
+        />
+        <meta
+          name="keywords"
+          content="Aptitude questions,Test preparation,Quantitative reasoning"
+        />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <Navbar />
       <section className="mt-8 text-gray-600 body-font">
         <div className="container mx-auto flex flex-col px-5 py-10 items-center">
