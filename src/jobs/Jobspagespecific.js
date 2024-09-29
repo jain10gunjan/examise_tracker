@@ -14,7 +14,7 @@ const Jobspagespecific = () => {
   const fetchInitialJobData = async (jobId) => {
     try {
       const response = await fetch(
-        `https://api.cuvette.tech/api/v1/company/public/job-post/66f6725b51059160b257753c`
+        `https://api.cuvette.tech/api/v1/company/public/job-post/${jobId}`
       );
       if (!response.ok) {
         throw new Error("Failed to fetch the data");
