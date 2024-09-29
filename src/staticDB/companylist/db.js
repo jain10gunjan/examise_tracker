@@ -9,8 +9,8 @@ export const companyList = {
     {
       name: "TCS NQT 19 August 2023 Slot - 2",
       date: "19 August 2023",
-      link: null,
-      textcolor: "text-gray-400",
+      link: "/company/previous-year/tcs-nqt/slot-2-august-19-2023",
+      textcolor: "text-gray-700",
     },
     {
       name: "TCS NQT 20 August 2023 Slot - 1",

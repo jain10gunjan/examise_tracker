@@ -1,4 +1,4 @@
-export const slot_1_august_19_2023 = [
+export const allquestions = [
   {
     _id: "1",
     topic: "LCM and HCF",
@@ -566,11 +566,8 @@ export const slot_1_august_19_2023 = [
     solution:
       "The correct answer is 'Statement I alone is sufficient' as it provides enough information to deduce the difference between P and Q.",
   },
-];
-
-export const slot_2_august_19_2023 = [
   {
-    _id: "1",
+    _id: "35",
     category: "Numerical-Ability",
     topic: "LCM and HCF",
     difficulty: "Medium",
@@ -587,7 +584,7 @@ export const slot_2_august_19_2023 = [
       "The LCM of 4, 6, 12, and 15 is calculated and its square is divided by the square of the HCF of 51, 119, and 323, resulting in a remainder of 132.",
   },
   {
-    _id: "2",
+    _id: "36",
     category: "Numerical-Ability",
     topic: "Fractions",
     difficulty: "Hard",
@@ -601,7 +598,7 @@ export const slot_2_august_19_2023 = [
     },
   },
   {
-    _id: "3",
+    _id: "37",
     category: "Numerical-Ability",
     topic: "Average Age",
     difficulty: "Medium",
@@ -615,7 +612,7 @@ export const slot_2_august_19_2023 = [
     },
   },
   {
-    _id: "4",
+    _id: "38",
     category: "Numerical-Ability",
     topic: "Ratio and Ages",
     difficulty: "Medium",
@@ -630,7 +627,7 @@ export const slot_2_august_19_2023 = [
     correct_option: "D",
   },
   {
-    _id: "5",
+    _id: "39",
     category: "Numerical-Ability",
     topic: "Volume Change",
     difficulty: "Hard",
@@ -645,7 +642,7 @@ export const slot_2_august_19_2023 = [
     correct_option: "D",
   },
   {
-    _id: "6",
+    _id: "40",
     category: "Numerical-Ability",
     topic: "Profit and Loss",
     difficulty: "Medium",
@@ -660,7 +657,7 @@ export const slot_2_august_19_2023 = [
     correct_option: "A",
   },
   {
-    _id: "7",
+    _id: "41",
     category: "Numerical-Ability",
     topic: "Compound Interest",
     difficulty: "Medium",
@@ -675,7 +672,7 @@ export const slot_2_august_19_2023 = [
     correct_option: "C",
   },
   {
-    _id: "8",
+    _id: "42",
     category: "Numerical-Ability",
     topic: "Milk and Containers",
     difficulty: "Hard",
@@ -690,7 +687,7 @@ export const slot_2_august_19_2023 = [
     correct_option: "C",
   },
   {
-    _id: "9",
+    _id: "43",
     category: "Numerical-Ability",
     topic: "Milk and Profit",
     difficulty: "Medium",
@@ -705,7 +702,7 @@ export const slot_2_august_19_2023 = [
     correct_option: "C",
   },
   {
-    _id: "10",
+    _id: "44",
     category: "Numerical-Ability",
     topic: "Speed and Time",
     difficulty: "Easy",
@@ -720,7 +717,7 @@ export const slot_2_august_19_2023 = [
     correct_option: "A",
   },
   {
-    _id: "11",
+    _id: "45",
     category: "Numerical-Ability",
     topic: "Geometry",
     difficulty: "Medium",
@@ -736,7 +733,7 @@ export const slot_2_august_19_2023 = [
   },
 
   {
-    _id: "12",
+    _id: "46",
     category: "Numerical Ability",
     topic: "Mean and Quartile Deviation",
     difficulty: "Medium",
@@ -753,7 +750,7 @@ export const slot_2_august_19_2023 = [
       "Mean Deviation is calculated as 4/5 × Quartile Deviation = 4/5 × 125 = 100.",
   },
   {
-    _id: "13",
+    _id: "47",
     category: "Numerical Ability",
     topic: "Ratios and Proportions",
     difficulty: "Medium",
@@ -770,7 +767,7 @@ export const slot_2_august_19_2023 = [
       "Based on the new ratio and given conditions, the number of boys who joined is calculated as 16.",
   },
   {
-    _id: "14",
+    _id: "48",
     category: "Numerical Ability",
     topic: "Work and Time",
     difficulty: "Hard",
@@ -784,16 +781,7 @@ export const slot_2_august_19_2023 = [
     },
   },
   {
-    _id: "15",
-    category: "Numerical Ability",
-    topic: "Percentage and Income",
-    difficulty: "Medium",
-    question:
-      "Rhythm spends 16 ⅔% of her income on food, 5 5/19% on entertainment, and 8 ⅓% on travelling. She saves Rs 15,900. Find her total monthly income in Rs.",
-    options: {},
-  },
-  {
-    _id: "16",
+    _id: "49",
     category: "Numerical Ability",
     topic: "Speed and Distance",
     difficulty: "Medium",
@@ -809,7 +797,7 @@ export const slot_2_august_19_2023 = [
     solution: "The policeman will catch the thief after running 200 meters.",
   },
   {
-    _id: "17",
+    _id: "50",
     category: "Numerical Ability",
     topic: "Simple Interest",
     difficulty: "Hard",
@@ -826,7 +814,7 @@ export const slot_2_august_19_2023 = [
       "The leftover amount is calculated based on the interest formula and the total interest earned.",
   },
   {
-    _id: "19",
+    _id: "51",
     category: "Numerical Ability",
     topic: "Simple Interest",
     difficulty: "Medium",
@@ -844,7 +832,7 @@ export const slot_2_august_19_2023 = [
   },
 
   {
-    _id: "20",
+    _id: "52",
     category: "Reasoning-Ability",
     topic: "Series",
     difficulty: "Medium",
@@ -861,7 +849,7 @@ export const slot_2_august_19_2023 = [
       "PQ is the letter cluster that does not follow the alphabetical sequence.",
   },
   {
-    _id: "21",
+    _id: "53",
     category: "Reasoning-Ability",
     topic: "Letter Relationships",
     difficulty: "Hard",
@@ -875,7 +863,7 @@ export const slot_2_august_19_2023 = [
     },
   },
   {
-    _id: "22",
+    _id: "54",
     category: "Reasoning-Ability",
     topic: "Family Relationships",
     difficulty: "Medium",
@@ -892,7 +880,7 @@ export const slot_2_august_19_2023 = [
       "Statement I alone provides enough information about the family structure.",
   },
   {
-    _id: "23",
+    _id: "55",
     category: "Reasoning-Ability",
     topic: "Code Language",
     difficulty: "Hard",
@@ -908,7 +896,7 @@ export const slot_2_august_19_2023 = [
     solution: "According to the code, P's father is the mother's brother of K.",
   },
   {
-    _id: "24",
+    _id: "56",
     category: "Reasoning-Ability",
     topic: "Family Relationships",
     difficulty: "Medium",
@@ -925,7 +913,7 @@ export const slot_2_august_19_2023 = [
       "Statement III alone is sufficient to determine that Roshni is Charan's niece.",
   },
   {
-    _id: "25",
+    _id: "57",
     category: "Reasoning-Ability",
     topic: "Code Language",
     difficulty: "Medium",
@@ -942,7 +930,7 @@ export const slot_2_august_19_2023 = [
       "The given statement D is incorrect according to the provided code language.",
   },
   {
-    _id: "26",
+    _id: "58",
     category: "Reasoning-Ability",
     topic: "Series",
     difficulty: "Easy",
@@ -959,7 +947,7 @@ export const slot_2_august_19_2023 = [
       "JOG is the letter cluster that does not follow the pattern of the other clusters.",
   },
   {
-    _id: "27",
+    _id: "59",
     category: "Reasoning Ability",
     topic: "Percentage",
     difficulty: "Medium",
@@ -977,7 +965,7 @@ export const slot_2_august_19_2023 = [
   },
 
   {
-    _id: "28",
+    _id: "60",
     category: "Reasoning-Ability",
     topic: "Recruitment Criteria",
     difficulty: "Medium",
@@ -995,7 +983,7 @@ export const slot_2_august_19_2023 = [
   },
 
   {
-    _id: "1",
+    _id: "61",
     category: "Verbal-Ability",
     topic: "Error Identification",
     difficulty: "Medium",
@@ -1012,7 +1000,7 @@ export const slot_2_august_19_2023 = [
       "The error is in the phrase 'Month of June', as the correct expression should be 'in June'.",
   },
   {
-    _id: "2",
+    _id: "62",
     category: "Verbal-Ability",
     topic: "Grammatical Error",
     difficulty: "Medium",
@@ -1029,7 +1017,7 @@ export const slot_2_august_19_2023 = [
       "The error is in the phrase 'such a state as'. The correct phrase should be 'such a state that'.",
   },
   {
-    _id: "3",
+    _id: "63",
     category: "Verbal-Ability",
     topic: "Phrase Correction",
     difficulty: "Medium",
@@ -1046,7 +1034,7 @@ export const slot_2_august_19_2023 = [
       "The correct phrase is 'Come a long way' instead of 'come along the way'.",
   },
   {
-    _id: "4",
+    _id: "64",
     category: "Verbal-Ability",
     topic: "Fill in the Blanks",
     difficulty: "Medium",
@@ -1063,7 +1051,7 @@ export const slot_2_august_19_2023 = [
       "The correct option is 'to shock remains for some' and 'may grow complacent'.",
   },
   {
-    _id: "5",
+    _id: "65",
     category: "Verbal-Ability",
     topic: "Fill in the Blanks",
     difficulty: "Medium",
@@ -1080,7 +1068,7 @@ export const slot_2_august_19_2023 = [
       "The correct option is (A) crawled, (B) ducked, (C) band, and (D) willing.",
   },
   {
-    _id: "6",
+    _id: "66",
     category: "Verbal-Ability",
     topic: "Fill in the Blanks",
     difficulty: "Medium",
@@ -1097,7 +1085,7 @@ export const slot_2_august_19_2023 = [
       "The correct option is (1) taking in, (2) reading, (3) little, and (4) connect.",
   },
   {
-    _id: "7",
+    _id: "67",
     category: "Verbal-Ability",
     topic: "Idioms",
     difficulty: "Medium",
@@ -1115,7 +1103,7 @@ export const slot_2_august_19_2023 = [
   },
 
   {
-    _id: "q8",
+    _id: "68",
     category: "Verbal-Ability",
     topic: "Idioms",
     difficulty: "Medium",
@@ -1132,7 +1120,7 @@ export const slot_2_august_19_2023 = [
       "Correct sequence: 2413. The idioms 'Batten down the hatches', 'Even the score', 'Face the music', and 'Comeuppance' fit the blanks in the given order.",
   },
   {
-    _id: "q9",
+    _id: "69",
     category: "Verbal-Ability",
     topic: "Sentence Completion",
     difficulty: "Medium",
@@ -1149,7 +1137,7 @@ export const slot_2_august_19_2023 = [
       "The question contains grammatical errors and does not have a valid answer.",
   },
   {
-    _id: "q10",
+    _id: "70",
     category: "Verbal-Ability",
     topic: "Idioms",
     difficulty: "Medium",
@@ -1166,7 +1154,7 @@ export const slot_2_august_19_2023 = [
       "Correct sequence: 1. Wiped out, 2. Unsettling trends, 3. Sit over the problem, 4. Hardest-hit.",
   },
   {
-    _id: "q11",
+    _id: "71",
     category: "Verbal-Ability",
     topic: "Sentence Ordering",
     difficulty: "Medium",
@@ -1183,7 +1171,7 @@ export const slot_2_august_19_2023 = [
       "Correct sequence: 3, 2, 1, 4. This arrangement presents a logical flow of argument on labor market changes and firm power.",
   },
   {
-    _id: "q12",
+    _id: "72",
     category: "Verbal-Ability",
     topic: "Sentence Ordering",
     difficulty: "Medium",
@@ -1200,7 +1188,7 @@ export const slot_2_august_19_2023 = [
       "Correct sequence: 2, 4, 1, 3. This arrangement provides a clear explanation of the consequences of insect decline.",
   },
   {
-    _id: "q13",
+    _id: "73",
     category: "Verbal-Ability",
     topic: "Sentence Completion",
     difficulty: "Medium",
@@ -1217,7 +1205,7 @@ export const slot_2_august_19_2023 = [
       "Correct sequence: QR. The main reason for the sentence reduction was the failure to account for Guode’s major depression, and mental health issues are common among offenders.",
   },
   {
-    _id: "q14",
+    _id: "74",
     category: "Verbal-Ability",
     topic: "Idioms",
     difficulty: "Easy",
@@ -1233,7 +1221,7 @@ export const slot_2_august_19_2023 = [
     solution: "The idiom 'snowed under' means to be extremely busy.",
   },
   {
-    _id: "q15",
+    _id: "75",
     category: "Verbal-Ability",
     topic: "Idioms",
     difficulty: "Easy",
@@ -1250,7 +1238,7 @@ export const slot_2_august_19_2023 = [
       "'Lackey' refers to someone who is overly submissive and behaves like a servant.",
   },
   {
-    _id: "q16",
+    _id: "76",
     category: "Verbal-Ability",
     topic: "Sentence Completion",
     difficulty: "Medium",
@@ -1265,11 +1253,8 @@ export const slot_2_august_19_2023 = [
     correct_option: "D",
     solution: "The question contains errors and does not have a valid answer.",
   },
-];
-
-export const slot_1_august_20_2023 = [
   {
-    _id: "q1",
+    _id: "77",
     category: "Math",
     topic: "Numerical_Ability",
     difficulty: "Medium",
@@ -1285,7 +1270,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is A - 851.",
   },
   {
-    _id: "q2",
+    _id: "78",
     category: "Numerical_Ability",
     topic: "Arithmetic",
     difficulty: "Medium",
@@ -1301,7 +1286,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is B - 5.",
   },
   {
-    _id: "q3",
+    _id: "79",
     category: "Numerical_Ability",
     topic: "Algebra",
     difficulty: "Medium",
@@ -1317,7 +1302,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is C - 10.",
   },
   {
-    _id: "q4",
+    _id: "80",
     category: "Numerical_Ability",
     topic: "Speed and Distance",
     difficulty: "Medium",
@@ -1333,7 +1318,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is C - 10.71.",
   },
   {
-    _id: "q5",
+    _id: "81",
     category: "Numerical_Ability",
     topic: "Profit and Loss",
     difficulty: "Medium",
@@ -1349,7 +1334,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is C - 43.16 per kg.",
   },
   {
-    _id: "q6",
+    _id: "82",
     category: "Numerical_Ability",
     topic: "Average",
     difficulty: "Medium",
@@ -1365,7 +1350,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is A - 45.",
   },
   {
-    _id: "q7",
+    _id: "83",
     category: "Numerical_Ability",
     topic: "Percentage",
     difficulty: "Medium",
@@ -1381,7 +1366,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is B - 15.71%.",
   },
   {
-    _id: "q8",
+    _id: "84",
     category: "Numerical_Ability",
     topic: "Simple Interest",
     difficulty: "Medium",
@@ -1397,7 +1382,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is D - ₹125.",
   },
   {
-    _id: "q9",
+    _id: "85",
     category: "Numerical_Ability",
     topic: "Work and Time",
     difficulty: "Medium",
@@ -1413,7 +1398,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is C - 160/19 days.",
   },
   {
-    _id: "q10",
+    _id: "86",
     category: "Numerical_Ability",
     topic: "Ratio",
     difficulty: "Medium",
@@ -1429,7 +1414,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is B - 9.",
   },
   {
-    _id: "q11",
+    _id: "87",
     category: "Numerical_Ability",
     topic: "Algebra",
     difficulty: "Medium",
@@ -1445,7 +1430,7 @@ export const slot_1_august_20_2023 = [
     solution: "The correct option is C - 5.",
   },
   {
-    _id: "q12",
+    _id: "88",
     category: "Numerical_Ability",
     topic: "Compound Interest",
     difficulty: "Medium",
@@ -1462,7 +1447,7 @@ export const slot_1_august_20_2023 = [
   },
   [
     {
-      id: "Q1",
+      id: "89",
       question:
         "Parts of the given sentence have been given as options. One of them contains a grammatical error. Select the option that has an error.",
       sentence:
@@ -1489,7 +1474,7 @@ export const slot_1_august_20_2023 = [
       answer: "Could you please borrow",
     },
     {
-      id: "Q3",
+      id: "90",
       question:
         "Each sentence contains four underlined phrases. Three of these phrases have been correctly used and one has been incorrectly used. Choose the phrase from the options which best replaces the wrong phrase in the sentence.",
       sentence:
@@ -1503,7 +1488,7 @@ export const slot_1_august_20_2023 = [
       answer: "was putting up",
     },
     {
-      id: "Q4",
+      id: "91",
       question:
         "Choose the appropriate idioms to complete the given sentence/s.",
       sentence:
@@ -1517,7 +1502,7 @@ export const slot_1_august_20_2023 = [
       answer: "C – At sea; on cloud nine",
     },
     {
-      id: "Q5",
+      id: "92",
       question:
         "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful passage.",
       options: {
@@ -1529,7 +1514,7 @@ export const slot_1_august_20_2023 = [
       answer: "3214",
     },
     {
-      id: "Q6",
+      id: "93",
       question:
         "Select the most appropriate set of options to fill the blanks.",
       sentence:
@@ -1543,7 +1528,7 @@ export const slot_1_august_20_2023 = [
       answer: "(A) marvels (B) peculiar (C) radiating (D) known.",
     },
     {
-      id: "Q7",
+      id: "94",
       question:
         "Choose the most appropriate set of idioms that would fill in the blanks and complete the text given here.",
       sentence:
@@ -1558,7 +1543,7 @@ export const slot_1_august_20_2023 = [
         "1. Living in a fool’s paradise 2. A bed of roses 3. A spade a spade 4. Stumbling blocks",
     },
     {
-      id: "Q8",
+      id: "95",
       question:
         "Four idioms are given below. Choose their sequence that would fill in the blanks and the complete the text given below.",
       sentence:
@@ -1572,7 +1557,7 @@ export const slot_1_august_20_2023 = [
       answer: "1234",
     },
     {
-      id: "Q9",
+      id: "96",
       question:
         "Choose the most appropriate question to complete the following sentences?",
       sentence:
@@ -1586,7 +1571,7 @@ export const slot_1_august_20_2023 = [
       answer: "Bacteria rapidly evolved, has become an increasingly serious",
     },
     {
-      id: "Q10",
+      id: "97",
       question: "Substitute one word for the underlined part of the sentence",
       sentence: "Riddhima talks a lot, when it is inappropriate.",
       options: {
@@ -1598,7 +1583,7 @@ export const slot_1_august_20_2023 = [
       answer: "Loquacious",
     },
     {
-      id: "Q11",
+      id: "98",
       question:
         "Choose the correct meaning for the underlined idiom in the sentence.",
       sentence: "His final argument hit the nail on the head.",
@@ -1611,7 +1596,7 @@ export const slot_1_august_20_2023 = [
       answer: "Exactly to the point",
     },
     {
-      id: "Q12",
+      id: "99",
       question:
         "Choose the most appropriate option to complete the following sentence.",
       sentence:

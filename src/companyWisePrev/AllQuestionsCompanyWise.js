@@ -5,13 +5,12 @@ import toast, { Toaster } from "react-hot-toast";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
-import * as quizDataExports from "../staticDB/tcs/db";
+import { allquestions } from "../staticDB/tcs/Alldb";
 
-const QuestionPage = () => {
+const AllQuestionCompanyWise = () => {
   // Convert slotdate to the corresponding export key
-  const { slotdate } = useParams();
-  const quizDataKey = slotdate.replace(/-/g, "_");
-  const quizData = quizDataExports[quizDataKey] || [];
+  const { companyname } = useParams();
+  const quizData = allquestions;
   const [data] = useState(quizData);
   const [loading, setLoading] = useState(true);
   const [userData, setUserData] = useState({});
@@ -37,7 +36,8 @@ const QuestionPage = () => {
 
   const handleOptionClick = (option, id) => {
     // Retrieve the user's answered questions from local storage
-    const answeredQuestions = JSON.parse(localStorage.getItem(slotdate)) || [];
+    const answeredQuestions =
+      JSON.parse(localStorage.getItem(companyname)) || [];
 
     // Check if the current question has already been answered
     if (answeredQuestions.includes(id)) {
@@ -59,7 +59,7 @@ const QuestionPage = () => {
 
         // Add the question to the list of answered questions in local storage
         answeredQuestions.push(id);
-        localStorage.setItem(slotdate, JSON.stringify(answeredQuestions));
+        localStorage.setItem(companyname, JSON.stringify(answeredQuestions));
       } else {
         toast.error("Wrong option");
       }
@@ -166,7 +166,7 @@ const QuestionPage = () => {
     <div className="app">
       <Navbar />
       <Helmet>
-        <title>TCS NQT Previous Year SLOT 1 AUGUST 19 2023</title>
+        <title>{companyname.toUpperCase()} NQT Previous Year</title>
         <meta
           name="description"
           content={`Boost your ${"chapterName"} skills with our extensive collection of multiple-choice questions (MCQs).`}
@@ -190,7 +190,6 @@ const QuestionPage = () => {
             <div className="w-full md:w-2/3 flex flex-col mb-16">
               <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">
                 TCS NQT Previous Year{" "}
-                {slotdate.replace(/-/g, " ").toUpperCase()}
                 <p className="mt-2 text-sm text-gray-600">
                   Total Questions: {data?.length}
                 </p>
@@ -243,4 +242,4 @@ const QuestionPage = () => {
   );
 };
 
-export default QuestionPage;
+export default AllQuestionCompanyWise;
