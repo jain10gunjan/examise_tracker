@@ -19,6 +19,7 @@ import Leetcode from "./dsatracker/Leetcode";
 import QuestionsPage from "./companyWisePrev/questionsPage";
 // import CompanyListPreviousYear from "./companyWisePrev/CompanyListPreviousYear";
 import AllQuestionCompanyWise from "./companyWisePrev/AllQuestionsCompanyWise";
+import Jobspagespecific from "./jobs/Jobspagespecific";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
           path="/company/previous-year/:companyname"
           element={<AllQuestionCompanyWise />}
         />
+        <Route path="/jobs/:jobId" element={<Jobspagespecific />} />
       </Routes>
     </Router>
   );
