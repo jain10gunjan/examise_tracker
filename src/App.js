@@ -20,6 +20,7 @@ import QuestionsPage from "./companyWisePrev/questionsPage";
 // import CompanyListPreviousYear from "./companyWisePrev/CompanyListPreviousYear";
 import AllQuestionCompanyWise from "./companyWisePrev/AllQuestionsCompanyWise";
 import Jobspagespecific from "./jobs/Jobspagespecific";
+import InternshipSpecific from "./jobs/InternshipsSpecific";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           element={<AllQuestionCompanyWise />}
         />
         <Route path="/jobs/:jobId" element={<Jobspagespecific />} />
+        <Route path="/internship/:jobId" element={<InternshipSpecific />} />
       </Routes>
     </Router>
   );

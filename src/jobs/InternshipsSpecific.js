@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 
-const Jobspagespecific = () => {
+const InternshipSpecific = () => {
   const { jobId } = useParams(); // Get jobId from URL parameters
   const [data, setData] = useState(null);
   const [error, setError] = useState(null); // Error state
@@ -14,7 +14,7 @@ const Jobspagespecific = () => {
   const fetchInitialJobData = async (jobId) => {
     try {
       const response = await fetch(
-        `https://api.cuvette.tech/api/v1/company/public/job-post/${jobId}`
+        `https://api.cuvette.tech/api/v1/company/public/internship-post/${jobId}`
       );
       if (!response.ok) {
         throw new Error("Failed to fetch the data");
@@ -49,10 +49,7 @@ const Jobspagespecific = () => {
     <>
       <Navbar />
       <Helmet>
-        <title>
-          {data?.data?.companyProfile?.companyName} is Hiring{" "}
-          {data?.data?.jobPost?.refJobTitle?.name}
-        </title>
+        <title></title>
         <meta
           name="description"
           content={`Boost your skills with our extensive collection of multiple-choice questions (MCQs).`}
@@ -68,6 +65,12 @@ const Jobspagespecific = () => {
           <div className="lg:col-span-6">
             <div className="py-8 lg:pe-8">
               <div className="flex flex-grid">
+                <img
+                  src={`${data?.data?.companyProfile?.logoUrl}`}
+                  alt="Company Logo"
+                  height={20}
+                  width={100}
+                />
                 <h2 className="text-3xl font-bold lg:text-5xl dark:text-white mb-4">
                   {data?.data?.companyProfile?.companyName} is Hiring{" "}
                   {data?.data?.jobPost?.refJobTitle?.name}
@@ -117,4 +120,4 @@ const Jobspagespecific = () => {
   );
 };
 
-export default Jobspagespecific;
+export default InternshipSpecific;
