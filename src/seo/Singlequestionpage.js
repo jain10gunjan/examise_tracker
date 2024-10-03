@@ -1,40 +1,36 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import toast, { Toaster } from 'react-hot-toast';
-import Navbar from '../components/Navbar';
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import toast, { Toaster } from "react-hot-toast";
+import Navbar from "../components/Navbar";
 
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 // import Footer from '../components/Footer';
-import axios from 'axios';
+import axios from "axios";
 import { MathJax, MathJaxContext } from "better-react-mathjax";
-import Footer from '../components/Footer';
+import Footer from "../components/Footer";
 //import Adsense from '../../components/Adsense';
 
-
 const Singlequestionpage = () => {
-
   //let { topic } = useParams();
   let { qid } = useParams();
   const [data, setData] = useState([]);
   const [data2, setData2] = useState([]);
 
-
   //const id = parseInt(qid);
-
 
   const apiEndpoint = process.env.REACT_APP_API;
 
   useEffect(() => {
-    console.log('working');
+    console.log("working");
     const fetchData = async () => {
       try {
         const response = await axios.get(`${apiEndpoint}?_id=${qid}`);
-        const response2 = await axios.get(`https://us-east-1.aws.data.mongodb-api.com/app/aptitude_tracker_api-fjroz/endpoint/microtestfeature?topics=${response.data[0]?.topic}&number=5`);
+        const response2 = await axios.get(
+          `https://us-east-1.aws.data.mongodb-api.com/app/aptitude_tracker_api-fjroz/endpoint/microtestfeature?topics=${response.data.data[0]?.topic}&number=5`
+        );
 
-        setData(response.data);
+        setData(response.data.data);
         setData2(response2.data);
-
-
 
         //console.log(data)
       } catch (error) {
@@ -47,59 +43,62 @@ const Singlequestionpage = () => {
 
   const handleOptionClick = (option) => {
     if (!data[0] || option !== data[0].correct_option) {
-      toast.error('Wrong option');
+      toast.error("Wrong option");
     } else {
-      toast.success('Correct option');
+      toast.success("Correct option");
     }
 
     const optionDiv = document.getElementById(option);
     if (optionDiv) {
-      optionDiv.className = option === data[0].correct_option ? 'correct' : 'wrong';
+      optionDiv.className =
+        option === data[0].correct_option ? "correct" : "wrong";
     }
   };
-  
+
   const chapterName = data[0]?.topic;
 
   const schema = {
     "@context": "https://schema.org/",
     "@type": "Quiz",
-    "about": {
+    about: {
       "@type": "Question",
-      "name": `${data[0]?.question}`
+      name: `${data[0]?.question}`,
     },
-    "educationalAlignment": [
+    educationalAlignment: [
       {
         "@type": "AlignmentObject",
-        "alignmentType": "educationalSubject",
-        "targetName": `${chapterName}`
-      }
+        alignmentType: "educationalSubject",
+        targetName: `${chapterName}`,
+      },
     ],
-    "hasPart": [
+    hasPart: [
       {
         "@context": "https://schema.org/",
         "@type": "Question",
-        "eduQuestionType": "Flashcard",
-        "text":
-          `${data[0]?.question}`,
-        "acceptedAnswer": {
+        eduQuestionType: "Flashcard",
+        text: `${data[0]?.question}`,
+        acceptedAnswer: {
           "@type": "Answer",
-          "text": `Correct option is : ${data[0]?.correct_option}`
-        }
-      }
-    ]
+          text: `Correct option is : ${data[0]?.correct_option}`,
+        },
+      },
+    ],
   };
-
-
 
   return (
     <>
-
       <Navbar />
       <Helmet>
-
-        <title>{data[0]?.question ? data[0].question.slice(0, 90) : 'Aptitude Questions'}</title>
+        <title>
+          {data[0]?.question
+            ? data[0].question.slice(0, 90)
+            : "Aptitude Questions"}
+        </title>
         <meta name="description" content={data[0]?.question} />
-        <meta name="keywords" content={`Aptitude Questions, Placements preparation, ${chapterName} Placements Questions, UPSC ${chapterName} Questions.`} />
+        <meta
+          name="keywords"
+          content={`Aptitude Questions, Placements preparation, ${chapterName} Placements Questions, UPSC ${chapterName} Questions.`}
+        />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
@@ -123,64 +122,83 @@ const Singlequestionpage = () => {
                 <MathJaxContext>
                   <div>
                     <div class="relative question-numbercontainer">
-                      <p class="text-xs text-gray-600">Aptitude Questions <br />Chapter : {chapterName} </p>
-                      <p class="text-xs text-gray-600">Difficulty  : {data[0]?.difficulty} </p>
+                      <p class="text-xs text-gray-600">
+                        Aptitude Questions <br />
+                        Chapter : {chapterName}{" "}
+                      </p>
+                      <p class="text-xs text-gray-600">
+                        Difficulty : {data[0]?.difficulty}{" "}
+                      </p>
 
-                      <div class="absolute top-0 right-0  flex items-center mb-3 space-x-3">
-
-
-
-
-                      </div>
-
-
-
+                      <div class="absolute top-0 right-0  flex items-center mb-3 space-x-3"></div>
                     </div>
-
-
-
 
                     <div class="questioncontainer">
-                      <MathJax><span dangerouslySetInnerHTML={{ __html: data[0]?.question }} /></MathJax>
+                      <MathJax>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: data[0]?.question,
+                          }}
+                        />
+                      </MathJax>
                     </div>
                     <div class="flex-col leading-none optionscontainer">
-
-
-
-                      <MathJax><div onClick={() => handleOptionClick("A", data[0]?.id)} id="A" dangerouslySetInnerHTML={{ __html: data[0]?.options['A'] }}></div></MathJax>
-                      <MathJax><div onClick={() => handleOptionClick("B", data[0]?.id)} id="B" dangerouslySetInnerHTML={{ __html: data[0]?.options['B'] }}></div></MathJax>
-                      <MathJax><div onClick={() => handleOptionClick("C", data[0]?.id)} id="C" dangerouslySetInnerHTML={{ __html: data[0]?.options['C'] }}></div></MathJax>
-                      <MathJax><div onClick={() => handleOptionClick("D", data[0]?.id)} id="D" dangerouslySetInnerHTML={{ __html: data[0]?.options['D'] }}></div></MathJax>
-
+                      <MathJax>
+                        <div
+                          onClick={() => handleOptionClick("A", data[0]?.id)}
+                          id="A"
+                          dangerouslySetInnerHTML={{
+                            __html: data[0]?.options["A"],
+                          }}
+                        ></div>
+                      </MathJax>
+                      <MathJax>
+                        <div
+                          onClick={() => handleOptionClick("B", data[0]?.id)}
+                          id="B"
+                          dangerouslySetInnerHTML={{
+                            __html: data[0]?.options["B"],
+                          }}
+                        ></div>
+                      </MathJax>
+                      <MathJax>
+                        <div
+                          onClick={() => handleOptionClick("C", data[0]?.id)}
+                          id="C"
+                          dangerouslySetInnerHTML={{
+                            __html: data[0]?.options["C"],
+                          }}
+                        ></div>
+                      </MathJax>
+                      <MathJax>
+                        <div
+                          onClick={() => handleOptionClick("D", data[0]?.id)}
+                          id="D"
+                          dangerouslySetInnerHTML={{
+                            __html: data[0]?.options["D"],
+                          }}
+                        ></div>
+                      </MathJax>
                     </div>
-                    <div>
-                    </div>
+                    <div></div>
 
                     {/* Buttons */}
 
                     <div class="relative mt-0 mb-20 flex flex-wrap items-center">
-
-
-
                       {/* Accordian */}
                       <span class="text-neutral-600 mt-3 group-open:animate-fadeIn">
                         {/* Correct Option:  <span dangerouslySetInnerHTML={{ __html: data[0]?.correct_option }}></span>   */}
-                          <MathJax><p dangerouslySetInnerHTML={{ __html: data[0]?.solution }}></p></MathJax>
-
-
-
+                        <MathJax>
+                          <p
+                            dangerouslySetInnerHTML={{
+                              __html: data[0]?.solution,
+                            }}
+                          ></p>
+                        </MathJax>
                       </span>
-
-
-
-
-
-
 
                       {/* Accordian 
     <a href={`/${pageValue + '/questions/' + i}`} className="absolute top-0 right-0 hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">Share</a>*/}
-
-
                     </div>
                     {/* Buttons */}
 
@@ -196,11 +214,15 @@ const Singlequestionpage = () => {
                     <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
                       {data2.map((item, index) => (
                         <div key={index} className="py-5">
-
                           <div className="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <a href={`/questions/${item._id}`}><span dangerouslySetInnerHTML={{ __html: item.question }}></span></a>
+                            <a href={`/questions/${item._id}`}>
+                              <span
+                                dangerouslySetInnerHTML={{
+                                  __html: item.question,
+                                }}
+                              ></span>
+                            </a>
                           </div>
-
                         </div>
                       ))}
                     </div>
@@ -210,17 +232,13 @@ const Singlequestionpage = () => {
             </div>
           </div>
           {/* <Adsense dataAdSlot='9103370999' /> */}
-
         </div>
       </section>
-
-
-
 
       <Toaster />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Singlequestionpage
+export default Singlequestionpage;
