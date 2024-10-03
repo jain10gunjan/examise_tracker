@@ -91,7 +91,7 @@ const Singlequestionpage = () => {
       <Helmet>
         <title>
           {data[0]?.question
-            ? data[0].question.slice(0, 90)
+            ? data[0].question.replace(/<[^>]+>/g, "").slice(0, 90)
             : "Aptitude Questions"}
         </title>
         <meta name="description" content={data[0]?.question} />
