@@ -291,7 +291,7 @@ const Singlequestionpageslug = () => {
                   {data2.map((item, index) => (
                     <div key={index} className="py-5">
                       <div className="flex justify-between items-center font-medium cursor-pointer list-none">
-                        <a href={`/questions/${item._id}`}>
+                        <a href={`/questions/${item.slug}`}>
                           <span
                             dangerouslySetInnerHTML={{
                               __html: item.question,
