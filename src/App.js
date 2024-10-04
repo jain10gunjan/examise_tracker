@@ -21,6 +21,7 @@ import QuestionsPage from "./companyWisePrev/questionsPage";
 import AllQuestionCompanyWise from "./companyWisePrev/AllQuestionsCompanyWise";
 import Jobspagespecific from "./jobs/Jobspagespecific";
 import InternshipSpecific from "./jobs/InternshipsSpecific";
+import Singlequestionpageslug from "./seo/Singlequestionpageslug";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           element={<Practicepagewithtracker />}
         />
         <Route path="/questions/:qid" element={<Singlequestionpage />} />
+        <Route path="/question/:slug" element={<Singlequestionpageslug />} />
         <Route path="/dsatracker/" element={<Dsahomepage />} />
         <Route path="/dsatracker/:topicname" element={<TopicWiseTemplate />} />
         <Route path="/practiceunlimited" element={<PracticeUnlimited />} />
