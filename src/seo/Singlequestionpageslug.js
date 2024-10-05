@@ -56,13 +56,14 @@ const Singlequestionpageslug = () => {
   };
 
   const chapterName = data[0]?.topic;
-
+  // const questionSchema = data[0]?.question.replace(/<[^>]+>/g, "");
+  console.log(questionSchema);
   const schema = {
     "@context": "https://schema.org/",
     "@type": "Quiz",
     about: {
       "@type": "Question",
-      name: `${data[0].question.replace(/<[^>]+>/g, "")}`,
+      name: `${data[0]?.question.replace(/<[^>]+>/g, "")}`,
     },
     educationalAlignment: [
       {
@@ -76,7 +77,7 @@ const Singlequestionpageslug = () => {
         "@context": "https://schema.org/",
         "@type": "Question",
         eduQuestionType: "Flashcard",
-        text: `${data[0].question.replace(/<[^>]+>/g, "")}`,
+        text: `${data[0]?.question.replace(/<[^>]+>/g, "")}`,
         acceptedAnswer: {
           "@type": "Answer",
           text: `Correct option is : ${data[0]?.correct_option}`,
