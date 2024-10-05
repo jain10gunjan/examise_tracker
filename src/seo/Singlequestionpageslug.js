@@ -57,7 +57,7 @@ const Singlequestionpageslug = () => {
 
   const chapterName = data[0]?.topic;
   // const questionSchema = data[0]?.question.replace(/<[^>]+>/g, "");
-  console.log(questionSchema);
+  // console.log(questionSchema);
   const schema = {
     "@context": "https://schema.org/",
     "@type": "Quiz",
