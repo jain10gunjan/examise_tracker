@@ -62,7 +62,7 @@ const Singlequestionpageslug = () => {
     "@type": "Quiz",
     about: {
       "@type": "Question",
-      name: `${data[0]?.question}`,
+      name: `${data[0].question.replace(/<[^>]+>/g, "")}`,
     },
     educationalAlignment: [
       {
@@ -76,7 +76,7 @@ const Singlequestionpageslug = () => {
         "@context": "https://schema.org/",
         "@type": "Question",
         eduQuestionType: "Flashcard",
-        text: `${data[0]?.question}`,
+        text: `${data[0].question.replace(/<[^>]+>/g, "")}`,
         acceptedAnswer: {
           "@type": "Answer",
           text: `Correct option is : ${data[0]?.correct_option}`,
