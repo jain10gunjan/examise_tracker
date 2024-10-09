@@ -8,7 +8,8 @@ import { Helmet } from "react-helmet";
 import axios from "axios";
 import { topicData } from "./assests/aptitudetopicslist";
 import "../../index.css";
-
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 // import Adsense from "../components/Adsense";
 
 const Practicepagewithtracker = () => {
@@ -17,8 +18,6 @@ const Practicepagewithtracker = () => {
   const [data1, setData1] = useState([]);
   const [data2, setData2] = useState([]);
   const [data3, setData3] = useState([]);
-  const [loading, setLoading] = useState(true);
-
   const tabs = ["Easy", "Medium", "Hard"];
   const defaultTab = "Easy";
   const [activeTab, setActiveTab] = useState(defaultTab);
@@ -30,15 +29,7 @@ const Practicepagewithtracker = () => {
   // const storageKey = topicInfo.storageKey;
   const pageValue = topicInfo.pageValue;
 
-  const sitename = "https://aptitudetracker.com";
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 5000);
-
-    return () => clearTimeout(timer);
-  }, []);
+  const sitename = "https://examise.in";
 
   useEffect(() => {
     // console.log('Running');
@@ -135,6 +126,32 @@ const Practicepagewithtracker = () => {
     }
   }, []);
 
+  useEffect(() => {
+    window.MathJax = {
+      tex: {
+        inlineMath: [
+          ["$", "$"],
+          ["\\(", "\\)"],
+        ],
+        processEscapes: true,
+      },
+      svg: {
+        fontCache: "global",
+      },
+    };
+  }, []);
+
+  const copyText = (textToCopy) => {
+    navigator.clipboard
+      .writeText(textToCopy)
+      .then(() => {
+        toast.success("Copied Successfully!...");
+      })
+      .catch((err) => {
+        console.error("Failed to copy: ", err);
+      });
+  };
+
   const tabContents = {
     Easy: (
       <div>
@@ -146,88 +163,114 @@ const Practicepagewithtracker = () => {
         </h3>
         <MathJaxContext>
           {data1.map((index, i) => (
-            <div key={index._id}>
-              <div class="relative question-numbercontainer">
-                <p class="text-xs text-gray-600">
-                  Aptitude Questions <br />
-                  Chapter : {chapterName}{" "}
-                </p>
-                <p class="text-xs text-gray-600">
-                  Difficulty : {index.difficulty}{" "}
-                </p>
+            <>
+              {index?.question?.trim() ? (
+                <div key={index._id}>
+                  <div class="relative question-numbercontainer">
+                    <p class="text-xs text-gray-600">
+                      Subject : {index.subject}{" "}
+                    </p>
+                    <p class="text-xs text-gray-600">
+                      Topic : {index.topic.replace(/-/g, " ")}{" "}
+                    </p>
+                    <p class="text-xs text-gray-600">Year : {index.year} </p>
 
-                <p class="mt-2 text-xs text-gray-400 justify-end">
-                  {" "}
-                  {userData[index?.topic]?.completedQuestions.includes(
-                    index._id.toString()
-                  )
-                    ? "Attempted"
-                    : "Not Attempted"}{" "}
-                  {Math.round(
-                    (userData[index?.topic]?.completedQuestions.length /
-                      data.length) *
-                      100
-                  )}{" "}
-                  % Module Completed{" "}
-                </p>
-              </div>
-              <MathJax>
-                <div class="questioncontainer">
-                  Q{i + 1 + ": "}{" "}
-                  <span dangerouslySetInnerHTML={{ __html: index.question }} />
-                </div>
-              </MathJax>
-              <div id={i} class="flex-col leading-none optionscontainer">
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("A", index._id)}
-                    id="A"
-                    dangerouslySetInnerHTML={{ __html: index.options["A"] }}
-                  ></div>
-                </MathJax>
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("B", index._id)}
-                    id="B"
-                    dangerouslySetInnerHTML={{ __html: index.options["B"] }}
-                  ></div>
-                </MathJax>
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("C", index._id)}
-                    id="C"
-                    dangerouslySetInnerHTML={{ __html: index.options["C"] }}
-                  ></div>
-                </MathJax>
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("D", index._id)}
-                    id="D"
-                    dangerouslySetInnerHTML={{ __html: index.options["D"] }}
-                  ></div>
-                </MathJax>
-              </div>
-              <div></div>
-              <div class="relative mt-0 mb-20 flex flex-wrap items-center">
-                {/* Accordian */}
-                <details class="py-2 group">
-                  <summary class="hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl">
-                    View Solution
-                  </summary>
-                  <div class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    {/* Correct Option:  <span dangerouslySetInnerHTML={{ __html: index.correct_option}}></span> */}
+                    <p class="mt-2 text-xs text-gray-400 justify-end">
+                      {" "}
+                      {userData[index?.topic]?.completedQuestions.includes(
+                        index._id.toString()
+                      )
+                        ? "Attempted"
+                        : "Not Attempted"}{" "}
+                      {userData[index?.topic]?.completedQuestions.length != null
+                        ? Math.round(
+                            (userData[index?.topic]?.completedQuestions.length /
+                              data.length) *
+                              100
+                          )
+                        : 0}{" "}
+                      % Module Completed{" "}
+                    </p>
+                  </div>
+                  <MathJax>
+                    <div class="questioncontainer">
+                      Q{i + 1 + ": "}{" "}
+                      <span
+                        dangerouslySetInnerHTML={{ __html: index.question }}
+                      />
+                      {index?.questionImage ? (
+                        <img src={index?.questionImage} alt="QuestionImage" />
+                      ) : null}
+                      {index?.questionCode ? (
+                        <SyntaxHighlighter language="cpp" style={docco}>
+                          {index?.questionCode}
+                        </SyntaxHighlighter>
+                      ) : null}
+                    </div>
+                  </MathJax>
+                  <div id={i} class="flex-col leading-none optionscontainer">
                     <MathJax>
-                      <p
-                        dangerouslySetInnerHTML={{ __html: index.solution }}
-                      ></p>
+                      <div
+                        onClick={() => handleOptionClick("A", index._id)}
+                        id="A"
+                        dangerouslySetInnerHTML={{ __html: index.options["A"] }}
+                      ></div>
+                    </MathJax>
+                    <MathJax>
+                      <div
+                        onClick={() => handleOptionClick("B", index._id)}
+                        id="B"
+                        dangerouslySetInnerHTML={{ __html: index.options["B"] }}
+                      ></div>
+                    </MathJax>
+                    <MathJax>
+                      <div
+                        onClick={() => handleOptionClick("C", index._id)}
+                        id="C"
+                        dangerouslySetInnerHTML={{ __html: index.options["C"] }}
+                      ></div>
+                    </MathJax>
+                    <MathJax>
+                      <div
+                        onClick={() => handleOptionClick("D", index._id)}
+                        id="D"
+                        dangerouslySetInnerHTML={{ __html: index.options["D"] }}
+                      ></div>
                     </MathJax>
                   </div>
-                </details>
+                  <div></div>
+                  <div class="relative mt-0 mb-20 flex flex-wrap items-center">
+                    {/* Accordian */}
+                    <details class="py-2 group">
+                      <summary class="hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl">
+                        View Solution
+                      </summary>
+                      <div class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        {/* Correct Option:  <span dangerouslySetInnerHTML={{ __html: index.correct_option}}></span> */}
 
-                {/* 
-  <button className="absolute top-0 right-0 py-4 hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl" onClick={() => saveProgress(points, index._id)}>Save Progress</button> */}
-              </div>
-            </div>
+                        <p>Correct Option: {index.correct_option}</p>
+                        <a
+                          href={index.solution}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          See Solution: {index.solution}
+                        </a>
+                      </div>
+                    </details>
+
+                    <button
+                      className="absolute top-0 right-0 py-4 hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl"
+                      onClick={() =>
+                        copyText(`examise.in/questions/${index?._id}`)
+                      }
+                    >
+                      Share
+                    </button>
+                  </div>
+                </div>
+              ) : null}
+            </>
           ))}
         </MathJaxContext>
       </div>
@@ -242,93 +285,114 @@ const Practicepagewithtracker = () => {
         </h3>
         <MathJaxContext>
           {data2.map((index, i) => (
-            <div key={index._id}>
-              <div class="relative question-numbercontainer">
-                <p class="text-xs text-gray-600">
-                  Aptitude Questions <br />
-                  Chapter : {chapterName}{" "}
-                </p>
-                <p class="text-xs text-gray-600">
-                  Difficulty : {index.difficulty}{" "}
-                </p>
+            <>
+              {index?.question?.trim() ? (
+                <div key={index._id}>
+                  <div class="relative question-numbercontainer">
+                    <p class="text-xs text-gray-600">
+                      Subject : {index.subject}{" "}
+                    </p>
+                    <p class="text-xs text-gray-600">
+                      Topic : {index.topic.replace(/-/g, " ")}{" "}
+                    </p>
+                    <p class="text-xs text-gray-600">Year : {index.year} </p>
 
-                <p class="mt-2 text-xs text-gray-400 justify-end">
-                  {" "}
-                  {userData[index?.topic]?.completedQuestions.includes(
-                    index._id.toString()
-                  )
-                    ? "Attempted"
-                    : "Not Attempted"}{" "}
-                  {Math.round(
-                    (userData[index?.topic]?.completedQuestions.length /
-                      data.length) *
-                      100
-                  )}{" "}
-                  % Module Completed{" "}
-                </p>
-              </div>
-              <MathJax>
-                <div class="questioncontainer">
-                  Q{i + 1 + ": "}{" "}
-                  <span dangerouslySetInnerHTML={{ __html: index.question }} />
-                </div>
-              </MathJax>
-              <div id={i} class="flex-col leading-none optionscontainer">
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("A", index._id)}
-                    id="A"
-                    dangerouslySetInnerHTML={{ __html: index.options["A"] }}
-                  ></div>
-                </MathJax>
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("B", index._id)}
-                    id="B"
-                    dangerouslySetInnerHTML={{ __html: index.options["B"] }}
-                  ></div>
-                </MathJax>
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("C", index._id)}
-                    id="C"
-                    dangerouslySetInnerHTML={{ __html: index.options["C"] }}
-                  ></div>
-                </MathJax>
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("D", index._id)}
-                    id="D"
-                    dangerouslySetInnerHTML={{ __html: index.options["D"] }}
-                  ></div>
-                </MathJax>
-              </div>
-              <div></div>
-
-              {/* Buttons */}
-
-              <div class="relative mt-0 mb-20 flex flex-wrap items-center">
-                {/* Accordian */}
-                <details class="py-2 group">
-                  <summary class="hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl">
-                    View Solution
-                  </summary>
-                  <div class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    {/* Correct Option:  <span dangerouslySetInnerHTML={{ __html: index.correct_option}}></span> */}
-
+                    <p class="mt-2 text-xs text-gray-400 justify-end">
+                      {" "}
+                      {userData[index?.topic]?.completedQuestions.includes(
+                        index._id.toString()
+                      )
+                        ? "Attempted"
+                        : "Not Attempted"}{" "}
+                      {userData[index?.topic]?.completedQuestions.length != null
+                        ? Math.round(
+                            (userData[index?.topic]?.completedQuestions.length /
+                              data.length) *
+                              100
+                          )
+                        : 0}{" "}
+                      % Module Completed{" "}
+                    </p>
+                  </div>
+                  <MathJax>
+                    <div class="questioncontainer">
+                      Q{i + 1 + ": "}{" "}
+                      <span
+                        dangerouslySetInnerHTML={{ __html: index.question }}
+                      />
+                      {index?.questionImage ? (
+                        <img src={index?.questionImage} alt="QuestionImage" />
+                      ) : null}
+                      {index?.questionCode ? (
+                        <SyntaxHighlighter language="cpp" style={docco}>
+                          {index?.questionCode}
+                        </SyntaxHighlighter>
+                      ) : null}
+                    </div>
+                  </MathJax>
+                  <div id={i} class="flex-col leading-none optionscontainer">
                     <MathJax>
-                      <p
-                        dangerouslySetInnerHTML={{ __html: index.solution }}
-                      ></p>
+                      <div
+                        onClick={() => handleOptionClick("A", index._id)}
+                        id="A"
+                        dangerouslySetInnerHTML={{ __html: index.options["A"] }}
+                      ></div>
+                    </MathJax>
+                    <MathJax>
+                      <div
+                        onClick={() => handleOptionClick("B", index._id)}
+                        id="B"
+                        dangerouslySetInnerHTML={{ __html: index.options["B"] }}
+                      ></div>
+                    </MathJax>
+                    <MathJax>
+                      <div
+                        onClick={() => handleOptionClick("C", index._id)}
+                        id="C"
+                        dangerouslySetInnerHTML={{ __html: index.options["C"] }}
+                      ></div>
+                    </MathJax>
+                    <MathJax>
+                      <div
+                        onClick={() => handleOptionClick("D", index._id)}
+                        id="D"
+                        dangerouslySetInnerHTML={{ __html: index.options["D"] }}
+                      ></div>
                     </MathJax>
                   </div>
-                </details>
+                  <div></div>
+                  <div class="relative mt-0 mb-20 flex flex-wrap items-center">
+                    {/* Accordian */}
+                    <details class="py-2 group">
+                      <summary class="hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl">
+                        View Solution
+                      </summary>
+                      <div class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        {/* Correct Option:  <span dangerouslySetInnerHTML={{ __html: index.correct_option}}></span> */}
 
-                {/*                 
+                        <p>Correct Option: {index.correct_option}</p>
+                        <a
+                          href={index.solution}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          See Solution: {index.solution}
+                        </a>
+                      </div>
+                    </details>
 
-                <button className="absolute top-0 right-0 py-4 hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl" onClick={() => saveProgress(points, index._id)}>Save Progress</button> */}
-              </div>
-            </div>
+                    <button
+                      className="absolute top-0 right-0 py-4 hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl"
+                      onClick={() =>
+                        copyText(`examise.in/questions/${index?._id}`)
+                      }
+                    >
+                      Share
+                    </button>
+                  </div>
+                </div>
+              ) : null}
+            </>
           ))}
         </MathJaxContext>
       </div>
@@ -343,97 +407,141 @@ const Practicepagewithtracker = () => {
         </h3>
         <MathJaxContext>
           {data3.map((index, i) => (
-            <div key={index._id}>
-              <div class="relative question-numbercontainer">
-                <p class="text-xs text-gray-600">
-                  Aptitude Questions <br />
-                  Chapter : {chapterName}{" "}
-                </p>
-                <p class="text-xs text-gray-600">
-                  Difficulty : {index.difficulty}{" "}
-                </p>
+            <>
+              {index?.question?.trim() ? (
+                <div key={index._id}>
+                  <div class="relative question-numbercontainer">
+                    <p class="text-xs text-gray-600">
+                      Subject : {index.subject}{" "}
+                    </p>
+                    <p class="text-xs text-gray-600">
+                      Topic : {index.topic.replace(/-/g, " ")}{" "}
+                    </p>
+                    <p class="text-xs text-gray-600">Year : {index.year} </p>
 
-                <p class="mt-2 text-xs text-gray-400 justify-end">
-                  {" "}
-                  {userData[index?.topic]?.completedQuestions.includes(
-                    index._id.toString()
-                  )
-                    ? "Attempted"
-                    : "Not Attempted"}{" "}
-                  {Math.round(
-                    (userData[index?.topic]?.completedQuestions.length /
-                      data.length) *
-                      100
-                  )}{" "}
-                  % Module Completed{" "}
-                </p>
-              </div>
-              <MathJax>
-                <div class="questioncontainer">
-                  Q{i + 1 + ": "}{" "}
-                  <span dangerouslySetInnerHTML={{ __html: index.question }} />
-                </div>
-              </MathJax>
-              <div id={i} class="flex-col leading-none optionscontainer">
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("A", index._id)}
-                    id="A"
-                    dangerouslySetInnerHTML={{ __html: index.options["A"] }}
-                  ></div>
-                </MathJax>
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("B", index._id)}
-                    id="B"
-                    dangerouslySetInnerHTML={{ __html: index.options["B"] }}
-                  ></div>
-                </MathJax>
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("C", index._id)}
-                    id="C"
-                    dangerouslySetInnerHTML={{ __html: index.options["C"] }}
-                  ></div>
-                </MathJax>
-                <MathJax>
-                  <div
-                    onClick={() => handleOptionClick("D", index._id)}
-                    id="D"
-                    dangerouslySetInnerHTML={{ __html: index.options["D"] }}
-                  ></div>
-                </MathJax>
-              </div>
-              <div></div>
-
-              {/* Buttons */}
-
-              <div class="relative mt-0 mb-20 flex flex-wrap items-center">
-                {/* Accordian */}
-                <details class="py-2 group">
-                  <summary class="hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl">
-                    View Solution
-                  </summary>
-                  <div class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    {/* Correct Option:  <span dangerouslySetInnerHTML={{ __html: index.correct_option}}></span> */}
-
+                    <p class="mt-2 text-xs text-gray-400 justify-end">
+                      {" "}
+                      {userData[index?.topic]?.completedQuestions.includes(
+                        index._id.toString()
+                      )
+                        ? "Attempted"
+                        : "Not Attempted"}{" "}
+                      {userData[index?.topic]?.completedQuestions.length != null
+                        ? Math.round(
+                            (userData[index?.topic]?.completedQuestions.length /
+                              data.length) *
+                              100
+                          )
+                        : 0}{" "}
+                      % Module Completed{" "}
+                    </p>
+                  </div>
+                  <MathJax>
+                    <div class="questioncontainer">
+                      Q{i + 1 + ": "}{" "}
+                      <span
+                        dangerouslySetInnerHTML={{ __html: index.question }}
+                      />
+                      {index?.questionImage ? (
+                        <img src={index?.questionImage} alt="QuestionImage" />
+                      ) : null}
+                      {index?.questionCode ? (
+                        <SyntaxHighlighter language="cpp" style={docco}>
+                          {index?.questionCode}
+                        </SyntaxHighlighter>
+                      ) : null}
+                    </div>
+                  </MathJax>
+                  <div id={i} class="flex-col leading-none optionscontainer">
                     <MathJax>
-                      <p
-                        dangerouslySetInnerHTML={{ __html: index.solution }}
-                      ></p>
+                      <div
+                        onClick={() => handleOptionClick("A", index._id)}
+                        id="A"
+                        dangerouslySetInnerHTML={{ __html: index.options["A"] }}
+                      ></div>
+                    </MathJax>
+                    <MathJax>
+                      <div
+                        onClick={() => handleOptionClick("B", index._id)}
+                        id="B"
+                        dangerouslySetInnerHTML={{ __html: index.options["B"] }}
+                      ></div>
+                    </MathJax>
+                    <MathJax>
+                      <div
+                        onClick={() => handleOptionClick("C", index._id)}
+                        id="C"
+                        dangerouslySetInnerHTML={{ __html: index.options["C"] }}
+                      ></div>
+                    </MathJax>
+                    <MathJax>
+                      <div
+                        onClick={() => handleOptionClick("D", index._id)}
+                        id="D"
+                        dangerouslySetInnerHTML={{ __html: index.options["D"] }}
+                      ></div>
                     </MathJax>
                   </div>
-                </details>
+                  <div></div>
+                  <div class="relative mt-0 mb-20 flex flex-wrap items-center">
+                    {/* Accordian */}
+                    <details class="py-2 group">
+                      <summary class="hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl">
+                        View Solution
+                      </summary>
+                      <div class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        {/* Correct Option:  <span dangerouslySetInnerHTML={{ __html: index.correct_option}}></span> */}
 
-                {/* <button className="absolute top-0 right-0 py-4 hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl" onClick={() => saveProgress(points, index._id)}>Save Progress</button> */}
-              </div>
-            </div>
+                        <p>Correct Option: {index.correct_option}</p>
+                        <a
+                          href={index.solution}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          See Solution: {index.solution}
+                        </a>
+                      </div>
+                    </details>
+
+                    <button
+                      className="absolute top-0 right-0 py-4 hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-green-100 rounded-2xl"
+                      onClick={() =>
+                        copyText(`examise.in/questions/${index?._id}`)
+                      }
+                    >
+                      Share
+                    </button>
+                  </div>
+                </div>
+              ) : null}
+            </>
           ))}
         </MathJaxContext>
       </div>
     ),
   };
 
+  if (!data[0]) {
+    return (
+      <div className="loader flex justify-center items-center h-screen">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6 animate-spin"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
+          />
+        </svg>{" "}
+        <p>Loading...</p>
+      </div>
+    );
+  }
   return (
     <div className="app">
       <Navbar />
@@ -462,93 +570,76 @@ const Practicepagewithtracker = () => {
         <meta name="twitter:image" content={sitename + "/logo512.png"} />
         <meta name="twitter:site" content="@aptitudetracker" />
         <meta name="twitter:creator" content="@aptitudetracker"></meta>
-        <script
-          type="text/javascript"
-          src="//delivery.r2b2.io/get/examise.in/generic/vignette/mobile"
-        ></script>
-        <script
-          type="text/javascript"
-          src="//delivery.r2b2.io/get/examise.in/generic/vignette"
-        ></script>
-        <script
-          type="text/javascript"
-          src="//delivery.r2b2.io/get/examise.in/generic/sticky/mobile"
-        ></script>
-        <script
-          type="text/javascript"
-          src="//delivery.r2b2.io/get/examise.in/generic/sticky"
-        ></script>
       </Helmet>
 
-      {loading ? (
-        <div className="loader flex justify-center items-center h-screen">
-          <h1 className="text-sm">Relax! Questions are loading...</h1>
-          {/* Add your loader animation or spinner here */}
-        </div>
-      ) : (
-        <section class="mt-20 text-gray-600 body-font">
-          <div class="container mx-auto flex flex-col px-5 py-10 justify-center items-center">
-            <div class="w-full md:w-2/3 flex flex-col mb-16">
-              <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">
-                {chapterName}
-                <p class="text-sm text-gray-600">
-                  Total Questions: {data.length}{" "}
-                </p>
-                <p class="text-sm text-gray-600">
-                  Points Gained: {userData[data[0]?.topic]?.points}{" "}
-                </p>
-              </h1>
-              <p class="mb-8 leading-relaxed">
-                Practice {chapterName} questions and improve your
-                problem-solving skills with our comprehensive collection of
-                multiple choice questions and answers.
+      <section class="mt-20 text-gray-600 body-font">
+        <div class="container mx-auto flex flex-col px-5 py-10 justify-center items-center">
+          <div class="w-full md:w-2/3 flex flex-col mb-16">
+            <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">
+              {data[0]?.subject} | {data[0]?.topic}
+              <p class="text-sm text-gray-600">
+                Total Questions: {data.length}{" "}
               </p>
+              <p class="text-sm text-gray-600">
+                Points Gained:{" "}
+                {userData[data[0]?.topic]?.points != null
+                  ? userData[data[0]?.topic]?.points
+                  : "0"}{" "}
+              </p>
+            </h1>
+            <p class="mb-8 leading-relaxed">
+              Practice {chapterName} questions and improve your problem-solving
+              skills with our comprehensive collection of multiple choice
+              questions and answers.
+            </p>
 
-              {/* <Adsense dataAdSlot='9103370999' /> */}
+            {/* <Adsense dataAdSlot='9103370999' /> */}
 
-              <div class="w-full h-4 bg-gray-400 rounded-full mb-4">
-                <div
-                  class="bg-green-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-                  style={{
-                    width: `${Math.round(
+            <div class="w-full h-4 bg-gray-400 rounded-full mb-4">
+              <div
+                class="bg-green-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                style={{
+                  width: `${Math.round(
+                    (userData[data[0]?.topic]?.completedQuestions.length != null
+                      ? userData[data[0]?.topic]?.completedQuestions.length /
+                        data.length
+                      : "0") * 100
+                  )}%`,
+                }}
+              >
+                {" "}
+                {userData[data[0]?.topic]?.completedQuestions.length != null
+                  ? Math.round(
                       (userData[data[0]?.topic]?.completedQuestions.length /
                         data.length) *
                         100
-                    )}%`,
-                  }}
-                >
-                  {" "}
-                  {Math.round(
-                    (userData[data[0]?.topic]?.completedQuestions.length /
-                      data.length) *
-                      100
-                  )}
-                  %
-                </div>
+                    )
+                  : 0}
+                %
               </div>
-
-              <div className="mb-8 overflow-x-auto scrolling-touch">
-                <div className="flex border-b border-gray-200">
-                  {tabs.map((tab) => (
-                    <button
-                      key={tab}
-                      className={`${
-                        activeTab === tab
-                          ? "border-blue-500 text-blue-600"
-                          : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-                      } px-4 py-2 border-b-2 font-medium whitespace-nowrap`}
-                      onClick={() => setActiveTab(tab)}
-                    >
-                      {tab}
-                    </button>
-                  ))}
-                </div>
-              </div>
-              <div className="">{tabContents[activeTab]}</div>
             </div>
+
+            <div className="mb-8 overflow-x-auto scrolling-touch">
+              <div className="flex border-b border-gray-200">
+                {tabs.map((tab) => (
+                  <button
+                    key={tab}
+                    className={`${
+                      activeTab === tab
+                        ? "border-blue-500 text-blue-600"
+                        : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                    } px-4 py-2 border-b-2 font-medium whitespace-nowrap`}
+                    onClick={() => setActiveTab(tab)}
+                  >
+                    {tab}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div className="">{tabContents[activeTab]}</div>
           </div>
-        </section>
-      )}
+        </div>
+      </section>
 
       <Toaster />
 

@@ -1,107 +1,107 @@
 export const topicData = {
-  'average': {
-    name: 'Average',
-    storageKey: 'averagescompletedQuestions',
-    pageValue: 'average',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  average: {
+    name: "Average",
+    storageKey: "averagescompletedQuestions",
+    pageValue: "average",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'simplification': {
-    name: 'Simplification',
-    storageKey: 'simplificationcompletedQuestions',
-    pageValue: 'simplification',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  simplification: {
+    name: "Simplification",
+    storageKey: "simplificationcompletedQuestions",
+    pageValue: "simplification",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'partnership': {
-    name: 'Partnership',
-    storageKey: 'problemsonpartnershipcompletedQuestions',
-    pageValue: 'partnership',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  partnership: {
+    name: "Partnership",
+    storageKey: "problemsonpartnershipcompletedQuestions",
+    pageValue: "partnership",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'profit-and-loss': {
-    name: 'Profit and Loss',
-    storageKey: 'profitandlosscompletedQuestions',
-    pageValue: 'profit-and-loss',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  "profit-and-loss": {
+    name: "Profit and Loss",
+    storageKey: "profitandlosscompletedQuestions",
+    pageValue: "profit-and-loss",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'clocks-and-calendars': {
-    name: 'Clocks and Calendars',
-    storageKey: 'clocks-and-calendarscompletedQuestions',
-    pageValue: 'clocks-and-calendars',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  "clocks-and-calendars": {
+    name: "Clocks and Calendars",
+    storageKey: "clocks-and-calendarscompletedQuestions",
+    pageValue: "clocks-and-calendars",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'problems-on-ages': {
-    name: 'Problems on Ages',
-    storageKey: 'problemsonagescompletedQuestions',
-    pageValue: 'problems-on-ages',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  "problems-on-ages": {
+    name: "Problems on Ages",
+    storageKey: "problemsonagescompletedQuestions",
+    pageValue: "problems-on-ages",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'number-system': {
-    name: 'Number System', 
-    storageKey: 'numbersystemcompletedQuestions',
-    pageValue: 'number-system',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  // "number-system": {
+  //   name: "Number System",
+  //   storageKey: "numbersystemcompletedQuestions",
+  //   pageValue: "number-system",
+  //   type_1: "Easy",
+  //   type_2: "Medium",
+  //   type_3: "Hard",
+  // },
+  percentage: {
+    name: "Percentage",
+    storageKey: "percentagecompletedQuestions",
+    pageValue: "percentage",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'percentage': {
-    name: 'Percentage',
-    storageKey: 'percentagecompletedQuestions',
-    pageValue: 'percentage',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  "chain-rule": {
+    name: "Chain Rule",
+    storageKey: "chainrulecompletedQuestions",
+    pageValue: "chain-rule",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'chain-rule': {
-    name: 'Chain Rule',
-    storageKey: 'chainrulecompletedQuestions',
-    pageValue: 'chain-rule',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  fractions: {
+    name: "Fractions",
+    storageKey: "fractionscompletedQuestions",
+    pageValue: "fractions",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'fractions': {
-    name: 'Fractions',
-    storageKey: 'fractionscompletedQuestions',
-    pageValue: 'fractions',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  "elementary-algebra": {
+    name: "elementary-algebra",
+    storageKey: "elementary-algebracompletedQuestions",
+    pageValue: "elementary-algebra",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'elementary-algebra': {
-    name: 'elementary-algebra',
-    storageKey: 'elementary-algebracompletedQuestions',
-    pageValue: 'elementary-algebra',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  "lcm-and-hcf": {
+    name: "lcm-and-hcf",
+    storageKey: "lcm-and-hcfcompletedQuestions",
+    pageValue: "lcm-and-hcf",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
-  'lcm-and-hcf': {
-    name: 'lcm-and-hcf',
-    storageKey: 'lcm-and-hcfcompletedQuestions',
-    pageValue: 'lcm-and-hcf',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
-  },
-  'approximation': {
-    name: 'Approximation',
-    storageKey: 'approximationcompletedQuestions',
-    pageValue: 'approximation',
-    type_1: 'Easy',
-    type_2: 'Medium',
-    type_3: 'Hard',
+  approximation: {
+    name: "Approximation",
+    storageKey: "approximationcompletedQuestions",
+    pageValue: "approximation",
+    type_1: "Easy",
+    type_2: "Medium",
+    type_3: "Hard",
   },
   "unitary-method": {
     name: "Unitary Method",
@@ -109,7 +109,7 @@ export const topicData = {
     pageValue: "Unitary Method",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "linear-equation": {
     name: "Linear Equation",
@@ -117,7 +117,7 @@ export const topicData = {
     pageValue: "linear-equation",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "quadratic-equation": {
     name: "Quadratic Equation",
@@ -125,7 +125,7 @@ export const topicData = {
     pageValue: "quadratic-equation",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "surds-and-indices": {
     name: "Surds and Indices",
@@ -133,7 +133,7 @@ export const topicData = {
     pageValue: "surds-and-indices",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "square-root-and-cube-root": {
     name: "Square root and cube root",
@@ -141,7 +141,7 @@ export const topicData = {
     pageValue: "square-root-and-cube-root",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "order-of-magnitude": {
     name: "Order of Magnitude",
@@ -149,7 +149,7 @@ export const topicData = {
     pageValue: "order-of-magnitude",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "odd-man-out-and-series": {
     name: "Odd Man Out and Series",
@@ -157,7 +157,7 @@ export const topicData = {
     pageValue: "odd-man-out-and-series",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "stocks-and-shares": {
     name: "Stocks and Shares",
@@ -165,7 +165,7 @@ export const topicData = {
     pageValue: "stocks-and-shares",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "ratio-and-proportion": {
     name: "Ratio and Proportion",
@@ -173,7 +173,7 @@ export const topicData = {
     pageValue: "ratio-and-proportion",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "alligation-or-mixture": {
     name: "Alligation or Mixture",
@@ -181,7 +181,7 @@ export const topicData = {
     pageValue: "alligation-or-mixture",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "time-and-work": {
     name: "Time and Work",
@@ -189,7 +189,7 @@ export const topicData = {
     pageValue: "time-and-work",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "pipes-and-cistern": {
     name: "Pipes and Cistern",
@@ -197,7 +197,7 @@ export const topicData = {
     pageValue: "pipes-and-cistern",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "speed-time-and-distance": {
     name: "Speed, Time and Distance",
@@ -205,7 +205,7 @@ export const topicData = {
     pageValue: "Speed, Time and Distance",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "problem-on-trains": {
     name: "Problem on Trains",
@@ -213,7 +213,7 @@ export const topicData = {
     pageValue: "problem-on-trains",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "height-and-distance": {
     name: "Height and Distance",
@@ -221,7 +221,7 @@ export const topicData = {
     pageValue: "height-and-distance",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "boats-and-streams": {
     name: "Boats and Streams",
@@ -229,7 +229,7 @@ export const topicData = {
     pageValue: "boats-and-streams",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "simple-interest": {
     name: "Simple Interest",
@@ -237,7 +237,7 @@ export const topicData = {
     pageValue: "simple-interest",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "compound-interest": {
     name: "Compound Interest",
@@ -245,7 +245,7 @@ export const topicData = {
     pageValue: "compound-interest",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "sets-and-functions": {
     name: "Sets and Functions",
@@ -253,7 +253,7 @@ export const topicData = {
     pageValue: "sets-and-functions",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "area-and-perimeter": {
     name: "Area and Perimeter",
@@ -261,7 +261,7 @@ export const topicData = {
     pageValue: "area-and-perimeter",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "volume-and-surface-area-of-solid-figures": {
     name: "Volume and Surface Area of Solid Figures",
@@ -269,7 +269,7 @@ export const topicData = {
     pageValue: "volume-and-surface-area-of-solid-figures",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "sequences-and-series": {
     name: "Sequences and Series",
@@ -277,15 +277,15 @@ export const topicData = {
     pageValue: "sequences-and-series",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "probability": {
+  probability: {
     name: "Probability",
     storageKey: "ProbabilitycompletedQuestions",
     pageValue: "probability",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "permutation-and-combination": {
     name: "Permutation and Combination",
@@ -293,15 +293,15 @@ export const topicData = {
     pageValue: "permutation-and-combination",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "statistics": {
+  statistics: {
     name: "Statistics",
     storageKey: "StatisticscompletedQuestions",
     pageValue: "statistics",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "alphabet-test": {
     name: "Alphabet Test",
@@ -309,7 +309,7 @@ export const topicData = {
     pageValue: "alphabet-test",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "problem-based-on-ages": {
     name: "Problem Based on Ages",
@@ -317,7 +317,7 @@ export const topicData = {
     pageValue: "problem-based-on-ages",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "clock-and-calendar": {
     name: "Clock and Calendar",
@@ -325,7 +325,7 @@ export const topicData = {
     pageValue: "Clock and Calendar",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "mathematical-operation-and-symbol-notation": {
     name: "Mathematical Operation and Symbol Notation",
@@ -333,7 +333,7 @@ export const topicData = {
     pageValue: "mathematical-operation-and-symbol-notation",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "logical-order-of-words": {
     name: "Logical Order of Words",
@@ -341,7 +341,7 @@ export const topicData = {
     pageValue: "logical-order-of-words",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "eligibility-test": {
     name: "Eligibility Test",
@@ -349,7 +349,7 @@ export const topicData = {
     pageValue: "eligibility-test",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "input-output": {
     name: "Input Output",
@@ -357,7 +357,7 @@ export const topicData = {
     pageValue: "input-output",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "linear-arrangement": {
     name: "Linear Arrangement",
@@ -365,7 +365,7 @@ export const topicData = {
     pageValue: "linear-arrangement",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "matrix-arrangement": {
     name: "Matrix Arrangement",
@@ -373,7 +373,7 @@ export const topicData = {
     pageValue: "matrix-arrangement",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "circular-arrangement": {
     name: "Circular Arrangement",
@@ -381,7 +381,7 @@ export const topicData = {
     pageValue: "circular-arrangement",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "logical-connectivity": {
     name: "Logical Connectivity",
@@ -389,7 +389,7 @@ export const topicData = {
     pageValue: "logical-connectivity",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "games-and-tournament": {
     name: "Games And Tournament",
@@ -397,15 +397,15 @@ export const topicData = {
     pageValue: "games-and-tournament",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "classification": {
+  classification: {
     name: "Classification",
     storageKey: "ClassificationcompletedQuestions",
     pageValue: "classification",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "number-series": {
     name: "Number Series",
@@ -413,7 +413,7 @@ export const topicData = {
     pageValue: "number-series",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "letter-and-symbol-series": {
     name: "Letter and Symbol Series",
@@ -421,7 +421,7 @@ export const topicData = {
     pageValue: "letter-and-symbol-series",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "coding-decoding": {
     name: "Coding Decoding",
@@ -429,7 +429,7 @@ export const topicData = {
     pageValue: "coding-decoding",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "sequencing-and-formation": {
     name: "Sequencing and Formation",
@@ -437,7 +437,7 @@ export const topicData = {
     pageValue: "sequencing-and-formation",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "direction-and-distance": {
     name: "Direction and Distance",
@@ -445,7 +445,7 @@ export const topicData = {
     pageValue: "direction-and-distance",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "sitting-arrangement": {
     name: "Sitting Arrangement",
@@ -453,7 +453,7 @@ export const topicData = {
     pageValue: "sitting-arrangement",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "blood-relations": {
     name: "Blood Relations",
@@ -461,7 +461,7 @@ export const topicData = {
     pageValue: "blood-relations",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "logical-venn-diagram": {
     name: "Logical Venn Diagram",
@@ -469,15 +469,15 @@ export const topicData = {
     pageValue: "logical-venn-diagram",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "cubes": {
+  cubes: {
     name: "Cubes",
     storageKey: "CubescompletedQuestions",
     pageValue: "cubes",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "logical-problems": {
     name: "Logical Problems",
@@ -485,7 +485,7 @@ export const topicData = {
     pageValue: "logical-problems",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "theme-detection": {
     name: "Theme Detection",
@@ -493,7 +493,7 @@ export const topicData = {
     pageValue: "theme-detection",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "logical-deduction": {
     name: "Logical Deduction",
@@ -501,7 +501,7 @@ export const topicData = {
     pageValue: "logical-deduction",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "matching-definitions": {
     name: "Matching Definitions",
@@ -509,7 +509,7 @@ export const topicData = {
     pageValue: "matching-definitions",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "making-judgments": {
     name: "Making Judgments",
@@ -517,7 +517,7 @@ export const topicData = {
     pageValue: "making-judgments",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "logical-games": {
     name: "Logical Games",
@@ -525,7 +525,7 @@ export const topicData = {
     pageValue: "logical-games",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "verification-of-truth-lie-of-statements": {
     name: "VerificationofTruth/LieofStatements",
@@ -533,7 +533,7 @@ export const topicData = {
     pageValue: "verification-of-truth-lie-of-statements",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "routes-and-networks": {
     name: "Routes and Networks",
@@ -541,7 +541,7 @@ export const topicData = {
     pageValue: "Routes and Networks",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "time-sequence": {
     name: "Time Sequence",
@@ -549,7 +549,7 @@ export const topicData = {
     pageValue: "Time Sequence",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "ranking-test": {
     name: "Ranking Test",
@@ -557,7 +557,7 @@ export const topicData = {
     pageValue: "Ranking Test",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "inserting-and-missing-character": {
     name: "Inserting and Missing Character",
@@ -565,7 +565,7 @@ export const topicData = {
     pageValue: "Inserting and Missing Character",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "grid-and-matrices": {
     name: "Grid and Matrices",
@@ -573,15 +573,15 @@ export const topicData = {
     pageValue: "Grid and Matrices",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "syllogism": {
+  syllogism: {
     name: "Syllogism",
     storageKey: "SyllogismcompletedQuestions",
     pageValue: "Syllogism",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "statement-and-argument": {
     name: "Statement and Argument",
@@ -589,7 +589,7 @@ export const topicData = {
     pageValue: "Statement and Argument",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "statement-and-assumption": {
     name: "Statement and Assumption",
@@ -597,23 +597,23 @@ export const topicData = {
     pageValue: "Statement and Assumption",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "series": {
+  series: {
     name: "Series",
     storageKey: "SeriescompletedQuestions",
     pageValue: "Series",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "analogy": {
+  analogy: {
     name: "Analogy",
     storageKey: "AnalogycompletedQuestions",
     pageValue: "Analogy",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "mirror-images": {
     name: "Mirror Images",
@@ -621,7 +621,7 @@ export const topicData = {
     pageValue: "Mirror Images",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "water-images": {
     name: "Water Images",
@@ -629,7 +629,7 @@ export const topicData = {
     pageValue: "Water Images",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "spotting-out-the-embedded-figures": {
     name: "Spotting Out The Embedded Figures",
@@ -637,7 +637,7 @@ export const topicData = {
     pageValue: "Spotting Out The Embedded Figures",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "completion-of-incomplete-pattern": {
     name: "Completion Of Incomplete Pattern",
@@ -645,7 +645,7 @@ export const topicData = {
     pageValue: "Completion Of Incomplete Pattern",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "cubes-and-dices": {
     name: "Cubes and Dices",
@@ -653,7 +653,7 @@ export const topicData = {
     pageValue: "Cubes and Dices",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "paper-folding": {
     name: "Paper Folding",
@@ -661,7 +661,7 @@ export const topicData = {
     pageValue: "Paper Folding",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "paper-cutting": {
     name: "Paper Cutting",
@@ -669,7 +669,7 @@ export const topicData = {
     pageValue: "Paper Cutting",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "grouping-of-identical-figures": {
     name: "Grouping Of Identical Figures",
@@ -677,7 +677,7 @@ export const topicData = {
     pageValue: "Grouping Of Identical Figures",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "construction-of-squares-and-triangles": {
     name: "Construction Of Squares And Triangles",
@@ -685,7 +685,7 @@ export const topicData = {
     pageValue: "Construction Of Squares And Triangles",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "transformation-of-sentences-active-passive": {
     name: "Transformation of Sentences (Active/Passive)",
@@ -693,7 +693,7 @@ export const topicData = {
     pageValue: "Transformation of Sentences (Active/Passive)",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "common-errors": {
     name: "Common Errors",
@@ -701,15 +701,16 @@ export const topicData = {
     pageValue: "Common Errors",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "an-introduction-to-english-grammar-and-languages": {
     name: "An Introduction To English Grammar And Languages",
-    storageKey: "AnIntroductionToEnglish Grammar And LanguagescompletedQuestions",
+    storageKey:
+      "AnIntroductionToEnglish Grammar And LanguagescompletedQuestions",
     pageValue: "An Introduction To English Grammar And Languages",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "numerical-ability": {
     name: "Numerical Ability",
@@ -717,7 +718,7 @@ export const topicData = {
     pageValue: "Numerical Ability",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "spotting-errors": {
     name: "Spotting Errors",
@@ -725,7 +726,7 @@ export const topicData = {
     pageValue: "Spotting Errors",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "sentence-improvement": {
     name: "Sentence Improvement",
@@ -733,7 +734,7 @@ export const topicData = {
     pageValue: "Sentence Improvement",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "selecting-words": {
     name: "Selecting Words",
@@ -741,7 +742,7 @@ export const topicData = {
     pageValue: "Selecting Words",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "ordering-of-words": {
     name: "Ordering of Words",
@@ -749,7 +750,7 @@ export const topicData = {
     pageValue: "Ordering of Words",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "completing-statements": {
     name: "Completing Statements",
@@ -757,7 +758,7 @@ export const topicData = {
     pageValue: "Completing Statements",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "closet-test": {
     name: "Closet Test",
@@ -765,7 +766,7 @@ export const topicData = {
     pageValue: "Closet Test",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "idioms-and-phrases": {
     name: "Idioms and Phrases",
@@ -773,7 +774,7 @@ export const topicData = {
     pageValue: "Idioms and Phrases",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "verbal-analogies": {
     name: "Verbal Analogies",
@@ -781,23 +782,23 @@ export const topicData = {
     pageValue: "Verbal Analogies",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "synonyms": {
+  synonyms: {
     name: "Synonyms",
     storageKey: "SynonymscompletedQuestions",
     pageValue: "Synonyms",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "spellings": {
+  spellings: {
     name: "Spellings",
     storageKey: "SpellingscompletedQuestions",
     pageValue: "Spellings",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "sentence-correction": {
     name: "Sentence Correction",
@@ -805,7 +806,7 @@ export const topicData = {
     pageValue: "Sentence Correction",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "ordering-of-sentences": {
     name: "Ordering of Sentences",
@@ -813,15 +814,15 @@ export const topicData = {
     pageValue: "Ordering of Sentences",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "comprehension": {
+  comprehension: {
     name: "Comprehension",
     storageKey: "ComprehensioncompletedQuestions",
     pageValue: "Comprehension",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "change-of-voice": {
     name: "Change of Voice",
@@ -829,15 +830,15 @@ export const topicData = {
     pageValue: "Change of Voice",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
-  "antonyms": {
+  antonyms: {
     name: "Antonyms",
     storageKey: "AntonymscompletedQuestions",
     pageValue: "Antonyms",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "sentence-formation": {
     name: "Sentence Formation",
@@ -845,7 +846,7 @@ export const topicData = {
     pageValue: "Sentence Formation",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "paragraph-formation": {
     name: "Paragraph Formation",
@@ -853,7 +854,7 @@ export const topicData = {
     pageValue: "Paragraph Formation",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "one-word-substitutes": {
     name: "One Word Substitutes",
@@ -861,7 +862,7 @@ export const topicData = {
     pageValue: "One Word Substitutes",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "change-of-speech": {
     name: "Change of Speech",
@@ -869,7 +870,7 @@ export const topicData = {
     pageValue: "Change of Speech",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "data-structures-basics": {
     name: "Data Structures Basics",
@@ -877,7 +878,7 @@ export const topicData = {
     pageValue: "data-structures-basics",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "data-types-and-abstraction": {
     name: "Data Types and Abstraction",
@@ -885,7 +886,7 @@ export const topicData = {
     pageValue: "data-types-and-abstraction",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
+    type_3: "Hard",
   },
   "sorting-and-searching": {
     name: "Sorting and Searching",
@@ -893,6 +894,768 @@ export const topicData = {
     pageValue: "sorting-and-searching",
     type_1: "Easy",
     type_2: "Medium",
-    type_3: "Hard"
-  }
+    type_3: "Hard",
+  },
+
+  // Gate
+  "asymptotic-notation": {
+    name: "asymptotic-notation",
+    storageKey: "asymptotic-notationcompletedQuestions",
+    pageValue: "asymptotic-notation",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "recurrence-relation": {
+    name: "recurrence-relation",
+    storageKey: "recurrence-relationcompletedQuestions",
+    pageValue: "recurrence-relation",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "divide-and-conquer": {
+    name: "divide-and-conquer",
+    storageKey: "divide-and-conquercompletedQuestions",
+    pageValue: "divide-and-conquer",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  sorting: {
+    name: "sorting",
+    storageKey: "sortingcompletedQuestions",
+    pageValue: "sorting",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "greedy-technique": {
+    name: "greedy-technique",
+    storageKey: "greedy-techniquecompletedQuestions",
+    pageValue: "greedy-technique",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "minimum-spanning-tree": {
+    name: "minimum-spanning-tree",
+    storageKey: "minimum-spanning-treecompletedQuestions",
+    pageValue: "minimum-spanning-tree",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "shortest-path": {
+    name: "shortest-path",
+    storageKey: "shortest-pathcompletedQuestions",
+    pageValue: "shortest-path",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "graph-traversal": {
+    name: "graph-traversal",
+    storageKey: "graph-traversalcompletedQuestions",
+    pageValue: "graph-traversal",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "dynamic-programming": {
+    name: "dynamic-programming",
+    storageKey: "dynamic-programmingcompletedQuestions",
+    pageValue: "dynamic-programming",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  array: {
+    name: "array",
+    storageKey: "arraycompletedQuestions",
+    pageValue: "array",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "link-list": {
+    name: "link-list",
+    storageKey: "link-listcompletedQuestions",
+    pageValue: "link-list",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  stack: {
+    name: "stack",
+    storageKey: "stackcompletedQuestions",
+    pageValue: "stack",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  queue: {
+    name: "queue",
+    storageKey: "queuecompletedQuestions",
+    pageValue: "queue",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "binary-tree": {
+    name: "binary-tree",
+    storageKey: "binary-treecompletedQuestions",
+    pageValue: "binary-tree",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "binary-search-tree": {
+    name: "binary-search-tree",
+    storageKey: "binary-search-treecompletedQuestions",
+    pageValue: "binary-search-tree",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "avl-tree": {
+    name: "avl-tree",
+    storageKey: "avl-treetreecompletedQuestions",
+    pageValue: "avl-tree",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "b-tree": {
+    name: "b-tree",
+    storageKey: "b-treetreecompletedQuestions",
+    pageValue: "b-tree",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "b-plus-tree": {
+    name: "b-plus-tree",
+    storageKey: "b-plus-treetreecompletedQuestions",
+    pageValue: "b-plus-tree",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "heap-tree": {
+    name: "heap-tree",
+    storageKey: "heap-treetreecompletedQuestions",
+    pageValue: "heap-tree",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "n-ary-tree": {
+    name: "n-ary-tree",
+    storageKey: "n-ary-treetreecompletedQuestions",
+    pageValue: "n-ary-tree",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  hashing: {
+    name: "hashing",
+    storageKey: "hashingtreecompletedQuestions",
+    pageValue: "hashing",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "lexical-analysis": {
+    name: "lexical-analysis",
+    storageKey: "lexical-analysiscompletedQuestions",
+    pageValue: "lexical-analysis",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  parsing: {
+    name: "parsing",
+    storageKey: "parsingcompletedQuestions",
+    pageValue: "parsing",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "syntax-directed-translation": {
+    name: "syntax-directed-translation",
+    storageKey: "syntax-directed-translationcompletedQuestions",
+    pageValue: "syntax-directed-translation",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "intermediate-code-generation": {
+    name: "intermediate-code-generation",
+    storageKey: "intermediate-code-generationcompletedQuestions",
+    pageValue: "intermediate-code-generation",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "runtime-environment": {
+    name: "runtime-environment",
+    storageKey: "runtime-environmentcompletedQuestions",
+    pageValue: "runtime-environment",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  matching: {
+    name: "matching",
+    storageKey: "matchingcompletedQuestions",
+    pageValue: "matching",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "regular-expression": {
+    name: "regular-expression",
+    storageKey: "regular-expressioncompletedQuestions",
+    pageValue: "regular-expression",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "regular-grammar": {
+    name: "regular-grammar",
+    storageKey: "regular-grammarcompletedQuestions",
+    pageValue: "regular-grammar",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "regular-language": {
+    name: "regular-language",
+    storageKey: "regular-languagecompletedQuestions",
+    pageValue: "regular-language",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "finite-automata": {
+    name: "finite-automata",
+    storageKey: "finite-automatacompletedQuestions",
+    pageValue: "finite-automata",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "context-free-grammar": {
+    name: "context-free-grammar",
+    storageKey: "context-free-grammarcompletedQuestions",
+    pageValue: "context-free-grammar",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "context-free-language": {
+    name: "context-free-language",
+    storageKey: "context-free-languagecompletedQuestions",
+    pageValue: "context-free-language",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "push-down-automata": {
+    name: "push-down-automata",
+    storageKey: "push-down-automatacompletedQuestions",
+    pageValue: "push-down-automata",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "recursive-language": {
+    name: "recursive-language",
+    storageKey: "recursive-languagecompletedQuestions",
+    pageValue: "recursive-language",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "turing-machine": {
+    name: "turing-machine",
+    storageKey: "turing-machinecompletedQuestions",
+    pageValue: "turing-machine",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  undecidability: {
+    name: "undecidability",
+    storageKey: "undecidabilitycompletedQuestions",
+    pageValue: "undecidability",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  process: {
+    name: "process",
+    storageKey: "processcompletedQuestions",
+    pageValue: "process",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "cpu-scheduling": {
+    name: "cpu-scheduling",
+    storageKey: "cpu-schedulingcompletedQuestions",
+    pageValue: "cpu-scheduling",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "process-synchronization": {
+    name: "process-synchronization",
+    storageKey: "process-synchronizationcompletedQuestions",
+    pageValue: "process-synchronization",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  deadlock: {
+    name: "deadlock",
+    storageKey: "deadlockcompletedQuestions",
+    pageValue: "deadlock",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "memory-management": {
+    name: "memory-management",
+    storageKey: "memory-managementcompletedQuestions",
+    pageValue: "memory-management",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "disk-scheduling": {
+    name: "disk-scheduling",
+    storageKey: "disk-schedulingcompletedQuestions",
+    pageValue: "disk-scheduling",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "system-call": {
+    name: "system-call",
+    storageKey: "system-callcompletedQuestions",
+    pageValue: "system-call",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  thread: {
+    name: "thread",
+    storageKey: "threadcompletedQuestions",
+    pageValue: "thread",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "osi-layer": {
+    name: "osi-layer",
+    storageKey: "osi-layercompletedQuestions",
+    pageValue: "osi-layer",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "physical-layer": {
+    name: "physical-layer",
+    storageKey: "physical-layercompletedQuestions",
+    pageValue: "physical-layer",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "data-link-layer": {
+    name: "data-link-layer",
+    storageKey: "data-link-layercompletedQuestions",
+    pageValue: "data-link-layer",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "network-layer-protocol": {
+    name: "network-layer-protocol",
+    storageKey: "network-layer-protocolcompletedQuestions",
+    pageValue: "network-layer-protocol",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "transport-layer-protocol": {
+    name: "transport-layer-protocol",
+    storageKey: "transport-layer-protocolcompletedQuestions",
+    pageValue: "transport-layer-protocol",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "application-layer-protocols": {
+    name: "application-layer-protocols",
+    storageKey: "application-layer-protocolscompletedQuestions",
+    pageValue: "application-layer-protocols",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "network-security": {
+    name: "network-security",
+    storageKey: "network-securitycompletedQuestions",
+    pageValue: "network-security",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "machine-instruction": {
+    name: "machine-instruction",
+    storageKey: "machine-instructioncompletedQuestions",
+    pageValue: "machine-instruction",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "addressing-modes": {
+    name: "addressing-modes",
+    storageKey: "addressing-modescompletedQuestions",
+    pageValue: "addressing-modes",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "alu-data-path-and-control-unit": {
+    name: "alu-data-path-and-control-unit",
+    storageKey: "alu-data-path-and-control-unitcompletedQuestions",
+    pageValue: "alu-data-path-and-control-unit",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "io-interface": {
+    name: "io-interface",
+    storageKey: "io-interfacecompletedQuestions",
+    pageValue: "io-interface",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "pipeline-processor": {
+    name: "pipeline-processor",
+    storageKey: "pipeline-processorcompletedQuestions",
+    pageValue: "pipeline-processor",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "cache-memory": {
+    name: "cache-memory",
+    storageKey: "cache-memorycompletedQuestions",
+    pageValue: "cache-memory",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "secondary-storage": {
+    name: "secondary-storage",
+    storageKey: "secondary-storagecompletedQuestions",
+    pageValue: "secondary-storage",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "memory-chip-design": {
+    name: "memory-chip-design",
+    storageKey: "memory-chip-designcompletedQuestions",
+    pageValue: "memory-chip-design",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "er-model": {
+    name: "er-model",
+    storageKey: "er-modelcompletedQuestions",
+    pageValue: "er-model",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "relational-schema": {
+    name: "relational-schema",
+    storageKey: "relational-schemacompletedQuestions",
+    pageValue: "relational-schema",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "relational-algebra": {
+    name: "relational-algebra",
+    storageKey: "relational-algebracompletedQuestions",
+    pageValue: "relational-algebra",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "normal-form": {
+    name: "normal-form",
+    storageKey: "normal-formcompletedQuestions",
+    pageValue: "normal-form",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  transactions: {
+    name: "transactions",
+    storageKey: "transactionscompletedQuestions",
+    pageValue: "transactions",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "integrity-constraints": {
+    name: "integrity-constraints",
+    storageKey: "integrity-constraintscompletedQuestions",
+    pageValue: "integrity-constraints",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "": {
+    name: "",
+    storageKey: "completedQuestions",
+    pageValue: "",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  sql: {
+    name: "sql",
+    storageKey: "sqlcompletedQuestions",
+    pageValue: "sql",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "tuple-calculus": {
+    name: "tuple-calculus",
+    storageKey: "tuple-calculuscompletedQuestions",
+    pageValue: "tuple-calculus",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "file-system": {
+    name: "file-system",
+    storageKey: "file-systemcompletedQuestions",
+    pageValue: "file-system",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "propositional-logic": {
+    name: "propositional-logic",
+    storageKey: "propositional-logiccompletedQuestions",
+    pageValue: "propositional-logic",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "set-theory": {
+    name: "set-theory",
+    storageKey: "set-theorycompletedQuestions",
+    pageValue: "set-theory",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  relation: {
+    name: "relation",
+    storageKey: "relationcompletedQuestions",
+    pageValue: "relation",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  functions: {
+    name: "functions",
+    storageKey: "functionscompletedQuestions",
+    pageValue: "functions",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  lattice: {
+    name: "lattice",
+    storageKey: "latticecompletedQuestions",
+    pageValue: "lattice",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "group-theory": {
+    name: "group-theory",
+    storageKey: "group-theorycompletedQuestions",
+    pageValue: "group-theory",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "graph-theory": {
+    name: "graph-theory",
+    storageKey: "graph-theorycompletedQuestions",
+    pageValue: "graph-theory",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "planar-graph": {
+    name: "planar-graph",
+    storageKey: "planar-graphcompletedQuestions",
+    pageValue: "planar-graph",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  combination: {
+    name: "combination",
+    storageKey: "combinationcompletedQuestions",
+    pageValue: "combination",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "probability-theory": {
+    name: "probability-theory",
+    storageKey: "probability-theorycompletedQuestions",
+    pageValue: "probability-theory",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  recurrence: {
+    name: "recurrence",
+    storageKey: "recurrencecompletedQuestions",
+    pageValue: "recurrence",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "number-system": {
+    name: "number-system",
+    storageKey: "number-systemcompletedQuestions",
+    pageValue: "number-system",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "boolean-algebra": {
+    name: "boolean-algebra",
+    storageKey: "boolean-algebracompletedQuestions",
+    pageValue: "boolean-algebra",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "combinational-circuit": {
+    name: "combinational-circuit",
+    storageKey: "combinational-circuitcompletedQuestions",
+    pageValue: "combinational-circuit",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "sequential-circuit": {
+    name: "sequential-circuit",
+    storageKey: "sequential-circuitcompletedQuestions",
+    pageValue: "sequential-circuit",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "linear-algebra": {
+    name: "linear-algebra",
+    storageKey: "linear-algebracompletedQuestions",
+    pageValue: "linear-algebra",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  calculus: {
+    name: "calculus",
+    storageKey: "calculuscompletedQuestions",
+    pageValue: "calculus",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "numerical-method": {
+    name: "numerical-method",
+    storageKey: "numerical-methodcompletedQuestions",
+    pageValue: "numerical-method",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "arithmetic-operation": {
+    name: "arithmetic-operation",
+    storageKey: "arithmetic-operationcompletedQuestions",
+    pageValue: "arithmetic-operation",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "array-and-pointer": {
+    name: "array-and-pointer",
+    storageKey: "array-and-pointercompletedQuestions",
+    pageValue: "array-and-pointer",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "conditional-statement": {
+    name: "conditional-statement",
+    storageKey: "conditional-statementcompletedQuestions",
+    pageValue: "conditional-statement",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  function: {
+    name: "function",
+    storageKey: "functioncompletedQuestions",
+    pageValue: "function",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  loop: {
+    name: "loop",
+    storageKey: "loopcompletedQuestions",
+    pageValue: "loop",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "software-engg": {
+    name: "software-engg",
+    storageKey: "software-enggcompletedQuestions",
+    pageValue: "software-engg",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
+  "web-technology": {
+    name: "web-technology",
+    storageKey: "web-technologycompletedQuestions",
+    pageValue: "web-technology",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
 };

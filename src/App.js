@@ -13,7 +13,7 @@ import Mainpage from "./dsatracker/coding/MainPage";
 import Practicetestmainpage from "./friendlytest/Practicetestmainpage";
 import Testpage from "./friendlytest/Testpage";
 import Addtestform from "./friendlytest/Addtestform";
-import HomeComponent from "./components/HomeComponent";
+// import HomeComponent from "./components/HomeComponent";
 import NotFound from "./NotFound";
 import Leetcode from "./dsatracker/Leetcode";
 import QuestionsPage from "./companyWisePrev/questionsPage";
@@ -22,13 +22,16 @@ import AllQuestionCompanyWise from "./companyWisePrev/AllQuestionsCompanyWise";
 import Jobspagespecific from "./jobs/Jobspagespecific";
 import InternshipSpecific from "./jobs/InternshipsSpecific";
 import Singlequestionpageslug from "./seo/Singlequestionpageslug";
+import Gatetrackercse from "./gatetracker/Gatetrackercse";
+import Gatetracker from "./gatetracker/Gatetracker";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="*" element={<NotFound />} />
-        <Route path="/" element={<HomeComponent />} />
+        {/* <Route path="/" element={<HomeComponent />} /> */}
+        <Route path="/" element={<Gatetracker />} />
         <Route path="/tracker" element={<Homepage />} />
         <Route
           path="/practice/:pagetopic"
@@ -65,6 +68,10 @@ function App() {
         />
         <Route path="/jobs/:jobId" element={<Jobspagespecific />} />
         <Route path="/internship/:jobId" element={<InternshipSpecific />} />
+
+        {/* Gate Tracker */}
+        <Route path="/gate" element={<Gatetracker />} />
+        <Route path="/gate/cse" element={<Gatetrackercse />} />
       </Routes>
     </Router>
   );

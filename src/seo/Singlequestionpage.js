@@ -9,13 +9,28 @@ import axios from "axios";
 import { MathJax, MathJaxContext } from "better-react-mathjax";
 import Footer from "../components/Footer";
 //import Adsense from '../../components/Adsense';
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const Singlequestionpage = () => {
   //let { topic } = useParams();
   let { qid } = useParams();
   const [data, setData] = useState([]);
   const [data2, setData2] = useState([]);
-
+  useEffect(() => {
+    window.MathJax = {
+      tex: {
+        inlineMath: [
+          ["$", "$"],
+          ["\\(", "\\)"],
+        ],
+        processEscapes: true,
+      },
+      svg: {
+        fontCache: "global",
+      },
+    };
+  }, []);
   //const id = parseInt(qid);
 
   const apiEndpoint = process.env.REACT_APP_API;
@@ -92,12 +107,17 @@ const Singlequestionpage = () => {
         <title>
           {data[0]?.question
             ? data[0].question.replace(/<[^>]+>/g, "").slice(0, 90)
-            : "Aptitude Questions"}
+            : null}
         </title>
-        <meta name="description" content={data[0]?.question} />
+        <meta
+          name="description"
+          content={
+            data[0]?.question || "Aptitude questions for placement preparation."
+          }
+        />
         <meta
           name="keywords"
-          content={`Aptitude Questions, Placements preparation, ${chapterName} Placements Questions, UPSC ${chapterName} Questions.`}
+          content={`Aptitude Questions, Placements preparation, ${chapterName} Placements Questions,GATE, UPSC ${chapterName} Questions.`}
         />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
@@ -119,115 +139,143 @@ const Singlequestionpage = () => {
     </a> */}
             <div className="mb-8 overflow-x-auto scrolling-touch">
               <div className="flex border-b border-gray-200">
-                <MathJaxContext>
-                  <div>
-                    <div class="relative question-numbercontainer">
-                      <p class="text-xs text-gray-600">
-                        Aptitude Questions <br />
-                        Chapter : {chapterName}{" "}
-                      </p>
-                      <p class="text-xs text-gray-600">
-                        Difficulty : {data[0]?.difficulty}{" "}
-                      </p>
+                {data[0] ? (
+                  <MathJaxContext>
+                    <div>
+                      <div class="relative question-numbercontainer">
+                        <p class="text-xs text-gray-600">
+                          Subject : {data[0]?.subject}{" "}
+                        </p>
+                        <p class="text-xs text-gray-600">
+                          Topic : {data[0]?.topic.replace(/-/g, " ")}{" "}
+                        </p>
+                        <p class="text-xs text-gray-600">
+                          Year : {data[0]?.year}{" "}
+                        </p>
 
-                      <div class="absolute top-0 right-0  flex items-center mb-3 space-x-3"></div>
-                    </div>
+                        <div class="absolute top-0 right-0  flex items-center mb-3 space-x-3"></div>
+                      </div>
 
-                    <div class="questioncontainer">
-                      <MathJax>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: data[0]?.question,
-                          }}
-                        />
-                      </MathJax>
-                    </div>
-                    <div class="flex-col leading-none optionscontainer">
-                      <MathJax>
-                        <div
-                          onClick={() => handleOptionClick("A", data[0]?.id)}
-                          id="A"
-                          dangerouslySetInnerHTML={{
-                            __html: data[0]?.options["A"],
-                          }}
-                        ></div>
-                      </MathJax>
-                      <MathJax>
-                        <div
-                          onClick={() => handleOptionClick("B", data[0]?.id)}
-                          id="B"
-                          dangerouslySetInnerHTML={{
-                            __html: data[0]?.options["B"],
-                          }}
-                        ></div>
-                      </MathJax>
-                      <MathJax>
-                        <div
-                          onClick={() => handleOptionClick("C", data[0]?.id)}
-                          id="C"
-                          dangerouslySetInnerHTML={{
-                            __html: data[0]?.options["C"],
-                          }}
-                        ></div>
-                      </MathJax>
-                      <MathJax>
-                        <div
-                          onClick={() => handleOptionClick("D", data[0]?.id)}
-                          id="D"
-                          dangerouslySetInnerHTML={{
-                            __html: data[0]?.options["D"],
-                          }}
-                        ></div>
-                      </MathJax>
-                    </div>
-                    <div></div>
-
-                    {/* Buttons */}
-
-                    <div class="relative mt-0 mb-20 flex flex-wrap items-center">
-                      {/* Accordian */}
-                      <span class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                        {/* Correct Option:  <span dangerouslySetInnerHTML={{ __html: data[0]?.correct_option }}></span>   */}
+                      <div class="questioncontainer">
                         <MathJax>
-                          <p
+                          <span
                             dangerouslySetInnerHTML={{
-                              __html: data[0]?.solution,
+                              __html: data[0]?.question,
                             }}
-                          ></p>
+                            className="wp-katex-eq"
+                          />
+
+                          {data[0]?.questionImage ? (
+                            <img
+                              src={data[0]?.questionImage}
+                              alt="QuestionImage"
+                            />
+                          ) : null}
+                          {data[0]?.questionCode ? (
+                            <SyntaxHighlighter language="cpp" style={docco}>
+                              {data[0]?.questionCode}
+                            </SyntaxHighlighter>
+                          ) : null}
                         </MathJax>
-                      </span>
+                      </div>
+                      <div class="flex-col leading-none optionscontainer">
+                        <MathJax>
+                          <div
+                            onClick={() => handleOptionClick("A", data[0]?.id)}
+                            id="A"
+                            dangerouslySetInnerHTML={{
+                              __html: data[0]?.options["A"],
+                            }}
+                            className="wp-katex-eq"
+                          ></div>
+                        </MathJax>
+                        <MathJax>
+                          <div
+                            onClick={() => handleOptionClick("B", data[0]?.id)}
+                            id="B"
+                            dangerouslySetInnerHTML={{
+                              __html: data[0]?.options["B"],
+                            }}
+                            className="wp-katex-eq"
+                          ></div>
+                        </MathJax>
+                        <MathJax>
+                          <div
+                            onClick={() => handleOptionClick("C", data[0]?.id)}
+                            id="C"
+                            dangerouslySetInnerHTML={{
+                              __html: data[0]?.options["C"],
+                            }}
+                            className="wp-katex-eq"
+                          ></div>
+                        </MathJax>
+                        <MathJax>
+                          <div
+                            onClick={() => handleOptionClick("D", data[0]?.id)}
+                            id="D"
+                            dangerouslySetInnerHTML={{
+                              __html: data[0]?.options["D"],
+                            }}
+                            className="wp-katex-eq"
+                          ></div>
+                        </MathJax>
+                      </div>
+                      <div></div>
 
-                      {/* Accordian 
-    <a href={`/${pageValue + '/questions/' + i}`} className="absolute top-0 right-0 hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">Share</a>*/}
-                    </div>
-                    {/* Buttons */}
+                      {/* Buttons */}
 
-                    <div class="flex flex-col items-center">
-                      <h2 class="font-bold text-5xl mt-5 tracking-tight">
-                        Simillar
-                      </h2>
-                      <p class="text-neutral-500 text-xl mt-3">
-                        Frequenty Simillar Questions
-                      </p>
-                    </div>
-
-                    <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
-                      {data2.map((item, index) => (
-                        <div key={index} className="py-5">
-                          <div className="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <a href={`/questions/${item._id}`}>
-                              <span
-                                dangerouslySetInnerHTML={{
-                                  __html: item.question,
-                                }}
-                              ></span>
+                      <div class="relative mt-0 mb-20 flex flex-wrap items-center">
+                        {/* Accordian */}
+                        <span class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                          {/* Correct Option:  <span dangerouslySetInnerHTML={{ __html: data[0]?.correct_option }}></span>   */}
+                          <MathJax>
+                            <p>Correct Option: {data[0]?.correct_option}</p>
+                            <a
+                              href={data[0]?.solution}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              See Solution: {data[0]?.solution}
                             </a>
+                          </MathJax>
+                        </span>
+
+                        {/* Accordian 
+    <a href={`/${pageValue + '/questions/' + i}`} className="absolute top-0 right-0 hover:bg-gray-400 text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">Share</a>*/}
+                      </div>
+                      {/* Buttons */}
+
+                      <div class="flex flex-col items-center">
+                        <h2 class="font-bold text-5xl mt-5 tracking-tight">
+                          Simillar
+                        </h2>
+                        <p class="text-neutral-500 text-xl mt-3">
+                          Frequenty Simillar Questions
+                        </p>
+                      </div>
+
+                      <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
+                        {data2.map((item, index) => (
+                          <div key={index} className="py-5">
+                            <div className="flex justify-between items-center font-medium cursor-pointer list-none">
+                              <MathJax>
+                                <a href={`/questions/${item._id}`}>
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: item.question,
+                                    }}
+                                  ></span>
+                                </a>
+                              </MathJax>
+                            </div>
                           </div>
-                        </div>
-                      ))}
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                </MathJaxContext>
+                  </MathJaxContext>
+                ) : (
+                  <div>loading question...</div>
+                )}
               </div>
             </div>
           </div>

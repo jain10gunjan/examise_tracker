@@ -61,6 +61,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "react-spring": "^9.7.3",
+    "react-syntax-highlighter": "^15.5.0",
     "react-wrap-balancer": "^1.1.0",
     "reactjs-popup": "^2.0.5",
     "serve": "^14.2.0",
