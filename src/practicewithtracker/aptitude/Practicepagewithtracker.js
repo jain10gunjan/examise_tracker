@@ -154,7 +154,7 @@ const Practicepagewithtracker = () => {
 
   const tabContents = {
     Easy: (
-      <div>
+      <div className="overflow-x-auto">
         <h1 class="title-font sm:text-2xl text-2xl  font-medium text-gray-900">
           Easy Level Questions{" "}
         </h1>
@@ -543,7 +543,7 @@ const Practicepagewithtracker = () => {
     );
   }
   return (
-    <div className="app">
+    <div className="app overflow-x-hidden">
       <Navbar />
 
       <Helmet>
