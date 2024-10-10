@@ -547,10 +547,13 @@ const Practicepagewithtracker = () => {
       <Navbar />
 
       <Helmet>
-        <title> {chapterName} - Aptitude Practice Questions</title>
+        <title> {chapterName.replace(/-/g, " ")} - Practice Questions</title>
         <meta
           name="description"
-          content={`Boost your ${chapterName} skills with our extensive collection of multiple-choice questions (MCQs) covering various topics such as arithmetic, algebra, geometry, and more. Practice for job interviews, entrance exams, or simply enhance your problem-solving abilities. Access our free online resource today.`}
+          content={`Boost your ${chapterName.replace(
+            /-/g,
+            " "
+          )} skills with our extensive collection of multiple-choice questions (MCQs) covering various topics such as arithmetic, algebra, geometry, and more. Practice for job interviews, entrance exams, or simply enhance your problem-solving abilities. Access our free online resource today.`}
         />
         <meta
           name="keywords"
