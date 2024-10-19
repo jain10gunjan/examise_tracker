@@ -579,7 +579,7 @@ const Practicepagewithtracker = () => {
         <div class="container mx-auto flex flex-col px-5 py-10 justify-center items-center">
           <div class="w-full md:w-2/3 flex flex-col mb-16">
             <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">
-              {data[0]?.subject} | {data[0]?.topic}
+              {data[0]?.subject} | {(data[0]?.topic).replace(/-/g, " ")}
               <p class="text-sm text-gray-600">
                 Total Questions: {data.length}{" "}
               </p>
