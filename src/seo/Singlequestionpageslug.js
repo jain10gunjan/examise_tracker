@@ -20,11 +20,17 @@ const Singlequestionpageslug = () => {
 
   const apiEndpoint = process.env.REACT_APP_API;
 
+  // Regular expression to extract the part after 'qid-'
+  const idMatch = slug.match(/qid-([a-zA-Z0-9]+)/);
+
+  // The _id will be in the first capture group if found
+  const _id = idMatch ? idMatch[1] : null;
+
   useEffect(() => {
     console.log("working");
     const fetchData = async () => {
       try {
-        const response = await axios.get(`${apiEndpoint}?slug=${slug}`);
+        const response = await axios.get(`${apiEndpoint}?_id=${_id}`);
         const response2 = await axios.get(
           `https://us-east-1.aws.data.mongodb-api.com/app/aptitude_tracker_api-fjroz/endpoint/microtestfeature?topics=${response.data.data[0]?.topic}&number=5`
         );
@@ -39,7 +45,7 @@ const Singlequestionpageslug = () => {
     };
 
     fetchData();
-  }, [apiEndpoint, slug]);
+  }, [apiEndpoint, _id]);
 
   const handleOptionClick = (option) => {
     if (!data[0] || option !== data[0].correct_option) {
