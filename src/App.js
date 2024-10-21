@@ -22,6 +22,7 @@ import AllQuestionCompanyWise from "./companyWisePrev/AllQuestionsCompanyWise";
 import Jobspagespecific from "./jobs/Jobspagespecific";
 import InternshipSpecific from "./jobs/InternshipsSpecific";
 import Singlequestionpageslug from "./seo/Singlequestionpageslug";
+import Singlequestionpagewithqid from "./seo/Singlequestionpagewithqid";
 import Gatetrackercse from "./gatetracker/Gatetrackercse";
 import Gatetracker from "./gatetracker/Gatetracker";
 
@@ -39,6 +40,7 @@ function App() {
         />
         <Route path="/questions/:qid" element={<Singlequestionpage />} />
         <Route path="/question/:slug" element={<Singlequestionpageslug />} />
+        <Route path="/ques/:slug" element={<Singlequestionpagewithqid />} />
         <Route path="/dsatracker/" element={<Dsahomepage />} />
         <Route path="/dsatracker/:topicname" element={<TopicWiseTemplate />} />
         <Route path="/practiceunlimited" element={<PracticeUnlimited />} />
