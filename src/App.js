@@ -31,8 +31,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="*" element={<NotFound />} />
-        {/* <Route path="/" element={<HomeComponent />} /> */}
-        <Route path="/" element={<Gatetracker />} />
+        <Route path="/" element={<HomeComponent />} /> 
+        <Route path="/gate" element={<Gatetracker />} />
         <Route path="/tracker" element={<Homepage />} />
         <Route
           path="/practice/:pagetopic"
