@@ -112,12 +112,12 @@ const HomeComponent = () => {
             </div>
 
             <div class="max-w-3xl text-center mx-auto">
-              <p class="text-xl text-gray-600/70">Coming Soon.</p>
+              {/* <p class="text-xl text-gray-600/70">Coming Soon.</p> */}
             </div>
           </div>
         </div>
 
-        {/* <div class="max-w-6xl px-4 mt-24 sm:px-6 lg:px-8 lg:mt-14 mx-auto">
+        <div class="max-w-6xl px-4 mt-24 sm:px-6 lg:px-8 lg:mt-14 mx-auto">
           <div class="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
             <div class="lg:col-span-4 lg:col-start-1">
               <div class="mb-8">
@@ -402,7 +402,7 @@ const HomeComponent = () => {
               </footer>
             </blockquote>
           </div>
-        </div> */}
+        </div>
       </section>
       <Footer />
     </>
