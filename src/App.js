@@ -13,7 +13,7 @@ import Mainpage from "./dsatracker/coding/MainPage";
 import Practicetestmainpage from "./friendlytest/Practicetestmainpage";
 import Testpage from "./friendlytest/Testpage";
 import Addtestform from "./friendlytest/Addtestform";
-// import HomeComponent from "./components/HomeComponent";
+import HomeComponent from "./components/HomeComponent";
 import NotFound from "./NotFound";
 import Leetcode from "./dsatracker/Leetcode";
 import QuestionsPage from "./companyWisePrev/questionsPage";
@@ -31,8 +31,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="*" element={<NotFound />} />
-        {/* <Route path="/" element={<HomeComponent />} /> */}
-        <Route path="/" element={<Gatetracker />} />
+        <Route path="/" element={<HomeComponent />} />
+        <Route path="/gate" element={<Gatetracker />} />
         <Route path="/tracker" element={<Homepage />} />
         <Route
           path="/practice/:pagetopic"
