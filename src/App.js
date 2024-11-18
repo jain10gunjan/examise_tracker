@@ -13,7 +13,7 @@ import Mainpage from "./dsatracker/coding/MainPage";
 import Practicetestmainpage from "./friendlytest/Practicetestmainpage";
 import Testpage from "./friendlytest/Testpage";
 import Addtestform from "./friendlytest/Addtestform";
-import HomeComponent from "./components/HomeComponent";
+// import HomeComponent from "./components/HomeComponent";
 import NotFound from "./NotFound";
 import Leetcode from "./dsatracker/Leetcode";
 import QuestionsPage from "./companyWisePrev/questionsPage";
