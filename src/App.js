@@ -13,7 +13,7 @@ import Mainpage from "./dsatracker/coding/MainPage";
 import Practicetestmainpage from "./friendlytest/Practicetestmainpage";
 import Testpage from "./friendlytest/Testpage";
 import Addtestform from "./friendlytest/Addtestform";
-import HomeComponent from "./components/HomeComponent";
+//import HomeComponent from "./components/HomeComponent";
 import NotFound from "./NotFound";
 import Leetcode from "./dsatracker/Leetcode";
 import QuestionsPage from "./companyWisePrev/questionsPage";
@@ -25,13 +25,15 @@ import Singlequestionpageslug from "./seo/Singlequestionpageslug";
 import Singlequestionpagewithqid from "./seo/Singlequestionpagewithqid";
 import Gatetrackercse from "./gatetracker/Gatetrackercse";
 import Gatetracker from "./gatetracker/Gatetracker";
+import Tabs from "./components/Tabs";
+import Homenew from "./components/Homenew";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="*" element={<NotFound />} />
-        <Route path="/" element={<HomeComponent />} />
+        <Route path="/" element={<Homenew />} />
         <Route path="/gate" element={<Gatetracker />} />
         <Route path="/tracker" element={<Homepage />} />
         <Route
@@ -39,6 +41,8 @@ function App() {
           element={<Practicepagewithtracker />}
         />
         <Route path="/questions/:qid" element={<Singlequestionpage />} />
+        <Route path="tabs" element={<Tabs />} />
+
         <Route path="/question/:slug" element={<Singlequestionpageslug />} />
         <Route path="/ques/:slug" element={<Singlequestionpagewithqid />} />
         <Route path="/dsatracker/" element={<Dsahomepage />} />

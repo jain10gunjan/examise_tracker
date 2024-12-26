@@ -13,7 +13,7 @@ import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 // import Adsense from "../components/Adsense";
 
 const Practicepagewithtracker = () => {
-  const { pagetopic } = useParams();
+  const { pagetopic } = useParams;
   const [data, setData] = useState([]);
   const [data1, setData1] = useState([]);
   const [data2, setData2] = useState([]);

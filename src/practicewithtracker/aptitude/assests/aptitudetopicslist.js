@@ -1658,4 +1658,14 @@ export const topicData = {
     type_2: "medium",
     type_3: "hard",
   },
+
+  //UPSC
+  "ancient-history-buddhism-and-jainism": {
+    name: "Ancient History Buddhism and Jainism",
+    storageKey: "ancient-history-buddhism-and-jainismcompletedQuestions",
+    pageValue: "ancient-history-buddhism-and-jainism",
+    type_1: "easy",
+    type_2: "medium",
+    type_3: "hard",
+  },
 };
